@@ -1,0 +1,25 @@
+{{ define "main" }}
+<article class="home">
+  {{ .Content }}
+
+  {{ with .Site.Params.status }}
+    {{ if eq . "forthcoming" }}
+    <p class="status-note">Publication details forthcoming from {{ $.Site.Params.publisher }}.</p>
+    {{ end }}
+  {{ end }}
+
+  {{ $posts := where .Site.RegularPages "Section" "blog" }}
+  {{ with $posts }}
+    <section class="latest-posts">
+      <h2>Latest</h2>
+      {{ range first 3 . }}
+        <article class="post-summary">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+          {{ with .Summary }}<p>{{ . }}</p>{{ end }}
+        </article>
+      {{ end }}
+    </section>
+  {{ end }}
+</article>
+{{ end }}
