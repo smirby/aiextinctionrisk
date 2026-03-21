@@ -1,7 +1,6 @@
 baseURL = "https://aiextinctionrisk.ca/"
 languageCode = "en-ca"
 title = "Artificial Intelligence and Human Extinction Risk"
-theme = ""
 
 # We're using layouts directly (no external theme) so the site's
 # look and feel can be updated easily once the book design arrives.
