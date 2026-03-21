@@ -8,7 +8,7 @@ William Leiss is Fellow of the Royal Society of Canada and former NSERC/SSHRC Re
 
 ## Richard Smith
 
-Richard Smith is Full Professor in the School of Communication at Simon Fraser University. His work spans science and technology policy, democratic governance, and risk communication. He brings expertise in translating complex technical and policy questions for public audiences.
+Richard Smith is a Professor in the School of Communication at Simon Fraser University. His work spans science and technology policy, democratic governance, and risk communication. He brings expertise in translating complex technical and policy questions for public audiences.
 
 ## Michael G. Tyshenko (Contributor)
 
