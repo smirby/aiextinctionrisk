@@ -18,28 +18,39 @@ This transition does not require a single dramatic breakthrough. It can occur in
 
 ## Chapter Overview
 
-**Part One: Overview of Artificial Intelligence**
+- Preface 
 
-- Preface and Introduction
+**Part One: Hazard Identification**
+
+- Introduction
 - Chapter 1: The Good
 - Chapter 2: The Bad
 - Chapter 3: The Ugly
-- Chapters 4-5: The Superhuman Machine
 
-**Part Two: Risk Assessment and Management**
+**Part Two: System Dynamics**
+
+- Chapter 4: Governing AI
+- Chapter 5: The Superhuman Machine
+
+**Part Three: Risk Characterization**
 
 - Chapter 6: What is Risk?
 - Chapter 7: The Control Problem
 - Chapter 8: Agency and Absolute Risk
 - Chapter 9: Risk Profile of Superintelligence
 - Chapter 10: Risk Estimation
-- Chapter 11: Probabilistic Assessment of Loss of Human Control over Advanced AI
-- Chapter 12: Risk Management
+
+- Chapter 11: Quantitative Risk Assessment for Loss of  Control from Advanced AI
+
+**Part Four: Risk Management**
+
+- Chapter 12: AI Risk Mitigation Options
 - Chapter 13: The Heart of Darkness
 - Chapter 14: The Ultimate Question
-- Chapter 15: What Should Be Done?
+- Chapter 15: What Should Members of the Public Do?
+- What Should Governments Do?
 
-Plus: Glossary, References, Appendix (13 Theses), and Endnotes.
+Plus: References, Appendix (13 Theses), Acknowledgements.
 
 ## How We Used AI {#how-we-used-ai}
 
