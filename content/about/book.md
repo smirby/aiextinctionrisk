@@ -32,7 +32,7 @@ This transition does not require a single dramatic breakthrough. It can occur in
 - Chapter 4: Governing AI
 - Chapter 5: The Superhuman Machine
 
-**Part Three: Risk Characterization**
+Part Three: Risk Characterization
 
 - Chapter 6: What is Risk?
 - Chapter 7: The Control Problem
