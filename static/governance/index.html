@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>G20 AI Governance Comparison | Artificial Intelligence and Human Extinction Risk</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 1rem 1.5rem;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #222;
+      background: #fff;
+    }
+
+    /* Site nav — matches main site */
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 1rem;
+      padding: 1rem 0;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 2rem;
+    }
+    .site-nav .site-title {
+      font-weight: bold;
+      text-decoration: none;
+      color: #222;
+      font-size: 1rem;
+    }
+    .site-nav ul {
+      list-style: none;
+      padding: 0; margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .site-nav ul li a {
+      font-size: 0.9rem;
+      text-decoration: none;
+      color: #555;
+    }
+    .site-nav ul li a:hover { color: #222; }
+
+    a { color: #1a5276; }
+
+    /* Page header */
+    .page-header {
+      max-width: 52rem;
+      margin-bottom: 2rem;
+    }
+    h1 { font-size: 1.6rem; line-height: 1.2; margin-top: 0; }
+    .subtitle {
+      color: #555;
+      font-size: 0.95rem;
+      margin-top: -0.5rem;
+    }
+
+    /* Findings */
+    .findings {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+      max-width: 72rem;
+    }
+    .finding {
+      border-left: 3px solid #1a5276;
+      padding: 0.75rem 1rem;
+      background: #f7f9fc;
+    }
+    .finding-label {
+      font-size: 0.75rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #1a5276;
+      margin-bottom: 0.25rem;
+    }
+    .finding p {
+      margin: 0;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    /* Matrix */
+    h2 { font-size: 1.2rem; margin-top: 0; margin-bottom: 0.75rem; }
+
+    .matrix-wrap {
+      overflow-x: auto;
+      margin-bottom: 2rem;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 700px;
+      font-size: 0.88rem;
+    }
+
+    thead th {
+      text-align: left;
+      padding: 0.5rem 0.75rem;
+      background: #222;
+      color: #fff;
+      font-weight: 600;
+      font-size: 0.8rem;
+      white-space: nowrap;
+    }
+
+    tbody tr {
+      cursor: pointer;
+      border-bottom: 1px solid #eee;
+      transition: background 0.1s;
+    }
+    tbody tr:hover { background: #f0f4f8; }
+    tbody tr.selected { background: #e8eef5; }
+
+    td {
+      padding: 0.45rem 0.75rem;
+      vertical-align: top;
+    }
+
+    td.country {
+      font-weight: 500;
+      white-space: nowrap;
+      min-width: 9rem;
+    }
+
+    /* Color coding — muted tints, readable text */
+    .cat-product      { background: #dbeafe; color: #1e3a5f; }
+    .cat-service      { background: #d1fae5; color: #064e3b; }
+    .cat-infrastructure { background: #fed7aa; color: #7c2d12; }
+    .cat-hybrid       { background: #e9d5ff; color: #4c1d95; }
+    .cat-unspecified  { background: #f3f4f6; color: #6b7280; }
+
+    .cycle-fast  { background: #d1fae5; color: #064e3b; }
+    .cycle-mixed { background: #fef3c7; color: #78350f; }
+    .cycle-slow  { background: #fee2e2; color: #7f1d1d; }
+
+    .harm-none          { background: #f3f4f6; color: #6b7280; }
+    .harm-distributional { background: #fef3c7; color: #78350f; }
+    .harm-hybrid        { background: #fed7aa; color: #7c2d12; }
+    .harm-incremental   { background: #dbeafe; color: #1e3a5f; }
+
+    .status-enacted   { background: #d1fae5; color: #064e3b; }
+    .status-proposed  { background: #fef3c7; color: #78350f; }
+    .status-strategy  { background: #f3f4f6; color: #6b7280; }
+
+    .actor-no { background: #fee2e2; color: #7f1d1d; font-weight: 600; }
+    .actor-partial { background: #fef3c7; color: #78350f; font-weight: 600; }
+
+    /* Detail panel */
+    .detail-panel {
+      display: none;
+      margin-bottom: 2rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 1.5rem;
+      background: #fafafa;
+      max-width: 72rem;
+    }
+    .detail-panel.open { display: block; }
+
+    .detail-country {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.25rem;
+    }
+    .detail-instruments {
+      font-size: 0.85rem;
+      color: #555;
+      margin-bottom: 1.25rem;
+    }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      gap: 1rem;
+    }
+
+    .detail-dim {
+      padding: 0.75rem;
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 3px;
+    }
+    .detail-dim-label {
+      font-size: 0.75rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #555;
+      margin-bottom: 0.35rem;
+    }
+    .detail-dim-text {
+      font-size: 0.875rem;
+      line-height: 1.55;
+      margin: 0;
+    }
+    .detail-dim.full-width {
+      grid-column: 1 / -1;
+    }
+
+    .close-btn {
+      float: right;
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: #777;
+      padding: 0;
+      line-height: 1;
+    }
+    .close-btn:hover { color: #222; }
+
+    /* Legend */
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      font-size: 0.8rem;
+    }
+    .legend-group { }
+    .legend-label {
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #555;
+    }
+    .legend-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+    .legend-swatch {
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+      font-size: 0.78rem;
+    }
+
+    /* Methodology */
+    details {
+      margin-bottom: 2rem;
+      max-width: 52rem;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: #1a5276;
+      padding: 0.5rem 0;
+    }
+    details p, details li {
+      font-size: 0.88rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #ddd;
+      font-size: 0.82rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      .findings { grid-template-columns: 1fr; }
+      .detail-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="site-nav">
+    <a class="site-title" href="/">Artificial Intelligence and Human Extinction Risk</a>
+    <ul>
+      <li><a href="/about/book/">About the Book</a></li>
+      <li><a href="/about/authors/">Authors</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/about/resources/">Resources</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <h1>G20 AI Governance: A Systematic Comparison</h1>
+    <p class="subtitle">Chapter 4 companion material &mdash; <em>Artificial Intelligence and Human Extinction Risk</em></p>
+    <p>This analysis applies the book&rsquo;s analytical framework &mdash; the Leiss distinction between external and self-control, and the tool-to-actor gradient &mdash; to AI governance frameworks across all G20 members. Six dimensions were coded for each jurisdiction. The comparison drew on the OECD AI Policy Observatory, the IAPP Global AI Law and Policy Tracker, national government publications, and the International AI Safety Report (Bengio et al. 2025).</p>
+  </div>
+
+  <section>
+    <h2>Four Principal Findings</h2>
+    <div class="findings">
+      <div class="finding">
+        <div class="finding-label">Finding 1</div>
+        <p><strong>No jurisdiction governs AI as an actor.</strong> Every G20 framework defines AI as a product, service, or infrastructure under human direction. The entire global regulatory apparatus assumes the tool end of the gradient &mdash; without exception.</p>
+      </div>
+      <div class="finding">
+        <div class="finding-label">Finding 2</div>
+        <p><strong>Every framework relies exclusively on external control.</strong> No jurisdiction requires anything resembling intrinsic alignment, corrigibility, or value-loading. Global AI governance operates entirely through monitoring, auditing, and enforcement imposed from outside the system.</p>
+      </div>
+      <div class="finding">
+        <div class="finding-label">Finding 3</div>
+        <p><strong>Regulatory adaptation is too slow.</strong> Even the fastest national cycles are measured in months. If capability transitions occur on shorter timescales, every framework becomes structurally obsolete before it can respond.</p>
+      </div>
+      <div class="finding">
+        <div class="finding-label">Finding 4</div>
+        <p><strong>The strongest framework is already buckling.</strong> The EU AI Act &mdash; the world&rsquo;s most ambitious regulatory effort &mdash; is running into structural obstacles before its core provisions take effect. The difficulty is not administrative. It is structural.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Comparison Matrix</h2>
+    <p style="font-size:0.875rem; color:#555; margin-bottom:0.75rem;">Click any row to see the full analysis for that jurisdiction.</p>
+
+    <div class="legend">
+      <div class="legend-group">
+        <div class="legend-label">AI Treated As</div>
+        <div class="legend-items">
+          <span class="legend-swatch cat-product">Product</span>
+          <span class="legend-swatch cat-service">Service</span>
+          <span class="legend-swatch cat-infrastructure">Infrastructure</span>
+          <span class="legend-swatch cat-hybrid">Hybrid / Transitional</span>
+          <span class="legend-swatch cat-unspecified">Unspecified</span>
+        </div>
+      </div>
+      <div class="legend-group">
+        <div class="legend-label">Adaptation Speed</div>
+        <div class="legend-items">
+          <span class="legend-swatch cycle-fast">Faster</span>
+          <span class="legend-swatch cycle-mixed">Mixed</span>
+          <span class="legend-swatch cycle-slow">Slower</span>
+        </div>
+      </div>
+      <div class="legend-group">
+        <div class="legend-label">Harm Model</div>
+        <div class="legend-items">
+          <span class="legend-swatch harm-hybrid">Hybrid / Transitional</span>
+          <span class="legend-swatch harm-distributional">Distributional</span>
+          <span class="legend-swatch harm-incremental">Incremental</span>
+          <span class="legend-swatch harm-none">Not addressed</span>
+        </div>
+      </div>
+      <div class="legend-group">
+        <div class="legend-label">Legal Status</div>
+        <div class="legend-items">
+          <span class="legend-swatch status-enacted">Enacted</span>
+          <span class="legend-swatch status-proposed">Proposed</span>
+          <span class="legend-swatch status-strategy">Strategy only</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="matrix-wrap">
+      <table id="matrix">
+        <thead>
+          <tr>
+            <th>Jurisdiction</th>
+            <th>AI Treated As</th>
+            <th>Legal Status</th>
+            <th>Adaptation Speed</th>
+            <th>Harm Model</th>
+            <th>Actor Test</th>
+          </tr>
+        </thead>
+        <tbody id="matrix-body"></tbody>
+      </table>
+    </div>
+
+    <div class="detail-panel" id="detail-panel">
+      <button class="close-btn" id="close-btn" aria-label="Close">&times;</button>
+      <div class="detail-country" id="detail-country"></div>
+      <div class="detail-instruments" id="detail-instruments"></div>
+      <div class="detail-grid" id="detail-grid"></div>
+    </div>
+  </section>
+
+  <details>
+    <summary>Analytical Framework &amp; Methodology</summary>
+    <p>Six dimensions were coded for each jurisdiction, derived from the book&rsquo;s core distinctions:</p>
+    <ul>
+      <li><strong>D1 &mdash; AI Treated As:</strong> What kind of entity does this framework treat AI as? Revealed by the regulatory instruments chosen, not by aspirational language. Categories: Product, Service, Infrastructure, Hybrid.</li>
+      <li><strong>D1 &mdash; Actor Test:</strong> Would any provision remain functional if an AI system behaved as an autonomous agent rather than a directed tool?</li>
+      <li><strong>D2 &mdash; Control Architecture:</strong> Where does governance intervene? Does any provision require properties intrinsic to the system (self-control) rather than external monitoring alone?</li>
+      <li><strong>D3 &mdash; Regulatory Activation:</strong> When does oversight first engage in the system lifecycle?</li>
+      <li><strong>D4 &mdash; Adaptation Speed:</strong> Can the framework adapt faster than capabilities change?</li>
+      <li><strong>D5 &mdash; Harm Model:</strong> Does the framework address distributional harms (bias, discrimination) or contemplate qualitative capability transitions?</li>
+      <li><strong>D6 &mdash; Failure Mode:</strong> Under what conditions does each framework&rsquo;s logic break down?</li>
+    </ul>
+    <p>Sources: OECD AI Policy Observatory; IAPP Global AI Law and Policy Tracker; national government publications; International AI Safety Report (Bengio et al. 2025). Analysis conducted 2024&ndash;2025. Data current as of early 2025; see update log below.</p>
+  </details>
+
+  <details>
+    <summary>Update Log</summary>
+    <p>This analysis is updated periodically as national frameworks evolve. All versions are maintained for citation purposes.</p>
+    <ul>
+      <li><strong>v2 (2025)</strong> &mdash; Initial publication. 17 jurisdictions coded across 6 dimensions.</li>
+    </ul>
+  </details>
+
+  <footer>
+    <p>Companion material for <em>Artificial Intelligence and Human Extinction Risk</em> by William Leiss and Richard Smith (McGill-Queen&rsquo;s University Press, forthcoming 2026). &larr; <a href="/">Return to companion site</a></p>
+  </footer>
+
+  <script>
+    const DIMS = [
+      { key: 'ai_treated_as',  label: 'D1 — AI Treated As' },
+      { key: 'actor_test',     label: 'D1 — Actor Test' },
+      { key: 'leiss',          label: 'D2 — Control Architecture (Leiss)' },
+      { key: 'control_locus',  label: 'D2 — Control Locus' },
+      { key: 'activation',     label: 'D3 — Regulatory Activation' },
+      { key: 'temporal',       label: 'D4 — Temporal Calibration' },
+      { key: 'adaptation_cycle', label: 'D4 — Adaptation Speed' },
+      { key: 'harm_model',     label: 'D5 — Harm Model' },
+      { key: 'failure_mode',   label: 'D6 — Failure Mode', fullWidth: true },
+    ];
+
+    function actorClass(val) {
+      const v = val.toLowerCase();
+      if (v.startsWith('partially')) return 'actor-partial';
+      return 'actor-no';
+    }
+
+    function actorShort(val) {
+      const v = val.toLowerCase();
+      if (v.startsWith('partially')) return 'Partial';
+      return 'No';
+    }
+
+    function cycleShort(val) {
+      const v = val.toLowerCase();
+      if (v.includes('weeks')) return 'Weeks / Months';
+      const m = val.match(/^([^(]+)/);
+      return m ? m[1].trim() : val;
+    }
+
+    function harmShort(val) {
+      const first = val.split('\u2192')[0].split('(')[0].trim();
+      return first || val;
+    }
+
+    function treatedShort(val) {
+      return val.split('(')[0].trim();
+    }
+
+    function statusShort(val) {
+      const m = val.match(/^([^(]+)/);
+      return m ? m[1].trim() : val;
+    }
+
+    let selectedRow = null;
+    let data = [];
+
+    function renderMatrix(countries) {
+      const tbody = document.getElementById('matrix-body');
+      tbody.innerHTML = '';
+      countries.forEach((c, i) => {
+        const tr = document.createElement('tr');
+        tr.dataset.index = i;
+        tr.innerHTML = `
+          <td class="country">${c.country}</td>
+          <td class="cat-${c.ai_treated_as_cat}">${treatedShort(c.ai_treated_as_short || c.ai_treated_as)}</td>
+          <td class="status-${c.legal_status_cat}">${statusShort(c.legal_status)}</td>
+          <td class="cycle-${c.adaptation_cycle_cat}">${cycleShort(c.adaptation_cycle_short || c.adaptation_cycle)}</td>
+          <td class="harm-${c.harm_model_cat}">${harmShort(c.harm_model_short || c.harm_model)}</td>
+          <td class="${actorClass(c.actor_test)}">${actorShort(c.actor_test)}</td>
+        `;
+        tr.addEventListener('click', () => showDetail(i, tr));
+        tbody.appendChild(tr);
+      });
+    }
+
+    function showDetail(index, row) {
+      const c = data[index];
+      const panel = document.getElementById('detail-panel');
+
+      if (selectedRow) selectedRow.classList.remove('selected');
+      if (selectedRow === row && panel.classList.contains('open')) {
+        panel.classList.remove('open');
+        selectedRow = null;
+        return;
+      }
+      selectedRow = row;
+      row.classList.add('selected');
+
+      document.getElementById('detail-country').textContent = c.country;
+      document.getElementById('detail-instruments').textContent = c.instruments;
+
+      const grid = document.getElementById('detail-grid');
+      grid.innerHTML = '';
+      DIMS.forEach(dim => {
+        const val = c[dim.key];
+        if (!val) return;
+        const div = document.createElement('div');
+        div.className = 'detail-dim' + (dim.fullWidth ? ' full-width' : '');
+        div.innerHTML = `<div class="detail-dim-label">${dim.label}</div><p class="detail-dim-text">${val}</p>`;
+        grid.appendChild(div);
+      });
+
+      panel.classList.add('open');
+      panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    document.getElementById('close-btn').addEventListener('click', () => {
+      document.getElementById('detail-panel').classList.remove('open');
+      if (selectedRow) { selectedRow.classList.remove('selected'); selectedRow = null; }
+    });
+
+    fetch('/data/g20-governance.json')
+      .then(r => r.json())
+      .then(countries => {
+        data = countries;
+        renderMatrix(countries);
+      })
+      .catch(err => {
+        document.getElementById('matrix-body').innerHTML =
+          '<tr><td colspan="6" style="padding:1rem;color:#c00;">Could not load data. Please try refreshing.</td></tr>';
+      });
+  </script>
+
+</body>
+</html>
