@@ -39,7 +39,6 @@ This transition does not require a single dramatic breakthrough. It can occur in
 - Chapter 8: Agency and Absolute Risk
 - Chapter 9: Risk Profile of Superintelligence
 - Chapter 10: Risk Estimation
-
 - Chapter 11: Quantitative Risk Assessment for Loss of  Control from Advanced AI
 
 **Part Four: Risk Management**
@@ -48,7 +47,7 @@ This transition does not require a single dramatic breakthrough. It can occur in
 - Chapter 13: The Heart of Darkness
 - Chapter 14: The Ultimate Question
 - Chapter 15: What Should Members of the Public Do?
-- What Should Governments Do?
+- Chapter 16: What Should Governments Do?
 
 Plus: References, Appendix (13 Theses), Acknowledgements.
 

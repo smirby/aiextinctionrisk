@@ -1,0 +1,20 @@
+---
+title: "Gemma builds a website"
+date: 2026-04-2
+categories: ["Using AI"]
+draft: true
+---
+
+## Gemma builds a website
+
+Today, April 2, 2026, Google's Deepmind division released a new open source model, called [Gemma4](https://developers.googleblog.com/bring-state-of-the-art-agentic-skills-to-the-edge-with-gemma-4/). Although I have the ability to run open source (or even commercial) models on my laptop, using Ollama, I typically don't use those for real work, as they tend to be of "modest" capacity. Not to mention that my laptop, while "top of the line" in 2021, is no longer a strong basis for running a language model of any major size. Or so I thought.
+
+As an experiment, I downloaded both the largest model ("31b") and a smaller model (4b). I gave the larger model a small task and, while it did a reasonable job, it took quite a bit of time and the fans on my laptop whirred into action trying to keep things cool. The answer it provided was good but not really a test of anything, and it took a while to come up. I tried the small model and was impressed. It was speedy, and reasonably helpful/accurate. I decided to go back to the bigger model and give it a bigger task.
+
+I uploaded a chapter from the book I am writing and asked about some structural changes to make the chapter shorter. I already know what I wanted to do with the chapter and how I wanted to shorten it, so I gave it some suggestions in my prompt. The model chugged into life - I closed all my other apps to give it memory space and I loaded up the activity monitor to check on the status. It was clearly working hard, and the fans kicked in pretty quickly. Memory usage zoomed up and stayed in the "yellow" zone for pretty much the whole time it was running, but it did complete its task. It took almost five minutes (although it said 202 seconds, so perhaps it was just 3.25 minutes...). It fell like an eternity if you're used to Google's Cloud offering, "Gemini."
+
+Eventually, however it started to show its thinking - this is a feature that you can enable if you are running a model in Ollama - and I was surprised at what was scrolling past. It looked really interesting. Eventually, it started to produce some output, which was a plan for shortening the chapter. Fair enough. The plan was a good one and I was just reading down to the end of that when it kicked into gear again and started producing the shortened chapter, based on the plan. I have to admit I was surprised and - in the end, because it took another long time - pleased with the results. The resulting chapter was really well done. This was a free model, and you could get it to do real work.
+
+I decided to give it another test, this time in the realm of coding: I suggested that with all these cuts to the chapter, we would be at risk of losing some good material. I asked if some of the material that was cut could be adapted for presentation on a companion web site, and if possible that there would be some basic interactivity on the page. This had been my plan all along (remove detailed material, transfer it to the web page I am building for the book, keep the book length manageable and provide a different experience for those who have an interest in interacting with the material in the book - and beyond what we could fit - in a new way). The Gemma4:32b model churned to life again, and though it took another three minutes, it delivered a credible little companion website for the book. You can see it here: https://www.sfu.ca/~smith/companion.html
+
+What do I take away from this experience? I am really impressed that a free model, one that I keep on my laptop and no data goes out to the cloud, can do real work. Sure it is slower than cloud-based services, but it is free and a lot faster than having ME build a web site. And the writing/editing task that I set it to was carried off in a totally credible fashion that I would have no problem sharing with others (with appropriate credit to the AI co-author). If I had sensitive data that I didn't want to leave my computer, I would be pleased to have a tool like this.
