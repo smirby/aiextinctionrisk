@@ -2,7 +2,7 @@
 title: "About the Book"
 ---
 
-*Artificial Intelligence and Human Extinction Risk* examines whether humanity can maintain meaningful control over increasingly capable AI systems. Written for concerned citizens rather than specialists, the book brings risk assessment methods from nuclear safety and technology governance to bear on a question that is usually discussed in either technical or speculative terms.
+*From Tool to Actor: Artificial Intelligence and Human Extinction Risk* examines whether humanity can maintain meaningful control over increasingly capable AI systems. Written for concerned citizens rather than specialists, the book brings risk assessment methods from nuclear safety and technology governance to bear on a question that is usually discussed in either technical or speculative terms.
 
 ## The Leiss Framework
 

@@ -1,5 +1,5 @@
 ---
-title: "Artificial Intelligence and Human Extinction Risk"
+title: "From Tool to Actor: Artificial Intelligence and Human Extinction Risk"
 ---
 
 ## William Leiss and Richard Smith
