@@ -181,7 +181,8 @@ footer a:hover{text-decoration:underline}
     <div class="live-m"><div class="lv" id="live-pte">&mdash;</div><div class="ll">Estimated P(Top Event)</div><div class="lb">Base: 12.8% (Monte Carlo mean)</div></div>
     <div class="live-m"><div class="lv" id="live-sev">&mdash;</div><div class="ll">Estimated Expected Severity</div><div class="lb">Base: 1.85 (Monte Carlo mean)</div></div>
     <div style="font-size:0.75rem;color:#475569;max-width:340px;line-height:1.55">
-      <strong style="color:#64748b">Note:</strong> Live estimates use the deterministic bowtie formula with current slider values. The authoritative distribution is in the Risk Distribution tab (Monte Carlo, 1,000 trials from Michael Tyshenko&rsquo;s original model).
+      <strong style="color:#64748b">Note:</strong> Live estimates use the deterministic bowtie formula with current slider values. The authoritative distribution is in the Risk Distribution tab (Monte Carlo, 1,000 trials from Michael Tyshenko&rsquo;s original model). The base slider position will therefore show ~11.8% rather than the 12.83% Monte Carlo mean: plugging median values into a formula always underestimates the true mean when probabilities compound non-linearly, because high-end uncertainty draws pull the average upward more than low-end draws pull it down.
+
     </div>
   </div>
   <div class="sliders-grid" id="sliders-grid"></div>
