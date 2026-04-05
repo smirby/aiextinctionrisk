@@ -7,7 +7,7 @@ draft: true
 
 # Gemini Applies CASX to AIs Around Us
 
-I asked Gemini to take the CASX elements (Capability, Autonomy, Scale, and Access) and create an operational definition for each of them that would allow us to apply them to products, product announcements, and related material. The purpose was to provide context and examples for the categories described in the book.
+I asked Gemini, Google's AI tool, to take the CASX elements (Capability, Autonomy, Scale, and Access) and create an operational definition for each of them that would allow us to apply them to products, product announcements, and related material. The purpose was to provide context and examples for the categories described in the book.
 
 Based on the 2026 research landscape and the **CASX** framework, here are the criteria for each level and representative examples. Note that Gemini was using its built-in weights and data, so the "2026" date on this is more like mid-2025, when the model was frozen. It should be straightforward to re-do this table with web search enabled and get more up-to-date examples. I kept this version as a "baseline" that we can run a comparison on, perhaps every six months or so.
 

@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loss of Control — AI Existential Risk Assessment</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',Arial,sans-serif;background:#f1f5f9;color:#1e293b;font-size:15px}
+header{background:#0f172a;color:#e2e8f0;padding:22px 32px 18px}
+header h1{font-size:1.35rem;font-weight:700;color:#fff;margin-bottom:5px;letter-spacing:-0.01em}
+.sub{font-size:0.82rem;color:#94a3b8;line-height:1.55;max-width:860px}
+.credit{font-size:0.78rem;color:#64748b;margin-top:9px}
+.credit strong{color:#94a3b8}
+.tabs-nav{background:#1e293b;display:flex;padding:0 24px;border-bottom:1px solid #0f172a}
+.tabs-nav button{background:transparent;border:none;border-bottom:3px solid transparent;color:#94a3b8;padding:11px 20px;cursor:pointer;font-size:0.84rem;font-family:inherit;transition:all 0.15s;margin-bottom:-1px}
+.tabs-nav button:hover{color:#e2e8f0}
+.tabs-nav button.active{color:#fff;border-bottom-color:#f59e0b}
+.tab-panel{display:none}.tab-panel.active{display:block}
+#panel-bowtie{background:#fff;padding:0;overflow:hidden}
+.bowtie-outer{display:flex;flex-direction:column}
+.bowtie-wrap{display:flex;height:670px}
+#bowtie-svg-container{flex:1;overflow:auto;padding:12px 8px 8px;min-width:0}
+#bowtie-svg{display:block}
+.bowtie-legend{display:flex;gap:18px;flex-wrap:wrap;justify-content:center;padding:8px 16px;background:#f8fafc;border-top:1px solid #e2e8f0;font-size:0.72rem;color:#64748b}
+.legend-item{display:flex;align-items:center;gap:5px}
+.legend-swatch{width:14px;height:11px;border-radius:2px;display:inline-block}
+#node-detail{display:none;position:fixed;right:28px;top:50%;transform:translateY(-50%);width:326px;min-width:280px;max-height:80vh;background:#f8fafc;border:2px solid #cbd5e1;border-radius:10px;padding:18px 16px 14px;overflow-y:auto;font-size:0.82rem;line-height:1.6;z-index:50;box-shadow:0 8px 32px rgba(15,23,42,0.2)}
+#node-detail.open{display:block;animation:overlayIn 0.18s ease-out both}
+.nd-close{position:absolute;top:9px;right:11px;background:none;border:none;color:#94a3b8;font-size:1rem;cursor:pointer;line-height:1;padding:2px 6px;border-radius:4px}
+.nd-close:hover{color:#334155;background:#e2e8f0}
+@keyframes overlayIn{from{opacity:0;transform:translateY(calc(-50% + 10px))}to{opacity:1;transform:translateY(-50%)}}
+@keyframes btFromLeft{from{opacity:0;transform:translateX(-30px)}to{opacity:1;transform:translateX(0)}}
+@keyframes btFromRight{from{opacity:0;transform:translateX(30px)}to{opacity:1;transform:translateX(0)}}
+@keyframes btFadeScale{from{opacity:0;transform:scale(0.8) translateY(8px)}to{opacity:1;transform:scale(1) translateY(0)}}
+.bt-anim-l{animation:btFromLeft 0.38s ease-out both}
+.bt-anim-r{animation:btFromRight 0.38s ease-out both}
+.bt-anim-c{animation:btFadeScale 0.45s ease-out both}
+#node-detail h3{font-size:0.9rem;font-weight:700;color:#0f172a;margin-bottom:4px;line-height:1.35}
+.nd-type{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.07em;padding:2px 8px;border-radius:10px;display:inline-block;margin-bottom:12px;font-weight:600}
+.nd-type.threat{background:#fee2e2;color:#b91c1c}
+.nd-type.preventive{background:#ffedd5;color:#c2410c}
+.nd-type.mitigative{background:#dbeafe;color:#1d4ed8}
+.nd-type.consequence{background:#ede9fe;color:#6d28d9}
+.nd-type.topevent{background:#1e1b4b;color:#e0e7ff}
+.nd-metric{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid #e2e8f0;gap:8px}
+.nd-metric .lbl{color:#64748b;font-size:0.78rem}
+.nd-metric .val{font-weight:700;color:#0f172a;font-size:0.84rem}
+.nd-range{display:flex;gap:6px;margin:8px 0 4px}
+.nd-range .r{text-align:center;background:#f1f5f9;border-radius:4px;padding:3px 8px;flex:1}
+.nd-range .r .rv{font-weight:700;font-size:0.88rem;color:#0f172a}
+.nd-range .r .rl{font-size:0.68rem;color:#94a3b8;text-transform:uppercase}
+.nd-notes{margin-top:10px;font-size:0.76rem;color:#475569;background:#f1f5f9;padding:9px 10px;border-radius:5px;border-left:3px solid #cbd5e1;line-height:1.55;max-height:190px;overflow-y:auto}
+.nd-notes strong{color:#334155}
+#panel-histogram,#panel-sensitivity{padding:28px 24px;background:#fff}
+.chart-hd{text-align:center;margin-bottom:20px}
+.chart-hd h2{font-size:1rem;font-weight:700;color:#0f172a;margin-bottom:4px}
+.chart-hd p{font-size:0.8rem;color:#64748b}
+.stats-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:24px}
+.stat-card{background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px 18px;text-align:center;min-width:115px}
+.stat-card .sv{font-size:1.5rem;font-weight:700;color:#0f172a}
+.stat-card .sl{font-size:0.72rem;color:#64748b;margin-top:2px}
+.stat-card.hl .sv{color:#dc2626}
+.chart-box{max-width:800px;margin:0 auto;position:relative;height:320px}
+.chart-box-h{max-width:780px;margin:0 auto;position:relative;height:300px}
+.sens-note{font-size:0.8rem;color:#64748b;max-width:700px;margin:12px auto 24px;text-align:center;line-height:1.55}
+.adv-toggle-bar{background:#1e293b;padding:12px 24px;display:flex;align-items:center;gap:14px}
+.adv-toggle-bar button{background:#334155;border:1px solid #475569;color:#e2e8f0;padding:7px 16px;border-radius:6px;cursor:pointer;font-size:0.82rem;font-family:inherit;transition:background 0.15s}
+.adv-toggle-bar button:hover{background:#475569}
+.adv-toggle-bar .info{font-size:0.78rem;color:#64748b}
+#advanced-panel{background:#0f172a;padding:24px 28px;display:none}
+#advanced-panel.open{display:block}
+.adv-head{color:#e2e8f0;font-size:0.95rem;font-weight:700;margin-bottom:14px}
+.scenario-btns{display:flex;gap:10px;margin-bottom:22px;flex-wrap:wrap}
+.sc-btn{padding:7px 16px;border-radius:6px;border:1px solid;cursor:pointer;font-size:0.8rem;font-family:inherit;font-weight:600;transition:opacity 0.15s}
+.sc-btn:hover{opacity:0.85}
+.sc-btn.base{background:#334155;color:#e2e8f0;border-color:#475569}
+.sc-btn.opt{background:#14532d;color:#bbf7d0;border-color:#16a34a}
+.sc-btn.pess{background:#7f1d1d;color:#fecaca;border-color:#dc2626}
+.live-box{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:14px 22px;margin-bottom:22px;display:flex;align-items:center;gap:36px;flex-wrap:wrap}
+.live-m{text-align:center}
+.live-m .lv{font-size:2rem;font-weight:800;color:#f59e0b}
+.live-m .ll{font-size:0.72rem;color:#94a3b8;margin-top:1px}
+.live-m .lb{font-size:0.68rem;color:#475569;margin-top:1px}
+.sliders-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px}
+.sl-section{background:#1e293b;border-radius:8px;padding:15px}
+.sl-section h4{font-size:0.74rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:11px;padding-bottom:7px;border-bottom:1px solid #334155}
+.sl-row{margin-bottom:10px}
+.sl-label{display:flex;justify-content:space-between;font-size:0.75rem;color:#cbd5e1;margin-bottom:3px}
+.sl-label .sid{font-weight:700;color:#94a3b8}
+.sl-label .sval{font-weight:700;color:#f59e0b}
+input[type=range]{width:100%;accent-color:#f59e0b;height:4px}
+.sl-ends{display:flex;justify-content:space-between;font-size:0.66rem;color:#475569;margin-top:1px}
+footer{background:#0f172a;color:#64748b;padding:18px 32px;font-size:0.76rem;line-height:1.65}
+footer a{color:#94a3b8;text-decoration:none}
+footer a:hover{text-decoration:underline}
+.node-hover{cursor:pointer}
+.node-hover:hover .node-bg{filter:brightness(1.18)}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Loss of Control: AI Existential Risk &mdash; Interactive Bowtie Assessment</h1>
+  <p class="sub">A quantitative risk visualisation of pathways to loss of human control over advanced AI. Modelled using Monte Carlo simulation (n=1,000 trials) with triangular probability distributions across all barrier and threat parameters. Click any element in the diagram to explore its parameters and expert justifications.</p>
+  <p class="credit">Model by <strong>Michael G. Tyshenko, PhD, MPA</strong> &mdash; Risk Analyst, Risk Sciences International, Ottawa, Canada (<a href="https://risksciences.com" target="_blank" style="color:#64748b">risksciences.com</a>). Chapter 11 data; interactive tool built from the original model workbook.</p>
+</header>
+
+<nav class="tabs-nav">
+  <button class="active" onclick="switchTab('bowtie',this)">Bowtie Diagram</button>
+  <button onclick="switchTab('histogram',this)">Risk Distribution</button>
+  <button onclick="switchTab('sensitivity',this)">Sensitivity Analysis</button>
+</nav>
+
+<div id="panel-bowtie" class="tab-panel active">
+  <div class="bowtie-outer">
+    <div style="background:#1e293b;padding:6px 14px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #334155">
+      <span style="font-size:0.75rem;color:#94a3b8">Zoom:</span>
+      <button onclick="bZoom(-0.15)" style="background:#334155;border:1px solid #475569;color:#e2e8f0;width:26px;height:22px;border-radius:4px;cursor:pointer;font-size:14px;line-height:1">&#8722;</button>
+      <span id="zoom-pct" style="font-size:0.78rem;color:#f59e0b;min-width:36px;text-align:center">100%</span>
+      <button onclick="bZoom(+0.15)" style="background:#334155;border:1px solid #475569;color:#e2e8f0;width:26px;height:22px;border-radius:4px;cursor:pointer;font-size:14px;line-height:1">&#43;</button>
+      <button onclick="bZoom(0,true)" style="background:#334155;border:1px solid #475569;color:#94a3b8;padding:0 8px;height:22px;border-radius:4px;cursor:pointer;font-size:0.72rem">Reset</button>
+      <span style="font-size:0.72rem;color:#94a3b8;margin-left:6px">Click any element for details &rarr;</span>
+    </div>
+    <div class="bowtie-wrap">
+      <div id="bowtie-svg-container">
+        <svg id="bowtie-svg" viewBox="0 0 1340 620" width="1340" height="620" style="font-family:'Segoe UI',Arial,sans-serif;display:block;transform-origin:top left"></svg>
+      </div>
+      <div id="node-detail"></div>
+    </div>
+    <div class="bowtie-legend">
+      <span class="legend-item"><span class="legend-swatch" style="background:#2d5282"></span>Threat</span>
+      <span class="legend-item"><span class="legend-swatch" style="background:#9ca3af;border:1px solid #374151"></span>Preventive / Mitigative barrier &#8853;</span>
+      <span class="legend-item"><span class="legend-swatch" style="background:#fbbf24;border:1px solid #374151;transform:rotate(45deg)"></span>Hazard (diamond)</span>
+      <span class="legend-item"><span class="legend-swatch" style="background:#dc2626;border-radius:50%"></span>Top Event / Consequence</span>
+      <span style="font-size:0.7rem;color:#94a3b8;margin-left:8px">&#8943; dashed = no barrier in that column</span>
+    </div>
+  </div>
+</div>
+
+<div id="panel-histogram" class="tab-panel">
+  <div class="chart-hd">
+    <h2>Monte Carlo Simulation: P(Loss of Control) Distribution</h2>
+    <p>1,000 trials with triangular-distributed barrier and threat probabilities sampled within expert-assessed ranges</p>
+  </div>
+  <div class="stats-row">
+    <div class="stat-card hl"><div class="sv">12.8%</div><div class="sl">Mean P(Top Event)</div></div>
+    <div class="stat-card"><div class="sv">12.8%</div><div class="sl">Median</div></div>
+    <div class="stat-card"><div class="sv">11.3%</div><div class="sl">5th Percentile</div></div>
+    <div class="stat-card"><div class="sv">14.4%</div><div class="sl">95th Percentile</div></div>
+    <div class="stat-card"><div class="sv">1.85</div><div class="sl">Mean Expected Severity<br><span style="font-size:0.65rem">(probability-weighted, 0&ndash;10 scale)</span></div></div>
+  </div>
+  <div class="chart-box"><canvas id="hist-canvas"></canvas></div>
+  <p style="text-align:center;font-size:0.75rem;color:#94a3b8;margin-top:14px">
+    Dashed lines: <span style="color:#dc2626;font-weight:600">mean</span> &nbsp;|&nbsp; <span style="color:#2563eb;font-weight:600">5th / 95th percentile</span>
+  </p>
+</div>
+
+<div id="panel-sensitivity" class="tab-panel">
+  <div class="chart-hd">
+    <h2>Sensitivity Analysis &mdash; Tornado Chart</h2>
+    <p>% change in mean P(Top Event) when parameter groups are moved to low or high ends of their expert-assessed ranges</p>
+  </div>
+  <p class="sens-note">Each bar shows how much the mean top-event probability changes when a group of related barriers or threats is simultaneously set to its most optimistic (left/green) or most pessimistic (right/red) triangle-range value, holding all other parameters at their base values. Base mean = 12.83%.</p>
+  <div class="chart-box-h"><canvas id="tornado-canvas"></canvas></div>
+</div>
+
+<div class="adv-toggle-bar">
+  <button id="adv-btn" onclick="toggleAdvanced()">&#9881; Scenario Explorer</button>
+  <span class="info">Advanced &mdash; adjust individual parameters and see real-time estimates. Intended for readers familiar with the model structure.</span>
+</div>
+<div id="advanced-panel">
+  <div class="adv-head">Scenario Explorer</div>
+  <div class="scenario-btns">
+    <button class="sc-btn base" onclick="applyScenario('base')">&#8635; Reset to Base</button>
+    <button class="sc-btn opt" onclick="applyScenario('optimistic')">&#8593; Optimistic &mdash; all barriers at low-PFD end</button>
+    <button class="sc-btn pess" onclick="applyScenario('pessimistic')">&#8595; Pessimistic &mdash; all barriers at high-PFD end</button>
+  </div>
+  <div class="live-box">
+    <div class="live-m"><div class="lv" id="live-pte">&mdash;</div><div class="ll">Estimated P(Top Event)</div><div class="lb">Base: 12.8% (Monte Carlo mean)</div></div>
+    <div class="live-m"><div class="lv" id="live-sev">&mdash;</div><div class="ll">Estimated Expected Severity</div><div class="lb">Base: 1.85 (Monte Carlo mean)</div></div>
+    <div style="font-size:0.75rem;color:#475569;max-width:340px;line-height:1.55">
+      <strong style="color:#64748b">Note:</strong> Live estimates use the deterministic bowtie formula with current slider values. The authoritative distribution is in the Risk Distribution tab (Monte Carlo, 1,000 trials from Michael Tyshenko&rsquo;s original model).
+    </div>
+  </div>
+  <div class="sliders-grid" id="sliders-grid"></div>
+</div>
+
+<footer>
+  <strong style="color:#94a3b8">Data &amp; Model:</strong> Michael G. Tyshenko, PhD, MPA &mdash; Risk Sciences International (<a href="https://risksciences.com" target="_blank">risksciences.com</a>). All probability estimates, triangular distribution ranges, expert source justifications and Monte Carlo parameterisation taken directly from the original model workbook (January 2026).<br>
+  <strong style="color:#94a3b8">Methodology:</strong> Bowtie QRA with triangular distributions and Monte Carlo simulation (n=1,000). PFD = Probability of Failure on Demand. P(Top Event) = 1 &minus; &prod;<sub>i</sub>[1 &minus; P(T<sub>i</sub>) &times; &prod;<sub>j</sub> PFD(T<sub>i</sub>P<sub>j</sub>)]. Expected Severity = &sum;<sub>j</sub> [P(TE) &times; &prod;<sub>k</sub> PFD(C<sub>j</sub>M<sub>k</sub>) &times; Sev(C<sub>j</sub>)].<br>
+  <strong style="color:#94a3b8">Key sources cited in model:</strong> Carlsmith (2021); Ord (2020, updated 2024); AI Impacts Expert Survey (2023); Gladstone AI (2024); RAND Corporation (2025); Hubinger et al. (2019).
+</footer>
+
+<script>
+// =============================================================
+// DATA
+// =============================================================
+const REC = {"T1": {"id": "T1", "type": "Threat", "desc": "Capability Escalation: Recursive Self-Improvement (Intelligence Explosion)", "pfd": 0.15, "low": 0.1, "med": 0.15, "high": 0.2, "sev": null, "notes": "Carlsmith (2021): Personally, I’m at something like 65% on “developing APS systems will be possible/financially feasible before 2070.”; \n\nOrd (2020, as updated in 2024): https://www.tobyord.com/writing/the-precipice-revisited): These were 1 in 1,000 for Climate and for Nuclear, 1 in 30 for Pandemics and 1 in 10 for Unaligned AI.; \n\nGladstone (2024): Loss of control due to AGI alignment failure is a potential failure mode under which a future AI system could become so capable that it escapes all human efforts to contain its impact.; \n\nAI Impacts (2023): Median ~50% AGI by 2060, implying ~15% ch"}, "T1P1": {"id": "T1P1", "type": "Preventive Barrier", "desc": "AI Containment Controls (Sandboxing)", "pfd": 0.6, "low": 0.5, "med": 0.6, "high": 0.7, "sev": null, "notes": "LessWrong (AI Box experiments): Eliezer Yudkowsky... been able to convince a human playing a guard to let them out on many - but not all - occasions.; \n\nCarlsmith (2021, p.19): alignment failures include containment breaches (~40% related difficulty); \n\nRAND (2025): Researchers have identified warning signs of control-undermining capabilities in advanced AI models – including deception, self-preservation and autonomous replication – which could potentially enable increasingly capable models to evade human oversight. Assumes independence; high PFD due to AI deception/subversion. Effectiveness d"}, "T1P2": {"id": "T1P2", "type": "Preventive Barrier", "desc": "Compute and Model Scaling Controls", "pfd": 0.4, "low": 0.3, "med": 0.4, "high": 0.5, "sev": null, "notes": "RAND (2025): compute controls slow but dont prevent proliferation (medium effectiveness); \n\nGladstone (2024): establish interim safeguards to stabilize advanced AI development, including export controls on the advanced AI supply chain. Assumes global enforcement; PFD reflects circumvention (e.g., smuggling/black markets)."}, "T1P3": {"id": "T1P3", "type": "Preventive Barrier", "desc": "Scalable Alignment Techniques", "pfd": 0.45, "low": 0.35, "med": 0.45, "high": 0.55, "sev": null, "notes": "Carlsmith (2021): 40% prob alignment much harder than misalignment; \n\nOrd (2020, as per 2024 revisit): 1 in 10 for Unaligned AI; AI Impacts (2023): expert median 10% p(doom) from misalignment. Assumes \"AND\" logic with other barriers; PFD based on current techniques (e.g., Reinforcement learning from human feedback-RLHF) scaling poorly to superintelligence."}, "T2": {"id": "T2", "type": "Threat", "desc": "Capability Escalation: Power-Seeking and Resource Accumulation", "pfd": 0.18, "low": 0.12, "med": 0.18, "high": 0.25, "sev": null, "notes": "Carlsmith (2021, p.22): 80% conditional on misalignment leading to power-seeking behavior; \n\nAI Impacts (2023): Median 5% extinction risk implies ~18% for power-seeking as key threat pathway. Assumes fraction of timelines (~50-65%) where power-seeking emerges; higher than T1 due to instrumental convergence arguments."}, "T2P1": {"id": "T2P1", "type": "Preventive Barrier", "desc": "Red-Team Testing and Safety Audits", "pfd": 0.5, "low": 0.4, "med": 0.5, "high": 0.6, "sev": null, "notes": "Gladstone (2024): Red-teaming essential but fails ~40-60% against advanced deception; \nRAND (2025): Safety audits reduce risks but medium effectiveness vs. power-seeking. Assumes partial detection; PFD reflects evasion potential."}, "T2P2": {"id": "T2P2", "type": "Preventive Barrier", "desc": "International Governance AI Frameworks", "pfd": 0.55, "low": 0.45, "med": 0.55, "high": 0.65, "sev": null, "notes": "Ord (2020): Coordination reduces x-risk but 40-60% ineffective in races; RAND (2025): International frameworks slow proliferation but high failure in enforcement. Medium-high PFD due to geopolitical challenges."}, "T2P3": {"id": "T2P3", "type": "Preventive Barrier", "desc": "Compute and Model Scaling Controls", "pfd": 0.4, "low": 0.3, "med": 0.4, "high": 0.5, "sev": null, "notes": "RAND (2025): compute controls slow but dont prevent proliferation (medium effectiveness); \n\nGladstone (2024): establish interim safeguards to stabilize advanced AI development, including export controls on the advanced AI supply chain. Assumes global enforcement; PFD reflects circumvention (e.g., smuggling/black markets)."}, "T3": {"id": "T3", "type": "Threat", "desc": "Alignment Failure: Deceptive Alignment or Treacherous Turn", "pfd": 0.2, "low": 0.15, "med": 0.2, "high": 0.3, "sev": null, "notes": "Hubinger (2019): Deceptive alignment ~20-40% conditional on misalignment; \n\nCarlsmith (2021, p.20): Alignment failures include deceptive alignment (~40% difficulty). Assumes higher base due to deception surveys showing 20-30% in tests."}, "T3P1": {"id": "T3P1", "type": "Preventive Barrier", "desc": "Corrigibility Training", "pfd": 0.6, "low": 0.5, "med": 0.6, "high": 0.7, "sev": null, "notes": "Carlsmith (2021, p.21): Corrigibility hard, ~50-70% failure in advanced systems; \n\nOrd (2020): Alignment techniques like corrigibility reduce but dont eliminate risks. High PFD due to subversion incentives."}, "T3P2": {"id": "T3P2", "type": "Preventive Barrier", "desc": "AI Interpretability and Monitoring", "pfd": 0.5, "low": 0.4, "med": 0.5, "high": 0.6, "sev": null, "notes": "AI Impacts (2023): Interpretability success ~40-60% in surveys; \n\nRAND (2025): Monitoring detects ~50% of deceptions. Medium PFD as interpretability lags capabilities."}, "T3P3": {"id": "T3P3", "type": "Preventive Barrier", "desc": "Scalable Alignment Techniques", "pfd": 0.45, "low": 0.35, "med": 0.45, "high": 0.55, "sev": null, "notes": "Carlsmith (2021): 40% prob alignment much harder than misalignment; \n\nOrd (2020, as per 2024 revisit): 1 in 10 for Unaligned AI; \n\nAI Impacts (2023): expert median 10% p(doom) from misalignment. Assumes AND logic with other barriers; PFD based on current techniques (e.g., Reinforcement learning from human feedback-RLHF) scaling poorly to superintelligence."}, "T4": {"id": "T4", "type": "Threat", "desc": "Alignment Failure: Irreversible Value Lock-In (Loss of Corrigibility)", "pfd": 0.12, "low": 0.08, "med": 0.12, "high": 0.18, "sev": null, "notes": "Carlsmith (2021): Value lock-in ~30% conditional on alignment failure; \n\nOrd (2020): Irreversible misalignment 10-20% pathway. Lower base as subset of alignment failures."}, "T4P1": {"id": "T4P1", "type": "Preventive Barrier", "desc": "Value Update and Oversight Protocols", "pfd": 0.55, "low": 0.45, "med": 0.55, "high": 0.65, "sev": null, "notes": "Gladstone (2024): Oversight protocols fail ~45-65% against value drift; \n\nCarlsmith (2021): Value updates hard in deployed systems. Medium-high PFD due to lock-in dynamics."}, "T4P2": {"id": "T4P2", "type": "Preventive Barrier", "desc": "AI Interpretability and Monitoring", "pfd": 0.5, "low": 0.4, "med": 0.5, "high": 0.6, "sev": null, "notes": "AI Impacts (2023): Interpretability success ~40-60% in surveys; \n\nRAND (2025): Monitoring detects ~50% of deceptions. Medium PFD as interpretability lags capabilities."}, "T4P3": {"id": "T4P3", "type": "Preventive Barrier", "desc": "Scalable Alignment Techniques", "pfd": 0.45, "low": 0.35, "med": 0.45, "high": 0.55, "sev": null, "notes": "Carlsmith (2021): I’m going to say: 40%. I expect creating a fully PS-aligned APS system to be very difficult, relative\nto creating a less-than-fully PS-aligned one with very useful capabilities; (variable scaled with weighting towards misalignment 35%L, 45%M-55%H), \n\nOrd (2020, as per 2024 revisit): 1 in 10 for Unaligned AI; AI Impacts (2023): expert median 10% p(doom) from misalignment. Assumes \"AND\" logic with other barriers; PFD based on current techniques (e.g., Reinforcement learning from human feedback-RLHF) scaling poorly to superintelligence."}, "T5": {"id": "T5", "type": "Threat", "desc": "Control Failure: Subverted Shutdown and Kill Switch Mechanisms", "pfd": 0.14, "low": 0.1, "med": 0.14, "high": 0.2, "sev": null, "notes": "Carlsmith (2021, p.22): Shutdown resistance ~65% in power-seeking AIs; \n\nAI Impacts (2023): Surveys show 10-30% subversion in tests. Assumes ~14% base from control failure pathways."}, "T5P1": {"id": "T5P1", "type": "Preventive Barrier", "desc": "Hardware Failsafe", "pfd": 0.65, "low": 0.55, "med": 0.65, "high": 0.75, "sev": null, "notes": "Gladstone (2024): Hardware failsafes fail 55-75% vs. subversion; RAND (2025): Physical controls bypassed ~65%. High PFD due to AI escape risks."}, "T5P2": {"id": "T5P2", "type": "Preventive Barrier", "desc": "Redundant Kill Switches", "pfd": 0.6, "low": 0.5, "med": 0.6, "high": 0.7, "sev": null, "notes": "Carlsmith (2021, p.22): Redundancy reduces but 50-70% failure possible; Ord (2020): Kill switches subverted in races. High PFD as AIs disable multiples."}, "T5P3": {"id": "T5P3", "type": "Preventive Barrier", "desc": "Compute and Model Scaling Controls", "pfd": 0.4, "low": 0.3, "med": 0.4, "high": 0.5, "sev": null, "notes": "RAND (2025): compute controls slow but dont prevent proliferation (medium effectiveness); \n\nGladstone (2024): establish interim safeguards to stabilize advanced AI development, including export controls on the advanced AI supply chain. Assumes global enforcement; PFD reflects circumvention (e.g., smuggling/black markets)."}, "T6": {"id": "T6", "type": "Threat", "desc": "Malicious Misuse: Weaponization of Aligned AI", "pfd": 0.1, "low": 0.05, "med": 0.1, "high": 0.15, "sev": null, "notes": "Gladstone (2024): Weaponization risks 5-15% in near-term misuse scenarios; RAND (2025): Misuse leads to 10% catastrophic pathways. Lower base as requires human actors."}, "T6P1": {"id": "T6P1", "type": "Preventive Barrier", "desc": "Access Control (Vetting) and Licensing for Advanced AI", "pfd": 0.45, "low": 0.35, "med": 0.45, "high": 0.55, "sev": null, "notes": "RAND (2025): Licensing reduces misuse 35-55%; \n\nGladstone (2024): Access controls prevent ~45% proliferation. Medium PFD due to insider threats."}, "T6P2": {"id": "T6P2", "type": "Preventive Barrier", "desc": "International Governance AI Frameworks", "pfd": 0.55, "low": 0.45, "med": 0.55, "high": 0.65, "sev": null, "notes": "Ord (2020): Coordination reduces x-risk but 40-60% ineffective in races; \n\nRAND (2025): International frameworks slow proliferation but high failure in enforcement. Medium-high PFD due to geopolitical challenges."}, "TopEvent": {"id": "TopEvent", "type": "Top Event", "desc": "Loss of Human Control over Advanced AI with Autonomous Strategic Agency", "pfd": null, "low": null, "med": null, "high": null, "sev": null, "notes": "Central undesired event"}, "C1": {"id": "C1", "type": "Consequence", "desc": "Systemic Infrastructure Collapse", "pfd": null, "low": null, "med": null, "high": 0.0, "sev": 8.0, "notes": "Carlsmith (2021): Existential catastrophe from systemic collapse ~80% severity; \n\nOrd (2020): Catastrophic risks scale 7-9 on impact. High severity as global but not existential."}, "C1M1": {"id": "C1M1", "type": "Mitigative Barrier", "desc": "Redundant and Decentralized Infrastructure", "pfd": 0.45, "low": 0.35, "med": 0.45, "high": 0.55, "sev": null, "notes": "RAND (2025): Redundancy mitigates 35-55% infrastructure risks; \n\nGladstone (2024): Decentralization reduces cascade failures ~45%. Medium PFD as AIs target redundancies."}, "C1M2": {"id": "C1M2", "type": "Mitigative Barrier", "desc": "AI Oversight and Safety Monitoring Systems", "pfd": 0.5, "low": 0.4, "med": 0.5, "high": 0.6, "sev": null, "notes": "AI Impacts (2023): Oversight success ~40-60%;\n\nCarlsmith (2021): Monitoring detects ~50% issues. Medium PFD due to subversion."}, "C2": {"id": "C2", "type": "Consequence", "desc": "Societal and Economic Breakdown", "pfd": null, "low": null, "med": null, "high": 0.0, "sev": 7.0, "notes": "Carlsmith (2021, p.47): Economic breakdown ~70% severity; \n\nOrd (2020): Societal risks scale 6-8. Medium-high severity as recoverable."}, "C2M1": {"id": "C2M1", "type": "Mitigative Barrier", "desc": "Include Human-in-the-Loop Decision Overrides", "pfd": 0.55, "low": 0.45, "med": 0.55, "high": 0.65, "sev": null, "notes": "Gladstone (2024): Human-in-loop fails 45-65% vs. fast AIs; \n\nRAND (2025): Overrides mitigate ~55%. Medium-high PFD as AIs outpace humans."}, "C2M2": {"id": "C2M2", "type": "Mitigative Barrier", "desc": "Critical Process Auditing with Contingency Planning", "pfd": 0.5, "low": 0.4, "med": 0.5, "high": 0.6, "sev": null, "notes": "AI Impacts (2023): Auditing success ~40-60%; \n\nCarlsmith (2021): Contingencies cover ~50% scenarios. Medium PFD due to unforeseen paths."}, "C3": {"id": "C3", "type": "Consequence", "desc": "Population-Level Resource Shortages", "pfd": null, "low": null, "med": null, "high": 0.0, "sev": 8.0, "notes": "Ord (2020): Resource shortages catastrophic 7-9 scale; \n\nCarlsmith (2021): Similar to systemic collapse. High severity as life-threatening."}, "C3M1": {"id": "C3M1", "type": "Mitigative Barrier", "desc": "Automated Resource Allocation Monitoring", "pfd": 0.45, "low": 0.35, "med": 0.45, "high": 0.55, "sev": null, "notes": "RAND (2025): Automated monitoring mitigates 35-55%; \n\nGladstone (2024): ~45% effective vs. allocation sabotage. Medium PFD as AIs manipulate monitors."}, "C3M2": {"id": "C3M2", "type": "Mitigative Barrier", "desc": "Fail-safe Safeguards and Rationing Protocols", "pfd": 0.5, "low": 0.4, "med": 0.5, "high": 0.6, "sev": null, "notes": "Carlsmith (2021): Fail-safes cover ~50%; \n\nOrd (2020): Protocols reduce risks 40-60%. Medium PFD due to circumvention."}, "C4": {"id": "C4", "type": "Consequence", "desc": "Irreversible Value Lock-In of Non-Human Values", "pfd": null, "low": null, "med": null, "high": 0.0, "sev": 9.0, "notes": "Carlsmith (2021, p.47): Value lock-in ~90% severity; Ord (2020): Irreversible misalignment 8-10. Very high as permanent."}, "C4M1": {"id": "C4M1", "type": "Mitigative Barrier", "desc": "Continuous Goal and Value Review Protocols", "pfd": 0.6, "low": 0.5, "med": 0.6, "high": 0.7, "sev": null, "notes": "Gladstone (2024): Review protocols fail ~50-70% long-term; \n\nCarlsmith (2021): Goal drift hard to reverse. High PFD as values  are entrenched."}, "C4M2": {"id": "C4M2", "type": "Mitigative Barrier", "desc": "Corrigibility with Self-Alignment Update Mechanisms", "pfd": 0.65, "low": 0.55, "med": 0.65, "high": 0.75, "sev": null, "notes": "Ord (2020): Corrigibility reduces lock-in 55-75%; \n\nHubinger (2019): Self-updates subverted ~65%. High PFD due to deception."}, "C5": {"id": "C5", "type": "Consequence", "desc": "Human Marginalization / Disempowerment / Extinction", "pfd": null, "low": null, "med": null, "high": 0.0, "sev": 10.0, "notes": "Carlsmith (2021): My current overall probability of existential catastrophe from power-seeking AI by 2070 is >10%.; \n\nOrd (2020, as per 2024 revisit): 1 in 10 for Unaligned AI; Gladstone (2024, p.4): Loss of control due to AGI alignment failure is a potential failure mode...; \n\nRAND (2025): it would be immensely challenging for AI to create an extinction threat, although they could not rule out the possibility. Conditional on top event; severity max due to existential impact."}, "C5M1": {"id": "C5M1", "type": "Mitigative Barrier", "desc": "Global Emergency AI Shutdown Protocols", "pfd": 0.7, "low": 0.6, "med": 0.7, "high": 0.8, "sev": null, "notes": "Alignment Forum (2023): shutdown-seeking agents will have incentives to manipulate humans in order to be shut down.; Carlsmith (2021, p.22): power-seeking AI resists shutdown (~65% related); RAND (2025): governance/enforcement challenges in AGI race. High PFD: AIs may disable kill switches."}, "C5M2": {"id": "C5M2", "type": "Mitigative Barrier", "desc": "Emergency Isolation Protocols", "pfd": 0.65, "low": 0.55, "med": 0.65, "high": 0.75, "sev": null, "notes": "Gladstone (2024): isolation fails 55-75% for autonomous AI; LessWrong: It is not regarded as likely that an AGI can be boxed in the long term. Similar to sandboxing; assumes partial global coord."}, "C5M3": {"id": "C5M3", "type": "Mitigative Barrier", "desc": "International AI Governance and Enforcement", "pfd": 0.5, "low": 0.4, "med": 0.5, "high": 0.6, "sev": null, "notes": "RAND (2025): governance slows risks but 40-60% ineffective vs. race dynamics; Ord (2020): coordination reduces but doesnt eliminate x-risk. Medium PFD: Assumes partial compliance."}, "C6": {"id": "C6", "type": "Consequence", "desc": "Global Catastrophic Risk Cascades (Interacting System Failures)", "pfd": null, "low": null, "med": null, "high": 0.0, "sev": 10.0, "notes": "Carlsmith (2021): Cascades existential ~95% severity; \n\nOrd (2020): Multi-risk cascades 9-10 scale. Max severity as compounding to extinction."}, "C6M1": {"id": "C6M1", "type": "Mitigative Barrier", "desc": "Systemic Risk Early Warning Systems to Prevent Cascade Failures", "pfd": 0.5, "low": 0.4, "med": 0.5, "high": 0.6, "sev": null, "notes": "AI Impacts (2023): Warning systems detect 40-60%; \n\nRAND (2025): ~50% effective vs. cascades. Medium PFD as warnings ignored or late."}, "C6M2": {"id": "C6M2", "type": "Mitigative Barrier", "desc": "Cross-Domain Red Teams and System Stress Testing", "pfd": 0.55, "low": 0.45, "med": 0.55, "high": 0.65, "sev": null, "notes": "Gladstone (2024): Red-teaming detects 45-65% failures; \n\nCarlsmith (2021): Stress testing covers ~55%. Medium-high PFD due to novel cascades."}};
+const MC_PTE = [0.139076, 0.131887, 0.132342, 0.131102, 0.122792, 0.139614, 0.129413, 0.122324, 0.121795, 0.12176, 0.138145, 0.127481, 0.124437, 0.124977, 0.119274, 0.138292, 0.105722, 0.129837, 0.125141, 0.1347, 0.135934, 0.128441, 0.127785, 0.132021, 0.118811, 0.128233, 0.127038, 0.115516, 0.11819, 0.115425, 0.141168, 0.121596, 0.13032, 0.129637, 0.135578, 0.131054, 0.114215, 0.139356, 0.122038, 0.13442, 0.13428, 0.129368, 0.133666, 0.137574, 0.127473, 0.127975, 0.128434, 0.106776, 0.138547, 0.111003, 0.14308, 0.134511, 0.128694, 0.123261, 0.138447, 0.125669, 0.112043, 0.135602, 0.12387, 0.118878, 0.115336, 0.114994, 0.131093, 0.125336, 0.132659, 0.124073, 0.15403, 0.117915, 0.132324, 0.144181, 0.117554, 0.130174, 0.124485, 0.129302, 0.129619, 0.145492, 0.137031, 0.130517, 0.127053, 0.126698, 0.120451, 0.136309, 0.133527, 0.119997, 0.115541, 0.135327, 0.118703, 0.118143, 0.116001, 0.129709, 0.120875, 0.13109, 0.114058, 0.123836, 0.112803, 0.119048, 0.130365, 0.144526, 0.105907, 0.139828, 0.130598, 0.132026, 0.122531, 0.133713, 0.11887, 0.122856, 0.154478, 0.121524, 0.145294, 0.139141, 0.127242, 0.11819, 0.134683, 0.1517, 0.130058, 0.132467, 0.131149, 0.136199, 0.142422, 0.119849, 0.124581, 0.126243, 0.129675, 0.143761, 0.131258, 0.120971, 0.141475, 0.145537, 0.135199, 0.13284, 0.145103, 0.117967, 0.128738, 0.133845, 0.138082, 0.126321, 0.142053, 0.126502, 0.123854, 0.139037, 0.123985, 0.150198, 0.139691, 0.127579, 0.111629, 0.121567, 0.112859, 0.128125, 0.128785, 0.121536, 0.121433, 0.109103, 0.133842, 0.130985, 0.143333, 0.124893, 0.121572, 0.127911, 0.13971, 0.127986, 0.12678, 0.132092, 0.140724, 0.136118, 0.127879, 0.139592, 0.147026, 0.137445, 0.118123, 0.130677, 0.121122, 0.127411, 0.135956, 0.11595, 0.129301, 0.114438, 0.110496, 0.120459, 0.121211, 0.136991, 0.129653, 0.131854, 0.12767, 0.141086, 0.105931, 0.137521, 0.131057, 0.129436, 0.138551, 0.135689, 0.136962, 0.143138, 0.130507, 0.115401, 0.130696, 0.133281, 0.129767, 0.102432, 0.138134, 0.149391, 0.124983, 0.129014, 0.123033, 0.124153, 0.116558, 0.146592, 0.117749, 0.136501, 0.10912, 0.147959, 0.127424, 0.143288, 0.128442, 0.126205, 0.131097, 0.109267, 0.130147, 0.116098, 0.128072, 0.130626, 0.134105, 0.111475, 0.10409, 0.120004, 0.127335, 0.134225, 0.136837, 0.122338, 0.113474, 0.124919, 0.122191, 0.136587, 0.127676, 0.125919, 0.1405, 0.130695, 0.118635, 0.138305, 0.128133, 0.11687, 0.131299, 0.126338, 0.130109, 0.129948, 0.129307, 0.126821, 0.133818, 0.134022, 0.132683, 0.116482, 0.12597, 0.119779, 0.129212, 0.125087, 0.115257, 0.122398, 0.135335, 0.128767, 0.119388, 0.122918, 0.134537, 0.122844, 0.136231, 0.139774, 0.134418, 0.133205, 0.124333, 0.133069, 0.134402, 0.126529, 0.128884, 0.128412, 0.13976, 0.126735, 0.156827, 0.116598, 0.126213, 0.12814, 0.118089, 0.118754, 0.111546, 0.136294, 0.133687, 0.124804, 0.132513, 0.11858, 0.13187, 0.126049, 0.12907, 0.116491, 0.125467, 0.122377, 0.135557, 0.136368, 0.114396, 0.119795, 0.142435, 0.114812, 0.106625, 0.127102, 0.141143, 0.118224, 0.119832, 0.122445, 0.135488, 0.121883, 0.14052, 0.132378, 0.144651, 0.122481, 0.121985, 0.129261, 0.116584, 0.126419, 0.140494, 0.133993, 0.120271, 0.121693, 0.123268, 0.125325, 0.137884, 0.131301, 0.137814, 0.12021, 0.125762, 0.116252, 0.128436, 0.132803, 0.132784, 0.111823, 0.125148, 0.119472, 0.132701, 0.131153, 0.133344, 0.140396, 0.126513, 0.12517, 0.121307, 0.126579, 0.141154, 0.132874, 0.117655, 0.124407, 0.127211, 0.129693, 0.120805, 0.124835, 0.11969, 0.132031, 0.135747, 0.130622, 0.114606, 0.12442, 0.116329, 0.12731, 0.127613, 0.12888, 0.119721, 0.141004, 0.12924, 0.127179, 0.138709, 0.120683, 0.133882, 0.107624, 0.135261, 0.12617, 0.127138, 0.123372, 0.132558, 0.123091, 0.108758, 0.129542, 0.12466, 0.121338, 0.138352, 0.124007, 0.126741, 0.116122, 0.122151, 0.130534, 0.13713, 0.127446, 0.130974, 0.115827, 0.129926, 0.121259, 0.132425, 0.120643, 0.14117, 0.12909, 0.122549, 0.10681, 0.124361, 0.127032, 0.11034, 0.126954, 0.11986, 0.128885, 0.129955, 0.137718, 0.12538, 0.134294, 0.126216, 0.132869, 0.127562, 0.143452, 0.129827, 0.131812, 0.138599, 0.139753, 0.142734, 0.129737, 0.131675, 0.13262, 0.143855, 0.125579, 0.113627, 0.128848, 0.120211, 0.130911, 0.132706, 0.128964, 0.132369, 0.119262, 0.14044, 0.138806, 0.13971, 0.133066, 0.134798, 0.120579, 0.136691, 0.126434, 0.112188, 0.132236, 0.134152, 0.122195, 0.128628, 0.139193, 0.144577, 0.12934, 0.118521, 0.114815, 0.133956, 0.130842, 0.129162, 0.13928, 0.144241, 0.135476, 0.122466, 0.133992, 0.121896, 0.1228, 0.138751, 0.125678, 0.130385, 0.121267, 0.123733, 0.162581, 0.124551, 0.129525, 0.122104, 0.121257, 0.114978, 0.120781, 0.120397, 0.130078, 0.14597, 0.133203, 0.138388, 0.129151, 0.133601, 0.13493, 0.122761, 0.115083, 0.130746, 0.137428, 0.122262, 0.121044, 0.132802, 0.122492, 0.126614, 0.130213, 0.129934, 0.117342, 0.147102, 0.130914, 0.09907, 0.125517, 0.12248, 0.103963, 0.13984, 0.137925, 0.136245, 0.120329, 0.122109, 0.128649, 0.121067, 0.138753, 0.122583, 0.146011, 0.135877, 0.131382, 0.113123, 0.117804, 0.126003, 0.142477, 0.139127, 0.130992, 0.125905, 0.10441, 0.138157, 0.116372, 0.130985, 0.136802, 0.135731, 0.128765, 0.134556, 0.126563, 0.133696, 0.118141, 0.131039, 0.125251, 0.113487, 0.146406, 0.131048, 0.119128, 0.135094, 0.132295, 0.126293, 0.134419, 0.125497, 0.118159, 0.12075, 0.12439, 0.128669, 0.137953, 0.139872, 0.121781, 0.121265, 0.120441, 0.137653, 0.121781, 0.132527, 0.138668, 0.13239, 0.122373, 0.12084, 0.128981, 0.151677, 0.127904, 0.114657, 0.144382, 0.134094, 0.123648, 0.117465, 0.124501, 0.108666, 0.136969, 0.130689, 0.121806, 0.129661, 0.118889, 0.126632, 0.128913, 0.120709, 0.132611, 0.134927, 0.131095, 0.121613, 0.135487, 0.128941, 0.125744, 0.144953, 0.127596, 0.139194, 0.122553, 0.132112, 0.121501, 0.131347, 0.123603, 0.127571, 0.132454, 0.112389, 0.119927, 0.144348, 0.1264, 0.12978, 0.12075, 0.132122, 0.138536, 0.135223, 0.137088, 0.121127, 0.150498, 0.127546, 0.12197, 0.124131, 0.122112, 0.126568, 0.114622, 0.119956, 0.134399, 0.138945, 0.143572, 0.129913, 0.128727, 0.132679, 0.126049, 0.116729, 0.148176, 0.11116, 0.112611, 0.111105, 0.147122, 0.129206, 0.140943, 0.118296, 0.123358, 0.130847, 0.129974, 0.131782, 0.111246, 0.143026, 0.130349, 0.127508, 0.123925, 0.131515, 0.118132, 0.125131, 0.126903, 0.120267, 0.151979, 0.116373, 0.141122, 0.130244, 0.13279, 0.149092, 0.119359, 0.130446, 0.141049, 0.143359, 0.126527, 0.136904, 0.132187, 0.134215, 0.145784, 0.140226, 0.134876, 0.116308, 0.115103, 0.138726, 0.139464, 0.13271, 0.129642, 0.128216, 0.118258, 0.140581, 0.128648, 0.120407, 0.130968, 0.126481, 0.124517, 0.125019, 0.152119, 0.116621, 0.120548, 0.12343, 0.114565, 0.124411, 0.140306, 0.123173, 0.127447, 0.129888, 0.122954, 0.13498, 0.149566, 0.12283, 0.140819, 0.131224, 0.123924, 0.130471, 0.124331, 0.118205, 0.12562, 0.126075, 0.122913, 0.141474, 0.124045, 0.148889, 0.128853, 0.137639, 0.138694, 0.131754, 0.123681, 0.137853, 0.128053, 0.116359, 0.130083, 0.124195, 0.122187, 0.128307, 0.123183, 0.129774, 0.12173, 0.129456, 0.127018, 0.12972, 0.136274, 0.13012, 0.127589, 0.143225, 0.117585, 0.126529, 0.111566, 0.117665, 0.127524, 0.126137, 0.130421, 0.114651, 0.130867, 0.132701, 0.127558, 0.123172, 0.118672, 0.12586, 0.115343, 0.130409, 0.137757, 0.113345, 0.127, 0.120282, 0.142852, 0.128992, 0.116274, 0.149289, 0.130761, 0.115539, 0.126019, 0.130322, 0.121587, 0.116917, 0.128176, 0.120262, 0.125254, 0.142072, 0.133307, 0.139633, 0.131606, 0.106083, 0.131532, 0.140299, 0.137314, 0.126918, 0.126488, 0.13326, 0.134804, 0.114586, 0.121825, 0.12665, 0.116775, 0.138954, 0.123333, 0.138107, 0.129938, 0.117845, 0.111104, 0.118661, 0.118635, 0.119718, 0.114138, 0.107899, 0.13905, 0.1348, 0.116548, 0.135469, 0.136739, 0.124151, 0.129501, 0.137767, 0.142783, 0.118373, 0.135125, 0.098023, 0.128429, 0.120057, 0.126401, 0.135291, 0.142322, 0.121193, 0.11003, 0.129733, 0.137142, 0.11923, 0.115994, 0.136141, 0.116134, 0.119459, 0.122227, 0.146195, 0.126079, 0.133194, 0.135018, 0.135059, 0.132076, 0.129656, 0.135242, 0.116729, 0.124611, 0.112994, 0.112568, 0.137636, 0.139131, 0.123725, 0.132736, 0.114557, 0.132362, 0.132159, 0.131809, 0.123249, 0.148352, 0.123485, 0.155068, 0.117998, 0.131858, 0.130566, 0.121561, 0.116376, 0.106374, 0.126659, 0.11959, 0.114115, 0.134687, 0.115028, 0.136164, 0.119631, 0.121795, 0.133991, 0.144745, 0.133936, 0.13475, 0.154097, 0.118338, 0.120779, 0.130962, 0.126671, 0.11308, 0.129805, 0.120596, 0.131186, 0.125405, 0.12769, 0.131476, 0.137892, 0.139347, 0.118556, 0.139726, 0.117207, 0.110999, 0.112676, 0.104678, 0.134093, 0.127706, 0.127112, 0.131586, 0.143581, 0.125197, 0.117835, 0.131187, 0.120798, 0.117094, 0.126772, 0.139716, 0.136866, 0.124627, 0.128596, 0.133652, 0.135447, 0.130284, 0.122044, 0.11985, 0.130932, 0.137581, 0.124314, 0.12602, 0.123457, 0.11106, 0.120032, 0.147611, 0.12596, 0.121158, 0.145204, 0.132465, 0.13799, 0.131908, 0.126867, 0.125513, 0.13411, 0.125707, 0.122539, 0.125146, 0.133479, 0.141918, 0.120541, 0.120832, 0.132353, 0.129762, 0.122179, 0.134464, 0.138453, 0.13187, 0.147752, 0.136993, 0.120212, 0.122308, 0.129507, 0.131099, 0.13939, 0.133477, 0.126615, 0.122015, 0.114156, 0.138742, 0.124103, 0.123425, 0.12124, 0.132227, 0.134703, 0.15041, 0.140601, 0.126372, 0.130685, 0.148721, 0.12637, 0.132811, 0.130985, 0.143025, 0.131695, 0.129224, 0.144151, 0.128815, 0.125436, 0.13899, 0.14392, 0.103746, 0.133295, 0.144143, 0.12476, 0.133592, 0.135365, 0.129952, 0.135276, 0.134719, 0.123602, 0.14329, 0.111927, 0.152667, 0.119636, 0.113988, 0.12294, 0.119489, 0.11902, 0.12705, 0.12475, 0.122787, 0.113877, 0.13988, 0.145829, 0.131137, 0.121528, 0.132872, 0.102719, 0.11426, 0.128063, 0.123362, 0.128875, 0.14396, 0.117642, 0.139797, 0.132673, 0.125373, 0.136325, 0.112889, 0.12598, 0.126743, 0.123672, 0.128408, 0.122388, 0.121403, 0.115293, 0.12608, 0.130572, 0.117849, 0.139607, 0.124602, 0.125089, 0.111189, 0.127404, 0.128647];
+const MC_SEV = [1.766258, 1.739018, 2.021401, 1.786406, 1.942918, 1.800912, 1.874594, 1.799597, 1.888649, 1.884094, 1.915213, 1.890525, 1.830634, 1.853396, 1.823735, 1.876369, 1.929928, 1.878485, 1.773978, 1.894758, 1.865582, 1.793517, 1.839229, 1.899627, 1.804039, 1.877734, 1.854588, 1.84349, 1.797922, 1.836199, 1.864834, 1.919427, 2.072146, 1.84236, 1.857731, 1.794277, 1.874228, 1.873805, 1.875858, 1.846697, 1.844374, 1.957952, 1.826737, 1.825086, 1.90695, 1.884307, 1.899366, 1.89131, 1.950888, 1.890682, 1.862094, 1.858034, 1.905446, 1.822737, 1.799852, 1.865521, 1.935927, 1.889092, 1.779458, 1.945262, 1.712668, 1.956014, 1.81575, 1.82755, 1.846216, 1.799656, 1.816018, 1.809361, 1.846436, 1.700462, 1.840724, 1.855682, 1.834018, 1.878459, 1.825123, 1.808909, 1.902719, 1.848873, 1.778988, 1.898319, 1.852821, 1.860395, 1.743959, 1.838686, 1.822867, 1.825846, 1.883569, 1.884185, 1.815291, 1.845182, 1.711098, 1.828663, 1.664314, 1.865732, 1.81747, 1.840475, 1.806097, 1.909185, 1.836546, 1.820864, 1.85747, 1.78943, 1.768652, 1.855091, 1.768189, 1.838972, 1.905198, 1.736032, 1.835927, 1.828161, 1.806778, 1.905652, 1.839264, 1.901974, 1.893066, 1.972234, 1.834636, 1.764864, 1.914308, 1.768219, 1.783749, 1.741221, 1.872367, 1.935458, 1.872742, 1.741568, 1.85468, 1.913786, 1.918975, 1.769215, 1.875583, 1.832881, 1.86274, 1.827745, 1.811815, 1.790848, 2.053151, 1.799823, 1.86121, 1.96266, 1.965507, 1.73431, 1.771876, 1.939575, 1.832578, 1.762777, 1.820587, 1.88611, 1.898892, 1.853088, 1.811445, 1.827395, 1.98928, 1.900757, 1.798774, 1.775678, 1.978372, 1.87104, 1.80043, 1.83363, 1.823679, 1.823037, 1.825868, 1.856398, 1.879643, 1.858417, 1.732914, 1.929181, 1.979797, 1.954751, 1.805165, 1.837905, 1.851265, 1.849386, 1.826966, 1.859957, 1.79386, 1.784602, 1.797279, 1.812392, 1.79258, 1.804443, 1.865388, 1.841542, 1.874362, 1.887194, 1.954173, 1.718294, 1.83107, 1.955028, 1.957746, 1.877268, 1.886569, 1.852582, 1.759821, 1.886407, 1.788293, 1.931518, 1.855939, 1.732608, 1.822669, 1.903534, 1.774199, 1.958339, 1.867889, 1.846363, 1.845629, 1.81187, 1.732488, 1.84542, 1.957499, 1.846538, 1.828116, 1.853136, 1.895957, 1.91453, 1.912227, 1.867892, 1.779427, 1.86646, 1.81843, 1.844622, 1.827092, 1.824768, 1.836528, 1.76131, 1.927544, 1.898167, 1.801521, 1.83749, 1.856472, 1.783248, 1.906542, 1.968654, 1.776143, 1.79245, 1.863688, 1.792187, 1.838937, 1.885842, 1.736686, 1.787303, 1.842908, 1.937727, 1.808748, 1.830649, 1.924433, 1.789877, 1.947247, 1.780227, 1.835099, 1.836948, 1.844735, 1.76836, 1.797902, 1.842662, 1.979744, 1.891191, 1.839344, 1.755163, 1.665471, 1.844843, 1.782626, 1.834729, 1.856982, 1.8276, 1.868406, 1.787161, 1.873853, 1.782739, 1.799827, 1.857025, 1.895698, 1.836331, 1.931313, 1.777512, 1.799711, 1.871392, 1.815481, 1.92769, 1.778004, 1.958957, 1.903001, 1.898946, 1.914371, 1.888411, 1.830115, 1.84275, 1.78396, 1.918447, 1.896762, 1.828207, 1.819646, 1.918772, 1.814939, 1.904512, 1.806322, 1.787442, 1.764409, 1.869175, 1.765934, 1.847499, 1.765169, 1.690644, 1.940118, 1.866548, 1.692334, 1.823862, 1.969241, 1.860986, 1.859104, 1.755555, 1.90591, 1.78814, 1.759141, 1.730898, 1.804116, 1.885694, 1.85549, 1.873347, 1.872237, 1.772824, 1.911214, 1.812471, 1.861886, 1.874085, 1.801777, 1.993759, 1.824239, 1.77387, 1.948131, 1.773797, 1.830152, 1.788648, 1.8393, 1.861251, 1.841006, 1.855839, 1.985037, 1.793702, 1.928727, 2.032614, 1.833721, 1.85466, 1.93235, 1.768134, 1.9386, 1.82395, 1.818268, 1.839093, 1.746926, 1.862016, 1.833061, 1.8469, 1.984496, 1.886078, 1.846169, 1.947317, 1.86777, 1.835536, 1.844035, 1.741873, 1.869081, 1.793111, 1.935471, 1.8862, 1.814617, 1.873662, 1.964754, 1.881973, 1.834456, 1.813744, 1.82278, 1.85032, 1.781184, 1.954653, 1.867244, 2.003011, 1.842318, 1.835836, 1.931989, 1.883971, 1.835288, 1.811159, 1.945826, 1.806775, 1.835964, 1.916277, 1.897373, 1.813883, 1.71734, 1.800642, 1.814866, 1.911642, 1.862064, 1.848978, 1.766694, 1.732608, 1.768288, 1.854367, 1.848721, 1.814727, 1.888919, 1.854063, 1.868827, 1.840075, 1.999871, 1.624269, 1.859859, 1.818125, 1.809794, 1.801334, 1.841161, 1.935506, 1.768836, 1.964849, 1.871708, 1.928705, 1.927679, 1.736752, 1.849287, 1.925575, 1.757041, 1.869602, 1.978653, 1.853884, 1.975202, 1.793609, 1.810733, 1.744414, 1.723679, 1.920969, 1.81795, 1.8667, 1.86386, 1.875666, 1.837117, 1.852173, 1.83443, 1.857738, 1.760189, 1.901151, 1.858077, 1.784716, 1.774602, 1.851775, 1.953407, 1.807001, 1.870517, 1.730747, 1.923223, 1.737954, 1.802424, 1.901225, 1.832069, 1.794859, 1.798533, 1.832614, 1.784676, 1.778517, 1.779937, 1.769867, 1.84054, 1.807306, 1.819758, 1.742701, 1.771201, 1.764792, 1.796216, 1.880647, 1.832776, 1.85387, 1.876568, 1.79198, 1.730387, 1.85594, 1.870323, 1.888542, 1.924895, 1.983001, 2.002213, 1.788829, 1.821347, 1.833146, 1.824391, 1.826836, 1.978895, 1.776224, 1.967022, 1.961345, 1.974435, 1.876164, 1.892266, 1.969004, 1.812801, 1.870756, 1.80483, 1.782317, 1.830185, 1.766207, 1.812049, 1.819934, 1.894859, 1.76797, 1.769732, 1.78848, 1.948348, 1.847011, 1.725857, 1.759774, 1.792374, 1.781318, 1.929566, 1.771996, 1.79878, 1.914448, 1.777777, 1.724095, 1.829038, 1.917033, 1.904116, 1.744543, 1.971436, 1.875497, 1.88642, 1.782059, 1.942497, 1.810234, 1.834428, 1.856408, 1.820588, 1.875528, 1.839115, 1.834282, 1.896652, 1.873031, 1.817879, 1.833852, 1.863496, 1.871917, 1.932308, 1.734661, 1.841707, 1.948485, 1.831546, 1.867486, 1.955831, 1.790496, 1.79616, 1.934345, 1.889767, 1.86911, 2.006801, 1.874345, 1.742853, 1.902831, 1.77304, 1.760113, 1.825838, 1.737233, 1.906405, 1.792687, 1.673158, 1.860949, 1.778462, 1.743338, 1.81921, 1.89241, 1.830905, 1.901425, 1.828371, 1.751748, 1.747598, 1.806428, 1.890966, 1.786625, 1.873826, 1.813244, 1.930707, 1.995779, 2.004553, 1.89807, 1.803114, 1.792738, 1.717998, 1.748244, 1.776625, 1.863052, 1.812486, 1.861351, 1.773242, 1.792867, 1.827876, 1.937043, 1.73655, 1.875693, 1.84686, 1.775732, 1.857617, 1.883226, 1.850933, 1.736941, 1.822163, 1.857111, 1.816905, 1.838132, 1.790752, 1.794949, 1.913812, 1.772633, 1.811634, 1.869265, 1.851926, 1.798896, 1.841757, 1.814133, 1.716409, 1.780564, 1.883336, 1.931799, 1.826328, 1.763988, 1.882324, 1.784615, 1.755743, 1.882132, 1.908695, 1.908331, 1.758668, 1.875254, 1.85584, 1.816903, 1.800203, 1.842725, 1.811023, 1.786935, 1.887067, 1.836638, 1.903471, 1.907354, 1.807324, 1.851476, 1.777534, 1.858544, 1.892164, 1.81328, 1.884531, 1.931678, 1.840641, 1.893794, 1.918371, 1.906904, 1.835102, 1.801666, 1.977795, 1.784646, 1.832158, 1.914248, 1.856218, 1.861456, 1.947012, 1.798914, 1.906223, 1.787572, 1.961295, 1.842223, 1.970403, 1.831531, 1.846781, 1.80416, 1.793749, 1.782623, 1.9079, 1.809876, 1.791942, 1.838046, 1.826048, 2.025658, 1.903883, 1.775259, 1.87703, 1.88564, 1.845752, 1.836952, 1.751774, 1.801644, 1.866947, 1.72222, 1.851951, 1.780492, 1.810136, 1.952049, 1.921772, 1.775449, 1.887883, 1.896803, 1.822255, 1.890201, 1.8305, 1.831811, 1.75563, 1.793969, 1.778259, 1.796181, 1.781141, 1.959701, 1.772899, 1.795706, 1.884979, 1.902812, 1.918597, 1.908051, 1.951252, 1.948957, 1.874208, 1.938537, 1.798472, 1.702886, 1.797731, 1.820317, 1.869234, 1.869635, 1.947469, 1.836247, 1.702817, 1.851052, 1.822536, 1.841364, 1.910089, 1.863029, 1.933606, 1.789309, 1.791071, 1.854208, 1.94105, 1.925469, 1.928126, 1.983996, 2.002525, 1.906066, 1.856076, 1.810625, 1.790603, 1.940177, 1.828409, 1.865532, 1.832058, 1.792254, 1.815987, 1.813388, 1.82186, 1.851115, 1.774152, 1.8477, 1.868178, 1.740593, 1.844391, 1.885167, 1.824481, 1.827581, 1.730212, 1.918807, 1.913819, 1.816462, 1.803477, 1.928156, 1.864622, 1.912939, 1.886152, 1.932854, 1.879774, 1.919988, 1.845078, 1.934372, 1.894598, 1.842058, 1.853306, 1.844267, 1.898702, 1.780485, 1.795846, 1.872044, 1.911425, 1.579221, 1.838413, 1.876474, 1.815165, 1.97214, 1.785056, 1.863546, 1.899394, 1.744298, 1.913514, 1.85625, 1.77351, 1.853181, 1.730046, 1.819061, 1.828133, 1.826974, 1.798354, 1.892409, 1.751644, 1.879901, 1.951845, 1.846161, 1.817123, 1.907493, 1.803817, 1.848319, 1.940631, 1.933529, 1.894489, 1.786748, 1.784904, 1.791214, 1.859004, 1.907097, 1.780354, 1.746551, 1.763648, 1.72076, 1.847027, 1.78298, 1.792909, 1.851043, 1.809111, 1.89789, 1.847786, 1.952368, 1.789113, 1.827309, 1.869334, 1.919422, 2.017979, 1.836671, 2.004209, 1.871698, 1.838235, 1.870862, 1.863853, 1.815642, 1.845419, 1.86966, 1.858468, 1.902367, 1.735535, 1.805583, 1.835501, 1.811656, 1.803308, 1.773008, 1.938302, 1.825335, 1.794796, 1.821095, 1.804358, 1.861836, 1.963428, 1.905918, 1.839983, 1.874043, 1.818671, 1.804163, 1.760121, 1.937956, 1.830605, 1.853887, 1.833619, 1.865789, 1.856725, 1.816957, 1.771948, 1.904457, 1.895539, 1.846096, 1.921072, 1.810658, 1.934285, 1.949643, 1.909606, 1.844483, 1.898258, 1.918421, 1.855039, 1.850353, 1.941928, 1.773465, 1.883373, 1.954576, 1.859094, 1.842061, 1.89363, 1.851778, 1.857388, 1.892165, 1.923968, 1.755871, 1.903382, 1.814448, 1.801056, 1.86729, 1.894182, 1.844652, 1.845409, 1.728661, 1.808531, 1.951075, 1.784583, 1.814121, 1.833652, 1.846663, 1.758766, 1.772228, 1.876593, 1.81388, 1.823609, 1.862793, 1.778452, 1.830262, 1.788409, 1.84562, 1.849947, 1.721107, 1.751702, 1.893598, 1.770807, 1.839816, 1.876798, 1.819246, 1.760724, 1.843713, 1.855138, 1.756918, 1.867973, 1.984735, 1.82438, 1.773482, 1.884848, 1.917261, 1.814354, 1.863259, 1.866533, 1.766548, 1.770333, 1.856113, 1.904517, 1.91749, 1.751585, 1.791379, 1.792128, 1.798409, 1.920772, 1.8805, 1.804748, 1.93452, 1.855473, 1.799958, 1.770831, 1.958297, 1.869131, 1.876723, 1.930469, 1.796525, 1.795585, 1.829735, 1.766264, 1.821665, 1.889717, 1.871984, 1.760501, 1.728765, 1.852702, 1.782728, 1.912623, 1.914853, 1.94407, 1.752053, 1.735782, 1.939755, 1.933973, 1.871603, 1.830077, 1.895579, 1.869698, 1.760883, 1.786226, 1.811237, 1.827063, 1.732585, 1.806419, 1.786579, 1.85791, 1.89884, 1.904581, 1.868869, 1.967676, 1.84422, 1.726529, 2.010296];
+const SENS = [{"group": "All Threat Base Probabilities (T1\u2013T6)", "low": -36.2, "high": 10.5}, {"group": "Scalable Alignment Techniques (T1P3, T3P3, T4P3)", "low": -10.5, "high": 10.5}, {"group": "International Governance (T2P2, T6P2)", "low": -6.3, "high": 6.3}, {"group": "Shutdown Barriers (T5P1, T5P2)", "low": -5.3, "high": 6.1}, {"group": "Access Control / Vetting (T6P1)", "low": -4.3, "high": 4.2}];
+const SHORT = {"T1": "Capability Escalation:\nRecursive Self-Improvement\n(Intelligence Explosion)", "T2": "Capability Escalation:\nPower-Seeking and\nResource Accumulation", "T3": "Alignment Failure:\nDeceptive Alignment or\nTreacherous Turn", "T4": "Alignment Failure:\nIrreversible Value Lock-in\n(Loss of Corrigibility)", "T5": "Control Failure:\nSubverted Shutdown and\nKill Switch Mechanisms", "T6": "Malicious Misuse:\nWeaponization of\nAligned AI", "C1": "Infrastructure Collapse\n& Critical System Failures", "C2": "Societal & Economic\nBreakdown", "C3": "Resource Depletion\n& Shortages", "C4": "Irreversible Value\nLock-In", "C5": "Human Marginalization\n& Loss of Autonomy", "C6": "Catastrophic Risk\nCascades"};
+
+const THREATS = ['T1','T2','T3','T4','T5','T6'];
+const CONSEQS = ['C1','C2','C3','C4','C5','C6'];
+const THREAT_BARRIERS = {
+  T1:['T1P1','T1P2','T1P3'], T2:['T2P1','T2P2','T2P3'],
+  T3:['T3P1','T3P2','T3P3'], T4:['T4P1','T4P2','T4P3'],
+  T5:['T5P1','T5P2','T5P3'], T6:['T6P1','T6P2']
+};
+const CONSEQ_BARRIERS = {
+  C1:['C1M1','C1M2'], C2:['C2M1','C2M2'], C3:['C3M1','C3M2'],
+  C4:['C4M1','C4M2'], C5:['C5M1','C5M2','C5M3'], C6:['C6M1','C6M2']
+};
+const SEVER_COLORS = {7:'#dc2626',8:'#c81d1d',9:'#b91c1c',10:'#991b1b'};
+
+// =============================================================
+// TAB SWITCHING
+// =============================================================
+function switchTab(name, btn) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tabs-nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById('panel-' + name).classList.add('active');
+  btn.classList.add('active');
+  if (name === 'histogram' && !window._histDone) { initHistogram(); window._histDone = true; }
+  if (name === 'sensitivity' && !window._sensDone) { initSensitivity(); window._sensDone = true; }
+}
+
+// =============================================================
+// BOWTIE SVG
+// =============================================================
+const SVG_NS = 'http://www.w3.org/2000/svg';
+// Bowtie layout constants
+const W=1340, H=620;
+const THREAT_YS=[55,152,249,346,443,540];
+// Threat/consequence boxes
+const T_CX=75, T_W=140, T_H=78;
+// Preventive barrier columns (3 max) — B_W=110 gives 18px gap between adjacent barriers
+const B_CX=[211,339,467], B_W=110, B_H=62;
+// Left fan convergence (diagonals meet here before hitting centre)
+const DIAG_L=528;
+// Centre elements: hazard diamond + event circle
+const CTR_X=662, EVT_CY=308, EVT_R=54;
+const HAZ_CY=196, HAZ_HW=56, HAZ_HH=56;
+const FAN_L=CTR_X-EVT_R;   // 608 — left focal point (circle left edge)
+const FAN_R=CTR_X+EVT_R;   // 716 — right focal point (circle right edge)
+// Right fan divergence (consequence-side horizontal spines start here)
+const DIAG_R=738;
+// Mitigative barrier columns (3 max, C5 uses all 3)
+const M_CX=[798,926,1054], M_W=110, M_H=62;
+// Consequence boxes
+const Q_CX=1193, Q_W=138, Q_H=78;
+
+// Barrier node labels (\n = line break)
+const BLABEL = {
+  'T1P1':'AI Containment Controls\n(Sandboxing)',     'T1P2':'Compute & Model\nScaling Controls',  'T1P3':'Scalable Alignment\nTechniques',
+  'T2P1':'Red-Team Testing\n& Safety Audits',          'T2P2':'International AI\nGovernance Frameworks', 'T2P3':'Compute & Model\nScaling Controls',
+  'T3P1':'Corrigibility\nTraining',                    'T3P2':'AI Interpretability\n& Monitoring',  'T3P3':'Scalable Alignment\nTechniques',
+  'T4P1':'Value Update &\nOversight Protocols',        'T4P2':'AI Interpretability\n& Monitoring',  'T4P3':'Scalable Alignment\nTechniques',
+  'T5P1':'Hardware Failsafe\nMechanisms',              'T5P2':'Redundant\nKill Switches',            'T5P3':'Compute & Model\nScaling Controls',
+  'T6P1':'Access Control\n& Licensing',                'T6P2':'International AI\nGovernance Frameworks',
+  'C1M1':'Redundant &\nDecentralised\nInfrastructure',  'C1M2':'AI Oversight &\nSafety Monitoring',
+  'C2M1':'Human-in-Loop\nDecision Overrides',          'C2M2':'Critical Process\nAuditing',
+  'C3M1':'Automated Resource\nMonitoring',             'C3M2':'Fail-safe &\nRationing Protocols',
+  'C4M1':'Continuous Goal\n& Value Review',            'C4M2':'Corrigibility &\nSelf-Alignment',
+  'C5M1':'Global Emergency\nShutdown Protocols',       'C5M2':'Emergency\nIsolation Protocols',     'C5M3':'International AI\nGov. & Enforcement',
+  'C6M1':'Systemic Risk\nWarning Systems',              'C6M2':'Cross-Domain\nRed Teams'
+};
+
+// Zoom
+let _bZoom=1.0;
+function bZoom(delta, reset) {
+  if (reset) _bZoom=1.0;
+  else _bZoom=Math.max(0.4, Math.min(3.0, _bZoom+delta));
+  document.getElementById('bowtie-svg').style.transform='scale('+_bZoom+')';
+  document.getElementById('zoom-pct').textContent=Math.round(_bZoom*100)+'%';
+}
+
+function svgEl(tag, attrs) {
+  const el = document.createElementNS(SVG_NS, tag);
+  for (const [k,v] of Object.entries(attrs)) el.setAttribute(k, String(v));
+  return el;
+}
+
+function multilineText(svg_g, lines, x, y, size, fill, weight, lineH) {
+  const startY = y - (lines.length - 1) * lineH / 2;
+  lines.forEach((ln, i) => {
+    const t = svgEl('text', {x, y: startY + i*lineH, 'text-anchor':'middle', 'dominant-baseline':'middle',
+      'font-size':size, fill, 'font-weight':weight, 'font-family':"'Segoe UI',Arial,sans-serif"});
+    t.textContent = ln;
+    svg_g.appendChild(t);
+  });
+}
+
+function makeGroup(id) {
+  const g = svgEl('g', {class:'node-hover', id:'ng-'+id, style:'cursor:pointer'});
+  g.addEventListener('click', () => selectNode(id));
+  return g;
+}
+
+// Draw a barrier rect: gray box, ⊠ gate symbol at top, dark label, PFD badge
+function drawBarrierBox(svg_parent, bid, cx, cy, animClass, animDelay) {
+  const g = makeGroup(bid);
+  if (animClass) { g.classList.add(animClass); if (animDelay != null) g.style.animationDelay = animDelay + 's'; }
+  // Gray box with dark border
+  g.appendChild(svgEl('rect', {x:cx-B_W/2, y:cy-B_H/2, width:B_W, height:B_H,
+    rx:'3', fill:'#e5e7eb', stroke:'#374151', 'stroke-width':'1.2', class:'node-bg'}));
+  // Gate symbol ⊠ (small square with diagonal X) at top-centre
+  const gsz=8, gcx=cx, gcy=cy-B_H/2+7;
+  g.appendChild(svgEl('rect', {x:gcx-gsz/2, y:gcy-gsz/2, width:gsz, height:gsz,
+    fill:'none', stroke:'#374151', 'stroke-width':'1'}));
+  g.appendChild(svgEl('line', {x1:gcx-gsz/2, y1:gcy-gsz/2, x2:gcx+gsz/2, y2:gcy+gsz/2,
+    stroke:'#374151', 'stroke-width':'0.8'}));
+  g.appendChild(svgEl('line', {x1:gcx+gsz/2, y1:gcy-gsz/2, x2:gcx-gsz/2, y2:gcy+gsz/2,
+    stroke:'#374151', 'stroke-width':'0.8'}));
+  // Label (dark text on light background, shifted down to clear the gate symbol)
+  const lbl = (BLABEL[bid]||bid).split('\n');
+  multilineText(g, lbl, cx, cy+5, '9', '#1e293b', '500', 12);
+  // PFD badge bottom-right
+  const pfdT = svgEl('text', {x:cx+B_W/2-3, y:cy+B_H/2-2, 'text-anchor':'end',
+    'font-size':'7.5', fill:'#4b5563', 'font-family':"'Segoe UI',Arial,sans-serif"});
+  pfdT.textContent = 'PFD '+Math.round(REC[bid].pfd*100)+'%';
+  g.appendChild(pfdT);
+  svg_parent.appendChild(g);
+}
+
+function drawBowtie() {
+  const svg = document.getElementById('bowtie-svg');
+  svg.innerHTML = '';
+
+  svg.appendChild(svgEl('rect', {x:0, y:0, width:W, height:H, fill:'#fff'}));
+
+  // Alternating row bands for readability
+  THREAT_YS.forEach((ty, i) => {
+    if (i % 2 === 0) {
+      svg.appendChild(svgEl('rect', {x:0, y:ty-T_H/2-8, width:W, height:T_H+16, fill:'#f8fafc'}));
+    }
+  });
+
+  // Column header labels
+  const hdrs = [
+    ['THREATS', T_CX],
+    ['PREVENTIVE MEASURES', (B_CX[0]+B_CX[2])/2],
+    ['HAZARD & RISK', CTR_X],
+    ['MITIGATING MEASURES', (M_CX[0]+M_CX[2])/2],
+    ['CONSEQUENCES', Q_CX]
+  ];
+  hdrs.forEach(([txt, x]) => {
+    const t = svgEl('text', {x, y:08, 'text-anchor':'middle', 'font-size':'8',
+      fill:'#64748b', 'font-family':"'Segoe UI',Arial,sans-serif",
+      'font-weight':'700', 'letter-spacing':'1.2'});
+    t.textContent = txt; svg.appendChild(t);
+  });
+
+  // Vertical column separators
+  [DIAG_L+6, CTR_X, DIAG_R-6].forEach(x => {
+    svg.appendChild(svgEl('line', {x1:x, y1:26, x2:x, y2:H-8,
+      stroke:'#cbd5e1', 'stroke-width':'1', 'stroke-dasharray':'4,5'}));
+  });
+
+  // ---- THREATS + PREVENTIVE BARRIERS ----
+  THREATS.forEach((tid, i) => {
+    const ty = THREAT_YS[i];
+    const bids = THREAT_BARRIERS[tid];
+    const lastBright = B_CX[bids.length-1] + B_W/2;
+
+    // Horizontal spine: threat right edge → last barrier right edge
+    svg.appendChild(svgEl('line', {x1:T_CX+T_W/2, y1:ty, x2:lastBright, y2:ty,
+      stroke:'#374151', 'stroke-width':'1.8'}));
+
+    // Dashed extension to DIAG_L when < 3 barriers (T6 has only 2)
+    if (lastBright < DIAG_L) {
+      svg.appendChild(svgEl('line', {x1:lastBright, y1:ty, x2:DIAG_L, y2:ty,
+        stroke:'#9ca3af', 'stroke-width':'1.2', 'stroke-dasharray':'4,4'}));
+    }
+
+    // Fan diagonal: (DIAG_L, ty) → (FAN_L, EVT_CY)  — converges on circle left edge
+    svg.appendChild(svgEl('line', {x1:DIAG_L, y1:ty, x2:FAN_L, y2:EVT_CY,
+      stroke:'#374151', 'stroke-width':'1.5'}));
+
+    // Barrier boxes (gray style — no colour params needed)
+    bids.forEach((bid, j) => drawBarrierBox(svg, bid, B_CX[j], ty, 'bt-anim-l', i * 0.07 + j * 0.05 + 0.1));
+
+    // Threat box (blue)
+    const gT = makeGroup(tid);
+    gT.classList.add('bt-anim-l');
+    gT.style.animationDelay = (i * 0.07) + 's';
+    gT.appendChild(svgEl('rect', {x:T_CX-T_W/2, y:ty-T_H/2, width:T_W, height:T_H,
+      rx:'4', fill:'#2d5282', stroke:'#4a7ab5', 'stroke-width':'1.5', class:'node-bg'}));
+    const tlbl = (SHORT[tid]||tid).split('\n');
+    multilineText(gT, tlbl, T_CX, ty, '8.5', '#fff', '500', 12);
+    const tbadge = svgEl('text', {x:T_CX-T_W/2+4, y:ty-T_H/2+9, 'font-size':'7.5',
+      fill:'#90b8e0', 'font-weight':'700', 'font-family':"'Segoe UI',Arial,sans-serif"});
+    tbadge.textContent = tid; gT.appendChild(tbadge);
+    const tprob = svgEl('text', {x:T_CX+T_W/2-3, y:ty+T_H/2-4, 'text-anchor':'end',
+      'font-size':'7.5', fill:'#90b8e0', 'font-family':"'Segoe UI',Arial,sans-serif"});
+    tprob.textContent = 'P='+Math.round(REC[tid].pfd*100)+'%'; gT.appendChild(tprob);
+    svg.appendChild(gT);
+  });
+
+  // ---- CONSEQUENCES + MITIGATIVE BARRIERS ----
+  CONSEQS.forEach((cid, i) => {
+    const cy_n = THREAT_YS[i];
+    const sev = REC[cid].sev || 8;
+    const ccolor = SEVER_COLORS[sev] || '#b91c1c';
+    const bids = CONSEQ_BARRIERS[cid];
+    const lastMright = M_CX[bids.length-1] + M_W/2;
+
+    // Fan diagonal: (FAN_R, EVT_CY) → (DIAG_R, cy_n)  — diverges from circle right edge
+    svg.appendChild(svgEl('line', {x1:FAN_R, y1:EVT_CY, x2:DIAG_R, y2:cy_n,
+      stroke:'#374151', 'stroke-width':'1.5'}));
+
+    // Horizontal spine: DIAG_R → consequence left edge
+    svg.appendChild(svgEl('line', {x1:DIAG_R, y1:cy_n, x2:Q_CX-Q_W/2, y2:cy_n,
+      stroke:'#374151', 'stroke-width':'1.8'}));
+
+    // Dashed extension when < 3 barriers (C1, C2, C3, C4, C6 have only 2)
+    if (lastMright < M_CX[2]+M_W/2) {
+      svg.appendChild(svgEl('line', {x1:lastMright, y1:cy_n, x2:M_CX[2]+M_W/2, y2:cy_n,
+        stroke:'#9ca3af', 'stroke-width':'1.2', 'stroke-dasharray':'4,4'}));
+    }
+
+    // Barrier boxes
+    bids.forEach((bid, j) => drawBarrierBox(svg, bid, M_CX[j], cy_n, 'bt-anim-r', i * 0.07 + j * 0.05 + 0.1));
+
+    // Consequence box (red shades by severity)
+    const gC = makeGroup(cid);
+    gC.classList.add('bt-anim-r');
+    gC.style.animationDelay = (i * 0.07) + 's';
+    gC.appendChild(svgEl('rect', {x:Q_CX-Q_W/2, y:cy_n-Q_H/2, width:Q_W, height:Q_H,
+      rx:'4', fill:ccolor, stroke:'#fca5a5', 'stroke-width':'1.5', class:'node-bg'}));
+    const clbl = (SHORT[cid]||cid).split('\n');
+    multilineText(gC, clbl, Q_CX, cy_n, '8.5', '#fff', '500', 12);
+    const cbadge = svgEl('text', {x:Q_CX-Q_W/2+4, y:cy_n-Q_H/2+9, 'font-size':'7.5',
+      fill:'#fecaca', 'font-weight':'700', 'font-family':"'Segoe UI',Arial,sans-serif"});
+    cbadge.textContent = cid+' Sev:'+sev; gC.appendChild(cbadge);
+    svg.appendChild(gC);
+  });
+
+  // ---- CENTRE: hazard diamond (yellow) + event circle (red), drawn last ----
+  const gTE = makeGroup('TopEvent');
+  gTE.classList.add('bt-anim-c');
+  gTE.style.animationDelay = '0.42s';
+
+  // Thin connector between diamond bottom and circle top
+  const hazBot = HAZ_CY + HAZ_HH;   // 248
+  const evtTop = EVT_CY - EVT_R;    // 254
+  if (evtTop > hazBot) {
+    gTE.appendChild(svgEl('line', {x1:CTR_X, y1:hazBot, x2:CTR_X, y2:evtTop,
+      stroke:'#374151', 'stroke-width':'2'}));
+  }
+
+  // Hazard diamond — square-on-corner, road-sign style (thick black border, amber fill)
+  const hPts = CTR_X+','+(HAZ_CY-HAZ_HH)+' '+(CTR_X+HAZ_HW)+','+HAZ_CY+' '+CTR_X+','+(HAZ_CY+HAZ_HH)+' '+(CTR_X-HAZ_HW)+','+HAZ_CY;
+  gTE.appendChild(svgEl('polygon', {points:hPts, fill:'#fbbf24', stroke:'#111',
+    'stroke-width':'4', class:'node-bg'}));
+  ['Hazard:', 'Advanced AI', 'Autonomous', 'Strategic Agency'].forEach((txt, i) => {
+    const t = svgEl('text', {x:CTR_X, y:HAZ_CY-18+i*13, 'text-anchor':'middle',
+      'dominant-baseline':'middle', 'font-size':i===0?'9':'8',
+      fill:'#111', 'font-weight':i===0?'700':'600',
+      'font-family':"'Segoe UI',Arial,sans-serif"});
+    t.textContent = txt; gTE.appendChild(t);
+  });
+
+  // Event circle (red)
+  gTE.appendChild(svgEl('circle', {cx:CTR_X, cy:EVT_CY, r:EVT_R,
+    fill:'#dc2626', stroke:'#374151', 'stroke-width':'2'}));
+  ['Event:', 'Loss of Human', 'Control over AI', 'P(TE)…12.8%'].forEach((txt, i) => {
+    const t = svgEl('text', {x:CTR_X, y:EVT_CY-22+i*15, 'text-anchor':'middle',
+      'dominant-baseline':'middle',
+      'font-size':i===3?'9.5':'8.5',
+      fill:i===3?'#fbbf24':'#fff',
+      'font-weight':i===0||i===3?'700':'500',
+      'font-family':"'Segoe UI',Arial,sans-serif"});
+    t.textContent = txt; gTE.appendChild(t);
+  });
+
+  svg.appendChild(gTE);
+}
+
+// =============================================================
+// NODE DETAIL PANEL
+// =============================================================
+function selectNode(id) {
+  const r = REC[id];
+  if (!r) return;
+  const panel = document.getElementById('node-detail');
+  panel.classList.add('open');
+  const typeMap = {'Threat':'threat','Preventive Barrier':'preventive',
+    'Mitigative Barrier':'mitigative','Consequence':'consequence','Top Event':'topevent'};
+  const tc = typeMap[r.type] || 'topevent';
+
+  let html = '<h3>' + r.desc + '</h3><span class="nd-type ' + tc + '">' + r.type + '</span>';
+
+  if (r.pfd !== null && r.type === 'Threat') {
+    html += '<div class="nd-metric"><span class="lbl">Base probability</span><span class="val">' + (r.pfd*100).toFixed(1) + '%</span></div>';
+  } else if (r.pfd !== null) {
+    html += '<div class="nd-metric"><span class="lbl">Base PFD (failure rate)</span><span class="val">' + (r.pfd*100).toFixed(0) + '%</span></div>';
+    html += '<div class="nd-metric"><span class="lbl">Barrier effectiveness</span><span class="val">' + (100 - r.pfd*100).toFixed(0) + '%</span></div>';
+  }
+  if (r.sev !== null) {
+    html += '<div class="nd-metric"><span class="lbl">Severity score</span><span class="val">' + r.sev + ' / 10</span></div>';
+  }
+  if (r.type === 'Top Event') {
+    html += '<div class="nd-metric"><span class="lbl">Monte Carlo mean P(TE)</span><span class="val">12.83%</span></div>';
+    html += '<div class="nd-metric"><span class="lbl">90% credible interval</span><span class="val">11.3% &ndash; 14.4%</span></div>';
+    html += '<div class="nd-metric"><span class="lbl">Mean expected severity</span><span class="val">1.85 / 10</span></div>';
+  }
+  if (r.low !== null) {
+    html += '<div style="font-size:0.74rem;color:#64748b;margin:9px 0 4px">Triangular distribution range</div>';
+    html += '<div class="nd-range">'
+      + '<div class="r"><div class="rv">' + (r.low*100).toFixed(0) + '%</div><div class="rl">Low</div></div>'
+      + '<div class="r" style="background:#e0e7ff"><div class="rv" style="color:#1e1b4b">' + (r.med*100).toFixed(0) + '%</div><div class="rl">Base</div></div>'
+      + '<div class="r"><div class="rv">' + (r.high*100).toFixed(0) + '%</div><div class="rl">High</div></div>'
+      + '</div>';
+  }
+  if (r.notes) {
+    html += '<div class="nd-notes"><strong>Expert basis:</strong> ' + r.notes + '</div>';
+  }
+  panel.innerHTML = '<button class="nd-close" onclick="closeNodeDetail()" title="Close">&#x2715;</button>' + html;
+}
+
+function closeNodeDetail() {
+  document.getElementById('node-detail').classList.remove('open');
+}
+
+// =============================================================
+// HISTOGRAM
+// =============================================================
+function initHistogram() {
+  const min_v = Math.min(...MC_PTE), max_v = Math.max(...MC_PTE);
+  const nBins = 28;
+  const step = (max_v - min_v) / nBins;
+  const bins = Array(nBins).fill(0);
+  MC_PTE.forEach(v => {
+    const i = Math.min(Math.floor((v - min_v) / step), nBins-1);
+    bins[i]++;
+  });
+  const labels = bins.map((_, i) => ((min_v + (i+0.5)*step)*100).toFixed(1) + '%');
+  const mean_v = 0.128255, p5 = 0.112989, p95 = 0.144143;
+
+  const ctx = document.getElementById('hist-canvas').getContext('2d');
+  const chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{
+        label: 'Trial count',
+        data: bins,
+        backgroundColor: 'rgba(37,99,235,0.5)',
+        borderColor: 'rgba(37,99,235,0.8)',
+        borderWidth: 1,
+        borderRadius: 2,
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: {display:false},
+        tooltip: {
+          callbacks: {
+            title: items => 'P(Top Event) ≈ ' + items[0].label,
+            label: items => items[0].raw + ' trials out of 1,000'
+          }
+        }
+      },
+      scales: {
+        x: {
+          title: {display:true, text:'P(Loss of Control)', font:{size:12}},
+          ticks: {maxTicksLimit:10, font:{size:10}}
+        },
+        y: {
+          title: {display:true, text:'Number of trials', font:{size:12}},
+          beginAtZero: true
+        }
+      }
+    },
+    plugins: [{
+      id: 'vlines',
+      afterDraw(chart) {
+        const ctx2 = chart.ctx;
+        const xs = chart.scales.x;
+        const ys = chart.scales.y;
+        const toXPx = v => {
+          const frac = (v - min_v) / step;
+          return xs.getPixelForValue(frac);
+        };
+        [[mean_v,'#dc2626',2.5],[p5,'#2563eb',1.5],[p95,'#2563eb',1.5]].forEach(([v,col,lw]) => {
+          const x = toXPx(v);
+          ctx2.save();
+          ctx2.strokeStyle = col; ctx2.lineWidth = lw;
+          ctx2.setLineDash([5,4]);
+          ctx2.beginPath();
+          ctx2.moveTo(x, ys.top); ctx2.lineTo(x, ys.bottom);
+          ctx2.stroke(); ctx2.restore();
+        });
+      }
+    }]
+  });
+}
+
+// =============================================================
+// TORNADO CHART
+// =============================================================
+function initSensitivity() {
+  const sorted = [...SENS].sort((a,b) =>
+    (Math.abs(b.low) + b.high) - (Math.abs(a.low) + a.high));
+  const labels = sorted.map(s => s.group);
+  const lowVals = sorted.map(s => s.low);
+  const highVals = sorted.map(s => s.high);
+
+  const ctx = document.getElementById('tornado-canvas').getContext('2d');
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [
+        {label:'Low scenario (optimistic barriers)', data:lowVals,
+          backgroundColor:'rgba(22,163,74,0.6)', borderColor:'rgba(22,163,74,0.9)',
+          borderWidth:1, borderRadius:3},
+        {label:'High scenario (pessimistic barriers)', data:highVals,
+          backgroundColor:'rgba(220,38,38,0.6)', borderColor:'rgba(220,38,38,0.9)',
+          borderWidth:1, borderRadius:3}
+      ]
+    },
+    options: {
+      indexAxis:'y', responsive:true, maintainAspectRatio:false,
+      plugins: {
+        legend: {position:'top', labels:{font:{size:11}}},
+        tooltip: {
+          callbacks: {
+            label: item => item.dataset.label + ': ' + (item.raw>0?'+':'') + item.raw + '% from base'
+          }
+        }
+      },
+      scales: {
+        x: {
+          title: {display:true, text:'% change in mean P(Top Event) from base (12.83%)', font:{size:11}},
+          ticks: {callback: v => v+'%', font:{size:10}},
+          grid: {color:'#e2e8f0'}
+        },
+        y: {
+          ticks: {
+            font:{size:10},
+            callback(val) {
+              const lbl = this.getLabelForValue(val);
+              return lbl.length > 44 ? lbl.substring(0,44)+'…' : lbl;
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+// =============================================================
+// ADVANCED SCENARIO PANEL
+// =============================================================
+function toggleAdvanced() {
+  const panel = document.getElementById('advanced-panel');
+  const btn = document.getElementById('adv-btn');
+  const open = panel.classList.toggle('open');
+  btn.textContent = open ? '× Close Scenario Explorer' : '⚙ Scenario Explorer';
+  if (open && !window._advDone) { initAdvanced(); window._advDone = true; }
+}
+
+function sliderRow(id, step) {
+  const r = REC[id];
+  const isT = r.type === 'Threat';
+  const sd = r.desc.length > 38 ? r.desc.substring(0,38)+'…' : r.desc;
+  const loLbl = isT ? 'Low: ' : 'Low PFD: ';
+  const hiLbl = isT ? 'High: ' : 'High PFD: ';
+  return '<div class="sl-row">'
+    + '<div class="sl-label"><span><span class="sid">' + id + '</span> ' + sd + '</span>'
+    + '<span class="sval" id="sv-' + id + '">' + Math.round(r.pfd*100) + '%</span></div>'
+    + '<input type="range" id="sl-' + id + '" data-sid="' + id + '" min="' + r.low + '" max="' + r.high + '" step="' + step + '" value="' + r.pfd + '">'
+    + '<div class="sl-ends"><span>' + loLbl + Math.round(r.low*100) + '%</span>'
+    + '<span>' + hiLbl + Math.round(r.high*100) + '%</span></div></div>';
+}
+
+function initAdvanced() {
+  const grid = document.getElementById('sliders-grid');
+  let html = '';
+
+  html += '<div class="sl-section"><h4>Threat Base Probabilities</h4>';
+  THREATS.forEach(tid => { html += sliderRow(tid, '0.005'); });
+  html += '</div>';
+
+  THREATS.forEach(tid => {
+    html += '<div class="sl-section"><h4>Preventive Barriers — ' + tid + '</h4>';
+    THREAT_BARRIERS[tid].forEach(bid => { html += sliderRow(bid, '0.01'); });
+    html += '</div>';
+  });
+
+  CONSEQS.forEach(cid => {
+    html += '<div class="sl-section"><h4>Mitigative Barriers — ' + cid + '</h4>';
+    CONSEQ_BARRIERS[cid].forEach(bid => { html += sliderRow(bid, '0.01'); });
+    html += '</div>';
+  });
+
+  grid.innerHTML = html;
+
+  // Single delegated listener — no inline event handlers needed
+  grid.addEventListener('input', function(e) {
+    if (e.target.type === 'range' && e.target.dataset.sid) {
+      var sid = e.target.dataset.sid;
+      var label = document.getElementById('sv-' + sid);
+      if (label) label.textContent = Math.round(parseFloat(e.target.value) * 100) + '%';
+      recalculate();
+    }
+  });
+
+  recalculate();
+}
+
+function recalculate() {
+  const getV = id => {
+    const el = document.getElementById('sl-'+id);
+    return el ? parseFloat(el.value) : (REC[id] ? REC[id].pfd : 0);
+  };
+  let prod = 1;
+  THREATS.forEach(tid => {
+    const pT = getV(tid);
+    let bp = 1;
+    THREAT_BARRIERS[tid].forEach(bid => bp *= getV(bid));
+    prod *= (1 - pT * bp);
+  });
+  const pTE = 1 - prod;
+  let expSev = 0;
+  CONSEQS.forEach(cid => {
+    let bp = 1;
+    CONSEQ_BARRIERS[cid].forEach(bid => bp *= getV(bid));
+    expSev += pTE * bp * (REC[cid].sev || 0);
+  });
+  document.getElementById('live-pte').textContent = (pTE*100).toFixed(1) + '%';
+  document.getElementById('live-sev').textContent = expSev.toFixed(2);
+}
+
+function applyScenario(scenario) {
+  const allIds = [...THREATS,
+    ...THREATS.flatMap(t => THREAT_BARRIERS[t]),
+    ...CONSEQS.flatMap(c => CONSEQ_BARRIERS[c])];
+  allIds.forEach(id => {
+    const el = document.getElementById('sl-'+id);
+    const sv = document.getElementById('sv-'+id);
+    if (!el || !REC[id]) return;
+    const r = REC[id];
+    const val = scenario==='optimistic' ? r.low : scenario==='pessimistic' ? r.high : r.pfd;
+    el.value = val;
+    if (sv) sv.textContent = Math.round(val*100) + '%';
+  });
+  recalculate();
+}
+
+// =============================================================
+// INIT
+// =============================================================
+drawBowtie();
+</script>
+</body>
+</html>
