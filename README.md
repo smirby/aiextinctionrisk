@@ -1,6 +1,6 @@
 # aiextinctionrisk.ca
 
-Companion website for *Artificial Intelligence and Human Extinction Risk* by William Leiss and Richard Smith (McGill-Queen's University Press).
+Companion website for *From Tool to Actor: Artificial Intelligence and Human Extinction Risk* by William Leiss and Richard Smith (McGill-Queen's University Press).
 
 ## Local Development
 
