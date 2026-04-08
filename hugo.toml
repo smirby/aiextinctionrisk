@@ -31,7 +31,7 @@ title = "From Tool to Actor: Artificial Intelligence and Human Extinction Risk"
     weight = 4
   [[menu.main]]
     name = "Governance"
-    url = "/governance/"
+    url = "/about/governance/"
     weight = 5
   [[menu.main]]
     name = "Resources"
