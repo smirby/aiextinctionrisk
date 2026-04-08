@@ -8,6 +8,7 @@ title = "From Tool to Actor: Artificial Intelligence and Human Extinction Risk"
 [params]
   authors = "William Leiss and Richard Smith"
   publisher = "McGill-Queen's University Press"
+  show_publisher = false
   description = "Companion website for From Tool to Actor: Artificial Intelligence and Human Extinction Risk by William Leiss and Richard Smith"
   status = "forthcoming"
 

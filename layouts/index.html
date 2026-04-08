@@ -4,7 +4,7 @@
 
   {{ with .Site.Params.status }}
     {{ if eq . "forthcoming" }}
-    <p class="status-note">Publication details forthcoming from {{ $.Site.Params.publisher }}.</p>
+    <p class="status-note">Publication details forthcoming{{ if $.Site.Params.show_publisher }} from {{ $.Site.Params.publisher }}{{ end }}.</p>
     {{ end }}
   {{ end }}
 

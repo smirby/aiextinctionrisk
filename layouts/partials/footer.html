@@ -1,4 +1,4 @@
 <footer>
-  <p>&copy; {{ now.Year }} {{ .Site.Params.authors }}. Published by {{ .Site.Params.publisher }}.</p>
+  <p>&copy; {{ now.Year }} {{ .Site.Params.authors }}{{ if .Site.Params.show_publisher }}. Published by {{ .Site.Params.publisher }}{{ end }}.</p>
   <p>This site was built with AI assistance. <a href="/about/book/#how-we-used-ai">How we used AI</a></p>
 </footer>
