@@ -5,7 +5,7 @@ categories: ["What's Changed"]
 draft: false
 ---
 
-Yesterday we heard about the new version of Anthropic's latest AI, Claude. Named Claude Mythos - replacing the awkward Claude Capybara that leaked out a few weeks ago when Anthropic mistakenly published its own source code to the internet - the new model is reportedly a "step change" from what we've had before.
+Yesterday we heard about the new version of Anthropic's latest AI, Claude. Named Claude Mythos - replacing the awkwardly-named Claude Capybara that leaked out a few weeks ago when Anthropic mistakenly published its own source code to the internet - the new model is reportedly a "step change" from what we've had before.
 
 I'm trying to imagine what that might be like. I am a regular user of the current Claude and (to save money) often "dial it back" to the prior version (Claude Sonnet 4.6). I am perfectly happy with that. What could they be building? Or, have they built?
 
