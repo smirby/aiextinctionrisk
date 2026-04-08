@@ -2,9 +2,9 @@
 title: "From Tool to Actor: Artificial Intelligence and Human Extinction Risk"
 ---
 
-## William Leiss and Richard Smith
+## By William Leiss and Richard Smith
 
-**By William Leiss and Richard Smith**
+
 
 This forthcoming book presents a comprehensive analysis of the risks associated with Artificial Intelligence (AI), in the context of the *impending transition of artificial intelligence from a passive tool to an autonomous actor.* 
 
