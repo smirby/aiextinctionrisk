@@ -2,59 +2,62 @@
 title: "About the Book"
 ---
 
-*From Tool to Actor: Artificial Intelligence and Human Extinction Risk* examines whether humanity can maintain meaningful control over increasingly capable AI systems. Written for concerned citizens rather than specialists, the book brings risk assessment methods from nuclear safety and technology governance to bear on a question that is usually discussed in either technical or speculative terms.
+## By William Leiss and Richard Smith
 
-## The Leiss Framework
+This forthcoming book presents a comprehensive analysis of the risks associated with Artificial Intelligence (AI), in the context of the *impending transition of artificial intelligence from a passive tool to an autonomous actor.* 
 
-The book introduces a distinction between two fundamentally different approaches to AI safety. **External control** encompasses monitoring, constraining, and overseeing AI systems from the outside: the kind of oversight that most current governance proposals rely on. **Self-control** refers to building intrinsic values into the systems themselves, so that safe behaviour is constitutive rather than strategic.
+The authors argue that while current AI provides significant benefits in medicine and science, there is an underlying risk that humans could *lose control* over the advanced AI systems (also known as frontier AI) which are now being created, leading to potentially catastrophic outcomes for humanity. The book’s chapter which presents an original probabilistic safety assessment of loss of control estimates a 1 in 8 chance of this eventuality occurring by the mid-21st century.
 
-This distinction, grounded in Max Weber's analysis of instrumental and value rationality and extending the critical theory of Herbert Marcuse, reveals a structural gap in current AI governance: nearly every existing policy framework relies on external control alone, while the systems they aim to govern grow steadily more capable of evading such constraints.
+The second important underlying risk is the ongoing effort to create superintelligence, defined as a machine whose cognitive and operational capacities exceed that of humans by a wide margin. The authors argue that this development represents a credible risk of human extinction and call for an immediate global prohibition on developing superintelligent systems*.*
 
-## The Tool-to-Actor Gradient
+Finally, they contend that existing and proposed government regulations of AI are structurally inadequate because they treat AI as a controllable product rather than an adaptive, and sometimes deceptive, entity. The work emphasizes that *internal self-control must be architecturally guaranteed* before such powerful technologies are integrated into society.
 
-The book also develops a framework for understanding how AI systems move from passive instruments under full human direction toward autonomous actors capable of independent judgment and action. The **CASX threshold formula** (Capability, Autonomy, Scale, Access) provides an analytical tool for assessing where any given system sits on this gradient.
+The companion website will launch fully at publication, with ongoing commentary, an annotated bibliography, interactive tools, and resources for readers.
 
-This transition does not require a single dramatic breakthrough. It can occur incrementally, through the routine delegation of consequential decisions to machines, each step reasonable on its own terms, the cumulative effect difficult to reverse.
+*Publication details forthcoming. *
 
-## Chapter Overview
+### *Tentative Table of Contents:*
 
-- Preface 
+Preface
 
-**Part One: Hazard Identification**
+#### Part One: Hazard Identification 
 
-- Introduction
-- Chapter 1: The Good
-- Chapter 2: The Bad
-- Chapter 3: The Ugly
+Introduction
 
-**Part Two: System Dynamics**
+Chapter 1: The Good
 
-- Chapter 4: Governing AI
-- Chapter 5: The Superhuman Machine
+Chapter 2: The Bad
 
-**Part Three: Risk Characterization**
+Chapter 3: The Ugly
 
-- Chapter 6: What is Risk?
-- Chapter 7: The Control Problem
-- Chapter 8: Agency and Absolute Risk
-- Chapter 9: Risk Profile of Superintelligence
-- Chapter 10: Risk Estimation
-- Chapter 11: Quantitative Risk Assessment for Loss of  Control from Advanced AI
+#### Part Two: System Dynamics
 
-**Part Four: Risk Management**
+Chapter 4: Governing AI
 
-- Chapter 12: AI Risk Mitigation Options
-- Chapter 13: The Heart of Darkness
-- Chapter 14: The Ultimate Question
-- Chapter 15: What Should Members of the Public Do?
-- Chapter 16: What Should Governments Do?
+Chapter 5: The Superhuman Machine
 
-Plus: References, Appendix (13 Theses), Acknowledgements.
+#### Part Three: Risk Characteristics
 
-## How We Used AI {#how-we-used-ai}
+Chapter 6: What is Risk?
 
-This book was written with extensive AI assistance. Claude (Anthropic) served as a research assistant, editorial collaborator, and analytical sounding board throughout the drafting process. Every substantive decision, every argument, and every word in the final manuscript was reviewed and approved by the human authors. No AI-generated text appears without human editorial judgment behind it.
+Chapter 7: The Control Problem
 
-The companion website extends this practice: the site architecture was designed in conversation with Claude, and the code was developed with Claude's assistance. The site itself demonstrates the book's argument about the tool-to-actor gradient: AI as a capable instrument under meaningful human direction.
+Chapter 8: Agency and Absolute Risk
 
-A full account of how AI was used in the writing of this book appears in the published volume.
+Chapter 9: Risk Profile: Superintelligence
+
+Chapter 10: Risk Estimation
+
+Chapter 11: Quantitative Risk Estimation for Loss of Control from Advanced AI
+
+#### Part Four: Risk Management
+
+Chapter 12: AI Risk Mitigation Options
+
+Chapter 13: The Heart of Darkness
+
+Chapter 14: The Ultimate Question
+
+Chapter 15: What Should the Public Do?
+
+Chapter 16: What Should Governments Do?
