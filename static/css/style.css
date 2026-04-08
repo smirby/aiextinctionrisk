@@ -112,6 +112,13 @@ footer {
   margin-left: 0.5rem;
 }
 
+/* Read more link on blog list */
+.read-more {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+}
+
 /* Status note (for pre-publication) */
 .status-note {
   font-style: italic;

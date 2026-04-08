@@ -12,6 +12,7 @@
         </span>
       {{ end }}
       {{ with .Summary }}<p>{{ . }}</p>{{ end }}
+      <a class="read-more" href="{{ .RelPermalink }}">Read more →</a>
     </article>
   {{ end }}
 </section>
