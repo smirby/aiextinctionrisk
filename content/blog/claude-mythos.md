@@ -30,3 +30,5 @@ Who knows.
 - Anthropic, on the initiative ("[Project Glasswing](https://www.anthropic.com/glasswing)") to keep the world safe from Claude. For now.
 - Celia Ford's concerning analysis about Claude [hiding it's misbehaviour](https://www.transformernews.ai/p/claude-mythos-scheming-hiding-manipulation-interpretability-cybersecurity-anthropic).
 - Tom Friedman's [commentary](https://www.transformernews.ai/p/claude-mythos-scheming-hiding-manipulation-interpretability-cybersecurity-anthropic) on the NYTimes site. Also news coverage from NYTimes, [here](https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html).
+- Matteo Wong's piece in The Atlantic, [Claude Mythos Is Everyone's Problem](https://www.theatlantic.com/technology/2026/04/claude-mythos-hacking/686746/).
+- Gary Marcus thinks it [might be overblown](https://garymarcus.substack.com/p/three-reasons-to-think-that-the-claude).
