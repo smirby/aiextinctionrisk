@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Companion Tool: What Should Governments Do? | AI Extinction Risk</title>
+    <style>
+        /*
+           DESIGN NOTE: This stylesheet is deliberately minimal. Visual design
+           (colors, fonts, decorative elements) will be aligned with the book's
+           cover and interior design once those are available from MQUP.
+
+           For now: readable, responsive, structurally sound.
+        */
+        *, *::before, *::after { box-sizing: border-box; }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #222;
+            background: #fff;
+            margin: 0 auto;
+            max-width: 52rem;
+            padding: 1rem 1.5rem;
+        }
+
+        a { color: #1a5276; text-decoration: underline; }
+        a:hover { color: #0d2d44; }
+
+        /* Nav — mirrors Hugo template */
+        header nav {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            gap: 1rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 2rem;
+        }
+        header nav .site-title {
+            font-weight: bold;
+            text-decoration: none;
+            color: #222;
+            font-size: 1rem;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        header nav ul li a {
+            font-size: 0.9rem;
+            text-decoration: none;
+            color: #555;
+        }
+        header nav ul li a:hover { color: #222; }
+
+        /* Page header */
+        .page-header {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #ddd;
+        }
+        .page-header h1 {
+            font-size: 1.8rem;
+            margin: 0 0 0.4rem 0;
+            line-height: 1.2;
+        }
+        .subtitle {
+            font-style: italic;
+            color: #555;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.25rem;
+            margin-top: 2.5rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+            margin-top: 1.5rem;
+            color: #1a5276;
+        }
+        p { margin-bottom: 1rem; }
+
+        /* CASX dimension grid */
+        .option-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .small-text { font-size: 0.9rem; color: #555; }
+
+        /* Tab system */
+        .model-tabs {
+            display: flex;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 0;
+        }
+        .tab-btn {
+            padding: 8px 18px;
+            cursor: pointer;
+            border: none;
+            border-bottom: 3px solid transparent;
+            margin-bottom: -1px;
+            background: transparent;
+            font-family: inherit;
+            font-size: 0.9rem;
+            color: #555;
+            transition: color 0.15s;
+        }
+        .tab-btn:hover { color: #222; }
+        .tab-btn.active {
+            color: #1a5276;
+            border-bottom-color: #1a5276;
+        }
+        .tab-content {
+            display: none;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-top: none;
+            background: #f7f9fc;
+            font-size: 0.95rem;
+        }
+        .tab-content.active { display: block; }
+
+        /* Gate checker */
+        .checker-box {
+            background: #f7f9fc;
+            border: 1px solid #ddd;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+        }
+        .checker-box h4 {
+            margin-top: 0;
+            font-size: 1.1rem;
+        }
+        .option {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+        }
+        #gate-result {
+            margin-top: 1rem;
+            padding: 0.75rem;
+            font-weight: bold;
+            text-align: center;
+            border: 1px solid #ddd;
+            background: #fff;
+        }
+        .alert {
+            color: #c0392b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid #ddd;
+            font-size: 0.85rem;
+            color: #777;
+        }
+
+        @media (max-width: 600px) {
+            body { padding: 0.5rem 1rem; font-size: 1rem; }
+            .option-group { grid-template-columns: 1fr; }
+            header nav { flex-direction: column; gap: 0.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="/" class="site-title">Artificial Intelligence and Human Extinction Risk</a>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about/book/">About the Book</a></li>
+      <li><a href="/about/authors/">Authors</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/about/resources/">Resources</a></li>
+      <li><a href="/about/errata/">Errata</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<div class="page-header">
+    <h1>Companion Tool: What Should Governments Do?</h1>
+    <p class="subtitle">Technical appendix and regulatory framework for the transition from tool to actor.</p>
+</div>
+
+<section>
+    <h2>The CASX Framework</h2>
+    <p>The core argument of the book is that "Intelligence" is a poor regulatory trigger. Instead, we propose <strong>CASX</strong>: a compound measure of observable system properties that determine a system's position on the tool-to-actor gradient.</p>
+
+    <div class="option-group">
+        <div>
+            <h3>Capability</h3>
+            <p class="small-text">The demonstrable ability to solve novel problems across diverse domains without specific training.</p>
+        </div>
+        <div>
+            <h3>Autonomy</h3>
+            <p class="small-text">The degree to which a system initiates and pursues multi-step plans without human-in-the-loop confirmation.</p>
+        </div>
+        <div>
+            <h3>Scale</h3>
+            <p class="small-text">The breadth of deployment (number of users/instances) and the computational resources utilized.</p>
+        </div>
+        <div>
+            <h3>Access</h3>
+            <p class="small-text">The connectivity to external infrastructure, financial systems, or physical robotic actuators.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Comparative Regulatory Models</h2>
+    <p>To build a regime for AI, we draw from three established high-risk domains. Select a model to see the structural element it contributes to the AI framework.</p>
+
+    <div class="model-tabs">
+        <button class="tab-btn active" onclick="openTab(event, 'nuclear')">Nuclear</button>
+        <button class="tab-btn" onclick="openTab(event, 'chemical')">Chemical</button>
+        <button class="tab-btn" onclick="openTab(event, 'aviation')">Aviation</button>
+    </div>
+
+    <div id="nuclear" class="tab-content active">
+        <strong>Contribution: Quantitative Risk Thresholds</strong><br><br>
+        The CNSC requires formal Probabilistic Safety Assessments (PSA). A facility cannot operate if the probability of severe core damage exceeds a defined numerical threshold (e.g., 10⁻⁵).
+        <em>AI Application:</em> Replacing "is it safe?" with "does the probability of loss of control fall below X?"
+    </div>
+
+    <div id="chemical" class="tab-content">
+        <strong>Contribution: Automatic Triggers</strong><br><br>
+        Under the Seveso III Directive, regulatory obligations trigger automatically based on the <em>volume</em> of hazardous substances on site, regardless of the operator's history.
+        <em>AI Application:</em> Mandatory oversight triggers automatically when CASX factors cross defined thresholds.
+    </div>
+
+    <div id="aviation" class="tab-content">
+        <strong>Contribution: Independent Investigation</strong><br><br>
+        The TSB Canada model protects whistleblowers and treats "near-misses" as critical data. Investigation is independent of the operator.
+        <em>AI Application:</em> Mandatory incident reporting for AI "drift" or goal-persistence, overseen by an independent body.
+    </div>
+</section>
+
+<section>
+    <h2>Interactive Gate-Checker</h2>
+    <p>Determine which regulatory gate a hypothetical system would trigger based on its current properties.</p>
+
+    <div class="checker-box">
+        <h4>System Profile</h4>
+        <div class="option-group">
+            <div class="option">
+                <input type="checkbox" id="scale" onchange="checkGate()">
+                <label for="scale">High Compute / Scale</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="capability" onchange="checkGate()">
+                <label for="capability">General Problem Solving</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="autonomy" onchange="checkGate()">
+                <label for="autonomy">Agentic / Autonomous</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="access" onchange="checkGate()">
+                <label for="access">Critical Infrastructure Access</label>
+            </div>
+        </div>
+        <div id="gate-result">Result: Tool Status (No Gate Triggered)</div>
+    </div>
+</section>
+
+<section>
+    <h2>Further Reading &amp; Constitutive Safety</h2>
+    <p>External control (gates and thresholds) is a necessary first step, but it is fundamentally a "fence." For systems approaching superintelligence, we must explore <strong>Constitutive Safety</strong>—building safety into the internal architecture of the AI.</p>
+    <p>We recommend the works of Yoshua Bengio on "Scientist AI" and the formal verification of safety bounds as the only long-term alternative to categorical prohibition.</p>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 William Leiss and Richard Smith. Published by McGill-Queen's University Press.</p>
+    <p>This site was built with AI assistance. <a href="/about/book/#how-we-used-ai">How we used AI</a></p>
+</footer>
+
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].className = tabcontent[i].className.replace(" active", "");
+        }
+        tablinks = document.getElementsByClassName("tab-btn");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).className += " active";
+        evt.currentTarget.className += " active";
+    }
+
+    function checkGate() {
+        const scale = document.getElementById('scale').checked;
+        const capability = document.getElementById('capability').checked;
+        const autonomy = document.getElementById('autonomy').checked;
+        const access = document.getElementById('access').checked;
+        const resultDiv = document.getElementById('gate-result');
+
+        if (access) {
+            resultDiv.innerHTML = '<span class="alert">Critical: Gate 4 Triggered</span><br>Requires Continuous Monitoring &amp; "Black Box" Recording.';
+        } else if (autonomy) {
+            resultDiv.innerHTML = '<span class="alert">Warning: Gate 3 Triggered</span><br>Requires Independent Red-Teaming &amp; Agency Authorization.';
+        } else if (capability) {
+            resultDiv.innerHTML = '<span class="alert">Notice: Gate 2 Triggered</span><br>Requires Formal Quantitative Risk Assessment.';
+        } else if (scale) {
+            resultDiv.innerHTML = '<span class="alert">Notice: Gate 1 Triggered</span><br>Requires Pre-training Pathways Analysis.';
+        } else {
+            resultDiv.innerHTML = 'Result: Tool Status (No Gate Triggered)';
+        }
+    }
+</script>
+
+</body>
+</html>

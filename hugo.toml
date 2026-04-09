@@ -18,29 +18,21 @@ title = "From Tool to Actor: Artificial Intelligence and Human Extinction Risk"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "About the Book"
-    url = "/about/book/"
-    weight = 2
-  [[menu.main]]
     name = "Authors"
     url = "/about/authors/"
-    weight = 3
+    weight = 2
   [[menu.main]]
     name = "Blog"
     url = "/blog/"
-    weight = 4
-  [[menu.main]]
-    name = "Governance"
-    url = "/about/governance/"
-    weight = 5
+    weight = 3
   [[menu.main]]
     name = "Resources"
     url = "/about/resources/"
-    weight = 6
+    weight = 4
   [[menu.main]]
     name = "Errata"
     url = "/about/errata/"
-    weight = 7
+    weight = 5
 
 [taxonomies]
   category = "categories"
