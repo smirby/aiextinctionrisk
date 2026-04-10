@@ -32,3 +32,4 @@ Who knows.
 - Tom Friedman's [commentary](https://www.transformernews.ai/p/claude-mythos-scheming-hiding-manipulation-interpretability-cybersecurity-anthropic) on the NYTimes site. Also news coverage from NYTimes, [here](https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html).
 - Matteo Wong's piece in The Atlantic, [Claude Mythos Is Everyone's Problem](https://www.theatlantic.com/technology/2026/04/claude-mythos-hacking/686746/).
 - Gary Marcus thinks it [might be overblown](https://garymarcus.substack.com/p/three-reasons-to-think-that-the-claude).
+- Zvi Mowshowitz tells us it is [NOT overblown](https://thezvi.substack.com/p/claude-mythos-the-system-card).

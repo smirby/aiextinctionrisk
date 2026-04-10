@@ -1,7 +1,7 @@
 ---
 Title: "It's not the adjectives - Part III"
 Date: "2026-04-09"
-Categories: "AI Safety"
+Categories: ["AI Safety"]
 Draft: true
 ---
 
