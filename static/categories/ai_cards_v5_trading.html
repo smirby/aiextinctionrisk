@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Stance Cards</title>
+<style>
+body{font-family:system-ui;margin:0;background:#faf7f3}
+.container{max-width:1200px;margin:auto;padding:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+
+/* Portrait card */
+.card{perspective:1200px}
+.card-inner{position:relative;height:420px;transition:.6s;transform-style:preserve-3d}
+.card.flipped .card-inner{transform:rotateY(180deg)}
+
+.face{position:absolute;width:100%;height:100%;backface-visibility:hidden;border-radius:18px;padding:14px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid rgba(0,0,0,.1);box-shadow:0 8px 20px rgba(0,0,0,.08)}
+
+.front{color:#111}
+.badge{font-size:24px;margin-bottom:6px}
+.title{font-weight:800;font-size:18px}
+.tag{font-size:13px;opacity:.8}
+
+.back{transform:rotateY(180deg);background:#fff;font-size:12px;overflow:auto}
+
+.section{border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:8px;margin-bottom:6px;background:#f9f9f9}
+.section h4{margin:0 0 4px;font-size:11px;text-transform:uppercase;letter-spacing:.05em;opacity:.6}
+.section p{margin:0}
+
+button{cursor:pointer}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>AI stance cards (after Rob Bensinger)</h1>
+<p>Categories and names are from Rob Bensinger. Commentary adds interpretive context.</p>
+<div class="grid" id="grid"></div>
+</div>
+
+<script>
+const data=[
+{
+name:"Optimistic Accelerationists",
+color:"#ead5cf",
+badge:"🚀",
+tag:"Race ahead",
+meaning:"Supports rapid AI development and views risks as manageable or overstated.",
+origin:"Techno-optimist and industry-driven narratives.",
+caveat:"Flattens differences between pragmatic builders and ideological accelerationists.",
+figures:"LeCun, Ng, Brockman"
+},
+{
+name:"Centrists",
+color:"#e5dbda",
+badge:"⚖️",
+tag:"Moderate regulation",
+meaning:"Advocates continued development with guardrails and oversight.",
+origin:"Mainstream policy and corporate governance discourse.",
+caveat:"May obscure differences between cautious and status-quo positions.",
+figures:"Pichai, Nadella"
+},
+{
+name:"Delayists",
+color:"#ecd7e8",
+badge:"⏳",
+tag:"Slow or align",
+meaning:"Sees both slowing development and improving alignment as viable paths.",
+origin:"AI safety and alignment community discussions.",
+caveat:"Combines distinct strategic approaches under one label.",
+figures:"Hinton, Hassabis"
+}
+];
+
+const grid=document.getElementById("grid");
+
+data.forEach(c=>{
+ const card=document.createElement("div");
+ card.className="card";
+ card.innerHTML=`
+ <div class="card-inner">
+   <div class="face front" style="background:${c.color}">
+     <div>
+       <div class="badge">${c.badge}</div>
+       <div class="title">${c.name}</div>
+     </div>
+     <div class="tag">${c.tag}</div>
+     <div>Flip for context</div>
+   </div>
+   <div class="face back">
+     <div class="section"><h4>What it means</h4><p>${c.meaning}</p></div>
+     <div class="section"><h4>Where it comes from</h4><p>${c.origin}</p></div>
+     <div class="section"><h4>Caveat</h4><p>${c.caveat}</p></div>
+     <div class="section"><h4>Associated figures</h4><p>${c.figures}</p></div>
+   </div>
+ </div>`;
+ card.onclick=()=>card.classList.toggle("flipped");
+ grid.appendChild(card);
+});
+</script>
+</body>
+</html>
