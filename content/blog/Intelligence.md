@@ -2,7 +2,7 @@
 title: "Is intelligence all there is?"
 date: 2026-04-06
 categories: ["AI Safety"]
-draft: false
+draft: true
 ---
 I am taking a course online on AI Safety. It is run by [Lens Academy](https://lensacademy.org) and it is pretty good. I'm happy to be doing it, in part because we are waiting for the reviews to come in for the book and in the mean time there is only so much editing you can do.
 
