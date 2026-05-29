@@ -13,3 +13,9 @@ Interactive tools for the book are available now. Further resources — annotate
 **[G20 AI Governance Comparison](/governance/)** — Filterable comparison of AI governance approaches across G20 member states.
 
 **[AI Risk Stance Deck](/flip/)** -- Flip the cards to explore the AI Risk argument map. Who says what in the rhetoric around AI Risk.
+
+### Interactive Tools from others
+
+[AI Safety Regulations Map](https://ai-safety-regulations.com/) - check out your country by clicking
+
+[Failure Mode Atlas](https://failuremodeatlas.vercel.app) - Jacob Ortiz' "map" (conceptual map) of AI safety concepts, failure modes, modes of "loss of control"

@@ -5,7 +5,7 @@ categories: ["AI Safety"]
 draft: true
 ---
 
-# It's not the adjectives
+# It's not (just) the adjectives
 
 I am becoming less and less interested in the adjectives tacked on to artificial intelligence.  Super. General. Transformative. While these adjectives get defined, debated, and re-defined, the products keep coming. And the risks are piling up. I want to focus on what really matters. 
 
@@ -23,7 +23,7 @@ You might say, who cares, why split hairs? If super smart AI decides to take act
 
 There is an even more insideous aspect of relying on intelligence as your marker for danger. To the the extent that people who are trying to put a pin in the AI "bubble" (e.g., Bender, Marcus. Doctorow) succeed in their quest, they divert our attention from a real problem. AI actors may not be as smart as some claim, but if they develop the capacity for action through agentic deployment, they are dangerous indeed.
 
-Those terms (super, general, transformative) are also blurry. They are not defined clearly, and if they are defined clearly in one place, they are defined differently (but also clearly) in another place. Knowing when a "step" has been taken is not obvious. Sometimes we get comparisons rather than definitions (a country of geniuses, a datacentre of Einsteins).
+Those terms (super, general, transformative) are also blurry. They are not defined clearly, and if they are defined clearly in one place, they are defined differently (but also clearly) in another place. Knowing when a "step" has been taken is not obvious. Sometimes we get comparisons rather than definitions (a country of geniuses, a datacentre of Einsteins). Helen Toner thinks it's time to [drop AGI as a reference point](https://helentoner.substack.com/p/the-term-agi-is-almost-useless-at).
 
 But then why rely on this terminology? Especially when it is only a proxy for the problem?
 
