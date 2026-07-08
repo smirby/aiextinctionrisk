@@ -2,7 +2,7 @@
 title: "Gemma builds a website"
 date: 2026-04-02
 categories: ["Using AI"]
-draft: true
+draft: false
 ---
 
 ## Gemma builds a website
