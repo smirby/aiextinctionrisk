@@ -37,7 +37,7 @@ Chapter 9: Quantitative Risk Assessment for Loss of Control (By Michael G. Tyshe
 ### Part Three: Governance and Risk Management
 
 Chapter 10: Regulation
-Chapter 11: Some Possible Solutions
+Chapter 11: Risk Mitigation Options
 Chapter 12: Heart of Darkness
 Chapter 13: Blaming the Victims
 Chapter 14: What Should the Public Do?
