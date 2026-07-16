@@ -20,29 +20,30 @@ Preface
 
 ### Part One: Artificial Intelligence
 
-Introduction
-Chapter 1: The Good
-Chapter 2: The Bad
-Chapter 3: The Ugly
-Chapter 4: The Superhuman Machine
+- Introduction
+
+- Chapter 1: The Good
+- Chapter 2: The Bad
+- Chapter 3: The Ugly
+- Chapter 4: The Superhuman Machine
 
 ### Part 2: Risk Policy and Analysis
 
-Chapter 5: The Risk-Based Approach
-Chapter 6: The Control Problem
-Chapter 7: Catastrophic and Existential Risks
-Chapter 8: Risk Estimation
-Chapter 9: Quantitative Risk Assessment for Loss of Control (By Michael G. Tyshenko)
+- Chapter 5: The Risk-Based Approach
+- Chapter 6: The Control Problem
+- Chapter 7: Catastrophic and Existential Risks
+- Chapter 8: Risk Estimation
+- Chapter 9: Quantitative Risk Assessment for Loss of Control (By Michael G. Tyshenko)
 
 ### Part Three: Governance and Risk Management
 
-Chapter 10: Regulation
-Chapter 11: Risk Mitigation Options
-Chapter 12: Heart of Darkness
-Chapter 13: Blaming the Victims
-Chapter 14: What Should the Public Do?
-Chapter 15: What Should Governments Do?
-Chapter 16: Summary and Conclusions
+- Chapter 10: Regulation
+- Chapter 11: Risk Mitigation Options
+- Chapter 12: Heart of Darkness
+- Chapter 13: Blaming the Victims
+- Chapter 14: What Should the Public Do?
+- Chapter 15: What Should Governments Do?
+- Chapter 16: Summary and Conclusions
 
 References
 
