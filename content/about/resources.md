@@ -20,5 +20,13 @@ Interactive tools for the book are available now. Further resources — annotate
 
 [**AI Safety Regulations Map**](https://ai-safety-regulations.com/) - check out your country by clicking
 
-[**Failure Mode Atlas**](https://failuremodeatlas.vercel.app) - Jacob Ortiz' "map" (conceptual map) of AI safety concepts, failure modes, modes of "loss of control"
+[**Failure Mode Atlas**](https://failuremodeatlas.vercel.app) - Jacob Ortiz' conceptual map of AI safety concepts, failure modes, modes of "loss of control"
+
+
+
+### Author's web sites
+
+William Leiss: https://leiss.ca
+
+Richard Smith: https://www.sfu.ca/~smith
 
