@@ -44,6 +44,6 @@ Preface
 - Chapter 15: What Should Governments Do?
 - Chapter 16: Summary and Conclusions
 
-References
+[References](content/references.md)
 
 Acknowledgements
