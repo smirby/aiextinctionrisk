@@ -1,0 +1,6 @@
+name = "aiextinctionrisk"
+compatibility_date = "2025-05-31"
+
+[assets]
+directory = "./public"
+
