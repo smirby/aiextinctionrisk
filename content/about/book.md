@@ -16,48 +16,34 @@ The companion website will launch fully at publication, with ongoing commentary,
 
 *Publication details forthcoming. *
 
-### *Tentative Table of Contents:*
-
 Preface
 
-#### Part One: Hazard Identification 
+### Part One: Artificial Intelligence
 
 Introduction
-
 Chapter 1: The Good
-
 Chapter 2: The Bad
-
 Chapter 3: The Ugly
+Chapter 4: The Superhuman Machine
 
-#### Part Two: System Dynamics
+### Part 2: Risk Policy and Analysis
 
-Chapter 4: Governing AI
+Chapter 5: The Risk-Based Approach
+Chapter 6: The Control Problem
+Chapter 7: Catastrophic and Existential Risks
+Chapter 8: Risk Estimation
+Chapter 9: Quantitative Risk Assessment for Loss of Control (By Michael G. Tyshenko)
 
-Chapter 5: The Superhuman Machine
+### Part Three: Governance and Risk Management
 
-#### Part Three: Risk Characteristics
+Chapter 10: Regulation
+Chapter 11: Some Possible Solutions
+Chapter 12: Heart of Darkness
+Chapter 13: Blaming the Victims
+Chapter 14: What Should the Public Do?
+Chapter 15: What Should Governments Do?
+Chapter 16: Summary and Conclusions
 
-Chapter 6: What is Risk?
+References
 
-Chapter 7: The Control Problem
-
-Chapter 8: Agency and Absolute Risk
-
-Chapter 9: Risk Profile: Superintelligence
-
-Chapter 10: Risk Estimation
-
-Chapter 11: Quantitative Risk Estimation for Loss of Control from Advanced AI
-
-#### Part Four: Risk Management
-
-Chapter 12: AI Risk Mitigation Options
-
-Chapter 13: The Heart of Darkness
-
-Chapter 14: The Ultimate Question
-
-Chapter 15: What Should the Public Do?
-
-Chapter 16: What Should Governments Do?
+Acknowledgements
