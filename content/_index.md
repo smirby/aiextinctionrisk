@@ -1,4 +1,4 @@
----
+ ---
 title: "From Tool to Actor: Artificial Intelligence and Human Extinction Risk"
 ---
 
