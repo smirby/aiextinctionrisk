@@ -1,7 +1,8 @@
 ---
 title: "References"
 ---
-
+<div class="references">
+ 
 This is a complete list of the references for the book. As the book nears print publication, we shall supplement this with an annotated bibliography of selected titles.
 
 Adamala, Katarzyna P., Deepa Agashe, Yasmine Belkaid, Daniela Matias de C. Bittencourt, Yizhi Cai, Matthew W. Chang, Irene A. Chen, George M. Church, Vaughn S. Cooper, Mark M. Davis, et al. 2024. "Confronting Risks of Mirror Life." *Science,* vol, 386, no. 6728: 1351–1353. https://doi.org/10.1126/science.ads9158.
@@ -810,4 +811,4 @@ Zhou, Eric, and Dokyun Lee. 2024. "Generative artificial intelligence, human cre
 
  
 
- 
+</div>
