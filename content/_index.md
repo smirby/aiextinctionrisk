@@ -1,5 +1,5 @@
- ---
-title: "From Tool to Actor: Artificial Intelligence and Human Extinction Risk"
+---
+title: "From Tool to Actor: AI and Catastrophic Risks"
 ---
 
 ## By William Leiss and Richard Smith
