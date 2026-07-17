@@ -26,7 +26,7 @@ Interactive tools for the book are available now. Further resources — annotate
 
 [**Full bibliography from the book**](/about/references/)
 
-### Author's web sites
+### Authors' web sites
 
 William Leiss: https://leiss.ca
 
