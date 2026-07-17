@@ -137,9 +137,9 @@ footer {
     flex-direction: column;
     gap: 0.5rem;
   }
-}
 .references p {
   padding-left: 2em;
   text-indent: -2em;
   margin-bottom: 0.4em;
+}
 }
