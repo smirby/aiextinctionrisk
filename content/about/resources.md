@@ -22,7 +22,9 @@ Interactive tools for the book are available now. Further resources — annotate
 
 [**Failure Mode Atlas**](https://failuremodeatlas.vercel.app) - Jacob Ortiz' conceptual map of AI safety concepts, failure modes, modes of "loss of control"
 
+### Bibliography
 
+[**Full bibliography from the book**](/references/)
 
 ### Author's web sites
 
