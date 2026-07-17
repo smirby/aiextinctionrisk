@@ -1,8 +1,8 @@
 ---
 title: "Gemini Applies CASX to AIs Around Us"
-date: 2026-04-04
+date: 2026-07-17
 categories: ["CASX research"]
-draft: true
+draft: false
 ---
 
 # Gemini Applies CASX to AIs Around Us
