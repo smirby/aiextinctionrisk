@@ -41,7 +41,7 @@ title = "From Tool to Actor: Artificial Intelligence and Human Extinction Risk"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = false
+      unsafe = true
   [markup.highlight]
     style = "monokai"
 
