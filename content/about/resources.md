@@ -24,7 +24,7 @@ Interactive tools for the book are available now. Further resources — annotate
 
 ### Bibliography
 
-[**Full bibliography from the book**](/references/)
+[**Full bibliography from the book**](content/about/references/)
 
 ### Author's web sites
 
