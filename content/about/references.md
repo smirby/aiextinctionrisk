@@ -1,5 +1,5 @@
 ---
-"Title" References
+title: "References"
 ---
 
 This is a complete list of the references for the book. As the book nears print publication, we shall supplement this with an annotated bibliography of selected titles.
