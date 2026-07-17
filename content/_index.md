@@ -16,6 +16,12 @@ The companion website will launch fully at publication, with ongoing commentary,
 
 *Publication details forthcoming.  Expected publication date Fall 2026*
 
+> Our book is the first to bring the well-established risk management approach to the issue of the catastrophic risks associated with Artificial Intelligence (AI), which have been identified by many AI professionals. This approach uses a formal methodology in the evaluation of risks, considering probability or likelihood, and consequences or outcomes, as separate aspects.* Separating the two influences the perceived severity of risks and the options for managing them—as well as judgments as to whether the level of risk is acceptable to the public. Using this approach, we find that certain catastrophic risks of AI are unacceptable at present, and therefore stringent regulations by governments are necessary in order to guarantee the safety of Frontier AI systems. We call upon the Government of Canada to promulgate such regulations and join with other countries to create and enforce an international treaty on AI safety.
+
+> NOTE: *This approach includes Quantitative Risk Assessment (QRA), and our book includes the first QRA study of an AI risk issue by our colleague Michael G. Tyshenko.
+
+## Table of Contents
+
 Preface
 
 ### Part One: Artificial Intelligence
