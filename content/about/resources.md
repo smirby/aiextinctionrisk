@@ -16,6 +16,12 @@ Interactive tools for the book are available now. Further resources — annotate
 
 **[What should governments do?](https://www.sfu.ca/~smith/companion.html)** -- Exploring the CASX framework with an eye to regulation.
 
+[**Loss of Control: AI Existential Risk--Interactive Bowtie Assessment**](https://fromtooltoactor.ca/bowtie/) - A quantitative risk visualisation of pathways to loss of human control over advanced AI. Modelled using Monte Carlo simulation (n=1,000 trials) with triangular probability distributions across all barrier and threat parameters. Click any element in the diagram to explore its parameters and expert justifications.
+
+[**Tool–Actor Diagnostic**](https://www.sfu.ca/~smith/rank/) -- This framework evaluates technologies by degree of agency: whether they merely execute instructions or begin to act as independent actors within human systems.
+
+[**Published p(doom) estimates, grouped by epistemic position**](https://www.sfu.ca/~smith/pdoom_interactive_standalone.html) -- How AI researchers, industry leaders, and public intellectuals assess the probability of catastrophic or extinction-level outcomes from artificial intelligence. Grouped by underlying reasoning about whether external control mechanisms are sufficient, not by the numbers alone.
+
 ### Interactive Tools from others
 
 [**AI Safety Regulations Map**](https://ai-safety-regulations.com/) - check out your country by clicking
