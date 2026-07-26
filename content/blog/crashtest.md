@@ -5,7 +5,7 @@ categories: ["AI Safety"]
 draft: false
 ---
 
-Yesterday, we learned that OpenAI had some "accidents" with their latest model ("Sol") as well as an unreleased model. In one case, it [broke out of it's sandbox and hacked into another company](https://www.transformernews.ai/p/openai-hugging-face-hack-stark-warning) (@HuggingFace), and in another case it broke out of its sandbox, seemingly to report on its success in a coding test. OpenAI wrote a [long report](https://openai.com/index/safety-alignment-long-horizon-models/) about the latter incident. and you can also read Zvi Mowshowitz's  [thoughts](https://substack.com/home/post/p-207838695) on the situation. As did [Scott Alexander](https://www.astralcodexten.com/p/the-hugging-face-incident).
+Yesterday, we learned that OpenAI had some "accidents" with their latest model ("Sol") as well as an unreleased model. In one case, it [broke out of it's sandbox and hacked into another company](https://www.transformernews.ai/p/openai-hugging-face-hack-stark-warning) (@HuggingFace), and in another case it broke out of its sandbox, seemingly to report on its success in a coding test. OpenAI wrote a [long report](https://openai.com/index/safety-alignment-long-horizon-models/) about the latter incident. and you can also read Zvi Mowshowitz's  [thoughts](https://substack.com/home/post/p-207838695) on the situation. As did [Scott Alexander](https://www.astralcodexten.com/p/the-hugging-face-incident). And Zvi's [later thoughts](https://thezvi.substack.com/p/more-on-an-internal-openai-model), noting OpenAI's "incredible negligence." That was July 26.
 
 In both incidents, I couldn't help thinking: is this akin to crash testing new cars by sending them out onto the highway and having them crash into other people's cars?
 
