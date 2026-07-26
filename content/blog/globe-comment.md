@@ -2,7 +2,7 @@
 title: "Globe and Mail Comment"
 date: 2026-07-26
 categories: ["AI Safety"]
-draft: true
+draft: false
 
 ---
 
