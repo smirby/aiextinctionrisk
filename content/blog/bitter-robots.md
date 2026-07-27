@@ -2,7 +2,7 @@
 title: "Bitter Robots"
 date: 2026-07-28
 categories: ["Robots"]
-draft: true
+draft: false
 ---
 
 The robots aren't bitter. How could they be? They aren't conscious, so bitterness (or regret) doesn't enter into things. No, the bitterness I speak of is the "bitter lesson" (Sutton 2019) that AI researchers had to learn as clever programming faltered and bigger computers and more data (scale) won the day in the recipe for building a successful artificial intelligence. That lesson is coming true outside of the world of Chatbots and moving into the world of robots, according to Jack Clark, one of the founders of Anthropic and a frequent commentator on both robots and AI.
@@ -17,7 +17,7 @@ The approach taken by the research team at Anthropic - larger models - has been 
 
 According to the authors at Sunday Robotics:
 
-> One of the most striking aspects of ACT-2 has been how often the model surprises us. The same base model is already learning a broader set of household capabilities, including vacuuming, toy organization, fastening zippers, turning pants inside out, and coffee preparation.
+> One of the most striking aspects of ACT-2 has been how often the model surprises us. [...] The same base model is already learning a broader set of household capabilities, including vacuuming, toy organization, fastening zippers, turning pants inside out, and coffee preparation.
 
 Wow. More capable robots. That surprise you. What could go wrong? Oh, right. Misalignment. Are we the next [crash test dummies](crashtest) ?
 
@@ -27,7 +27,7 @@ It's one thing to have a misaligned artificial intelligence that controls a keyb
 
 Clark, Jack. 2026. “Import AI 466: The Bitter Lesson for Robotics, AIs Complete Week-Long Programming Tasks; and OpenAI’s Accidental AI Hacker.”  *Import AI*, July 27. https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/.
 
-Sunday Team. 2026. “ACT-2 Preview: Generalizing Reliability | Sunday Robotics | The Helpful Robotics Company.” Sunday, July 16. https://www.sunday.ai/blog/act-2-preview.
+Sunday Robotics. 2026. “ACT-2 Preview: Generalizing Reliability.” Sunday, July 16. https://www.sunday.ai/blog/act-2-preview.
 
 Sutton, Richard. 2019. “The Bitter Lesson.” In *Incomplete Ideas (Blog*. http://www.incompleteideas.net/IncIdeas/BitterLesson.html.
 
