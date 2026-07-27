@@ -5,7 +5,7 @@ categories: ["AI Safety"]
 draft: false
 ---
 
-The robots aren't bitter. How could they be? They aren't conscious, so bitterness (or regret) doesn't enter into things. No, the bitterness I speak of is the "bitter lesson" (Sutton 2019) that AI researchers had to learn as clever programming faltered and bigger computers and more data (scale) won the day in the recipe for building a successful artificial intelligence. That lesson is coming true outside of the world of Chatbots and moving into the world of robots, according to Jack Clark, one of the founders of Anthropic and a frequent commentator on both robots and AI.
+The robots aren't bitter. How could they be? They aren't conscious, so bitterness (or regret) doesn't enter into things. No, the bitterness I speak of is the "bitter lesson" (Sutton 2019) that AI researchers had to learn as clever programming faltered and bigger computers and more data (scale) won the day in the recipe for building a successful artificial intelligence. That lesson is coming true outside of the world of chatbots and moving into the world of robots, according to Jack Clark, one of the founders of Anthropic and a frequent commentator on both robots and AI.
 
 Robots have a vital role in modern manufacturing but have not yet had a significant footprint out of the factory, in part because of the challenges that an uncontrolled environment like the home presents, compared to the structure that is possible on the shop floor. So far, as far as home robots go, we've met with success only by tightly constraining the task and the form factor (e.g., robot vacuums). But getting them to do more general tasks (folding laundry, tidying up) is a struggle.
 
@@ -21,13 +21,15 @@ According to the authors at Sunday Robotics:
 
 Wow. More capable robots. That surprise you? Recursive self-improvement. What could go wrong? Oh, right. Misalignment. Are we the next [crash test dummies](https://tooltoactor.ca/blog/crashtest/) ?
 
-It's one thing to have a misaligned artificial intelligence that controls a keyboard. It's quite another to have a misaligned artificially intelligent robot. As we note in our book From Tool to Actor, Dario Amodei, in Adoloscence of Technology, makes reference to this gap between chatbots and robots: "It does not have a physical embodiment (other than living on a computer screen), but it can control existing physical tools, robots, or laboratory equipment through a computer; in theory, it could even design robots or equipment for itself to use." 
+It's one thing to have a misaligned artificial intelligence that controls a keyboard. It's quite another to have a misaligned artificially intelligent robot. As we note in our book From Tool to Actor, Dario Amodei, in Adoloscence of Technology, makes reference to this gap between chatbots and robots: "It does not have a physical embodiment (other than living on a computer screen), but it can control existing physical tools, robots, or laboratory equipment through a computer; in theory, it could even design robots or equipment for itself to use" (Amodei 2026).
 
 Yes. It could.
 
-Misaligned robots has been - up to now - a scifi kind of thing, in part because the robot "brains" were deliberately narrow in function. They didn't have the ability to learn new things or generalize. But, of course, there's money to be made in a generalizable intelligence for robots, so someone is going to build it.
+Misaligned robots have been - up to now - a scifi kind of thing, in part because the robot "brains" were deliberately narrow in function. They didn't have the ability to learn new things or generalize. But, of course, if there's money to be made in a generalizable intelligence for robots, someone is going to build it.
 
 -----
+
+Amodei, Dario. 2026. “The Adolescence of Technology.” *Darioamodei.Com*, January. https://www.darioamodei.com/essay/the-adolescence-of-technology.
 
 Clark, Jack. 2026. “Import AI 466: The Bitter Lesson for Robotics, AIs Complete Week-Long Programming Tasks; and OpenAI’s Accidental AI Hacker.”  *Import AI*, July 27. https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/.
 
