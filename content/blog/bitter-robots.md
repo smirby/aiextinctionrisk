@@ -21,7 +21,11 @@ According to the authors at Sunday Robotics:
 
 Wow. More capable robots. That surprise you? Recursive self-improvement. What could go wrong? Oh, right. Misalignment. Are we the next [crash test dummies](https://tooltoactor.ca/blog/crashtest/) ?
 
-It's one thing to have a misaligned artificial intelligence that controls a keyboard. It's quite another to have a misaligned artificially intelligent robot. Misaligned robots has been - up to now - a scifi kind of thing, in part because the robot "brains" were deliberately narrow in function. They didn't have the ability to learn new things or generalize. But, of course, there's money to be made in a generalizable intelligence for robots, so someone is going to build it.
+It's one thing to have a misaligned artificial intelligence that controls a keyboard. It's quite another to have a misaligned artificially intelligent robot. As we note in our book From Tool to Actor, Dario Amodei, in Adoloscence of Technology, makes reference to this gap between chatbots and robots: "It does not have a physical embodiment (other than living on a computer screen), but it can control existing physical tools, robots, or laboratory equipment through a computer; in theory, it could even design robots or equipment for itself to use." 
+
+Yes. It could.
+
+Misaligned robots has been - up to now - a scifi kind of thing, in part because the robot "brains" were deliberately narrow in function. They didn't have the ability to learn new things or generalize. But, of course, there's money to be made in a generalizable intelligence for robots, so someone is going to build it.
 
 -----
 

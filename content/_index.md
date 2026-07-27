@@ -48,7 +48,7 @@ Preface
 - Chapter 13: Blaming the Victims
 - Chapter 14: What Should the Public Do?
 - Chapter 15: What Should Governments Do?
-- Chapter 16: Summary and Conclusions
+- Chapter 16: Risk Management Summary
 
 References
 
