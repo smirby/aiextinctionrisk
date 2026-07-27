@@ -41,6 +41,12 @@ Hugging Face now wants to be [compensated](https://thenextweb.com/news/hugging-f
 
 Jack Clark covers 'the hugging face incident' in [his latest post](https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/). It is, he says, "*…Less of a warning shot and more of a warning kaboom…*"
 
+Redwood Research's Girish Gupta [puts to rest](https://blog.redwoodresearch.org/p/the-openai-models-that-hacked-hugging) the argument that the models were "just following instructions." And Alex Mallen, also at Redwood Research, details the way in which the escaping model [left notes](https://blog.redwoodresearch.org/p/an-openai-model-left-notes-about) for future models on how to escape. Together,  Mallen and Gupta also consider the question of whether this misalignments [is an existential threat](https://blog.redwoodresearch.org/p/are-we-existentially-threatened-by).
+
+Steve Byrnes wrote, back in 2025, a comprehensive explanation for why [technical alignment is so hard](https://www.lesswrong.com/posts/bnnKGSCHJghAvqPjS/foom-and-doom-2-technical-alignment-is-hard). There is almost no doubt, at this point, that what happened at OpenAI was a classic case of misalignment. That post come from the [AI Alignment Forum](https://www.alignmentforum.org), which is required reading if these sorts of things give you chills.
+
+Matteo Wong (The Atlantic) uses the incident to provide us with *[A Startling Glimpse at AI's Ruthless Efficiency](https://www.theatlantic.com/technology/2026/07/openai-hugging-face-hack/688025/)*. 
+
 -----
 
 Weil, Gabriel. 2026. “Abnormally Dangerous Algorithms: The Case for Strict Liability at the AI Frontier.” SSRN Scholarly Paper No. 6588958. Social Science Research Network, April 16. https://doi.org/10.2139/ssrn.6588958.
