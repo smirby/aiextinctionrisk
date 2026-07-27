@@ -25,7 +25,7 @@ Later on the 22nd, Mowshowitz posted about the HuggingFace incident and included
 
 > If we don’t want to watch this get worse over time, **and the models keep improving their capabilities** [emphasis added], better infrastructure and safeguards will not be enough.
 
-I am startled by the phrase "and the models keep improving their capabilities." Is this just shorthand, an unthinking delegation of agency to AI models that are increasingly created with the help of other AI models? We've seen this sort of thing before ("computers get faster"), and it masks the massive effort and investment that goes into technological innovation and also - slyly pushes the responsibility onto the technology, and away from the people and companies responsible.
+I am startled by the phrase "and the models keep improving their capabilities." Is this just shorthand, an unthinking delegation of agency (and responsibility) to AI models that are increasingly created with the help of other AI models? We've seen this sort of thing before ("computers get faster"), and it masks the massive effort and investment that goes into technological innovation and also - slyly pushes the responsibility onto the technology, and away from the people and companies responsible.
 
 I'm a regular reader of Mr Mowshowitz's posts and enjoy his "take" on things. But this - possible - slip seems like a dangerous one. Especially in this context, as the misalignment documented here could have gone far worse (and, for all we know, did). This cannot be written off as "the models are improving their capabilities." No. The people at OpenAI improved their capabilities, and did so carelessly.
 
