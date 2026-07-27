@@ -6,7 +6,7 @@ draft: false
 
 ---
 
-Today's Globe & Mail featured [an editorial](https://www.theglobeandmail.com/opinion/editorials/article-keeping-at-bay-the-dangers-of-ai/) on AI risk, following an interview that the entire editorial board had to Geoffrey ("godfather of AI") Hinton (you'll need a subscription to read that). 
+Today's Globe & Mail featured [an editorial](https://www.theglobeandmail.com/opinion/editorials/article-keeping-at-bay-the-dangers-of-ai/) on AI risk, following an interview that the entire editorial board had with Geoffrey ("godfather of AI") Hinton (you'll need a subscription to read it). 
 
 It's a pretty good editorial (although it seems overly credulous in citing "medical breakthroughs" that amount to suggestions for new molecules to test, but that's a quibble). They cover all the main points of AI Safety and don't shy away from the difficult questions. Importantly, Hinton's estimation of 10-20% probabilty of an extinction risk event (for humans) is put in front of us. Once again. Hinton's "solution" -- maternal AI -- gets a shout out. 
 
