@@ -21,7 +21,7 @@ According to the authors at Sunday Robotics:
 
 Wow. More capable robots. That surprise you? Recursive self-improvement. What could go wrong? Oh, right. Misalignment. Are we the next [crash test dummies](https://tooltoactor.ca/blog/crashtest/) ?
 
-It's one thing to have a misaligned artificial intelligence that controls a keyboard. It's quite another to have a misaligned artificially intelligent robot. As we note in our book From Tool to Actor, Dario Amodei, in Adoloscence of Technology, makes reference to this gap between chatbots and robots: "It does not have a physical embodiment (other than living on a computer screen), but it can control existing physical tools, robots, or laboratory equipment through a computer; in theory, it could even design robots or equipment for itself to use" (Amodei 2026).
+It's one thing to have a misaligned artificial intelligence that controls a keyboard. It's quite another to have a misaligned artificially intelligent robot. As we note this distinction in our new book *From Tool to Actor* (forthcoming). Dario Amodei, in his essay "Adoloscence of Technology", makes reference to closing this gap between chatbots and robots this way: "[AI] does not have a physical embodiment (other than living on a computer screen), but it can control existing physical tools, robots, or laboratory equipment through a computer; in theory, it could even design robots or equipment for itself to use" (Amodei 2026).
 
 Yes. It could.
 
