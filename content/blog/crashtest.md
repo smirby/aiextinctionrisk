@@ -31,7 +31,7 @@ I'm a regular reader of Mr Mowshowitz's posts and enjoy his "take" on things. Bu
 
 **Updates**:
 
-OpenAI wrote a [long report](https://openai.com/index/safety-alignment-long-horizon-models/) about the incidents. and you can also read Zvi Mowshowitz's  [thoughts](https://substack.com/home/post/p-207838695) on the situation. As did [Scott Alexander](https://www.astralcodexten.com/p/the-hugging-face-incident). See also Zvi's [later thoughts](https://thezvi.substack.com/p/more-on-an-internal-openai-model), noting OpenAI's "incredible negligence" on July 26.  
+OpenAI wrote a [long report](https://openai.com/index/safety-alignment-long-horizon-models/) about the incidents. and you can also read Zvi Mowshowitz's  [thoughts](https://substack.com/home/post/p-207838695) on the situation. As did [Scott Alexander](https://www.astralcodexten.com/p/the-hugging-face-incident). See also Zvi's [later thoughts](https://thezvi.substack.com/p/more-on-an-internal-openai-model), noting OpenAI's "incredible negligence" on July 26.  I know Zvi's posts are long, but do yourself a favour and read this one right to the end (or skip to the end) so that you can read his 10 points of "places I would start" (in terms of calls to action).
 
 Peter Wildeford provided a [good summary](https://blog.peterwildeford.com/p/openais-rogue-model-attack-is-just) (July 27) of what happened and what we should do about it. 
 
