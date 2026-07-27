@@ -19,7 +19,7 @@ According to the authors at Sunday Robotics:
 
 > One of the most striking aspects of ACT-2 has been how often the model surprises us. [...] The same base model is already learning a broader set of household capabilities, including vacuuming, toy organization, fastening zippers, turning pants inside out, and coffee preparation.
 
-Wow. More capable robots. That surprise you. What could go wrong? Oh, right. Misalignment. Are we the next [crash test dummies](crashtest/) ?
+Wow. More capable robots. That surprise you. What could go wrong? Oh, right. Misalignment. Are we the next [crash test dummies](https://tooltoactor.ca/blog/crashtest/) ?
 
 It's one thing to have a misaligned artificial intelligence that controls a keyboard. It's quite another to have a misaligned artificially intelligent robot. Misaligned robots has been - up to now - a scifi kind of thing, in part because the robot "brains" were deliberately narrow in function. They didn't have the ability to learn new things or generalize. But, of course, there's money to be made in a generalizable intelligence for robots, so someone is going to build it.
 
