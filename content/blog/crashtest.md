@@ -29,13 +29,17 @@ I am startled by the phrase "and the models keep improving their capabilities." 
 
 I'm a regular reader of Mr Mowshowitz's posts and enjoy his "take" on things. But this - possible - slip seems like a dangerous one. Especially in this context, as the misalignment documented here could have gone far worse (and, for all we know, did). This cannot be written off as "the models are improving their capabilities." No. The people at OpenAI improved their capabilities, and did so carelessly.
 
-Updates:
+**Updates**:
 
 OpenAI wrote a [long report](https://openai.com/index/safety-alignment-long-horizon-models/) about the incidents. and you can also read Zvi Mowshowitz's  [thoughts](https://substack.com/home/post/p-207838695) on the situation. As did [Scott Alexander](https://www.astralcodexten.com/p/the-hugging-face-incident). See also Zvi's [later thoughts](https://thezvi.substack.com/p/more-on-an-internal-openai-model), noting OpenAI's "incredible negligence" on July 26.  
 
-Peter Wildeford provided a [good summary](https://blog.peterwildeford.com/p/openais-rogue-model-attack-is-just) (July 27) of what happened and what we should do about it. MIRI has a Substack, called [StopWatch](https://aistop.watch), that is tracking the (growing) move to stop/pause AI frontier development, and, according to Scott Alexander's tracking of tweets, at least two of the frontier CEOs are looking for (government?) leadership to require a stop/pause and provide the coordination/enforcement that that would entail.
+Peter Wildeford provided a [good summary](https://blog.peterwildeford.com/p/openais-rogue-model-attack-is-just) (July 27) of what happened and what we should do about it. 
 
+MIRI has a Substack, called [StopWatch](https://aistop.watch), that is tracking the (growing) move to stop/pause AI frontier development, and, according to Scott Alexander's tracking of tweets, at least two of the frontier CEOs are looking for (government?) leadership to require a stop/pause and provide the coordination/enforcement that that would entail.
 
+Hugging Face now wants to be [compensated](https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand), to the tune of $100 million dollars.
+
+Jack Clark covers 'the hugging face incident' in [his latest post](https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/). It is, he says, "*…Less of a warning shot and more of a warning kaboom…*"
 
 -----
 
