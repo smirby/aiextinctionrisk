@@ -47,7 +47,7 @@ Steve Byrnes wrote, back in 2025, a comprehensive explanation for why [technical
 
 Matteo Wong (*The Atlantic*) uses the incident to provide us with *[A Startling Glimpse at AI's Ruthless Efficiency](https://www.theatlantic.com/technology/2026/07/openai-hugging-face-hack/688025/)*. 
 
-Will Douglas Heaven, at *MIT Technology Review*, reminded us that Open AI should have seen this coming, because they've been [down this road before](https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/). As long ago as 2016.
+Will Douglas Heaven, at *MIT Technology Review*, reminded us that Open AI should have seen this coming, because they've been [down this road before](https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/). As long ago as 2016. Here's OpenAI's own report on [that incident](https://openai.com/index/faulty-reward-functions/).
 
 -----
 
