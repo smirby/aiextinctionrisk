@@ -19,7 +19,7 @@ Today, I read an article by Yair Halberstadt, who also wondered about the liabil
 
 > This should apply not just to civil liability, but to criminal liability, through the mechanism of [Corporate Criminal Liability](https://www.congress.gov/crs-product/R43293). This mechanism allows corporations to be criminally liable when an employee performs an act on their behalf (even if the employee wasn't explicitly instructed to do so).
 
-I think he's onto something, and in the notoriously litigious United States of America it will probably not take long for the law to catch up to these situations, which strike me as terribly risky and prone to claims of negligence. Others [wonder about liability](https://open.substack.com/pub/transformernews/p/openai-hack-hugging-face-responsibility-strict-liability-rules?utm_campaign=post-expanded-share&utm_medium=web), too. See also [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6588958) (Weil 2026). 
+I think he's onto something, and in the notoriously litigious United States of America it will probably not take long for the law to catch up to these situations, which strike me as terribly risky and prone to claims of negligence. Others [wonder about liability](https://open.substack.com/pub/transformernews/p/openai-hack-hugging-face-responsibility-strict-liability-rules?utm_campaign=post-expanded-share&utm_medium=web), too. See also [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6588958) (Weil 2026). Also, (Lam et al. 2026) on medical liability and AI.
 
 Later on the 22nd, Mowshowitz posted about the HuggingFace incident and included this sentence:
 
@@ -55,6 +55,12 @@ Fiora Starlight points to "OpenAI's myopia" as [the root cause](https://www.less
 
 Ana Maria Constantin provides a good bit of context for 'sandbox' escapes, not just OpenAI but all the models in [her article](https://thenextweb.com/news/claude-cowork-sandbox-escape-mac-files-sharedroot) for The Next Web July 27 2026. See also the July 20 report of AI agents breaking their containment, [here](https://thenextweb.com/news/ai-agent-security-four-attacks-one-flaw). This one is disturbing in the extreme, and if you have installed agent software to link an AI model to your own computer, I strongly advise you pull it down until you have read the article and assured yourself that you are not affected in this way.
 
+Bruce Scneier and Barath Raghavan, in The Guardian, add in the [question of measurement](https://www.theguardian.com/commentisfree/2026/jul/28/rogue-ai-agent-instructions). How would we know if a model has escaped its cage? The metric they propose is the "genie coeifficient," named after the trope in folklore for a genie that does *exactly* what you ask for (e.g., King Midas), with disasrous results.
+
+Celia Ford takes up the crash testing metaphor in [her piece for Transformer](https://www.transformernews.ai/p/openai-hack-reveals-internal-deployment-risk) (imagining GM employees crashing Suburbans in an arena) and adds a quote from another AI Safety researcher comparing this situation to test flights crashing on innocent people on the ground. 
+
 -----
+
+Lam, Kyle, Mindy Nunez Duffourc, Jiankai Sun, Eric Topol, and Jianing Qiu. 2026. “When Physicians and AI Work Together, Who Is Accountable? How to Lay out Medical Liability.” *Nature* 655 (8125): 1129–32. https://doi.org/10.1038/d41586-026-02315-9.
 
 Weil, Gabriel. 2026. “Abnormally Dangerous Algorithms: The Case for Strict Liability at the AI Frontier.” SSRN Scholarly Paper No. 6588958. Social Science Research Network, April 16. https://doi.org/10.2139/ssrn.6588958.
