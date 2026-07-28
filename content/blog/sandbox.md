@@ -1,8 +1,8 @@
 ---
-title: "Sandbox? Too cute!"
-date: "2026-07-27"
-categories: "AI Safety"
-draft: "false"
+title: ["Sandbox? Too cute!"]
+date: []"2026-07-27"]
+categories: ["AI Safety"]
+draft: ["false"]
 ---
 
 In my post about "crash testing" AI models I became more and more uncomfortable with the idea that the model had escaped its 'sandbox.' The term just seemed too cute - and linked to children playing harmlessly - to fit the use. By linking to something harmless it deliberately or accidentally made the situation less alarming than it was. 
