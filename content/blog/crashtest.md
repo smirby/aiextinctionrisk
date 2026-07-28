@@ -61,6 +61,8 @@ Celia Ford takes up the crash testing metaphor in [her piece for Transformer](ht
 
 The UK's AISI report from last week includes examples eerily prescient, speaking of a model that was "so persistent in attempting to cheat that it wrote and ran code on an external service, hosted on the open internet outside of AISI’s systems, in an attempt to access our evaluation infrastructure, triggering a security alert in AISI’s systems." [Full Report](https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations).
 
+The BBC published an [excellent account](https://www.bbc.com/news/articles/c2el319vzr3o) of the events at Hugging Face and I was pleased to note that they eschewed the use of the word "sandbox." [We don't like sandbox](./blog/2026-07-28-Emptying-the-sandbox.md).
+
 -----
 
 Lam, Kyle, Mindy Nunez Duffourc, Jiankai Sun, Eric Topol, and Jianing Qiu. 2026. “When Physicians and AI Work Together, Who Is Accountable? How to Lay out Medical Liability.” *Nature* 655 (8125): 1129–32. https://doi.org/10.1038/d41586-026-02315-9.
