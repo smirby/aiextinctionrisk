@@ -37,15 +37,17 @@ Peter Wildeford provided a [good summary](https://blog.peterwildeford.com/p/open
 
 MIRI has a Substack, called [StopWatch](https://aistop.watch), that is tracking the (growing) move to stop/pause AI frontier development, and, according to Scott Alexander's tracking of tweets, at least two of the frontier CEOs are looking for (government?) leadership to require a stop/pause and provide the coordination/enforcement that that would entail.
 
-Hugging Face now wants to be [compensated](https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand), to the tune of $100 million dollars.
+Hugging Face now wants to be [compensated](https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand), to the tune of $100 million dollars, as well as other compensation. Careless deployment of an artificial intelligence has costs.
 
 Jack Clark covers 'the hugging face incident' in [his latest post](https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/). It is, he says, "*…Less of a warning shot and more of a warning kaboom…*"
 
 Redwood Research's Girish Gupta [puts to rest](https://blog.redwoodresearch.org/p/the-openai-models-that-hacked-hugging) the argument that the models were "just following instructions." And Alex Mallen, also at Redwood Research, details the way in which the escaping model [left notes](https://blog.redwoodresearch.org/p/an-openai-model-left-notes-about) for future models on how to escape. Together,  Mallen and Gupta also consider the question of whether this misalignments [is an existential threat](https://blog.redwoodresearch.org/p/are-we-existentially-threatened-by).
 
-Steve Byrnes wrote, back in 2025, a comprehensive explanation for why [technical alignment is so hard](https://www.lesswrong.com/posts/bnnKGSCHJghAvqPjS/foom-and-doom-2-technical-alignment-is-hard). There is almost no doubt, at this point, that what happened at OpenAI was a classic case of misalignment. That post come from the [AI Alignment Forum](https://www.alignmentforum.org), which is required reading if these sorts of things give you chills.
+Steve Byrnes wrote, back in 2025, a comprehensive explanation for why [technical alignment is so hard](https://www.lesswrong.com/posts/bnnKGSCHJghAvqPjS/foom-and-doom-2-technical-alignment-is-hard). There is almost no doubt, at this point, that what happened at OpenAI was a classic case of misalignment. That post came from the [AI Alignment Forum](https://www.alignmentforum.org), which is required reading if these sorts of things give you chills.
 
-Matteo Wong (The Atlantic) uses the incident to provide us with *[A Startling Glimpse at AI's Ruthless Efficiency](https://www.theatlantic.com/technology/2026/07/openai-hugging-face-hack/688025/)*. 
+Matteo Wong (*The Atlantic*) uses the incident to provide us with *[A Startling Glimpse at AI's Ruthless Efficiency](https://www.theatlantic.com/technology/2026/07/openai-hugging-face-hack/688025/)*. 
+
+Will Douglas Heaven, at *MIT Technology Review*, reminded us that Open AI should have seen this coming, because they've been [down this road before](https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/). As long ago as 2016.
 
 -----
 

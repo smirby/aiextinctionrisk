@@ -14,7 +14,7 @@ Finally, they contend that existing and proposed government regulations of AI ar
 
 The companion website will launch fully at publication, with ongoing commentary, an annotated bibliography, interactive tools, and resources for readers.
 
-*Publication details forthcoming.  Expected publication date Fall 2026*
+*Publication details forthcoming.  Expected publication date TBA*
 
 Preface
 
