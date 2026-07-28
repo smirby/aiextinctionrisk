@@ -1,5 +1,5 @@
 ---
-title: ["Emptying the sandbox"]
+title: "Emptying the sandbox"
 date: 2026-07-28
 categories: ["AI Safety"]
 draft: ["false"]
