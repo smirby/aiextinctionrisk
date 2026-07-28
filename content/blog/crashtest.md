@@ -59,6 +59,8 @@ Bruce Scneier and Barath Raghavan, in The Guardian, add in the [question of meas
 
 Celia Ford takes up the crash testing metaphor in [her piece for Transformer](https://www.transformernews.ai/p/openai-hack-reveals-internal-deployment-risk) (imagining GM employees crashing Suburbans in an arena) and adds a quote from another AI Safety researcher comparing this situation to test flights crashing on innocent people on the ground. 
 
+The UK's AISI report from last week includes examples eerily prescient, speaking of a model that was "so persistent in attempting to cheat that it wrote and ran code on an external service, hosted on the open internet outside of AISI’s systems, in an attempt to access our evaluation infrastructure, triggering a security alert in AISI’s systems." [Full Report](https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations).
+
 -----
 
 Lam, Kyle, Mindy Nunez Duffourc, Jiankai Sun, Eric Topol, and Jianing Qiu. 2026. “When Physicians and AI Work Together, Who Is Accountable? How to Lay out Medical Liability.” *Nature* 655 (8125): 1129–32. https://doi.org/10.1038/d41586-026-02315-9.

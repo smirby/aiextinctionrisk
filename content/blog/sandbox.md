@@ -1,6 +1,6 @@
 ---
 title: "Sandbox? Too cute!"
-date: "2026-07-28"
+date: "2026-07-27"
 categories: "AI Safety"
 draft: "false"
 ---
