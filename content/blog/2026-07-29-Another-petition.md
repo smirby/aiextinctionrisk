@@ -20,3 +20,16 @@ Will this matter? We have had petitions before. I think I've signed at least thr
 > What makes this letter different from the [earlier open ones](https://thenextweb.com/news/anthropic-open-weights-letter-holdout-fable-5-shutdown) is who signed it. Not outside critics, but the engineers and executives closest to the frontier. One OpenAI safety researcher, Leo Gao, put the stakes bluntly: “the world is locked in a deadly race towards an intelligence explosion.” His fix is the one the whole letter turns on. “To survive, we must coordinate to slow down the race.”
 
 I don't really buy that, as I've seen Hinton, Bengio, et al. on the previous petitions. How are these names more important? Why is 'pacing' more palatable than 'pause' (or stop, for that matter)?
+
+-----
+
+Zvi Mowshowitz, our go to guy on matters such as these, is [more impressed](https://thezvi.substack.com/p/frontier-lab-employee-open-letter) that I am about the letter.
+
+Nate Soares, ever a skeptic, [remains skeptical](https://x.com/So8res/status/2082241629658980436). (That's a chain of tweets, so a bit awkward to follow - the best option is to actually read the annotated/condensed version inside Zvi's post, above.) To get a sense of Soares' take on things:
+
+"To realize AI's potential..." (part of the petition's preamble.)
+
+> Bullshit. AI has the potential to wipe us out (and in fact, that negative potential is much easier to realize than its potential to, e.g., cure aging for us). Opening with "To realize AI's potential" is a framing device that bakes in the assumption that this is a grand good thing that just needs a little bit of extra care, rather than a risky difficult-to-manage explosive that would wipe us off the planet if treated with anything short of extreme caution.
+
+
+

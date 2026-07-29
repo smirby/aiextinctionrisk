@@ -7,11 +7,13 @@ draft: false
 
 *(Note: this post is being regularly updated as new information arrives. If you're trying to keep up, check the bottom of this post.)*
 
-Yesterday, we learned that OpenAI had some "accidents" with their latest model ("Sol") as well as an unreleased model. In one case, it [broke out of it's sandbox and hacked into another company](https://www.transformernews.ai/p/openai-hugging-face-hack-stark-warning) (@HuggingFace), and in an earlier case it broke out of its [sandbox](./2026-07-28-Emptying-the-sandbox/) in internal testing, seemingly to report on its success in a coding test. These two situations are now regarded as part of the same event.
+Yesterday, we learned that OpenAI had some "accidents" with their latest model ("Sol") as well as an unreleased model. In one case, it [broke out of it's sandbox and hacked into another company](https://www.transformernews.ai/p/openai-hugging-face-hack-stark-warning) (Hugging Face), and in an earlier case it broke out of its [sandbox](./2026-07-28-Emptying-the-sandbox/) in internal testing, seemingly to report on its success in a coding test. These two situations are now regarded as part of the same event.
 
 In both incidents, I couldn't help thinking: is this akin to crash testing new cars by sending them out onto the highway and having them crash into other people's cars?
 
 Or, perhaps, hiring an intern and setting them a task that resulted in them breaking into another company? 
+
+### Liability questions
 
 Wouldn't either of those scenarios unleash a firestorm of litigation?
 
@@ -21,7 +23,9 @@ Today, I read an article by Yair Halberstadt, who also wondered about the liabil
 
 I think he's onto something, and in the notoriously litigious United States of America it will probably not take long for the law to catch up to these situations, which strike me as terribly risky and prone to claims of negligence. Others [wonder about liability](https://open.substack.com/pub/transformernews/p/openai-hack-hugging-face-responsibility-strict-liability-rules?utm_campaign=post-expanded-share&utm_medium=web), too. See also [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6588958) (Weil 2026). Also, (Lam et al. 2026) on medical liability and AI.
 
-Later on the 22nd, Mowshowitz posted about the HuggingFace incident and included this sentence:
+### Defusing the situation through words?
+
+Later on the 22nd, Mowshowitz posted about the Hugging Face incident and included this sentence:
 
 > If we don’t want to watch this get worse over time, **and the models keep improving their capabilities** [emphasis added], better infrastructure and safeguards will not be enough.
 
@@ -29,7 +33,7 @@ I am startled by the phrase "and the models keep improving their capabilities." 
 
 I'm a regular reader of Mr Mowshowitz's posts and enjoy his "take" on things. But this - possible - slip seems like a dangerous one. Especially in this context, as the misalignment documented here could have gone far worse (and, for all we know, did). This cannot be written off as "the models are improving their capabilities." No. The people at OpenAI improved their capabilities, and did so carelessly.
 
-**Updates**:
+### Updates:
 
 OpenAI wrote a [long report](https://openai.com/index/safety-alignment-long-horizon-models/) about the incidents. and you can also read Zvi Mowshowitz's  [thoughts](https://substack.com/home/post/p-207838695) on the situation. As did [Scott Alexander](https://www.astralcodexten.com/p/the-hugging-face-incident). See also Zvi's [later thoughts](https://thezvi.substack.com/p/more-on-an-internal-openai-model), noting OpenAI's "incredible negligence" on July 26.  I know Zvi's posts are long, but do yourself a favour and read this one right to the end (or skip to the end) so that you can read his 10 points of "places I would start" (in terms of calls to action).
 
@@ -53,7 +57,7 @@ Tim Hu points out that Anthropic's models are just as prone to '[breaking out of
 
 Fiora Starlight points to "OpenAI's myopia" as [the root cause](https://www.lesswrong.com/posts/Mxx5GapJtqyQtpy96/what-the-hell-is-openai-s-problem) of this disastrous outcome, "The first major instance of a felony committed by AI against the intentions of those who designed the prompts." As she puts it: "If you treat training as a way of pouring in desired behaviors, without attending to the *reasons* the mind will learn, even for performing those desired behaviors, you're going to have a bad time with out-of-distribution generalization." In other words, they whipped the horse and it kicked someone. 
 
-Ana Maria Constantin provides a good bit of context for 'sandbox' escapes, not just OpenAI but all the models in [her article](https://thenextweb.com/news/claude-cowork-sandbox-escape-mac-files-sharedroot) for The Next Web July 27 2026. See also the July 20 report of AI agents breaking their containment, [here](https://thenextweb.com/news/ai-agent-security-four-attacks-one-flaw). This one is disturbing in the extreme, and if you have installed agent software to link an AI model to your own computer, I strongly advise you pull it down until you have read the article and assured yourself that you are not affected in this way.
+Ana Maria Constantin provides a good bit of context for 'sandbox' escapes, not just OpenAI but all the models in [her article](https://thenextweb.com/news/claude-cowork-sandbox-escape-mac-files-sharedroot) for The Next Web July 27 2026. See also the July 20 report of AI agents breaking their containment, [here](https://thenextweb.com/news/ai-agent-security-four-attacks-one-flaw). This one is disturbing in the extreme, and if you have installed agent software to link an AI model to your own computer, I strongly advise you pull it down until you have read the article and assured yourself that you are not affected in this way. It is taking a while, but the distinction between AI models and AI agents is becoming clearer in the public's mind, along with the growing awareness of the risks that models present.
 
 Bruce Schneier and Barath Raghavan, in *The Guardian*, add in the [question of measurement](https://www.theguardian.com/commentisfree/2026/jul/28/rogue-ai-agent-instructions). How would we know if a model has escaped its cage? The metric they propose is the "genie coefficient," named after the trope in folklore for a genie that does *exactly* what you ask for (e.g., King Midas), with disastrous results.
 
@@ -65,7 +69,13 @@ The BBC published an [excellent account](https://www.bbc.com/news/articles/c2el3
 
 David Kreuger [asks the question](https://therealartificialintelligence.substack.com/p/but-have-the-weights-left-the-server) we all should be asking: what else happened during the three days that OpenAI's two AI models were out of their boxes? Specifically, were the models able to exfiltrate their own weights? Are they now running somewhere else, on someone else's computer?
 
+> Whether we will believe them or not, OpenAI and Hugging Face did provide a [detailed update](https://openai.com/index/hugging-face-model-evaluation-security-incident/) (lots of technical details, so be warned) on July 28. It seems to suggest to me that Kreuger's concern - exfiltration - did not happen. ("Based on our review to date, we have not identified any other activity at the level of severity or scale of what we’ve shared related to Hugging Face, which involved a platform-level compromise.")
+
+More details have emerged, in particular the role of Modal (a customer of Hugging Face), whose account was breached in order to get into Hugging Face. See this Reuters story: https://www.reuters.com/business/openais-rogue-agent-compromised-an-account-second-tech-firm-sources-say-2026-07-28/
+
 -----
+
+### References
 
 Lam, Kyle, Mindy Nunez Duffourc, Jiankai Sun, Eric Topol, and Jianing Qiu. 2026. “When Physicians and AI Work Together, Who Is Accountable? How to Lay out Medical Liability.” *Nature* 655 (8125): 1129–32. https://doi.org/10.1038/d41586-026-02315-9.
 
