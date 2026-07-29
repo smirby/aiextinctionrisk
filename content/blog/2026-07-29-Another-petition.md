@@ -5,9 +5,11 @@ categories: ["AI Safety"]
 draft: false
 ---
 
-Yesterday we learned that almost 1200 employees of the "Frontier Labs" (code for Google DeepMind, Anthropic, OpenAI, and Facebook Meta). The petition, called "[Pacing the Frontier](https://www.pacingthefrontier.com/)," is not a call to stop development but it does seek to ensure there is an option to pace (slow down? Stop, perhaps?) development if necessary.
+Yesterday we learned that almost 1200 employees of the "Frontier Labs" (code for Google DeepMind, Anthropic, OpenAI, and Facebook Meta) have signed a new petition. The petition, called "[Pacing the Frontier](https://www.pacingthefrontier.com/)," is not a call to stop development but it does seek to ensure there is an option to pace (slow down? Stop, perhaps?) development if necessary. Here's the call:
 
-According to The Next Web:
+> We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.”
+
+Will this matter? According to *[The Next Web](https://thenextweb.com/news/pacing-the-frontier-ai-employees-letter-us-government)*:
 
 > The names are the story. Signatories include Anthropic chief executive Dario Amodei and its co-founders Jared Kaplan and Jack Clark. So did OpenAI chief scientist Jakub Pachocki, Meta chief scientist Shengjia Zhao, and Google’s head of AI safety, Anca Dragan. Both Anthropic and OpenAI [endorsed the letter](https://www.reuters.com/legal/litigation/tech-employees-call-us-backed-global-effort-manage-risks-advanced-ai-2026-07-28/) officially.
 
