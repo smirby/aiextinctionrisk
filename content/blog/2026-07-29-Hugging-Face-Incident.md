@@ -13,9 +13,11 @@ I've posted quite a bit about the "[crash test](,/crashtest/)" incident involvin
 
 - I then heard that Hugging Face had been hacked and noted that it had the earmarks of an AI-driven attack. They reported the attack to the FBI. This was reported in technology news sources. At that time, neither OpenAI nor Hugging Face knew that OpenAI's model was involved.
 
-- Then, OpenAI reported that it was its model that had attacked Hugging Face. This second report made the 
+- Then, OpenAI reported that it was its model that had attacked Hugging Face. This second report made the connection between the first incident which was thought to be internal to something more serious, involving an attack on another company.
 
-- At this point a lot of people started researching and reporting. OpenAI released an update to their original report. Additional companies were implicated, including Modal (a supplier of containers (sometimes called "sandboxes," [though we prefer a stronger term](./2026-07-26-Emptying-the-sandbox/))
+- At this point a lot of people started researching and reporting (WSJ, Reuters, NYTimes, etc). OpenAI released an update to their original report. Additional companies were implicated, including Modal (a supplier of containers (sometimes called "sandboxes," [though we prefer a stronger term](./2026-07-26-Emptying-the-sandbox/)).
+
+- Hugging Face issued their own report, including the link to Modal and Modal's customer.
 
 ### Reports
 
