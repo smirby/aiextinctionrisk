@@ -7,7 +7,7 @@ draft: ["false"]
 
 
 
-In my post about "crash testing" AI models I became more and more uncomfortable with the idea that the model had escaped its 'sandbox.' The term just seemed too cute - and linked to children playing harmlessly - to fit the use. By linking to something harmless it deliberately or accidentally made the situation less alarming than it was. 
+In my post about "[crash testing](./crashtest/)" AI models I became more and more uncomfortable with the idea that the model had escaped its 'sandbox.' The term just seemed too cute - and linked to children playing harmlessly - to fit the use. By linking to something harmless it deliberately or accidentally made the situation less alarming than it was. 
 
 > (If you want to learn more about the practice of 'sandboxing' in software engineering as well as the way in which it tries to frame harms in childish ways, Menlo Security has a [useful writeup](https://www.menlosecurity.com/blog/what-is-sandboxing-the-types-benefits-challenges#:~:text=This%20method%20is%20analogous%20to%20a%20child's,private%20data%2C%20and%20maintaining%20overall%20system%20integrity.) that explicitly references a child's sandbox.) 
 
