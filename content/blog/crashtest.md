@@ -7,7 +7,7 @@ draft: false
 
 *(Note: this post is being regularly updated as new information arrives.)*
 
-Yesterday, we learned that OpenAI had some "accidents" with their latest model ("Sol") as well as an unreleased model. In one case, it [broke out of it's sandbox and hacked into another company](https://www.transformernews.ai/p/openai-hugging-face-hack-stark-warning) (@HuggingFace), and in an earlier case it broke out of its sandbox in internal testing, seemingly to report on its success in a coding test. These two situations are now regarded as part of the same event.
+Yesterday, we learned that OpenAI had some "accidents" with their latest model ("Sol") as well as an unreleased model. In one case, it [broke out of it's sandbox and hacked into another company](https://www.transformernews.ai/p/openai-hugging-face-hack-stark-warning) (@HuggingFace), and in an earlier case it broke out of its [sandbox](./2026-07-28-Emptying-the-sandbox/) in internal testing, seemingly to report on its success in a coding test. These two situations are now regarded as part of the same event.
 
 In both incidents, I couldn't help thinking: is this akin to crash testing new cars by sending them out onto the highway and having them crash into other people's cars?
 
