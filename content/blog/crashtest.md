@@ -63,6 +63,8 @@ The UK's AISI report from last week includes examples eerily prescient, speaking
 
 The BBC published an [excellent account](https://www.bbc.com/news/articles/c2el319vzr3o) of the events at Hugging Face and I was pleased to note that they eschewed the use of the word "sandbox." [We don't like sandbox]({{< ref "2026-07-28-Emptying-the-sandbox.md" >}}).
 
+David Kreuger [asks the question](https://therealartificialintelligence.substack.com/p/but-have-the-weights-left-the-server) we all should be asking: what else happened during the three days that OpenAI's two AI models were out of their boxes? Specifically, were the models able to exfiltrate their own weights? Are they now running somewhere else, on someone else's computer?
+
 -----
 
 Lam, Kyle, Mindy Nunez Duffourc, Jiankai Sun, Eric Topol, and Jianing Qiu. 2026. “When Physicians and AI Work Together, Who Is Accountable? How to Lay out Medical Liability.” *Nature* 655 (8125): 1129–32. https://doi.org/10.1038/d41586-026-02315-9.
