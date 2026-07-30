@@ -73,6 +73,12 @@ David Kreuger [asks the question](https://therealartificialintelligence.substack
 
 More details have emerged, in particular the role of Modal (a customer of Hugging Face), whose account was breached in order to get into Hugging Face. See this Reuters story: https://www.reuters.com/business/openais-rogue-agent-compromised-an-account-second-tech-firm-sources-say-2026-07-28/
 
+AI Stopwatch has produced [an excellent summary](https://aistop.watch/p/broader-activity?open=false&hide_intro_popup=true#§hidden-in-the-small-print) of the emerging details (four companies, including Modal, were used to launch the attack, for example) and includes this excellent metaphor/example:
+
+> You can think of it this way: A gang of bank robbers (OpenAI’s rogue AI) scouts out a self-storage facility (Modal) next to a bank (Hugging Face) and discovers that one of the customers has incorrectly configured the locking mechanism for their storage unit. The bank robbers then take advantage of this to set up camp there and drill through the wall into the bank’s vault.
+
+If you have the time, none other than Scott Alexander (Astral Codex Ten) weighs in with his [Highlights From The Discourse On The Hugging Face Incident](https://www.astralcodexten.com/p/highlights-from-the-discourse-on). Excellent coverage. Good commentary. His [original post](https://www.astralcodexten.com/p/the-hugging-face-incident) is also available, without the commentary from others.
+
 -----
 
 ### References

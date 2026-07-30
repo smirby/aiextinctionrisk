@@ -13,7 +13,7 @@ Will this matter? According to *[The Next Web](https://thenextweb.com/news/pacin
 
 > The names are the story. Signatories include Anthropic chief executive Dario Amodei and its co-founders Jared Kaplan and Jack Clark. So did OpenAI chief scientist Jakub Pachocki, Meta chief scientist Shengjia Zhao, and Google’s head of AI safety, Anca Dragan. Both Anthropic and OpenAI [endorsed the letter](https://www.reuters.com/legal/litigation/tech-employees-call-us-backed-global-effort-manage-risks-advanced-ai-2026-07-28/) officially.
 
-What spurred this initiative? It looks like the trigger was recursive self-improvement, something we have focused on our book as particularly dangerous and a likely prelude to loss of control (see Chapter 4: The Superhuman Machine). Still, it comes at a bit of an awkward time, as the major labs have also been arguing for openness as the solution to AI safety.
+What spurred this initiative? It looks like the trigger was recursive self-improvement, something we have focused on our book as particularly dangerous and a likely prelude to loss of control (see Leiss and Smith, *From Tool to Actor* (forthcoming), Chapter 4: The Superhuman Machine). Still, it comes at a bit of an awkward time, as the major labs have also been arguing for openness as the solution to AI safety. It also comes on the heels of a major "escape" out of a Frontier lab and hack into another AI company (see my "[crash test](./crashtest/)" post).
 
 Will this matter? We have had petitions before. I think I've signed at least three of them. According to The Next Web, the difference here is that this is not an open petition. These are the insiders. 
 
@@ -23,13 +23,15 @@ I don't really buy that, as I've seen Hinton, Bengio, et al. on the previous pet
 
 -----
 
-Zvi Mowshowitz, our go to guy on matters such as these, is [more impressed](https://thezvi.substack.com/p/frontier-lab-employee-open-letter) that I am about the letter.
+### Commentary
 
-Nate Soares, ever a skeptic, [remains skeptical](https://x.com/So8res/status/2082241629658980436). (That's a chain of tweets, so a bit awkward to follow - the best option is to actually read the annotated/condensed version inside Zvi's post, above.) To get a sense of Soares' take on things:
+1. Zvi Mowshowitz, our go to guy on matters such as these, is [more impressed](https://thezvi.substack.com/p/frontier-lab-employee-open-letter) that I am about the letter.
 
-"To realize AI's potential..." (part of the petition's preamble.)
+2. Nate Soares, ever a skeptic, [remains skeptical](https://x.com/So8res/status/2082241629658980436). (That's a chain of tweets, so a bit awkward to follow - the best option is to actually read the annotated/condensed version inside Zvi's post, above.) To get a sense of Soares' take on things:
 
-> Bullshit. AI has the potential to wipe us out (and in fact, that negative potential is much easier to realize than its potential to, e.g., cure aging for us). Opening with "To realize AI's potential" is a framing device that bakes in the assumption that this is a grand good thing that just needs a little bit of extra care, rather than a risky difficult-to-manage explosive that would wipe us off the planet if treated with anything short of extreme caution.
+   "To realize AI's potential..." (part of the petition's preamble.)
+
+   > Bullshit. AI has the potential to wipe us out (and in fact, that negative potential is much easier to realize than its potential to, e.g., cure aging for us). Opening with "To realize AI's potential" is a framing device that bakes in the assumption that this is a grand good thing that just needs a little bit of extra care, rather than a risky difficult-to-manage explosive that would wipe us off the planet if treated with anything short of extreme caution.
 
 
 
