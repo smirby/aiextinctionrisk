@@ -77,7 +77,11 @@ AI Stopwatch has produced [an excellent summary](https://aistop.watch/p/broader-
 
 > You can think of it this way: A gang of bank robbers (OpenAI’s rogue AI) scouts out a self-storage facility (Modal) next to a bank (Hugging Face) and discovers that one of the customers has incorrectly configured the locking mechanism for their storage unit. The bank robbers then take advantage of this to set up camp there and drill through the wall into the bank’s vault.
 
-If you have the time, none other than Scott Alexander (Astral Codex Ten) weighs in with his [Highlights From The Discourse On The Hugging Face Incident](https://www.astralcodexten.com/p/highlights-from-the-discourse-on). Excellent coverage. Good commentary. His [original post](https://www.astralcodexten.com/p/the-hugging-face-incident) is also available, without the commentary from others.
+If you have the time, none other than Scott Alexander (Astral Codex Ten) weighs in with his [Highlights From The Discourse On The Hugging Face Incident](https://www.astralcodexten.com/p/highlights-from-the-discourse-on). Excellent coverage. Good commentary. His [original post](https://www.astralcodexten.com/p/the-hugging-face-incident) (linked above, too) is also available, without the commentary from others.
+
+Zvi continues his coverage of the incident [here](https://thezvi.substack.com/p/ai-179-part-1-a-louder-fire-alarm). He promises at least one more follow-up post, noting that "there have been further developments." I think this quote, noting that the model was left unsupervised for a week, is particularly notable:
+
+> OpenAI was revealed over the last two weeks to have **[left an internal model unsupervised for a week](https://thezvi.substack.com/p/openai-model-hacks-into-huggingface?r=67wny)** during a cybersecurity evaluation, with its cyber safeguards lowered, despite having had multiple **[previous incidents where models](https://thezvi.substack.com/p/openai-shares-some-alignment-problems?r=67wny)** broke out of their sandboxes. During that test, the model broke out of the sandbox, **[then proceeded to use an agent swarm to hack into HuggingFace to get the test answers](https://thezvi.substack.com/p/more-on-an-internal-openai-model?r=67wny)**. 
 
 -----
 
