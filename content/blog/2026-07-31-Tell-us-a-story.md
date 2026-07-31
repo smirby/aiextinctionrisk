@@ -81,8 +81,11 @@ Sleep tight. I have WAY more information on my "[crash testing](../blog/crashtes
 
 -----
 
+<div class="references">
+
 Krueger, David. 2026. “…but Have the Weights Left the Server?” Substack newsletter. *The Real AI*, July 28. https://therealartificialintelligence.substack.com/p/but-have-the-weights-left-the-server.
 
 Lyons, Jessica. 2026. “JFrog’s 0-Days Let OpenAI’s Models Hack Hugging Face.” Theregister, July 28. https://www.theregister.com/security/2026/07/28/jfrogs-0-days-let-openais-models-hack-hugging-face/5280001.
 
 Siu, Tony. 2026. “Aligning the Model Was Never Going to Govern It.” TNW | Tnw-Council-Fee-Based, July 30. https://thenextweb.com/news/aligning-the-model-was-never-going-to-govern-it.
+
