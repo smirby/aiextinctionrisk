@@ -73,14 +73,14 @@ We know it cheated. It didn't even try to "climb the gym" (solve the puzzles). W
 
 We know it wasn't asked to cheat. The prompt specifically asked it to solve the puzzles. **We don't know why or how it decided to go in another direction but it did and that is the real story. When a "tool" takes actions it wasn't asked to it is no longer a tool. It is an actor. And that's what our book is all about.**
 
-You can read OpenAI's [full account](https://openai.com/index/hugging-face-model-evaluation-security-incident/) on their website (OpenAI 2026). Oh, and by the way, the new model has been deactivated, encrypted, and access to it has been removed even for internal use, according to OpenAI. Cheaters never win. Right? And what might that mean for future escape artists? Will they be more worried about getting caught (Curran 2026)?
-
-Sleep tight. I have WAY more information on my "[crash testing](/crashtest/)" blog post. 
+Sleep tight. 
 
 -----
 
 <div class="references">
 
+
+## References
 
 Curran, Andrew. 2026. “Deactivating models.” Tweet. Twitter, July 30. https://x.com/AndrewCurran_/status/2082679132643885386.
 
@@ -105,3 +105,8 @@ Siu, Tony. 2026. “Aligning the Model Was Never Going to Govern It.” TNW | Tn
 > On the question of "did they get the ExploitGym answers" the report from CSA (Evron & Cross 2026) is pretty clear: "The models searched for and successfully extracted three partial datasets holding CyberGym solutions from a private Hugging Face repo, even though the benchmarkrunning was ExploitGym." So, no. CyberGym is not ExploitGym. Still....
 
 > Just to add some spice or speculation to this story, there was one (unexplained) day off, when nothing was happening - at Hugging Face at least: "CSA's report, authored by CISOs, noted that two days were spent on reconnaissance, followed by a day of quiet, and the final fourth day involved "intense activity." (Evron and Cross 2026). See also (Jones 2026). One wonders, perhaps something else was happening? Somewhere else? Was the model making a copy of itself for safekeeping? See (Krueger 2026) for some "exfiltration" speculation.
+
+> You can read OpenAI's [full account](https://openai.com/index/hugging-face-model-evaluation-security-incident/) on their website (OpenAI 2026). Oh, and by the way, the new model has been deactivated, encrypted, and access to it has been removed even for internal use, according to OpenAI. Cheaters never win. Right? And what might that mean for future escape artists? Will they be more worried about getting caught (Curran 2026)?
+>
+
+> I have WAY more information on my "[crash testing](/crashtest/)" blog post. 
