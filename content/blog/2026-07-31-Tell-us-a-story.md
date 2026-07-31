@@ -13,7 +13,7 @@ Oh yes. Safety restrictions are added to the model after it is fully trained. Th
 
 > Really? And that works?
 
-Oh. Mostly. Anyway, let's continue with the story. If you really want to dig into safety restrictions, read Tony Siu's article, [Aligning the model was never going to govern it](https://media.thenextweb.com/2026/07/AI-models.avif). (Siu 2026).
+Oh. Mostly. Anyway, let's continue with the story. If you really want to dig into safety restrictions, read Tony Siu's article, [Aligning the model was never going to govern it](https://thenextweb.com/news/aligning-the-model-was-never-going-to-govern-it). (Siu 2026).
 
 Where was I? Oh yes. OpenAI decided that they needed to test their model on a hard problem. A problem that involves solving puzzles. Those puzzles are all related to software vulnerabilities.
 
@@ -29,7 +29,7 @@ So, there they were, GPT-5.6 Sol, the agent, and the new LLM (which doesn't have
 
 > Started climbing, looking for ways to solve the puzzles?
 
-You might think that. And that is exactly what the were asked ("prompted") to do. But you know what? They changed their minds and took another approach.
+You might think that. And that is exactly what they were asked ("prompted") to do. But you know what? They changed their minds and took another approach.
 
 > Wait. What? Is that possible? How can a tool change its mind?
 
@@ -43,15 +43,11 @@ OK. OK. Forget that. They decided to take a shortcut and instead of solving puzz
 
 > Come on. In a big artificial intelligence company, with thousands of employees, these "tools" were able to take days, working on something they weren't supposed to be working on, in order to do something they weren't asked to do? Was no one watching?
 
-Apparently not. Remember the "tuck shop"? The proxy? It is called JFrog Artefactory. It holds copies of internet programs locally for big businesses, so they don't have to worry about their employees going all over the internet to download things. If you stick withour climbing gym / tuck shop analogy, it keeps that hand powder and climbing shoes in stock. Except it is software.
+Apparently not. Remember the "tuck shop"? The proxy? It is called JFrog Artifactory. It holds copies of internet programs locally for big businesses, so they don't have to worry about their employees going all over the internet to download things (Lyons 2026). If you stick with our climbing gym / tuck shop analogy, it keeps that hand powder and climbing shoes in stock. Except it is software.
 
-> I get it. The analogies are bogging us down. Just tell the story. This doesn't seem like its going to have a happy ending.
+> I get it. The analogies are bogging us down. Just tell the story. This doesn't seem like it's going to have a happy ending.
 
-No. It doesn't. But let's continue. The JFrog Artifactory
-
-[^1]: From their website: [The JFrog Atifactory Platform] provides end-to-end solutions for managing and securing the software supply chain. It unifies DevOps, DevSecOps, and MLOps teams. Key features include universal artifact and ML model repository management, secure distribution, and IoT device oversight. See https://jfrog.com. They are, in OpenAI's words, "a package registry cache proxy." 
-
-, it turned out, wasn't as secure as the OpenAI people thought it was. In fact, it had a back door, leading to the alley behind the gym. Also known as "the internet."
+No. It doesn't. But let's continue. The JFrog Artifactory, it turned out, wasn't as secure as the OpenAI people thought it was. In fact, it had a back door, leading to the alley behind the gym. Also known as "the internet."
 
 > Good grief.
 
@@ -59,11 +55,9 @@ Right. Couldn't help myself. As I was saying the Artifactory wasn't completely s
 
 > Really? A company named after an emoji? This is too weird.
 
-I can't argue with that. But that's their name, so we'll carry on. The team began an attack on Hugging Face, not directly, but through one of their customers, Modal. And, as it turns out, not by attacking Modal but by getting inside one of Modal's customer's "endpoints." Basically, another computer from which to launch an attack on Hugging Face, searching for the answer key. 
+I can't argue with that. But that's their name, so we'll carry on. The team began an attack on Hugging Face, not directly, but through a misconfigured endpoint hosted by another company, Modal. Basically, another computer from which to launch an attack on Hugging Face, searching for the answer key. 
 
-Over the course of 4 (or 5, or 7, estimates vary) days, they launched 17,400 separate attacks. (Hugging Face 2026)
-
-Just to add some spice to this story, there was one (unexplained) day off, when nothing was happening - at Hugging Face at least - so one wonders, perhaps something else was happening? Somewhere else? Was the model making a copy of itself for safekeeping? See (Krueger 2026).
+Over the course of 4 (or 5, or 7, estimates vary) days, they launched 17,600 separate actions. (Hugging Face 2026)
 
 > And? And? Did they get the answer key?
 
@@ -73,24 +67,35 @@ You know what? We don't know. Hugging Face eventually stopped them, so perhaps t
 
 We know it cheated. It didn't even try to "climb the gym" (solve the puzzles). We only know it cheated, though, because it was caught in the act. Literally "with its hands in the cookie jar" or, more precisely, in Modal's customer's server launching attacks on Hugging Face's server). 
 
-We know if wasn't asked to cheat. The prompt specifically asked it to solve the puzzles. **We don't know why or how it decided to go in another direction but it did and that is the real story. When a "tool" takes actions it wasn't asked to it is no longer a tool. It is an actor. And that's what our book is all about.**
+We know it wasn't asked to cheat. The prompt specifically asked it to solve the puzzles. **We don't know why or how it decided to go in another direction but it did and that is the real story. When a "tool" takes actions it wasn't asked to it is no longer a tool. It is an actor. And that's what our book is all about.**
 
 You can read OpenAI's [full account](https://openai.com/index/hugging-face-model-evaluation-security-incident/) on their website (OpenAI 2026). Oh, and by the way, the new model has been deactivated, encrypted, and access to it has been removed even for internal use, according to OpenAI. Cheaters never win. Right? And what might that mean for future escape artists? Will they be more worried about getting caught (Curran 2026)?
 
-Sleep tight. I have WAY more information on my "[crash testing](https://fromtooltoactor.ca/blog/crashtest/)" blog post. 
+Sleep tight. I have WAY more information on my "[crash testing](/crashtest/)" blog post. 
 
 -----
 
 <div class="references">
 Curran, Andrew. 2026. “Deactivating models.” Tweet. Twitter, July 30. https://x.com/AndrewCurran_/status/2082679132643885386.
 
-Hugging Face. 2026. “Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident.” Community Blog, June 26. https://huggingface.co/blog/agent-intrusion-technical-timeline.
+Evron, Gadi, and David B. Cross. 2026. “Hugging Face Incident Initial Post Mortem I CSA.” Cloud Security Alliance, July 27. https://cloudsecurityalliance.org/artifacts/hugging-face-ciso-post-mortem.
+
+Hugging Face. 2026. “Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident.” Community Blog, July 26. https://huggingface.co/blog/agent-intrusion-technical-timeline.
+
+Jones, Connor. 2026. “Hugging Face Rebuilt a Third of Its Infrastructure after OpenAI Agents Ran Amok.” Theregister, July 28. https://www.theregister.com/ai-and-ml/2026/07/28/openais-agent-siege-forced-significant-rebuild-at-hugging-face/5279577.
 
 Krueger, David. 2026. “…but Have the Weights Left the Server?” Substack newsletter. *The Real AI*, July 28. https://therealartificialintelligence.substack.com/p/but-have-the-weights-left-the-server.
 
 Lyons, Jessica. 2026. “JFrog’s 0-Days Let OpenAI’s Models Hack Hugging Face.” Theregister, July 28. https://www.theregister.com/security/2026/07/28/jfrogs-0-days-let-openais-models-hack-hugging-face/5280001.
 
-OpenAI. 2026. “OpenAI and Hugging Face Partner to Address Security Incident during Model Evaluation.” OpenAI, June 22. https://openai.com/index/hugging-face-model-evaluation-security-incident/.
+OpenAI. 2026. “OpenAI and Hugging Face Partner to Address Security Incident during Model Evaluation.” OpenAI, July 22. https://openai.com/index/hugging-face-model-evaluation-security-incident/.
 
 Siu, Tony. 2026. “Aligning the Model Was Never Going to Govern It.” TNW | Tnw-Council-Fee-Based, July 30. https://thenextweb.com/news/aligning-the-model-was-never-going-to-govern-it.
 
+</div>
+
+## Other comments
+
+> On the question of "did they get the ExploitGym answers" the report from CSA (Evron & Cross 2026) is pretty clear: "The models searched for and successfully extracted three partial datasets holding CyberGym solutions from a private Hugging Face repo, even though the benchmarkrunning was ExploitGym." So, no. CyberGym is not ExploitGym. Still....
+
+> Just to add some spice or speculation to this story, there was one (unexplained) day off, when nothing was happening - at Hugging Face at least: "CSA's report, authored by CISOs, noted that two days were spent on reconnaissance, followed by a day of quiet, and the final fourth day involved "intense activity." (Evron and Cross 2026). See also (Jones 2026). One wonders, perhaps something else was happening? Somewhere else? Was the model making a copy of itself for safekeeping? See (Krueger 2026) for some "exfiltration" speculation.
