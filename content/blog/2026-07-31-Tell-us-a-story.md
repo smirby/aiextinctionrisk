@@ -77,7 +77,7 @@ We know if wasn't asked to cheat. The prompt specifically asked it to solve the 
 
 You can read OpenAI's [full account](https://openai.com/index/hugging-face-model-evaluation-security-incident/) on their website. Oh, by the way, the new model has been deactivated, encrypted, and access to it has been removed even for internal use, according to OpenAI. Cheaters never win. Right? 
 
-Sleep tight. I have WAY more information on my "[crash testing](./crashtest/)" blog post.
+Sleep tight. I have WAY more information on my "[crash testing](../blog/crashtest/)" blog post.
 
 -----
 
