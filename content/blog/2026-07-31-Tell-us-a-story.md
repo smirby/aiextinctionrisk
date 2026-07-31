@@ -59,13 +59,17 @@ I can't argue with that. But that's their name, so we'll carry on. The team bega
 
 Over the course of 4 (or 5, or 7, estimates vary) days, they launched 17,600 separate actions. (Hugging Face 2026)
 
-> And? And? Did they get the answer key?
+> Hold on. Four days? I don't see how a chatbot can work for four days on something.
 
-You know what? We don't know. Hugging Face eventually stopped them, so perhaps they were still searching. We do know that it "reached the database," so presumably, yes. In their respective reports OpenAI and Hugging Face deal with this slightly differently (openAI 2026; Hugging Face 2026). But, in the end, that's not really the issue, is it?
+You're right to ask. A large language model typically responds to a prompt, returns an answer, then stops, waiting for input from a human. What keeps it going for four days? The agent. This is the part of the story that deserves a lot more attention. The agent keeps things on track, constructs "loops," chains things together, provides the persistence and perseverance required for a difficult challenge like this. They are the keys to this thing.
+
+> And? And? Did they get the answers?
+
+You know what? We don't know. Hugging Face eventually stopped them, so perhaps they were still searching. We do know that it "reached the database," so possibly, yes. In their respective reports OpenAI and Hugging Face deal with this slightly differently (openAI 2026; Hugging Face 2026). But, in the end, that's not really the issue, is it?
 
 > Um. No. What is the issue?
 
-We know it cheated. It didn't even try to "climb the gym" (solve the puzzles). We only know it cheated, though, because it was caught in the act. Literally "with its hands in the cookie jar" or, more precisely, in Modal's customer's server launching attacks on Hugging Face's server). 
+We know it cheated. It didn't even try to "climb the gym" (solve the puzzles). We only know it cheated, though, because it was caught in the act. Literally "with its hands in the cookie jar" or, more precisely, in Modal's customer's server launching attacks on Hugging Face's server. 
 
 We know it wasn't asked to cheat. The prompt specifically asked it to solve the puzzles. **We don't know why or how it decided to go in another direction but it did and that is the real story. When a "tool" takes actions it wasn't asked to it is no longer a tool. It is an actor. And that's what our book is all about.**
 
