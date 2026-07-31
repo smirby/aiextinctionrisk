@@ -2,7 +2,7 @@
 title: "Tell us a story"
 date: 2026-07-31
 categories: ["AI Safety"]
-draft: true
+draft: false
 ---
 
 Once upon a time there was an OpenAI company. Except it wasn't actually open, it just called itself that. That company made tools for thinking, called large language models (LLMs). In order to test a new one it was making, it removed its safety restrictions and ...
