@@ -75,9 +75,9 @@ We know it cheated. It didn't even try to "climb the gym" (solve the puzzles). W
 
 We know if wasn't asked to cheat. The prompt specifically asked it to solve the puzzles. We don't know why or how it decided to go in another direction and that in itself it the real story. When a "tool" takes actions it wasn't asked to it is no longer a tool. It is an actor. And that's what our book is all about.
 
-You can read OpenAI's [full account](https://openai.com/index/hugging-face-model-evaluation-security-incident/) on their website.
+You can read OpenAI's [full account](https://openai.com/index/hugging-face-model-evaluation-security-incident/) on their website. Oh, by the way, the new model has been deactivated, encrypted, and access to it has been removed even for internal use, according to OpenAI. Cheaters never win. Right? 
 
-Sleep tight.
+Sleep tight. I have WAY more information on my "[crash test](./crashtest/)" blog post.
 
 -----
 
