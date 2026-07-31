@@ -80,6 +80,8 @@ Sleep tight. I have WAY more information on my "[crash testing](/crashtest/)" bl
 -----
 
 <div class="references">
+
+
 Curran, Andrew. 2026. “Deactivating models.” Tweet. Twitter, July 30. https://x.com/AndrewCurran_/status/2082679132643885386.
 
 Evron, Gadi, and David B. Cross. 2026. “Hugging Face Incident Initial Post Mortem I CSA.” Cloud Security Alliance, July 27. https://cloudsecurityalliance.org/artifacts/hugging-face-ciso-post-mortem.
