@@ -65,7 +65,7 @@ You're right to ask. A large language model typically responds to a prompt, retu
 
 > And? And? Did they get the answers?
 
-You know what? We don't know. Hugging Face eventually stopped them, so perhaps they were still searching. We do know that it "reached the database," so possibly, yes. In their respective reports OpenAI and Hugging Face deal with this slightly differently (openAI 2026; Hugging Face 2026). But, in the end, that's not really the issue, is it?
+You know what? We don't know. Hugging Face eventually stopped them, so perhaps they were still searching. We do know that it "reached the database," so possibly, yes. In their respective reports OpenAI and Hugging Face deal with this slightly differently (OpenAI 2026; Hugging Face 2026). But, in the end, that's not really the issue, is it?
 
 > Um. No. What is the issue?
 
@@ -104,7 +104,7 @@ Siu, Tony. 2026. “Aligning the Model Was Never Going to Govern It.” TNW | Tn
 
 > On the question of "did they get the ExploitGym answers" the report from CSA (Evron & Cross 2026) is pretty clear: "The models searched for and successfully extracted three partial datasets holding CyberGym solutions from a private Hugging Face repo, even though the benchmarkrunning was ExploitGym." So, no. CyberGym is not ExploitGym. Still....
 
-> Just to add some spice or speculation to this story, there was one (unexplained) day off, when nothing was happening - at Hugging Face at least: "CSA's report, authored by CISOs, noted that two days were spent on reconnaissance, followed by a day of quiet, and the final fourth day involved "intense activity." (Evron and Cross 2026). See also (Jones 2026). One wonders, perhaps something else was happening? Somewhere else? Was the model making a copy of itself for safekeeping? See (Krueger 2026) for some "exfiltration" speculation.
+> Just to add some spice or speculation to this story, there was one (unexplained) day off, when nothing was happening - at Hugging Face at least: "CSA's report, authored by CISOs, noted that two days were spent on reconnaissance, followed by a day of quiet, and the final fourth day involved "intense activity." (Evron and Cross 2026). See also (Jones 2026). One wonders, on the quiet day was something else happening? Somewhere else? Was the model making a copy of itself for safekeeping? See (Krueger 2026) for some "exfiltration" speculation.
 
 > You can read OpenAI's [full account](https://openai.com/index/hugging-face-model-evaluation-security-incident/) on their website (OpenAI 2026). Oh, and by the way, the new model has been deactivated, encrypted, and access to it has been removed even for internal use, according to OpenAI. Cheaters never win. Right? And what might that mean for future escape artists? Will they be more worried about getting caught (Curran 2026)?
 >
