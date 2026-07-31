@@ -13,7 +13,7 @@ Oh yes. Safety restrictions are added to the model after it is fully trained. Th
 
 > Really? And that works?
 
-Oh. Mostly. Anyway, let's continue with the story. If you really want to dig into safety restrictions, read Tony Siu's article, [Aligning the model was never going to govern it](https://media.thenextweb.com/2026/07/AI-models.avif).
+Oh. Mostly. Anyway, let's continue with the story. If you really want to dig into safety restrictions, read Tony Siu's article, [Aligning the model was never going to govern it](https://media.thenextweb.com/2026/07/AI-models.avif). (Siu 2026).
 
 Where was I? Oh yes. OpenAI decided that they needed to test their model on a hard problem. A problem that involves solving puzzles. Those puzzles are all related to software vulnerabilities.
 
@@ -61,31 +61,36 @@ Right. Couldn't help myself. As I was saying the Artifactory wasn't completely s
 
 I can't argue with that. But that's their name, so we'll carry on. The team began an attack on Hugging Face, not directly, but through one of their customers, Modal. And, as it turns out, not by attacking Modal but by getting inside one of Modal's customer's "endpoints." Basically, another computer from which to launch an attack on Hugging Face, searching for the answer key. 
 
-Over the course of 4 (or 5, or 7, estimates vary) days, they launched 17,400 separate attacks. 
+Over the course of 4 (or 5, or 7, estimates vary) days, they launched 17,400 separate attacks. (Hugging Face 2026)
 
 Just to add some spice to this story, there was one (unexplained) day off, when nothing was happening - at Hugging Face at least - so one wonders, perhaps something else was happening? Somewhere else? Was the model making a copy of itself for safekeeping? See (Krueger 2026).
 
 > And? And? Did they get the answer key?
 
-You know what? We don't know. Hugging Face eventually stopped them, so perhaps they were still searching. We do know that it "reached the database," so presumably, yes. In their respective reports OpenAI and Hugging Face deal with this slightly differently. But, in the end, that's not really the issue, is it?
+You know what? We don't know. Hugging Face eventually stopped them, so perhaps they were still searching. We do know that it "reached the database," so presumably, yes. In their respective reports OpenAI and Hugging Face deal with this slightly differently (openAI 2026; Hugging Face 2026). But, in the end, that's not really the issue, is it?
 
 > Um. No. What is the issue?
 
 We know it cheated. It didn't even try to "climb the gym" (solve the puzzles). We only know it cheated, though, because it was caught in the act. Literally "with its hands in the cookie jar" or, more precisely, in Modal's customer's server launching attacks on Hugging Face's server). 
 
-We know if wasn't asked to cheat. The prompt specifically asked it to solve the puzzles. We don't know why or how it decided to go in another direction and that in itself it the real story. When a "tool" takes actions it wasn't asked to it is no longer a tool. It is an actor. And that's what our book is all about.
+We know if wasn't asked to cheat. The prompt specifically asked it to solve the puzzles. **We don't know why or how it decided to go in another direction but it did and that is the real story. When a "tool" takes actions it wasn't asked to it is no longer a tool. It is an actor. And that's what our book is all about.**
 
-You can read OpenAI's [full account](https://openai.com/index/hugging-face-model-evaluation-security-incident/) on their website. Oh, by the way, the new model has been deactivated, encrypted, and access to it has been removed even for internal use, according to OpenAI. Cheaters never win. Right? 
+You can read OpenAI's [full account](https://openai.com/index/hugging-face-model-evaluation-security-incident/) on their website (OpenAI 2026). Oh, and by the way, the new model has been deactivated, encrypted, and access to it has been removed even for internal use, according to OpenAI. Cheaters never win. Right? And what might that mean for future escape artists? Will they be more worried about getting caught (Curran 2026)?
 
-Sleep tight. I have WAY more information on my "[crash testing](../blog/crashtest/)" blog post.
+Sleep tight. I have WAY more information on my "[crash testing](https://fromtooltoactor.ca/blog/crashtest/)" blog post. 
 
 -----
 
 <div class="references">
+Curran, Andrew. 2026. “Deactivating models.” Tweet. Twitter, July 30. https://x.com/AndrewCurran_/status/2082679132643885386.
+
+Hugging Face. 2026. “Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident.” Community Blog, June 26. https://huggingface.co/blog/agent-intrusion-technical-timeline.
 
 Krueger, David. 2026. “…but Have the Weights Left the Server?” Substack newsletter. *The Real AI*, July 28. https://therealartificialintelligence.substack.com/p/but-have-the-weights-left-the-server.
 
 Lyons, Jessica. 2026. “JFrog’s 0-Days Let OpenAI’s Models Hack Hugging Face.” Theregister, July 28. https://www.theregister.com/security/2026/07/28/jfrogs-0-days-let-openais-models-hack-hugging-face/5280001.
+
+OpenAI. 2026. “OpenAI and Hugging Face Partner to Address Security Incident during Model Evaluation.” OpenAI, June 22. https://openai.com/index/hugging-face-model-evaluation-security-incident/.
 
 Siu, Tony. 2026. “Aligning the Model Was Never Going to Govern It.” TNW | Tnw-Council-Fee-Based, July 30. https://thenextweb.com/news/aligning-the-model-was-never-going-to-govern-it.
 
