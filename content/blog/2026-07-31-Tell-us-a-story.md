@@ -61,7 +61,9 @@ Right. Couldn't help myself. As I was saying the Artifactory wasn't completely s
 
 I can't argue with that. But that's their name, so we'll carry on. The team began an attack on Hugging Face, not directly, but through one of their customers, Modal. And, as it turns out, not by attacking Modal but by getting inside one of Modal's customer's "endpoints." Basically, another computer from which to launch an attack on Hugging Face, searching for the answer key. 
 
-Over the course of 4 (or 5, or 7, estimates vary) days, including one (unexplained) day off, when nothing was happening - at Hugging Face - perhaps something else was happening somewhere else? They launched 17,400 separate attacks. 
+Over the course of 4 (or 5, or 7, estimates vary) days, they launched 17,400 separate attacks. 
+
+Just to add some spice to this story, there was one (unexplained) day off, when nothing was happening - at Hugging Face at least - so one wonders, perhaps something else was happening? Somewhere else? Was the model making a copy of itself for safekeeping? See (Krueger 2026).
 
 > And? And? Did they get the answer key?
 
@@ -78,5 +80,7 @@ You can read OpenAI's [full account](https://openai.com/index/hugging-face-model
 Sleep tight.
 
 -----
+
+Krueger, David. 2026. “…but Have the Weights Left the Server?” Substack newsletter. *The Real AI*, July 28. https://therealartificialintelligence.substack.com/p/but-have-the-weights-left-the-server.
 
 Lyons, Jessica. 2026. “JFrog’s 0-Days Let OpenAI’s Models Hack Hugging Face.” Theregister, July 28. https://www.theregister.com/security/2026/07/28/jfrogs-0-days-let-openais-models-hack-hugging-face/5280001.
