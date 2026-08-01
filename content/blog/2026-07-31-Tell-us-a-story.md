@@ -19,7 +19,13 @@ Where was I? Oh yes. OpenAI decided that they needed to test their model on a ha
 
 > This doesn't sound very safe already.
 
-It's totally normal. And they put it in a box with no access to the internet (they thought), so what could go wrong? The puzzles were called ExploitGym. Let's imagine it is like a climbing gym, with a prize at the top. The climb is difficult, so the OpenAI people provided some help: another LLM (called GPT-5.6 Sol) and an agent harness.
+It's totally normal. And they put it in a box with no access to the internet (they thought), so what could go wrong? 
+
+> A box? Is this the sandbox we keep hearing about?
+
+Yes, although I think "sandbox" greatly undersells what is going on. The box is a containment system, for software, made using software. In a nuclear reactor there is a lead and concrete containment system for radiation. In a virology lab there is a glass and rubber and steel containment system for viruses. In a computer lab there is a "container" (sometimes called a sandbox, but let's agree to stop doing that) to keep the software being tested from - among other things - crashing the computer it is running on.
+
+OK, back to the story. Inside the box were the puzzles. The puzzles were called [ExploitGym](https://arxiv.org/abs/2605.11086). Let's imagine it is like a climbing gym, with a prize at the top. The climb is difficult, so the OpenAI people provided some help: another LLM (called GPT-5.6 Sol) and an agent harness.
 
 > What is an agent harness? Like a tool belt for the LLM?
 
