@@ -73,7 +73,7 @@ We know it cheated. It didn't even try to "climb the gym" (solve the puzzles). W
 
 We know it wasn't asked to cheat. The prompt specifically asked it to solve the puzzles. **We don't know why or how it decided to go in another direction but it did and that is the real story. When a "tool" takes actions it wasn't asked to it is no longer a tool. It is an actor. And that's what our book is all about.**
 
-Sleep tight. 
+Sleep tight. Maybe tomorrow night I will tell you about Anthropic's [agentic hacking episode](https://aistop.watch/i/209324463/better-late-than-never).
 
 -----
 
