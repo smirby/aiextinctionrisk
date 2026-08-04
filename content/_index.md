@@ -54,4 +54,3 @@ References
 
 Acknowledgements
 
-[PDF](/docs/leissv125.pdf)
