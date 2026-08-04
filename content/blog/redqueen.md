@@ -7,7 +7,7 @@ draft: false
 
 In Alice and Wonderland, Lewis Carroll's fantasy set in a land below a rabbit hole, Alice meets the Red Queen, who announces that words mean what she says that they mean, and nothing more. I'm not suggesting that the people who have brought us artificial intelligence are a bunch of red queens, but... let's consider the evidence.
 
-I've already [written about](./2026-07-28-Emptying-the-sandbox/) sandboxes and sandboxing, a term that provides a glossy air of playfulness and innocense to the serious problem of containing software that lies, cheats, steals, and in the end, could kill us all (Yukowsky and Soares 2025).
+I've already [written about]({{< relref "2026-07-28-Emptying-the-sandbox.md" >}}) sandboxes and sandboxing, a term that provides a glossy air of playfulness and innocense to the serious problem of containing software that lies, cheats, steals, and in the end, could kill us all (Yukowsky and Soares 2025).
 
 Or alignment. Who hasn't taken their car in for an alignment? A simple mechanical process, and once done, keeps your tires from wearing out on the edges. Is misaligned software similarly repairable? Nope. Turns out that it is very difficult, beyond the capacity of billion dollar companies and Nobel prize-winning scientists. Huh. Interesting word choice. And what is the outcome of misalignment? Oh. A 12 per cent chance of annihilation? The entire human race and the planet we live on obliderated? That's some misaligned software.
 
