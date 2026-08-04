@@ -2,7 +2,7 @@
 title: "Red Queens"
 date: 2026-08-03
 categories: ["AI Safety"]
-draft: true
+draft: false
 ---
 
 In Alice and Wonderland, Lewis Carroll's fantasy set in a land below a rabbit hole, Alice meets the Red Queen, who announces that words mean what she says that they mean, and nothing more. I'm not suggesting that the people who have brought us artificial intelligence are a bunch of red queens, but... let's consider the evidence.
