@@ -1,7 +1,7 @@
 ---
 title: "References"
 ---
- 
+
 This is a complete list of the references for the book. As the book nears print publication, we shall supplement this with an annotated bibliography of selected titles.
 
 <div class="references">
@@ -144,9 +144,7 @@ Canada 2026a. “Consultation on Algorithmic Pricing and Competition: What We He
 
 Canada 2026b. “Engagements on Canada's Next AI Strategy: Summary of Inputs.” Innovation, Science and Economic Development Canada, February 5. https://ised-isde.canada.ca/site/ised/en/public-consultations/engagements-canadas-next-ai-strategy-summary-inputs.
 
-Canada 2026c. Government of Canada, “National Artificial Intelligence Strategy.” June 8.: https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all 
-
- 
+Canada 2026c. Government of Canada, “National Artificial Intelligence Strategy.” June 8.: https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all  
 
 Canadian Nuclear Safety Commission (CNSC). 2023*. Design of Reactor Facilities: Nuclear Power Plants*. REGDOC-2.5.2. https://www.cnsc-ccsn.gc.ca/eng/acts-and-regulations/regulatory-documents/published/html/regdoc2-5-2/.
 

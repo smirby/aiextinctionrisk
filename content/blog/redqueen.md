@@ -23,8 +23,11 @@ What can we do about it? Well, for a start, we can stop accepting the made up te
 
 -----
 
+## Works cited
+
 Kalai, Adam Tauman, Ofir Nachum, Santosh S. Vempala, and Edwin Zhang. 2025. “Why Language Models Hallucinate.” arXiv:2509.04664. Version 1. Preprint, arXiv, September 4. https://doi.org/10.48550/arXiv.2509.04664.
 
 Skalse, Joar, Nikolaus H. R. Howe, Dmitrii Krasheninnikov, and David Krueger. 2022. “Defining and Characterizing Reward Hacking.” arXiv.Org, September 27. https://arxiv.org/abs/2209.13085v2.
 
 Yudkowsky, Eliezer, and Nate Soares. 2025. *If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All*. Little, Brown and Company.
+
