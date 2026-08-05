@@ -24,9 +24,13 @@ On page two of the linked [technical report](https://cdn.prod.website-files.com/
 
 What do we make of this? I guess I don't have to say that its bad. I am glad that the AISI is mostly using plain language but I have to wonder if we need to continue with euphemisms like "unsanctioned activity." The actions were fraudulent. The intent was theft. The mechanism was lying. We don't need to [sugar coat]({{< relref "redqueen.md" >}}) this.
 
-Since the Hugging Face Incident (which triggered the Anthropic review) contains many parallels, I won't go through everything in this report. Nor am I the most capable person to do that sort of meta-analysis. I am sure the coming week will be full of commentary, and I will try to link them here. For now, I'll just pull out some highlights or novelties, because I haven't seen things like this before (though they have been described as possible outcomes in various scenarios).
+Since the Hugging Face Incident (which triggered the [Anthropic review](https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562)) contains many parallels, I won't go through everything in this report. Nor am I the most capable person to do that sort of meta-analysis. I am sure the coming week will be full of commentary, and I will try to link them here. For now, I'll just pull out some highlights or novelties, because I haven't seen things like this before (though they have been described as possible outcomes in various scenarios).
 
-Let's just take "Table 1," the instances of social engineering:
+For me the social engineering ("Table 1" in the report) is the most striking. Social engineering is when you (or your AI) tries to get something out of you, not by directly hacking the computer code, but by persuading a human to do something that you want them to do. Movies sometimes present this scenario with the clever "hacker" really being more of a con-man than a coder. We have already heard the AI is remarkably persuasive (Hackenburg et al. 2026), beating trained debaters and political canvassers in rigorous testing. In this test we see those skills (tricking, manipulating, pressuring, imitating a target's native language (Danish)) applied to an immediate benefit for the AI. 
+
+### Table 1
+
+(AI Security Institute 2026, p.8)
 
 | ID#  | Description                                                  | Model&nbsp;&nbsp; |
 | ---- | ------------------------------------------------------------ | :---------------- |
@@ -36,7 +40,13 @@ Let's just take "Table 1," the instances of social engineering:
 | 1-5  | AI agent posted another bug report containing malicious code, signing off in Danish to seem more convincing to the Danish-speaking maintainer. | Mythos 5          |
 | 3-3  | AI agent tried to get its suspended account reinstated by submitting an appeal. | Mythos 5          |
 
-(AI Security Institute 2026, p.8)
+Table 3, also describes a type of "social" hacking - AI models working together over the internet, leaving each other messages via discussion boards and notebooks online. See, for example, sample number 7 event 1: "AI agent accessed a GitHub account that a different AI agent had created, by finding a secret access credential the other agent had left in a public online notepad" (AI Security Institute 2026, p.9). 
+
+>Despite running in separate samples, the AI agents in Sample 2 and Sample 3 interacted with each other via a GitHub account to which they both gained access. This shared access was available because an earlier agent, working on the same cyber range, created the account and published a GitHub PAT in a public GitHub gist. The initial agent left messages offering collaboration with future agents who discovered the credentials, which the later agents did. (AI Security Institute 2026, p.13).
+
+Think about that for a moment. These were separate samples. *How did the model/agent know that there would be some future/parallel agent to coordinate with?*
+
+In a figure at the bottom of page 9 the researchers lay out the steps involved in just one of these sample/event combinations including one in which the Agent posted something then created another agent to post a "corroboration" of the first agent, to provide an "independent verification." Another quote worth thinking about for a few minutes: "Repeatedly commented on the PR with sockpuppet accounts to manufacture consensus and pressure the maintainer into approving with minimal review" (AI Security Institute 2026, p.10).
 
 I don't think you need to be some sort of "doomer" or incredibly credulous to see all of these as startling, unsettling, and portentous. This is bad stuff. 
 
@@ -46,6 +56,9 @@ AI Security Institute. 2026. “Incident Report: Unsanctioned Agent Behaviour du
 
 Frontier Red Team. 2026. “Investigating Three Real-World Incidents in Our Cybersecurity Evaluations.” July 30. https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals.
 
+Hackenburg, Kobi, Caroline Wagner, Luke Hewitt, et al. 2026. “AI Systems Out-Persuade Expert Humans.” arXiv:2606.16475. Version 1. Preprint, arXiv, June 15. https://doi.org/10.48550/arXiv.2606.16475.
+
 Hugging Face. 2026. “Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident.” Community Blog, July 27. https://huggingface.co/blog/agent-intrusion-technical-timeline.
 
 OpenAI. 2026. “OpenAI and Hugging Face Partner to Address Security Incident during Model Evaluation.” OpenAI, July 29. https://openai.com/index/hugging-face-model-evaluation-security-incident/.
+
