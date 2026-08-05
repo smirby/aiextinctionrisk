@@ -5,7 +5,7 @@ categories: ["AI Safety"]
 draft: false
 ---
 
-I've posted quite a bit about the "[crash test](,/crashtest/)" incident involving OpenAI, Hugging Face, and (we now learn) Modal. Several people have written accounts of what happened, including OpenAI, which wrote at least three reports. I don't know what more I can add, but a colleague asked me to make sense of it all, so here's my attempt. I will start with a short chronology, then list the main reports, then conclude with my thoughts. I will continue to update the "crash test" blog post as new information comes in.
+I've posted quite a bit about the "[crash test](./crashtest/)" incident involving OpenAI, Hugging Face, and (we now learn) Modal. Several people have written accounts of what happened, including OpenAI, which wrote at least three reports. I don't know what more I can add, but a colleague asked me to make sense of it all, so here's my attempt. I will start with a short chronology, then list the main reports, then conclude with my thoughts. I will continue to update the "crash test" blog post as new information comes in.
 
 ### Timeline
 
@@ -35,7 +35,7 @@ I've posted quite a bit about the "[crash test](,/crashtest/)" incident involvin
 
 ### Thought/Commentary/Analysis
 
-Much has been written about this by other people. See my "[crash test](,/crashtest/)" blog post for most of it. For now I'll just add the following:
+Much has been written about this by other people. See my "[crash test](./crashtest/)" blog post for most of it. For now I'll just add the following:
 
 - I am glad that "agents" are getting the blame (or at least their role is becoming clearer), as for too long and in too many ways the problem has been laid at the feet of the AI models. The model's of course, provide the "power" for the attack (perhaps they are the bullets in this scenario), while it is the agent ("harness") that provides the delivery (the rifle in this scenario?).
 - I am tired for the word "sandbox," given that that sort of language evokes children playing with toys and does not sufficiently convey the gravity of the situation nor does it help to understand the heroic efforts that the AI model+agent undertook to escape their containment/cage. See [my rant](./2026-07-26-Emptying-the-sandbox/)).

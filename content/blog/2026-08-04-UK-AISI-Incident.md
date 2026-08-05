@@ -5,7 +5,7 @@ categories: ["AI Safety"]
 draft: false
 ---
 
-Are my blog posts going to be like postings from the front lines? Sometimes it seems that way. Today I received a copy of a remarkable document, hard on the heels of the [OpenAI](https://openai.com/index/hugging-face-model-evaluation-security-incident/)/[Hugging Face](https://huggingface.co/blog/agent-intrusion-technical-timeline) Incident and Anthropic's [internal report](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) on similar reward hacking. (OpenAI 2026; Frontier Red Team 2026; Hugging Face 2026). My blog posts on these incidents are [here]({{< relref "./crashtest.md"}}) and [here]({{ < relref "2026-07-28-Hugging-Face-Incident" >}}).
+Are my blog posts going to be like postings from the front lines? Sometimes it seems that way. Today I received a copy of a remarkable document, hard on the heels of the [OpenAI](https://openai.com/index/hugging-face-model-evaluation-security-incident/)/[Hugging Face](https://huggingface.co/blog/agent-intrusion-technical-timeline) Incident and Anthropic's [internal report](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) on similar reward hacking. (OpenAI 2026; Frontier Red Team 2026; Hugging Face 2026). My blog posts on these incidents are [here]({{< relref "crashtest.md"}}) and [here]({{ < relref "2026-07-28-Hugging-Face-Incident.md" >}}).
 
 Today's report comes from the [UK AI Safety Institute](https://www.aisi.gov.uk), where some testing went awry and AI models engaged in unlawful attacks on real people and real companies. Here is the executive summary of [their report](https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing):
 
@@ -18,7 +18,7 @@ On page two of the linked [technical report](https://cdn.prod.website-files.com/
 
 -----
 
-What do we make of this? I guess I don't have to say that its bad. I am glad that the AISI is using plain language but I have to wonder if we need to continue with euphemisms like "unsanctioned activity." The actions were fraudulent. The intent was theft. The mechanism was lying. We don't need to [sugar coat]({{< relref "redqueen.md> "}}) this.
+What do we make of this? I guess I don't have to say that its bad. I am glad that the AISI is using plain language but I have to wonder if we need to continue with euphemisms like "unsanctioned activity." The actions were fraudulent. The intent was theft. The mechanism was lying. We don't need to [sugar coat]({{< relref "redqueen.md"> }}) this.
 
 Since the Hugging Face Incident (which triggered the Anthropic review) contains many parallels, I won't go through everything in this report. Nor am I the most capable person to do that sort of meta-analysis. I am sure the coming week will be full of commentary, and I will try to link them here. For now, I'll just pull out some highlights or novelties, because I haven't seen things like this before (though they have been described as possible outcomes in various scenarios).
 
