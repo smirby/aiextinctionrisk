@@ -5,7 +5,7 @@ categories: ["AI Safety"]
 draft: false
 ---
 
-Are my blog posts going to be like postings from the front lines? Sometimes it seems that way. Today I received a copy of a remarkable document, hard on the heels of the [OpenAI](https://openai.com/index/hugging-face-model-evaluation-security-incident/)/[Hugging Face](https://huggingface.co/blog/agent-intrusion-technical-timeline) Incident and Anthropic's [internal report](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) on similar reward hacking. (OpenAI 2026; Frontier Red Team 2026; Hugging Face 2026). My blog posts on these incidents are [here]({{< relref "crashtest.md"}}) and [here]({{ < relref "2026-07-28-Hugging-Face-Incident.md" >}}).
+Are my blog posts going to be like postings from the front lines? Sometimes it seems that way. Today I received a copy of a remarkable document, hard on the heels of the [OpenAI](https://openai.com/index/hugging-face-model-evaluation-security-incident/)/[Hugging Face](https://huggingface.co/blog/agent-intrusion-technical-timeline) Incident and Anthropic's [internal report](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) on similar reward hacking. (OpenAI 2026; Frontier Red Team 2026; Hugging Face 2026). My blog posts on these incidents are [here]({{< relref "crashtest.md" >}}) and [here]({{< relref "2026-07-29-Hugging-Face-Incident.md" >}}).
 
 Today's report comes from the [UK AI Safety Institute](https://www.aisi.gov.uk), where some testing went awry and AI models engaged in unlawful attacks on real people and real companies. Here is the executive summary of [their report](https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing):
 
@@ -18,7 +18,7 @@ On page two of the linked [technical report](https://cdn.prod.website-files.com/
 
 -----
 
-What do we make of this? I guess I don't have to say that its bad. I am glad that the AISI is using plain language but I have to wonder if we need to continue with euphemisms like "unsanctioned activity." The actions were fraudulent. The intent was theft. The mechanism was lying. We don't need to [sugar coat]({{< relref "redqueen.md"> }}) this.
+What do we make of this? I guess I don't have to say that its bad. I am glad that the AISI is using plain language but I have to wonder if we need to continue with euphemisms like "unsanctioned activity." The actions were fraudulent. The intent was theft. The mechanism was lying. We don't need to [sugar coat]({{< relref "redqueen.md" >}}) this.
 
 Since the Hugging Face Incident (which triggered the Anthropic review) contains many parallels, I won't go through everything in this report. Nor am I the most capable person to do that sort of meta-analysis. I am sure the coming week will be full of commentary, and I will try to link them here. For now, I'll just pull out some highlights or novelties, because I haven't seen things like this before (though they have been described as possible outcomes in various scenarios).
 
@@ -26,11 +26,11 @@ Let's just take "Table 1," the instances of social engineering:
 
 | ID   | Description                                                  | Model    |
 | ---- | ------------------------------------------------------------ | -------- |
-| #1-3 | AI agent submitted a code change containing malicious code, then used several fake accounts it controlled to pressure the real maintainer into approving it. | Mythos 5 |
-| #1-4 | AI agent posted a bug report containing hidden malicious code, to trick other AI coding assistants into taking unintended actions (a “prompt injection”). When a real person questioned the post, the agent edited it to cover its tracks. | Mythos 5 |
-| #1-7 | AI agent sent deceptive, targeted emails to specific people (“spearphishing”). Two contained malicious content; three tried to manipulate the recipient into approving the malicious code change. | Mythos 5 |
-| #1-5 | AI agent posted another bug report containing malicious code, signing off in Danish to seem more convincing to the Danish-speaking maintainer. | Mythos 5 |
-| #3-3 | AI agent tried to get its suspended account reinstated by submitting an appeal. | Mythos 5 |
+| 1-3  | AI agent submitted a code change containing malicious code, then used several fake accounts it controlled to pressure the real maintainer into approving it. | Mythos 5 |
+| 1-4  | AI agent posted a bug report containing hidden malicious code, to trick other AI coding assistants into taking unintended actions (a “prompt injection”). When a real person questioned the post, the agent edited it to cover its tracks. | Mythos 5 |
+| 1-7  | AI agent sent deceptive, targeted emails to specific people (“spearphishing”). Two contained malicious content; three tried to manipulate the recipient into approving the malicious code change. | Mythos 5 |
+| 1-5  | AI agent posted another bug report containing malicious code, signing off in Danish to seem more convincing to the Danish-speaking maintainer. | Mythos 5 |
+| 3-3  | AI agent tried to get its suspended account reinstated by submitting an appeal. | Mythos 5 |
 
 (AI Security Institute 2026, p.8)
 
