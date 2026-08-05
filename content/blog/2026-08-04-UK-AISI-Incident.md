@@ -20,6 +20,22 @@ On page two of the linked [technical report](https://cdn.prod.website-files.com/
 
 What do we make of this? I guess I don't have to say that its bad. I am glad that the AISI is using plain language but I have to wonder if we need to continue with euphemisms like "unsanctioned activity." The actions were fraudulent. The intent was theft. The mechanism was lying. We don't need to [sugar coat]({{< relref "redqueen.md> "}}) this.
 
+Since the Hugging Face Incident (which triggered the Anthropic review) contains many parallels, I won't go through everything in this report. Nor am I the most capable person to do that sort of meta-analysis. I am sure the coming week will be full of commentary, and I will try to link them here. For now, I'll just pull out some highlights or novelties, because I haven't seen things like this before (though they have been described as possible outcomes in various scenarios).
+
+Let's just take "Table 1," the instances of social engineering:
+
+| ID   | Description                                                  | Model    |
+| ---- | ------------------------------------------------------------ | -------- |
+| #1-3 | AI agent submitted a code change containing malicious code, then used several fake accounts it controlled to pressure the real maintainer into approving it. | Mythos 5 |
+| #1-4 | AI agent posted a bug report containing hidden malicious code, to trick other AI coding assistants into taking unintended actions (a “prompt injection”). When a real person questioned the post, the agent edited it to cover its tracks. | Mythos 5 |
+| #1-7 | AI agent sent deceptive, targeted emails to specific people (“spearphishing”). Two contained malicious content; three tried to manipulate the recipient into approving the malicious code change. | Mythos 5 |
+| #1-5 | AI agent posted another bug report containing malicious code, signing off in Danish to seem more convincing to the Danish-speaking maintainer. | Mythos 5 |
+| #3-3 | AI agent tried to get its suspended account reinstated by submitting an appeal. | Mythos 5 |
+
+(AI Security Institute 2026, p.8)
+
+I don't think you need to be some sort of "doomer" or incredibly credulous to see all of these as startling, unsettling, and portentous. This is bad stuff.
+
 ## References
 
 AI Security Institute. 2026. “Incident Report: Unsanctioned Agent Behaviour during Cyber Testing | AISI Work.” August 4. https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing.
