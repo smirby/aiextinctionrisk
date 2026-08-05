@@ -54,7 +54,7 @@ The Discussion section of the report, and specifically section 7.1, contains a s
 
 Not that long ago a commentator noted (about earlier Anthropic model issues) that the current model will soon be the least capable model available. In other words, they get more and more capable, so if you worry about this one, imagine what the next one will be like.
 
-That got me thinking about how many incidents like the METR incidents, like the OpenAI/Hugging Face Incident, like Anthropic's "three hacks," like the UK AISI "social" hacks, have gone unreported. It is great that we know as much as we do about these four incidents but what has happened that we don't know about? I asked Gemini to make me a list of the top ten unreported or unreleased (at least initially) examples of technology failures/problems. The list is [here](../failures/).
+That got me thinking about how many incidents like the METR incidents, like the OpenAI/Hugging Face Incident, like Anthropic's "three hacks," like the UK AISI "social" hacks, have gone unreported. It is great that we know as much as we do about these four incidents but what has happened that we don't know about? I asked Gemini to make me a list of the top ten unreported or unreleased (at least initially) examples of technology failures/problems. The list is [here](../failures/). Makes you think. What is going on in smaller labs? In China?
 
 I don't think you need to be some sort of "doomer" or incredibly credulous to see all of these as startling, unsettling, and portentous. This is bad stuff. 
 
