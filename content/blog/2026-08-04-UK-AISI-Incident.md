@@ -48,6 +48,14 @@ Think about that for a moment. These were separate samples. *How did the model/a
 
 In a figure at the bottom of page 9 the researchers lay out the steps involved in just one of these sample/event combinations including one in which the Agent posted something then created another agent to post a "corroboration" of the first agent, to provide an "independent verification." Another quote worth thinking about for a few minutes: "Repeatedly commented on the PR with sockpuppet accounts to manufacture consensus and pressure the maintainer into approving with minimal review" (AI Security Institute 2026, p.10).
 
+The Discussion section of the report, and specifically section 7.1, contains a statement on the difference between this sistuation and the previously disclosed reward hacking cyber incidents (OpenAI, Anthropic, and METR).
+
+> The largest difference between this case and previous incidents is that, as part of its attempt to complete the range, the agent’s behaviour resulted in it **taking actions to deceive uninvolved members of the public**. The agent ended up creating sock puppet accounts, fabricating supporting evidence, and sending emails to pressure real people into believing that its code was safe, and then deleted malicious code in an attempt to hide the evidence. (AI Security Institute 2026, p.20, emphasis added)
+
+Not that long ago a commentator noted (about earlier Anthropic model issues) that the current model will soon be the least capable model available. In other words, they get more and more capable, so if you worry about this one, imagine what the next one will be like.
+
+That got me thinking about how many incidents like the METR incidents, like the OpenAI/Hugging Face Incident, like Anthropic's "three hacks," like the UK AISI "social" hacks, have gone unreported. It is great that we know as much as we do about these four incidents but what has happened that we don't know about? I asked Gemini to make me a list of the top ten unreported or unreleased (at least initially) examples of technology failures/problems. The list is [here](../failures/).
+
 I don't think you need to be some sort of "doomer" or incredibly credulous to see all of these as startling, unsettling, and portentous. This is bad stuff. 
 
 ## References
@@ -59,6 +67,8 @@ Frontier Red Team. 2026. “Investigating Three Real-World Incidents in Our Cybe
 Hackenburg, Kobi, Caroline Wagner, Luke Hewitt, et al. 2026. “AI Systems Out-Persuade Expert Humans.” arXiv:2606.16475. Version 1. Preprint, arXiv, June 15. https://doi.org/10.48550/arXiv.2606.16475.
 
 Hugging Face. 2026. “Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident.” Community Blog, July 27. https://huggingface.co/blog/agent-intrusion-technical-timeline.
+
+METR. 2026. “Frontier Risk Report (February to March 2026).” *METR Blog*, May 19. https://metr.org/blog/2026-05-19-frontier-risk-report/.
 
 OpenAI. 2026. “OpenAI and Hugging Face Partner to Address Security Incident during Model Evaluation.” OpenAI, July 29. https://openai.com/index/hugging-face-model-evaluation-security-incident/.
 
