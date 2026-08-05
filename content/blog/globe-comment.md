@@ -21,7 +21,8 @@ We can do better.
 William Leiss penned a commentary to the editorial, just to drive home the point that we don't have to content ourselves with making observations about the probability of doom. Here is his comment:
 
 > The "godfather of AI," who should be regarded as knowing what he is talking about, says that AI brings a 10-20% chance of human extinction. Pause for just a moment to ponder this statement. In a forthcoming book with Richard Smith, "From Tool to Actor," we argue that this level of risk (for catastrophic outcomes) is so far above the norm for acceptable risk in Canada and elsewhere that it is off the risk charts. We know how to regulate technologies with risks of catastrophic outcomes, the best example of which is nuclear power plants. But our pathetic "AI for All" so-called strategy simply ignores all the most serious risks, even though someone like Dario Amodei, CEO of Anthropic, has clearly identified them. The Government of Canada has put its citizens in an intolerable situation and citizens must pressure their government to change course. There must be at least a global enforced pause in Frontier AI development until we are assured that new AI models will be safe prior to deployment (even the USA under Trump is moving in this direction).
+>
+> William Leiss, OC, PhD, FRSC, Professor Emeritus, Queen's University 
+> [william.leiss@gmail.com](mailto:william.leiss@gmail.com)
 
-William Leiss, OC, PhD, FRSC, Professor Emeritus, Queen's University
-
-[william.leiss@gmail.com](mailto:william.leiss@gmail.com)
+The Globe didn't publish it.
