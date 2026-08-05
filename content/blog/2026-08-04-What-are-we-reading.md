@@ -7,7 +7,9 @@ draft: false
 
 <div class="references">
 
-Keeping up with the world of AI is extremely challenging, since things happen so fast. I don't begin to imagine that I can compete in that regard with the folks who actually do the reporting on the industry/issues, including [Zvi Mowshowitz](https://thezvi.substack.com), [AI StopWatch](https://aistop.watch), [Transformer](https://www.transformernews.ai), and others. I am particularly thankful, these days, for the contributions from AI Stopwatch, which seems so human and poignant and sad. Today (Aug 4 2026) is the day that is memorialized in Ray Bradbury's short story from 1950 about a smart house, continuing to run, in the aftermath of a nuclear war and the complete abscence of humans.
+Keeping up with the world of AI is extremely challenging, since things happen so fast. I don't begin to imagine that I can compete in that regard with the folks who actually do the reporting on the industry/issues, including [Zvi Mowshowitz](https://thezvi.substack.com), [AI StopWatch](https://aistop.watch), [Transformer](https://www.transformernews.ai), and others. 
+
+I am particularly thankful, these days, for the contributions from AI Stopwatch, which seems so human and poignant and sad. Today (Aug 4 2026) is the day that is memorialized in [Ray Bradbury's short story](https://aistop.watch/p/justice-league?open=false#§there-will-come-soft-rains) from 1950 about a smart house, continuing to run, in the aftermath of a nuclear war and the complete abscence of humans.
 
 >  "Tomorrow still happens, but it can happen without us. The story’s concluding visual is of the smoldering rubble left where the home finally fell to fire during the night:"
 
