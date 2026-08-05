@@ -34,7 +34,7 @@ Let's just take "Table 1," the instances of social engineering:
 
 (AI Security Institute 2026, p.8)
 
-I don't think you need to be some sort of "doomer" or incredibly credulous to see all of these as startling, unsettling, and portentous. This is bad stuff.
+I don't think you need to be some sort of "doomer" or incredibly credulous to see all of these as startling, unsettling, and portentous. This is bad stuff. 
 
 ## References
 
