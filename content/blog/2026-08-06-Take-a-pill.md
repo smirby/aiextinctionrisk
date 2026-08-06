@@ -25,7 +25,7 @@ It does seem that preparing for disaster is hard to sell, politically, while ret
 
 > But [9-11](https://www.astralcodexten.com/p/against-learning-from-dramatic-events), [COVID](https://slatestarcodex.com/2020/04/14/a-failure-but-not-of-prediction/), and the [Hugging Face incident](https://www.astralcodexten.com/p/the-hugging-face-incident) all suggest a similar theory of political change: the body politic hates preparing for impending threats, but loves reacting (some would say over-reacting) to them after they happen. Ask people to bear the slightest cost in preparing for an approaching disaster, and they’ll call you a dirty fascist tyrant; urge the slightest restraint after the first foreshock of the disaster hits, and they’ll call you a weak unpatriotic anarchist. (Alexander 2026)
 
-I think it is going to take a calamity (major financial disaster or lives lost) before people take this seriously. We've all seen news stories that include the phrase "warning shot," when something bad happens and AI is responsible. Even more tellingly, the people who created AI have said, [over and over and over again]({{< relref "warnings.md" >}}), that this will end in disaster. Yet the frontier labs keep building it.
+I think it is going to take a calamity ([major financial disaster]({{< relref "2026-08-06-Lose-your-wallet.md" >}}) or lives lost) before people take this seriously. We've all seen news stories that include the phrase "warning shot," when something bad happens and AI is responsible. Even more tellingly, the people who created AI have said, [over and over and over again]({{< relref "warnings.md" >}}), that this will end in disaster. Yet the frontier labs keep building it.
 
 -----
 
