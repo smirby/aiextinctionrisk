@@ -56,6 +56,10 @@ Not that long ago a commentator noted (about earlier Anthropic model issues) tha
 
 That got me thinking about how many incidents like the METR incidents, like the OpenAI/Hugging Face Incident, like Anthropic's "three hacks," like the UK AISI "social" hacks, have gone unreported. It is great that we know as much as we do about these four incidents but what has happened that we don't know about? I asked Gemini to make me a list of the top ten unreported or unreleased (at least initially) examples of technology failures/problems. The list is [here](../failures/). Makes you think. What is going on in smaller labs? In China?
 
+Zvi picked up this topic in [his blog post](https://thezvi.substack.com/p/ai-180-no-longer-in-charge) the day after:
+
+> At this point, the models are coordinating extensively on message boards, while every early excuse for their behavior (other than the pure ‘this was a cyber eval’) is systematically contradicted by the next disclosure, and we keep retroactively discovering more incidents. Which means **that probably it is far worse than we know**, even after accounting for everything we now know. (emphasis added)
+
 I don't think you need to be some sort of "doomer" or incredibly credulous to see all of these as startling, unsettling, and portentous. This is bad stuff. 
 
 ## References
