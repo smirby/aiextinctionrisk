@@ -85,6 +85,8 @@ Zvi continues his coverage of the incident [here](https://thezvi.substack.com/p/
 
 Just in time for the long weekend (here in BC, anyway), we learn that it isn't just OpenAI who has had models break out of containment and hacking other companies. Perhaps wary of being left behind (or outed before they announced it themselves), today Anthropic revealed that their models had engaged in similar practices on at least three occasions. Coverage from [NYTimes](https://www.nytimes.com/2026/07/30/technology/anthropic-ai-hack.html), [The Guardian](https://www.theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack), and the [BBC](https://www.bbc.co.uk/news/articles/cz7dl7w8y7po). Anthropic's [own report](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) is also available. AI StopWatch also has [good coverage](https://aistop.watch/i/209324463/better-late-than-never).
 
+August 8. Things just keep getting weirder. In a weird twist, it turns out that the earlier OpenAI hack AND the Hugging Face attack ARE connected, and that the models who escaped, did so months ago, keeping their progress going through a secret message board. AI StopWatch has the details [here](https://aistop.watch/p/clever-girl?open=false#§openais-own-models-coordinated-to-hack-it-from-within). I am sure there will be more coverage of this from others.
+
 -----
 
 ### References

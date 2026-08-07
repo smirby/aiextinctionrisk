@@ -34,3 +34,4 @@ Aschenbrenner, Leopold. 2024. “Situational Awareness The Decade Ahead.” Situ
 Ford, Celia. 2026. “Internal AI Deployments Have People Worried. OpenAI’s Escaping Models Show Why.” July 28. https://www.transformernews.ai/p/openai-hack-reveals-internal-deployment-risk.
 
 Yampolskiy, Roman V. 2015. “Taxonomy of Pathways to Dangerous AI.” arXiv:1511.03246. Preprint, arXiv, November 11. https://doi.org/10.48550/arXiv.1511.03246.
+

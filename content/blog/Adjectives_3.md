@@ -7,7 +7,7 @@ Draft: true
 
 # Intrinsic Power
 
-In two previous post we tried to point out that in our discussions about AI Safety we cannot get fixated on intelligence, and explored what it means for an AI to be an actor in the world. This builds on work in my forthcoming book, *From Tool To Actor.* 
+In two previous post we tried to point out that in our discussions about AI Safety we cannot get fixated on intelligence, and explored what it means for an AI to be an actor in the world. This builds on work in our forthcoming book, *From Tool To Actor.* 
 
 In this post I will pull these threads together with the acknowledgement that intelligence DOES matter, and how.
 

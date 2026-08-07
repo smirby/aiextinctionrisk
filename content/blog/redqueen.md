@@ -19,6 +19,14 @@ I don't know about you, but I'm ready to call **bullshit** on the whole lot of t
 
 What can we do about it? Well, for a start, we can stop accepting the made up terminology or the adoption of cutesy things (like "sandbox" - who was ever forced to stay in a sandbox? Who ever caused harm by climbing out of one?) when we're talking about a containment system that could have repercussions up to and including death.
 
+Other writers have commented on this problem. Yuval Harari has argued that we shouldn't call "AI" an artificial intelligence, with the (human) artificial intelligence being assumed. Instead, we should call it an *alien Intelligence* (Harari 2024). (Note: He then goes on to argue that AI is not a tool but an "agent" (Harari 2024, p. 200). I prefer the term "actor," for reasons to be explored in a future blog post. ) Here is the full quote.
+
+> As for the term "AI," I use it when emphasizing the ability of some algorithms to learn and change by themselves. Traditionally, AI has been an abbreviation for "artificial intelligence." [...] it is perhaps better to think of it as "alien intelligence." As AI evolves, it becomes less artificial (in the sense of depending on human designs) and more alien (Harari 2024, p. 218).
+
+Alison Poltock, (who I also disagree with, for other reasons), gets it right in this quote, in which she agrees that AI is not a tool and  concerns herself with the impact of the words we use in discussing AI:
+
+> AI is not a tool. Or rather, it is not *just* a tool. The word is too flat. It doesn’t carry the weight of what’s really happening when we interact with Generative AI. It’s like calling GPS ‘just a map’ without acknowledging the impact it has on our journey. The term *tool* flatters our autonomy and implies a clean boundary between the user and the used (Poltock 2025).
+
 **Words matter**. People building AI should be serious people with a serious appreciation for the situation they are responsible for. There is no excuse for this.
 
 -----
@@ -26,6 +34,10 @@ What can we do about it? Well, for a start, we can stop accepting the made up te
 ## Works cited
 
 Kalai, Adam Tauman, Ofir Nachum, Santosh S. Vempala, and Edwin Zhang. 2025. “Why Language Models Hallucinate.” arXiv:2509.04664. Version 1. Preprint, arXiv, September 4. https://doi.org/10.48550/arXiv.2509.04664.
+
+Harari, Yuval Noah. 2024. *Nexus: A Brief History of Information Networks from the Stone Age to AI*. Penguin Random House Canada.
+
+Poltock, Alison. 2025. “AI Is Not Just a Tool.” *Medium*, May 12. https://medium.com/@alison_55233/ai-is-not-just-a-tool-98340a7c66f1.
 
 Skalse, Joar, Nikolaus H. R. Howe, Dmitrii Krasheninnikov, and David Krueger. 2022. “Defining and Characterizing Reward Hacking.” arXiv.Org, September 27. https://arxiv.org/abs/2209.13085v2.
 
