@@ -33,7 +33,7 @@ I am startled by the phrase "and the models keep improving their capabilities." 
 
 I'm a regular reader of Mr Mowshowitz's posts and enjoy his "take" on things. But this - possible - slip seems like a dangerous one. Especially in this context, as the misalignment documented here could have gone far worse (and, for all we know, did). This cannot be written off as "the models are improving their capabilities." No. The people at OpenAI improved their capabilities, and did so carelessly.
 
-### Updates:
+### Updates (so many updates):
 
 OpenAI wrote a [long report](https://openai.com/index/safety-alignment-long-horizon-models/) about the incidents. and you can also read Zvi Mowshowitz's  [thoughts](https://substack.com/home/post/p-207838695) on the situation. As did [Scott Alexander](https://www.astralcodexten.com/p/the-hugging-face-incident). See also Zvi's [later thoughts](https://thezvi.substack.com/p/more-on-an-internal-openai-model), noting OpenAI's "incredible negligence" on July 26.  I know Zvi's posts are long, but do yourself a favour and read this one right to the end (or skip to the end) so that you can read his 10 points of "places I would start" (in terms of calls to action).
 
@@ -89,7 +89,7 @@ August 6. Things just keep getting weirder. In a weird twist, it turns out that 
 
 Zvi captures the essence of the later revelations:
 
-> Either way, buckle up for the next set of revelations. It’s a doozy. This was an early recreation of the triggering events of *[If Anyone Builds It, Everyone Dies](https://amzn.to/4iwvCtW),* except it was more sci-fi, because real life does not have to do fake things to look realistic. We were fortunate enough, and this was early enough, that we were able to catch this before it was too late. Next time, if we don’t get our act together, we might not be so lucky.
+> Either way, buckle up for the next set of revelations. It’s a doozy. This was an early recreation of the triggering events of *[If Anyone Builds It, Everyone Dies](https://amzn.to/4iwvCtW),* except it was more sci-fi, because real life does not have to do fake things to look realistic. We were fortunate enough, and this was early enough, that we were able to catch this before it was too late. Next time, if we don’t get our act together, we might not be so lucky. https://thezvi.substack.com/p/openai-trained-its-models-for-months
 
 -----
 
