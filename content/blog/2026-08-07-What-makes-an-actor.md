@@ -5,7 +5,7 @@ categories: ["AI Safety"]
 draft: false
 ---
 
-I am fighting an uphill/losing battle against the naming of advanced large language models (AIs) as "agents." In this blog post I'll try to explain why I am sticking to my guns for now, even if I eventually lose this one. 
+I am fighting an uphill/losing battle against the naming of advanced large language models (AIs) as "agents." I prefer the term "actor." In this blog post I'll try to explain why I am sticking to my guns for now, even if I eventually lose this one. 
 
 For context, we have named our book "From Tool to Actor: AI and Catastrophic Risk." My co-author has, at various times, suggested to me that we should call it "From Tool to Agent." Here's my case against that:
 
