@@ -45,3 +45,12 @@ Much has been written about this by other people. See my "[crash test](./crashte
   - July 22: https://thezvi.substack.com/p/openai-model-hacks-into-huggingface?r=67wny
   - July 23: https://thezvi.substack.com/p/ai-178-a-fire-alarm-for-general-intelligence
   - July 26: https://thezvi.substack.com/p/more-on-an-internal-openai-model
+
+- It turns out this incident didn't just have a "pre-incident" (the OpenAI escape during internal testing). It had a pre-pre-incident, which, it seems, rolls the whole thing into one big incident. It seems too much to be true. See coverage from AI StopWatch, WIRED, and Politico.
+
+  - AI StopWatch: https://aistop.watch/i/210151404/openais-own-models-coordinated-to-hack-it-from-within
+  - WIRED: https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/
+  - Politico: https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750
+  - Axios: https://www.axios.com/2026/08/06/openai-hugging-face-black-hat
+
+  
