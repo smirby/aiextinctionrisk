@@ -38,19 +38,23 @@ I've posted quite a bit about the "[crash test](./crashtest/)" incident involvin
 Much has been written about this by other people. See my "[crash test](./crashtest/)" blog post for most of it. For now I'll just add the following:
 
 - I am glad that "agents" are getting the blame (or at least their role is becoming clearer), as for too long and in too many ways the problem has been laid at the feet of the AI models. The model's of course, provide the "power" for the attack (perhaps they are the bullets in this scenario), while it is the agent ("harness") that provides the delivery (the rifle in this scenario?).
+
 - I am tired for the word "sandbox," given that that sort of language evokes children playing with toys and does not sufficiently convey the gravity of the situation nor does it help to understand the heroic efforts that the AI model+agent undertook to escape their containment/cage. See [my rant](./2026-07-26-Emptying-the-sandbox/)).
-- It does seem that the seriousness of the incident is being fully appreciated, though there remain a few skeptics ("PR stunt, just following instructions"); Zvi [expertly squashes](https://thezvi.substack.com/p/more-on-an-internal-openai-model?open=false#§the-huggingface-attack-was-not-a-marketing-pitch-you-morons) those people, so I won't do more. In fact, I strongly encourage everyone to read Zvi's analysis from the beginning. 
+
+- It does seem that the seriousness of the incident is being fully appreciated, though there remain a few skeptics ("PR stunt, just following instructions"); Zvi [expertly squashes](https://thezvi.substack.com/p/more-on-an-internal-openai-model?open=false#§the-huggingface-attack-was-not-a-marketing-pitch-you-morons) those people, so I won't do more. In fact, I strongly encourage everyone to read Zvi's analysis from the beginning. Especially his August 7 update, given how serious things became, eventually.
   - July 21: https://thezvi.substack.com/p/openai-shares-some-alignment-problems 
                   (before the Hugging Face connection was known)
   - July 22: https://thezvi.substack.com/p/openai-model-hacks-into-huggingface?r=67wny
   - July 23: https://thezvi.substack.com/p/ai-178-a-fire-alarm-for-general-intelligence
   - July 26: https://thezvi.substack.com/p/more-on-an-internal-openai-model
+  - Aug 7: https://thezvi.substack.com/p/openai-trained-its-models-for-months
 
-- It turns out this incident didn't just have a "pre-incident" (the OpenAI escape during internal testing). It had a pre-pre-incident, which, it seems, rolls the whole thing into one big incident. It seems too much to be true. See coverage from AI StopWatch, WIRED, and Politico.
+- It turns out this incident didn't just have a "pre-incident" (the OpenAI escape during internal testing). It had a pre-pre-incident, which, it seems, rolls the whole thing into one big incident. It seems too much to be true. See coverage from AI StopWatch, WIRED, and Politico, Axios, and Zvi. 
 
   - AI StopWatch: https://aistop.watch/i/210151404/openais-own-models-coordinated-to-hack-it-from-within
   - WIRED: https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/
   - Politico: https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750
   - Axios: https://www.axios.com/2026/08/06/openai-hugging-face-black-hat
+  - Zvi: https://thezvi.substack.com/p/openai-trained-its-models-for-months
 
   
