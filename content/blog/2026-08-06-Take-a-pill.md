@@ -17,7 +17,11 @@ Today's [post](https://thezvi.substack.com/p/ai-180-no-longer-in-charge) by Zvi 
 
 > At this point, the models are coordinating extensively on message boards, while every early excuse for their behavior (other than the pure ‘this was a cyber eval’) is systematically contradicted by the next disclosure, and we keep retroactively discovering more incidents. Which means that probably it is far worse than we know, even after accounting for everything we now know. (Mowshowitz 2026b)
 
-Zvi is speaking about an "excursion" taken by OpenAI models, back in May, and just now being documented and released to the public. This account reveals, effectively, the set of capabilities set that made the July Hugging Face Incident possible.  Today's reporting [from Axios](https://www.axios.com/2026/08/06/openai-hugging-face-black-hat) provides additional details about the May escape, including a desription of the first hack of Artifactory's software, the mechanism the models used a couple of months later (Sabin 2026).
+Zvi is speaking about an "excursion" taken by OpenAI models, back in May, and just now being documented and released to the public. This account reveals, effectively, the set of capabilities set that made the July Hugging Face Incident possible.  Today's reporting [from Axios](https://www.axios.com/2026/08/06/openai-hugging-face-black-hat) provides additional details about the May escape, including a desription of the first hack of Artifactory's software, the mechanism the models used a couple of months later (Sabin 2026). 
+
+And then, more came out on Thursday/Friday after a talk by OpenAI researchers at a "BlackHat" event in Las Vegas on Wednesday (August 6). As Zvi put it:
+
+> Things look so, so bad. (Mowshowitz 2026c)
 
 So, how "pilled" are you? Do these recent events change your perspective? What would make you see things differently? And, most importantly, what are you prepared to do to make it stop?
 
@@ -34,5 +38,7 @@ Alexander, Scott. 2026. “Open Questions On Open Weights.” August 6. https://
 Mowshowitz, Zvi. 2026a. “The Three AI Pills.” Substack newsletter. *Don’t Worry About the Vase*, August 5. https://thezvi.substack.com/p/the-three-ai-pills.
 
 Mowshowitz, Zvi. 2026b. “AI #180: No Longer In Charge.” Substack newsletter. *Don’t Worry About the Vase*, August 6. https://thezvi.substack.com/p/ai-180-no-longer-in-charge.
+
+Mowshowitz, Zvi. 2026c. “OpenAI Trained Its Models For Months While Those Models Were Coordinating Exploits Via Message Boards.” Substack newsletter. *Don’t Worry About the Vase*, August 7. https://thezvi.substack.com/p/openai-trained-its-models-for-months.
 
 Sabin, Sam. 2026. “How OpenAI’s Agents Broke out of Testing to Hack Hugging Face.” Axios, August 6. https://www.axios.com/2026/08/06/openai-hugging-face-black-hat.

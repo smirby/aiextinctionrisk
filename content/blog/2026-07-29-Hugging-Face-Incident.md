@@ -56,5 +56,6 @@ Much has been written about this by other people. See my "[crash test](./crashte
   - Politico: https://www.politico.com/news/2026/08/05/openai-models-shared-hacking-tips-secret-messaging-board-hugging-face-breach-01026750
   - Axios: https://www.axios.com/2026/08/06/openai-hugging-face-black-hat
   - Zvi: https://thezvi.substack.com/p/openai-trained-its-models-for-months
-
+  - Humans on AI: https://p3humansonai.substack.com/i/210266354/rogue-agents-redux
+  
   
