@@ -7,6 +7,8 @@ draft: false
 
 A week ago (July 30 2026),about $140m (CAD) in bitcoin was stolen from thousands of people who were relying on "CoinKite" physical security devices, devices that supposedly were *more* secure because they were hardware based and stored the wallet offline. The weakness was in the random number generator used by the firm to provide the "seed" for the encryption of the user's passphrase. Due to a flaw in their code, the random numbers weren't as random as believed.
 
+I didn't know this, but thefts of Bitcoin/cryptocurrency is an ongoing problem: a newsletter from my bank provided context in the form the $800m was stolen this spring, before the CoinKite incident.
+
 The CEO of the company, Rodolfo Novak, stated in an interview that he believes that the hackers used AI tools in an "automated AI-assisted code review" to find and exploit the bug. Ironically, the firm has been using AI tools to identify any weaknesses in their software, and hadn't found any before the hack occurred. 
 
 This is a case of automated attackers identifying a "zero day" weakness (one that no one has seen before) and exploiting it before any defensive measures can be taken. Previously such weaknesses were seen only in research and testing. 
