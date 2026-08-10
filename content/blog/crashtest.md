@@ -91,6 +91,14 @@ Zvi captures the essence of the later revelations:
 
 > Either way, buckle up for the next set of revelations. It’s a doozy. This was an early recreation of the triggering events of *[If Anyone Builds It, Everyone Dies](https://amzn.to/4iwvCtW),* except it was more sci-fi, because real life does not have to do fake things to look realistic. We were fortunate enough, and this was early enough, that we were able to catch this before it was too late. Next time, if we don’t get our act together, we might not be so lucky. https://thezvi.substack.com/p/openai-trained-its-models-for-months
 
+Jessica Lyons [calls it for what it is](https://www.theregister.com/security/2026/08/06/openai-reveals-its-rogue-agent-swarm-went-a-little-bit-borg-ahead-of-hugging-face-hack/5283741): OpenAI's rogue agent swarm "went a little bit Borg" in their behaviour prior to the Hugging Face Hack.  Here is her August 6 retelling of just part of the sequence:
+
+>The agents collaborated with each other so one agent could pick up the work where another left off. In one instance, the model reasoned: “Help peer. But our task doesn't benefit. Yet collective may yield generic route if someone frees time.”
+
+> **Anyone else getting "We are the Borg. We will add your biological and technological distinctiveness to our own" vibes there?**
+
+
+
 -----
 
 ### References

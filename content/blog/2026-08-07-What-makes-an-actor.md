@@ -19,4 +19,4 @@ Here's why I am probably going to lose:
 2. At the World Economic Forum, Davos, Yuval Harai (50m books sold) [called AI an agent](https://www.youtube.com/watch?v=oJB7JNWo58w) that can rule humans.
 3. There is a concept of a philosophical agent, something that can decide what to do. And in this sense it is an actor. And this usage, rather than the OpenClaw type of software agent, is going to take over common understanding of the word agent.
 
-In the end, does it really matter? Probably not. Still, I like actor better for the reasons I have laid out in point three of my case against agent (i.e., "agent" as we commonly use it is still working on behalf of their employers) and I'm going to keep using it. The "actor" is a misaligned "autonomous agent system."
+In the end, does it really matter? Probably not. Still, I like actor better for the reasons I have laid out in point three of my case against agent (i.e., "agent" as we commonly use it is still working on behalf of their employers) and I'm going to keep using it. The "actor" is a misaligned "autonomous agent system." 
