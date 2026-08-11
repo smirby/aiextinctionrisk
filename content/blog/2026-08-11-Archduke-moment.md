@@ -17,7 +17,7 @@ Now, from what I can tell, this is a pretty banal "hack." On the other hand, it 
 
 We don't want this kind of cheating in our world. And we need to stop it. As we heard in the BlackHat conference presentation by OpenAI researcher Michael Dalton, "we should expect that threat actors will intentionally deploy, optimize, weaponize, and use offensive agent collectives in the manner that we have just described here." He called it a "watershed moment." (Black Hat 2026)
 
-I don't think its a watershed. I think it's an Archduke.
+I don't think its a watershed. I think it's an Archduke. The War is coming.
 
 -----
 
