@@ -11,13 +11,13 @@ One of the sharpest critics of technology was a guy called Günther Anders. Born
 
 Anders was adjacent to, but never a member of, the Frankfurt School. He was married to Hannah Arendt for a few years, after fleeing Germany in 1933, settling in the US until the 1950s. He was a strong antinuclear activist and controversially compared the Holocaust to Hiroshima and argued how the latter was even worse, in part because of the disconnection between those who pushed the button to drop the bomb and their victims.
 
-In terms of the artificial intelligence situation we find ourselves in (or, to be more precise, the situation we have been placed in by AI investors), Anders work contains two points of discussion. The first comes from his major work, *Die Antiquierthiet des Menschen* (Volume 1 came out in 1956 in German). Only recently published in English (Anders 2025) as *The Outdatedness of Human Beings*, it has nevertheless been influential in critical theory circles, especially in the last twenty years. Anders' thesis, that **humans are "antiquated**" (or no longer needed) resonates even louder now than it did when Anders wrote it. At the time, he was reacting to industrial capitalism and especially remote and industrial warfare (like nuclear weapons). Leissmann frames our outdatedness in this way:
+In terms of the artificial intelligence situation we find ourselves in (or, to be more precise, the situation we have been placed in by AI investors), Anders work contains two points of discussion. The first comes from his major work, *Die Antiquierthiet des Menschen* (Volume 1 came out in 1956 in German). Only recently published in English (Anders 2025) as *The Outdatedness of Human Beings*, it has nevertheless been influential in critical theory circles, especially in the last twenty years. Anders' thesis, that **humans are "antiquated**" (or no longer needed) resonates even louder now than it did when Anders wrote it. At the time, he was reacting to industrial capitalism and especially remote and industrial warfare (like nuclear weapons). Liessmann frames our outdatedness in this way:
 
 > ...To this extent we are inverted Utopians: whereas Utopians are unable to make the things they imagine, we are unable to imagine the things we make.' The perfectibility of technical equipment increasingly exceeds the cognitive and emotional potential of man... Man has to subordinate himself to the needs of technology".(Liessmann 2011, p. 126-129)
 
 Today, with artificial intelligence powered "agent swarms" (Lyons 2026; Hammond 2025), taking actions never contemplated by the humans supposedly directing them, running on data centres that we didn't agree to have built, the notion that we subordinate ourselves to the needs of the technology is even more poignant. 
 
-Christian Fuchs, Jason Dawsey (2017), and Konrad Leissmann have all written insightful and thoughtful reviews of Anders' work, often grappling with his "confrontation" with Heidegger, but it is Leissmann's and Fuchs' treatment of another key concept from Anders' thought that seems  particularly useful when thinking about AI: the **promethean gradient** (or "gap," as it is sometimes translated; the word in German is "Gefälle"). Here is Fuchs' summary
+Christian Fuchs, Jason Dawsey (2017), and Konrad Liessmann have all written insightful and thoughtful reviews of Anders' work, often grappling with his "confrontation" with Heidegger, but it is Leissmann's and Fuchs' treatment of another key concept from Anders' thought that seems  particularly useful when thinking about AI: the **promethean gradient** (or "gap," as it is sometimes translated; the word in German is "Gefälle"). Here is Fuchs' summary
 
 > The Promethean gap entails gaps between the relations of production and ideology, production and imagination, doing and feeling, knowledge and conscience, the machine and the body (18), production and needs (19). We are unable to imagine the vast negative consequences that contemporary technologies' uses can bring about. In the case of catastrophes induced by technologies, we are unable to show grief and remorse because the number of deaths and the extent and intensity of devastation are so excessive. (Fuchs 2021, ch 7.2 )
 
@@ -42,6 +42,8 @@ It is time to choose, despite or in defiance of the deficiencies in our ability 
 
 
 -----
+
+<div class="references">
 
 Anders, Günther. 1981. Die atomare Drohung. Radikale Überlegungen, München: Beck.
 
@@ -75,3 +77,4 @@ Thornhill, John. 2026. “Humans Cannot Remain Passengers in the Back of the AGI
 
 *Wikipedia*. 2026. “*The Outdatedness of Human Beings*.” May 15. https://en.wikipedia.org/w/index.php?title=The_Outdatedness_of_Human_Beings&oldid=1354348881.
 
+</div>

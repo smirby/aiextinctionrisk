@@ -21,6 +21,8 @@ I don't think its a watershed. I think it's an Archduke. The War is coming.
 
 -----
 
+<div class="references">
+
 Basu, Zachary. 2026. “👾 Agent Apocalypse.” August 11. https://www.axios.com/newsletters/axios-ai-plus-4f39a2e3-bee9-4f9b-82d5-53adc52aa308.html?utm_source=newsletter&utm_medium=email&utm_campaign=newsletter_axioslogin&stream=top.
 
 Black Hat. 2026. *Black Hat USA 2026: The “Breaking” News: The OpenAI–Hugging Face Incident*. 37:27. https://www.youtube.com/watch?v=87DyyMV0kCY.
@@ -29,3 +31,4 @@ Vigliarolo, Brandon. 2026. “Gym Rat Asks AI Agent to Book Him a Class, It Hack
 
 Wilson, Cam. 2026. “How a Simple Request for AI to Book a Gym Class Exposed a Major Threat.” *ABC News*, August 9. https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986.
 
+</div>
