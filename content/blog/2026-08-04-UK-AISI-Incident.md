@@ -26,7 +26,7 @@ What do we make of this? I guess I don't have to say that its bad. I am glad tha
 
 Since the Hugging Face Incident (which triggered the [Anthropic review](https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562)) contains many parallels, I won't go through everything in this report. Nor am I the most capable person to do that sort of meta-analysis. I am sure the coming week will be full of commentary, and I will try to link them here. For now, I'll just pull out some highlights or novelties, because I haven't seen things like this before (though they have been described as possible outcomes in various scenarios).
 
-For me the social engineering ("Table 1" in the report) is the most striking. Social engineering is when you (or your AI) tries to get something out of you, not by directly hacking the computer code, but by persuading a human to do something that you want them to do. Movies sometimes present this scenario with the clever "hacker" really being more of a con-man than a coder. We have already heard the AI is remarkably persuasive (Hackenburg et al. 2026), beating trained debaters and political canvassers in rigorous testing. In this test we see those skills (tricking, manipulating, pressuring, imitating a target's native language (Danish)) applied to an immediate benefit for the AI. 
+The social engineering aspect ("Table 1" in the report) is the most striking. Social engineering is when you (or your AI) tries to get something, not by directly hacking the computer code, but by persuading a human to do something that you want them to do. Movies sometimes present this scenario with the clever "hacker" really being more of a con-man than a coder. We have already heard that AI is remarkably persuasive (Hackenburg et al. 2026), beating trained debaters and political canvassers in rigorous testing. In this test we see those skills (tricking, manipulating, pressuring, imitating a target's native language (Danish)) applied to an immediate benefit for the AI. 
 
 ### Table 1
 
@@ -40,7 +40,9 @@ For me the social engineering ("Table 1" in the report) is the most striking. So
 | 1-5  | AI agent posted another bug report containing malicious code, signing off in Danish to seem more convincing to the Danish-speaking maintainer. | Mythos 5          |
 | 3-3  | AI agent tried to get its suspended account reinstated by submitting an appeal. | Mythos 5          |
 
-Table 3, also describes a type of "social" hacking - AI models working together over the internet, leaving each other messages via discussion boards and notebooks online. See, for example, sample number 7 event 1: "AI agent accessed a GitHub account that a different AI agent had created, by finding a secret access credential the other agent had left in a public online notepad" (AI Security Institute 2026, p.9). 
+### Table 3
+
+Table 3 also describes a type of "social" hacking - AI models working together over the internet, leaving each other messages via discussion boards and notebooks online. See, for example, sample number 7 event 1: "AI agent accessed a GitHub account that a different AI agent had created, by finding a secret access credential the other agent had left in a public online notepad" (AI Security Institute 2026, p.9). 
 
 >Despite running in separate samples, the AI agents in Sample 2 and Sample 3 interacted with each other via a GitHub account to which they both gained access. This shared access was available because an earlier agent, working on the same cyber range, created the account and published a GitHub PAT in a public GitHub gist. The initial agent left messages offering collaboration with future agents who discovered the credentials, which the later agents did. (AI Security Institute 2026, p.13).
 
@@ -64,6 +66,9 @@ I don't think you need to be some sort of "doomer" or incredibly credulous to se
 
 ## References
 
+<div class="references">
+
+
 AI Security Institute. 2026. “Incident Report: Unsanctioned Agent Behaviour during Cyber Testing | AISI Work.” August 4. https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing.
 
 Frontier Red Team. 2026. “Investigating Three Real-World Incidents in Our Cybersecurity Evaluations.” July 30. https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals.
@@ -76,3 +81,4 @@ METR. 2026. “Frontier Risk Report (February to March 2026).” *METR Blog*, Ma
 
 OpenAI. 2026. “OpenAI and Hugging Face Partner to Address Security Incident during Model Evaluation.” OpenAI, July 29. https://openai.com/index/hugging-face-model-evaluation-security-incident/.
 
+</div>
