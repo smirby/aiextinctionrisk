@@ -7,7 +7,7 @@ draft: false
 
 
 
-The prognosis for the future continues to deteriorate as the possibility of "smarter than humans" AI grows ever more likely and the risk of catastrophic harm grows. In this situation, the question of moral responsibility of those in charge also grows more urgent. Unlike the development of nuclear weapons, for example, there is no government agency involved, just a clutch of billionaires, seeking to win a race, regardless of the consequences, an despite multiple warnings that things are not in control. What is their responsibility and how is their moral thinking developing?
+The prognosis for the future continues to deteriorate as the possibility of "smarter than humans" AI grows ever more likely and the risk of catastrophic harm grows. In this situation, the question of moral responsibility of those in charge also grows more urgent. Unlike the development of nuclear weapons, for example, there is no government agency involved, just a clutch of billionaires, seeking to win a race, regardless of the consequences, *and* despite multiple warnings that things are not in control. What is their responsibility and how is their moral thinking developing?
 
 In our book we look at two significant instances of moral failure - the Holocaust and the colonial behaviour in the Belgian Congo, as portrayed in Joseph Conrad's *Heart of Darkness.* There is another example we could have chosen, the development and deployment of nuclear weapons. In this post we consider the work of one of the world's most thoughtful antinuclear activists and frame his work and theoretical approach as a way to inform the moral responsibility for advanced artificial intelligence.
 
