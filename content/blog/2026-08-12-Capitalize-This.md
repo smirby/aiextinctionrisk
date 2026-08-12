@@ -31,7 +31,7 @@ Yes. It is a wake up call. Or, maybe The Wake-up Call. Thank you, Celiia, for ca
 
 ### References
 
-<div style="references">
+<div class="references">
 
 AI Security Institute. 2026. “Incident Report: Unsanctioned Agent Behaviour during Cyber Testing.” AISI Blog, August 4. https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing.
 
