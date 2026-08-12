@@ -7,6 +7,10 @@ draft: false
 
 
 
+The prognosis for the future continues to deteriorate as the possibility of "smarter than humans" AI grows ever more likely and the risk of catastrophic harm grows. In this situation, the question of moral responsibility of those in charge also grows more urgent. Unlike the development of nuclear weapons, for example, there is no government agency involved, just a clutch of billionaires, seeking to win a race, regardless of the consequences, an despite multiple warnings that things are not in control. What is their responsibility and how is their moral thinking developing?
+
+In our book we look at two significant instances of moral failure - the Holocaust and the colonial behaviour in the Belgian Congo, as portrayed in Joseph Conrad's *Heart of Darkness.* There is another example we could have chosen, the development and deployment of nuclear weapons. In this post we consider the work of one of the world's most thoughtful antinuclear activists and frame his work and theoretical approach as a way to inform the moral responsibility for advanced artificial intelligence.
+
 One of the sharpest critics of technology was a guy called Günther Anders. Born in 1902, he was a student of Edmund Husserl (and Heidegger, but that's a [whole other story](https://www.journals.uchicago.edu/doi/10.1086/690967)), and a peer of Herbert Marcuse. We rely on some of the concepts from Marcuse - like instrumental rationality - in our book. I got interested in Anders because of the Marcuse connection, initially, because there are aspects of his work that really resonate with an AI Safety perspective.
 
 Anders was adjacent to, but never a member of, the Frankfurt School. He was married to Hannah Arendt for a few years, after fleeing Germany in 1933, settling in the US until the 1950s. He was a strong antinuclear activist and controversially compared the Holocaust to Hiroshima and argued how the latter was even worse, in part because of the disconnection between those who pushed the button to drop the bomb and their victims.
