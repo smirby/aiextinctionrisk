@@ -7,7 +7,7 @@ draft: false
 
 I was tempted to call this post "Capital Crimes," for reasons that will soon become apparent, but restrained myself.
 
-In you're trying to keep up with AI news, you could do worse than subscribing to The Transformer, an online newsletter that you can subscribe to for free. There, you will find amazing coverage of AI news and issues, written by thoughtful and well-informed writers, like Celia Ford. [Today's issue](https://www.transformernews.ai/p/ai-testing-is-dangerous-can-it-be-fixed) is particularly good.
+In you're trying to keep up with AI news, you could do worse than subscribing to *Transformer*, an online newsletter that you can subscribe to for free. There, you will find amazing coverage of AI news and issues, written by thoughtful and well-informed writers, like Celia Ford. [Today's issue](https://www.transformernews.ai/p/ai-testing-is-dangerous-can-it-be-fixed) is particularly good.
 
 In the evolution of an idea or an event there comes a time when the event gets a short name and becomes capitalized. World War Two, The Holocaust. And, if numbers could be capitalized, 9-11. Today we have the capitalization of the series of events that both epitomize and serve as a warning about AI misalignment. Celia Ford has helpfully condensed four separate situations, taking place across four months (May to August) with the catchy term The Incidents&trade;. She even helpfully added the trademark symbol, just to mark her territory.
 
@@ -21,7 +21,7 @@ So, what are these incidents? I've written about them before (here, here, and he
 >
 >In a wild plot twist, OpenAI [revealed](https://www.youtube.com/watch?v=87DyyMV0kCY) at a cybersecurity conference on Wednesday that its agents had been colluding with each other, unnoticed, via increasingly cryptic messages on an internal server.
 
-This collection of activities, which Ford helpfully characterizes as "a cabal of mustache-twirling schemers whispering in a gloomy server room," is rightly shaking up not just the AI Safety community but well beyond into the [US Senate](https://thehill.com/policy/technology/6020192-sanders-presses-ai-leaders-pause/). It is time to take notice and do something about it. As we hear from Palisade Research director Jeffrey Ladish in his interview with *Transformer,*. 
+This collection of activities, which Ford helpfully characterizes as "a cabal of mustache-twirling schemers whispering in a gloomy server room," is rightly shaking up not just the AI Safety community but well beyond into the [US Senate](https://thehill.com/policy/technology/6020192-sanders-presses-ai-leaders-pause/). It is time to take notice and do something about it. As we hear from Palisade Research director Jeffrey Ladish in his interview with *Transformer,* 
 
 > Our ability to contain and control and understand AIs is lagging far behind our ability to make them more and more powerful,” he said. “That, to me, should be an obvious wake-up call of like, ‘Oh, maybe we should rethink our life choices.’
 
