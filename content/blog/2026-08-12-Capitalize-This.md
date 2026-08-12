@@ -29,9 +29,16 @@ Yes. It is a wake up call. Or, maybe The Wake-up Call. Thank you, Celiia, for ca
 
 -----
 
+### References
+
+<div style="references">
+
 AI Security Institute. 2026. “Incident Report: Unsanctioned Agent Behaviour during Cyber Testing.” AISI Blog, August 4. https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing.
 
 Black Hat. 2026. *Black Hat USA 2026: The “Breaking” News: The OpenAI–Hugging Face Incident*. 37:27. https://www.youtube.com/watch?v=87DyyMV0kCY.
 
 Ford, Celia. 2026. “AI Testing Is Dangerous. Can It Be Fixed?” August 12. https://www.transformernews.ai/p/ai-testing-is-dangerous-can-it-be-fixed.
 
+Nazzaro, Miranda. 2026. “Bernie Sanders Warns AI Leaders to Pause Development or Face Congress.” Text. *The Hill*, August 10. https://thehill.com/policy/technology/6020192-sanders-presses-ai-leaders-pause/.
+
+</div>
