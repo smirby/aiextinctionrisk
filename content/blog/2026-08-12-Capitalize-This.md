@@ -11,7 +11,7 @@ In you're trying to keep up with AI news, you could do worse than subscribing to
 
 In the evolution of an idea or an event there comes a time when the event gets a short name and becomes capitalized. World War Two, The Holocaust. And, if numbers could be capitalized, 9-11. Today we have the capitalization of the series of events that both epitomize and serve as a warning about AI misalignment. Celia Ford has helpfully condensed four separate situations, taking place across four months (May to August) with the catchy term The Incidents&trade;. She even helpfully added the trademark symbol, just to mark her territory.
 
-So, what are these incidents? I've written about them before ([here]({{< relref "./2026-07-29-Hugging-Face-Incident.md" >}}), [here]({{< relref "./2026-08-04-UK-AISI-Incident.md" >}}), [here]({{< relref "./crashtest.md" >}}), and [here]({{< relref "./2026-07-31-Tell-us-a-story.md" >}}), but let's give Celia's condensed version priority today:
+So, what are these incidents? I've written about them before ([here]({{< relref "./2026-07-29-Hugging-Face-Incident.md" >}}), [here]({{< relref "./2026-08-04-UK-AISI-Incident.md" >}}), [here]({{< relref "./crashtest.md" >}}), and [here]({{< relref "./2026-07-31-Tell-us-a-story.md" >}})), but let's give Celia's condensed version priority today:
 
 >OpenAI’s models [took](https://huggingface.co/blog/agent-intrusion-technical-timeline) advantage of an unknown software vulnerability to break into open-source AI platform Hugging Face in search of the answer to a test they were given. 
 >
