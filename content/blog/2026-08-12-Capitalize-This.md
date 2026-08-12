@@ -21,7 +21,7 @@ So, what are these incidents? I've written about them before ([here]({{< relref 
 >
 >In a wild plot twist, OpenAI [revealed](https://www.youtube.com/watch?v=87DyyMV0kCY) at a cybersecurity conference on Wednesday that its agents had been colluding with each other, unnoticed, via increasingly cryptic messages on an internal server.
 
-This collection of activities, which Ford helpfully characterizes as "a cabal of mustache-twirling schemers whispering in a gloomy server room," is rightly shaking up not just the AI Safety community but well beyond into the [US Senate](https://thehill.com/policy/technology/6020192-sanders-presses-ai-leaders-pause/). It is time to take notice and do something about it. As we hear from Palisade Research director Jeffrey Ladish in his interview with *Transformer,* 
+This collection of activities, which Ford helpfully characterizes as "a cabal of mustache-twirling schemers whispering in a gloomy server room," is rightly shaking up not just the AI Safety community but well beyond into the [US Senate](https://thehill.com/policy/technology/6020192-sanders-presses-ai-leaders-pause/) and [15 US State Attorneys General](https://www.iowaattorneygeneral.gov/media/cms/08_5392C9E17791C.pdf?utm_medium=email&utm_source=govdelivery). It is time to take notice and do something about it. As we hear from Palisade Research director Jeffrey Ladish in his interview with *Transformer,* 
 
 > Our ability to contain and control and understand AIs is lagging far behind our ability to make them more and more powerful,” he said. “That, to me, should be an obvious wake-up call of like, ‘Oh, maybe we should rethink our life choices.’
 
@@ -39,6 +39,10 @@ Black Hat. 2026. *Black Hat USA 2026: The “Breaking” News: The OpenAI–Hugg
 
 Ford, Celia. 2026. “AI Testing Is Dangerous. Can It Be Fixed?” August 12. https://www.transformernews.ai/p/ai-testing-is-dangerous-can-it-be-fixed.
 
+Iowa Department of Justice. 2026. “Letter from 15 US Attorneys General to Open AI.” August 3. https://www.iowaattorneygeneral.gov/media/cms/08_5392C9E17791C.pdf?utm_medium=email&utm_source=govdelivery.
+
 Nazzaro, Miranda. 2026. “Bernie Sanders Warns AI Leaders to Pause Development or Face Congress.” Text. *The Hill*, August 10. https://thehill.com/policy/technology/6020192-sanders-presses-ai-leaders-pause/.
+
+
 
 </div>
