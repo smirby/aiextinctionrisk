@@ -31,7 +31,7 @@ How indeed.
 
 And, yes. It is a wake up call. Or, maybe The Wake-up Call. 
 
-Thank you, Celiia, for capitalizing this moment, for these are Capital Crimes and need to be seen as such.
+Thank you, Celiia, for capitalizing this moment. These are Capital Crimes and need to be seen as such.
 
 -----
 
