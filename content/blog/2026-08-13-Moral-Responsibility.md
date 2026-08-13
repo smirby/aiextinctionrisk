@@ -49,7 +49,11 @@ We need to stop them, and get humanity off this catastrophic voyage to the heart
 
 > Anders’s work nevertheless also offers the glimmer of a positive  humanist avenue from which to resist the techno-apocalypse for humanity: rather than trying to catch up to the standard of functional progress  of technology, we should instead develop our human capacity for moral  imagination so as to overcome the Promethean slope (Anders, 2010:  271–4). In order to build the world we wish to live in as humans in  relation with other humans and our artefacts, we must exercise and build our capacity for that which is a human capability – the ability to  relate morally and empathetically to others in the world, lest it  atrophies completely. Rather than let matters of the soul – our  sentiments and feelings – shrink proportionally to the growth of our  technological products, Anders enjoins us to make an active effort to  hone and expand our ability to feel; to deliberately stretch and flex  our potential for moral imagination (Anders, 2010: 273–4). (Schwarz 2019, p. 107).
 
-Are we ready?
+Are we ready? If so, we need to be afraid. Really afraid. But afraid in the fearless, stirring, and loving way that Anders inspires:
+
+> *The Courage To Fear*: When speaking of the “imagining of nothingness,” the act meant is not identical with what psychology imagines to be imagination, for I speak of fear, which *is* the imagining of nothingness “in concreto.” Therefore we can improve the formulations of the last paragraphs by saying: it is our capacity to fear which is too small and which does not correspond to the magnitude of today’s danger. As a matter of fact, nothing is more deceitful than to say, “We live in the Age of Anxiety anyway.” This slogan is not a statement but a tool manufactured by the fellow travellers of those who wish to prevent us from becoming really afraid, of those who are afraid that we once may produce the fear commensurate to the magnitude of the real danger. On the contrary, we are living in the Age of Inability to Fear. Our imperative: “Expand the capacity of your imagination,” means, in concreto: “Increase your capacity of fear.” Therefore: don’t fear fear, have the courage to be frightened,⁴ and to frighten others, too. Frighten thy neighbor as thyself. This fear, of course, must be of a special kind: 1) a fearless fear, since it excludes fearing those who might deride us as cowards, 2) a stirring fear, since it should drive us into the streets instead of under cover, 3) a loving fear, not fear *of* the danger ahead but *for* the generations to come. (Anders 1962).
+
+That quote comes from a talk that Gunther Anders gave in Berlin, to a group of students. After the talk was over, the students asked for something that they could take away and refer to in their action against nuclear weapons. The theses were a result of that request, later translated and published in the Massachusetts Review, in 1962. Anders call to action is even more salient today and we can only hope that we live up to his words.
 
 ------
 
@@ -59,7 +63,9 @@ Are we ready?
 
 AI Security Institute. 2025. “Frontier AI Trends Report by The AI Security Institute (AISI).” December. https://www.aisi.gov.uk/frontier-ai-trends-report.
 
-Anders, Günther. 1980/2010. *Die Antiquiertheit des Menschen*, Bd. I. München: Beck.
+Anders, Günther. 1962. “Theses for the Atomic Age.” *The Massachusetts Review* 3 (3): 493–505. https://www.jstor.org/stable/25086864.
+
+Anders, G. 1980/2010. *Die Antiquiertheit des Menschen*, Bd. I. München: Beck.
 
 — 1981. *Die atomare Drohung. Radikale Überlegungen*. München: Beck.
 
