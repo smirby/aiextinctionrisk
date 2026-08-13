@@ -61,7 +61,7 @@ That quote comes from a talk that Gunther Anders gave in Berlin, to a group of s
 
 <div class="references">
 
-AI Security Institute. 2025. “Frontier AI Trends Report by The AI Security Institute (AISI).” December. https://www.aisi.gov.uk/frontier-ai-trends-report.
+AI Security Institute (AISI). 2025. “Frontier AI Trends Report.” AI Security Institute, December. https://www.aisi.gov.uk/frontier-ai-trends-report.
 
 Anders, Günther. 1962. “Theses for the Atomic Age.” *The Massachusetts Review* 3 (3): 493–505. https://www.jstor.org/stable/25086864.
 
