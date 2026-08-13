@@ -5,7 +5,7 @@ categories: ["AI Safety"]
 draft: false
 ---
 
-Our situation, vis a vis artificial intelligence, continues to deteriorate (AI Security Institute 2025). The more dire the situation, the greater the pressure we may feel to hold someone accountable. It may be futile to imagine that we will 'get through this' and then have an Eichmann in Jerusalem moment where we put the billionaire barons of AI on trial. But we should prepare for it. In the preparation we may  develop the courage to deal with the circumstances of today.
+Our situation, vis a vis artificial intelligence, continues to deteriorate (AI Security Institute 2025; Soares 2026). The more dire the situation, the greater the pressure we may feel to hold someone accountable. It may be futile to imagine that we will 'get through this' and then have an Eichmann in Jerusalem moment where we put the billionaire barons of AI on trial. But we should prepare for it. In the preparation we may develop the courage to deal with the circumstances of today.
 
 Holding the creators of AI responsible is a worthy goal, even if everything turns out OK and the world is a better place. Let them receive the Nobel prizes they will so rightly deserve! 
 
@@ -72,5 +72,7 @@ Leiss, William, and Richard Smith. 2027. *From Tool to Actor: AI and Catastrophi
 Liessmann, Konrad Paul. 2011. “Reflexió Després d’Auschwitz i Hiroshima: Günther Anders i Hannah Arendt.” *Enrahonar. An International Journal of Theoretical and Practical Reason* 46 (January): 123–35. https://doi.org/10.5565/rev/enrahonar.195.
 
 Panasiuk, Mariia. 2026. “The Obsolescence of Humanity: Günther Anders’ Critique of Technology, Media, And the Human Condition.” Preprint, SSRN. https://doi.org/10.2139/ssrn.5945894.
+
+Soares, Nate. 2026. “Opinion | If You Weren’t Worried About A.I., You Should Be After the Past Few Weeks.” Opinion. *The New York Times*, August 13. https://www.nytimes.com/2026/08/13/opinion/ai-danger-openai-anthropic-models.html.
 
 </div>
