@@ -33,7 +33,9 @@ In our forthcoming book, and in particular in Chapter 13, "Heart of Darkness," w
 
 > "Heart of darkness" describes a tragedy of colossal proportions that arises directly and inescapably from human folly, a tragedy that winds up shattering human ideals and sabotaging the lives and fortunes of both the dominant party and the hapless victims in the ensuing events. Human agents enter carelessly into such obscene ventures, in thrall to nominal ideals which quickly crumble in the effort to realize them, leaving those agents with nothing but the pitiless, cruel, and inhuman actions that will ultimately and inevitably cause bitter regret and shame among later generations. (Leiss & Smith 2027.)
 
-Joseph Conrad's novella is a warning and it is also an indictment of those responsible. We need to heed that warning, and act on that indictment as it pertains to AI developers today.
+Joseph Conrad's novella is a warning and it is also an indictment of those responsible. We need to heed that warning, and act on that indictment as it pertains to AI developers today. As we state at the beginning of Chapter 13:
+
+> We will seek to show that the risk of losing human control over the applications of artificial intelligence, as well as the risk that artificial superintelligence could attain the capacity to eliminate the human species, opens the door to the heart of darkness for contemporary society. Failure to deal adequately with these two risks, through effective regulation and international agreements, would surely poison the lives of the last generation of human beings to occupy this planet. (Leiss & Smith 2027)
 
 We the users of AI, the citizens of democratic countries, must face up to our moral responsibilities. But when we have done that, we will be able to give full voice to the challenge of reining in and holding responsible the hollow men of the AI labs. We need to stop them, and get humanity off this catastrophic voyage to the heart of darkness.
 
