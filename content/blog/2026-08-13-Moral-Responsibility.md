@@ -37,7 +37,11 @@ Joseph Conrad's novella is a warning and it is also an indictment of those respo
 
 > We will seek to show that the risk of losing human control over the applications of artificial intelligence, as well as the risk that artificial superintelligence could attain the capacity to eliminate the human species, opens the door to the heart of darkness for contemporary society. Failure to deal adequately with these two risks, through effective regulation and international agreements, would surely poison the lives of the last generation of human beings to occupy this planet. (Leiss & Smith 2027)
 
-We the users of AI, the citizens of democratic countries, must face up to our moral responsibilities. But when we have done that, we will be able to give full voice to the challenge of reining in and holding responsible the hollow men of the AI labs. We need to stop them, and get humanity off this catastrophic voyage to the heart of darkness.
+We the users of AI, the citizens of democratic countries, must face up to our moral responsibilities. But when we have done that, we will be able to give full voice to the challenge of reining in and holding responsible the hollow men of the AI labs. 
+
+> We argued earlier that no conceivable benefit to humanity, not even the most fanciful and rewarding (such as a cure for cancer), can justify our allowing a small group of investor-owned firms to forge a technology that could lead to human extinction. To do so takes all the rest of us on this planet, unwittingly, into the heart of darkness, a zone where the lure of great benefits blinds us to the possibility, however small, that we might instead encounter a horror like no other we can imagine. And the worst part of all would be the realization that there was no necessity in the matter, for it will have been an act of collective suicide. (Leiss & Smith 2027)
+
+We need to stop them, and get humanity off this catastrophic voyage to the heart of darkness.
 
 ------
 
