@@ -39,6 +39,10 @@ Joseph Conrad's novella is a warning and it is also an indictment of those respo
 
 We the users of AI, the citizens of democratic countries, must face up to our moral responsibilities. But when we have done that, we will be able to give full voice to the challenge of reining in and holding responsible the hollow men of the AI labs. 
 
+> Those who believe this, who apparently include the CEOs of the most powerful AI firms in the world, are Conrad’s hollow men from the heart of darkness, for despite the power represented by their corporate leadership, they believe that they are helpless to stop or even slow down a process which they themselves once initiated. In other words, they believe that, despite making decisions every day to advance this process, they, like all the rest of us, are just being swept along in the floodwaters of technological necessity. They have in effect abdicated all personal responsibility for their own actions. They are the hollow men. (Leiss & Smith 2027)
+
+And for what? Is this a bargain we can turn down? When riches lure us to the edge of a cliff?
+
 > We argued earlier that no conceivable benefit to humanity, not even the most fanciful and rewarding (such as a cure for cancer), can justify our allowing a small group of investor-owned firms to forge a technology that could lead to human extinction. To do so takes all the rest of us on this planet, unwittingly, into the heart of darkness, a zone where the lure of great benefits blinds us to the possibility, however small, that we might instead encounter a horror like no other we can imagine. And the worst part of all would be the realization that there was no necessity in the matter, for it will have been an act of collective suicide. (Leiss & Smith 2027)
 
 We need to stop them, and get humanity off this catastrophic voyage to the heart of darkness.
