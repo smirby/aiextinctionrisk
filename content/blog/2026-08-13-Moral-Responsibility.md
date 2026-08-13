@@ -27,7 +27,13 @@ The [Promethean shame]({{< relref "./2026-08-11-What-would-Gunther-say.md" >}}) 
 
 In the face of such enormity, Kate Crawford, author of *Atlas of AI* (2021) suggests that we are not obliged to accept the default assumption that because something can be done, it ought to be done: "Rather than asking where AI will be applied, merely because it can, the emphasis should be on *why* it ought to be applied" (p.226), echoing Leiss' question: what do we want from an information society (Leiss 1990). 
 
-Once we start asking questions like that, we can move on to the hard questions: the ones we need to ask those who are building these systems with seemingly little regard for the life and health of humanity. Why are they doing this? How will they keep this Golem going in the right direction?
+Once we start asking questions like that, we can move on to the hard questions: the ones we need to ask those who are building these systems with seemingly little regard for the life and health of humanity. Why are they doing this? How will they keep this Golem going in the right direction? 
+
+In our forthcoming book, and in particular in Chapter 13, "Heart of Darkness," we tackle the moral and ethical challenges presented by behaviour so depraved (in the Congo and in Silicon Valley) that is beggars the imagination:
+
+> "Heart of darkness" describes a tragedy of colossal proportions that arises directly and inescapably from human folly, a tragedy that winds up shattering human ideals and sabotaging the lives and fortunes of both the dominant party and the hapless victims in the ensuing events. Human agents enter carelessly into such obscene ventures, in thrall to nominal ideals which quickly crumble in the effort to realize them, leaving those agents with nothing but the pitiless, cruel, and inhuman actions that will ultimately and inevitably cause bitter regret and shame among later generations. (Leiss & Smith 2027.)
+
+Joseph Conrad's novella is a warning and it is also an indictment of those responsible. We need to heed that warning, and act on that indictment as it pertains to AI developers today.
 
 We the users of AI, the citizens of democratic countries, must face up to our moral responsibilities. But when we have done that, we will be able to give full voice to the challenge of reining in and holding responsible the hollow men of the AI labs. We need to stop them, and get humanity off this catastrophic voyage to the heart of darkness.
 
@@ -48,6 +54,8 @@ Arendt, Hannah. 1996a. *Elemente und Ursprünge totaler Herrschaft. Antisemitism
 Crawford, Kate. 2021. *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence*. Yale University Press.
 
 Leiss, William. 1990. *Under Technology’s Thumb*. McGill-Queen’s University Press.
+
+Leiss, William, and Richard Smith. 2027. *From Tool to Actor: AI and Catastrophic Risk*. McGill-Queen’s University Press.
 
 Liessmann, Konrad Paul. 2011. “Reflexió Després d’Auschwitz i Hiroshima: Günther Anders i Hannah Arendt.” *Enrahonar. An International Journal of Theoretical and Practical Reason* 46 (January): 123–35. https://doi.org/10.5565/rev/enrahonar.195.
 
