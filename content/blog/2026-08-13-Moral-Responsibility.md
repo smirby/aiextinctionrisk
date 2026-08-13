@@ -9,7 +9,7 @@ Our situation, vis a vis artificial intelligence, continues to deteriorate (AI S
 
 Holding the creators of AI responsible is a worthy goal, even if everything turns out OK and the world is a better place. Let them receive the Nobel prizes they will so rightly deserve! 
 
-If holding the AI bosses accountable for our demise is by definition impossible (who would host the event, the robots?), why bother starting? One reason why we should (must) do this is that we will never get to the stage of holding the creators of AI responsible for their atrocities until we confront our own complicity and moral responsibility for letting things get so far.  And that we can start immediately.
+If holding the AI oligarchs (Reich 2026) accountable for our demise is by definition impossible (who would host the event, the robots?), why bother starting? One reason why we should (must) do this is that we will never get to the stage of holding the creators of AI responsible for their atrocities until we confront our own complicity and moral responsibility for letting things get so far.  And that we can start immediately.
 
 Although we rely on the work of Friedländer for our analysis of the Holocaust in this book, there is good reason, if we are considering atrocity, to look no further than the work of Hannah Arendt (1996a, 1996b), especially as we are interested in both the particular perfidy of specific "hollow men" running the big AI labs but also confront our own complicity in continuing to enjoy the fruits of AI rather than striving to extinguish it. In this regard, Arendt explores both the depth (the banality of evil among individuals) and the breadth (totalitarian mass societies) of our moral responsibility.
 
@@ -82,6 +82,8 @@ Leiss, William, and Richard Smith. 2027. *From Tool to Actor: AI and Catastrophi
 Liessmann, Konrad Paul. 2011. “Reflexió Després d’Auschwitz i Hiroshima: Günther Anders i Hannah Arendt.” *Enrahonar. An International Journal of Theoretical and Practical Reason* 46 (January): 123–35. https://doi.org/10.5565/rev/enrahonar.195.
 
 Panasiuk, Mariia. 2026. “The Obsolescence of Humanity: Günther Anders’ Critique of Technology, Media, And the Human Condition.” Preprint, SSRN. https://doi.org/10.2139/ssrn.5945894.
+
+Reich, Robert. 2026. “Lost Jobs, Inequality, Rogue Agents: Why Are We Accepting Oligarchs’ AI Agenda?” Opinion. *The Guardian*, August 13. https://www.theguardian.com/commentisfree/2026/aug/13/lost-jobs-inequality-ai-oligarchs.
 
 Soares, Nate. 2026. “Opinion | If You Weren’t Worried About A.I., You Should Be After the Past Few Weeks.” Opinion. *The New York Times*, August 13. https://www.nytimes.com/2026/08/13/opinion/ai-danger-openai-anthropic-models.html.
 
