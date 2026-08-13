@@ -17,15 +17,17 @@ If Arendt was highly successful at helping surface the banality of evil *(Eichma
 
 Her contention, that responsibility for totalitarian regimes isn't clustered at the top of the hierarchy but rather spreads far and wide, is one of the most jarring observations from *Elements and Origins of Total Domination*. In her work we learn that the system was successful because participation was so pervasive. 
 
-Rather than a small cadre ordering obedience, the reality was that everyone was involved. As Liessmann puts it, "The totalitarian aspect of these concepts is revealed in the fact that they are all-encompassing in the truest sense of the term. They are often supported not, as is often assumed, by a party or a leader, but by the masses" (Liessmann 2011, p.130). In Arendt's words: "Totalitarian movements are mass movements and are, to this day, the only form of organization that modern masses have found and that seems adequate to them" (Arendt 1996. p, 663) translated by Liessmann (2011).
+Rather than a small cadre ordering obedience, everyone was involved. As Liessmann puts it, "The totalitarian aspect of these concepts is revealed in the fact that they are all-encompassing in the truest sense of the term. They are often supported not, as is often assumed, by a party or a leader, but by the masses" (Liessmann 2011, p.130). In Arendt's words: "Totalitarian movements are mass movements and are, to this day, the only form of organization that modern masses have found and that seems adequate to them" (Arendt 1996. p, 663) translated by Liessmann (2011).
 
 As uncomfortable as that may seem, it explains much about our current situation (e.g., OpenAI has over a billion weekly users), and we will not be able to succeed in taming (or rejecting) the monster we have brought into the world if we don't admit our own role in the widespread use and rapid evolution of artificial intelligence. 
 
 The [Promethean shame]({{< relref "./2026-08-11-What-would-Gunther-say.md" >}}) that we all feel in the presence of technological forms that are beyond our control or comprehension is holding us back from effective action. Our acquiescence to becoming antiquated (Anders 1980) should not be seen as a forgone conclusion. It remains within our power to reject these outcomes.
 
-One useful bit of advice comes from Kate Crawford, author of *Atlas of AI* (2021). In that book Crawford points out that we are not obliged to accept the default assumption that because something can be done, it ought to be done: "Rather than asking where AI will be applied, merely because it can, the emphasis should be on *why* it ought to be applied" (p.226). 
+> “Central to Anders' thesis is "Promethean shame," a multifaceted concept blending philosophy, psychoanalysis, and cultural critique. It denotes the humiliation arising from the asymmetry between human production and perception: "The incapacity of our imagination to grasp the enormity of what we can produce and set in motion" (Anders, 1956, p. 267). In the atomic age, this gap manifests as apocalypse without representation; Hiroshima's victims, Anders notes in Hiroshima ist Überall (1982), died without comprehending their fate, symbolizing collective blindness.” (Panasiuk, 2026, p. 3)
 
-Once we start asking questions like that, we can move on to the hard questions: the ones we need to ask those who are building these systems with seemingly little regard for the life and health of humanity. 
+In the face of such enormity, Kate Crawford, author of *Atlas of AI* (2021) suggests that we are not obliged to accept the default assumption that because something can be done, it ought to be done: "Rather than asking where AI will be applied, merely because it can, the emphasis should be on *why* it ought to be applied" (p.226), echoing Leiss' question: what do we want from an information society (Leiss 1990). 
+
+Once we start asking questions like that, we can move on to the hard questions: the ones we need to ask those who are building these systems with seemingly little regard for the life and health of humanity. Why are they doing this? How will they keep this Golem going in the right direction?
 
 We the users of AI, the citizens of democratic countries, must face up to our moral responsibilities. But when we have done that, we will be able to give full voice to the challenge of reining in and holding responsible the hollow men of the AI labs. We need to stop them, and get humanity off this catastrophic voyage to the heart of darkness.
 
@@ -45,6 +47,10 @@ Arendt, Hannah. 1996a. *Elemente und Ursprünge totaler Herrschaft. Antisemitism
 
 Crawford, Kate. 2021. *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence*. Yale University Press.
 
+Leiss, William. 1990. *Under Technology’s Thumb*. McGill-Queen’s University Press.
+
 Liessmann, Konrad Paul. 2011. “Reflexió Després d’Auschwitz i Hiroshima: Günther Anders i Hannah Arendt.” *Enrahonar. An International Journal of Theoretical and Practical Reason* 46 (January): 123–35. https://doi.org/10.5565/rev/enrahonar.195.
+
+Panasiuk, Mariia. 2026. “The Obsolescence of Humanity: Günther Anders’ Critique of Technology, Media, And the Human Condition.” Preprint, SSRN. https://doi.org/10.2139/ssrn.5945894.
 
 </div>
