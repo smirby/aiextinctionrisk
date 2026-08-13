@@ -41,6 +41,10 @@ Schwarz helpfully returns us to *Die Antiquiertheit* and lays out the three thes
 
 Given this situation, what is to be done? Schwarz's answer is straightforward: "expand one’s moral imagination in order to overcome one’s limited political and moral capacities, with a view to imagining the world we would like to live in with AI, instead of becoming subject to AI logic" (Schwarz 2019, p. 97). In this regard, she echos something we have referenced in our book, going back to an essay on the information society that Leiss wrote in 1990, namely that we are ill served by accepting a state of affairs promulgated by technology companies as being inevitable (Leiss 1990). We should, instead, *strive to identify what we want*, in this case of artificial intelligence, and then work towards that goal rather than stumbling along a path others have chosen for us, trying to dodge the inevitable pitfalls and perils along the way. 
 
+For Anders, getting us to our destination will take more than courage. It will take fear. Schwarz summarizes Anders's advice in this regard in this way:
+
+> In his 1962 ‘Theses for the Atomic Age’, Anders suggests that the  imperative ‘Expand your capacity for imagination’ more concretely means  ‘Increase your capacity of fear’ (p. 498). This fear, however, is not a  conventional, nervous fear. It is a courageous fear, a stirring fear  and, importantly, a ‘loving fear, not fear of the danger ahead, but for  the generations to come’ (p. 498). Precisely in this resides the  possibility for moral responsibility. To wrest our social, political and moral agency from the technological machine world, I suggest, we should exercise our ability to be improper in relation to our technologies, to not acquiesce to the technological economic logic with which we  currently shape our socio-politics; to take the magic out of the  machines and unveil their immanent power structures and vested  interests; to reclaim the body and human soul as a site of strength.  This requires courage, vulnerability and love. In his writings and  through his actions, G ̈unther Anders has consistently set a valiant  example to show that this is indeed possible. (Schwarz 2019, p. 108-109)
+
 It is time to choose, despite or in defiance of the deficiencies in our ability to live up to our responsibilities that Anders has helped us see. It may be that full awareness of our limitations will make the choices more feasible and even more of an achievement. 
 
 
@@ -49,13 +53,15 @@ It is time to choose, despite or in defiance of the deficiencies in our ability 
 
 <div class="references">
 
-Anders, Günther. 1981. Die atomare Drohung. Radikale Überlegungen, München: Beck.
+Anders, Günther. 1981. *Die atomare Drohung. Radikale Überlegungen*, München: Beck.
 
-Anders G. 2010. Die Antiquiertheit des Menschen, Volume 1. Munich: C. H. Beck Verlag.
+Anders G. 1962. Theses for the Atomic Age. *The Massachusetts Review* 3(3): 493–505.
 
-Anders G. 2016. On Promethean shame. In: Müller CJ (trans.) Prometheanism: Technology, Digital Culture and Human Obsolescence. London: Rowman & Littlefield.
+Anders G. 2010. *Die Antiquiertheit des Menschen*, Volume 1. Munich: C. H. Beck Verlag.
 
-Anders, G. 2025 The Obsolescence of the Human.* Translated by Christopher John Müller, edited by Christopher John Müller and Christian Dries. Minnesota University Press, 2025
+Anders G. 2016. On Promethean shame. In: Müller CJ (trans.) *Prometheanism: Technology, Digital Culture and Human Obsolescence*. London: Rowman & Littlefield.
+
+Anders, G. 2025 *The Obsolescence of the Human*. Translated by Christopher John Müller, edited by Christopher John Müller and Christian Dries. Minnesota University Press, 2025
 
 Dawsey, Jason. 2017. “Ontology and Ideology: Günther Anders’s Philosophical and Political Confrontation with Heidegger | Critical Historical Studies: Vol 4, No 1.” *Critical Historical Studies* 4 (1). https://www.journals.uchicago.edu/doi/10.1086/690967.
 
@@ -67,7 +73,7 @@ Hammond, Lewis, Alan Chan, Jesse Clifton, et al. 2025. “Multi-Agent Risks from
 
 Leiss, William. 1990. *Under Technology’s Thumb*. McGill-Queen’s University Press.
 
-Liessmann, Konrad Paul. 2011. "Thought after Auschwitz and Hiroshima: Günther Anders and Hannah Arendt". Enrahonar. 46: 123. doi:10.5565/rev/enrahonar.195. ISSN 2014-881X.
+Liessmann, Konrad Paul. 2011. "Thought after Auschwitz and Hiroshima: Günther Anders and Hannah Arendt". *Enrahonar*. 46: 123. doi:10.5565/rev/enrahonar.195. ISSN 2014-881X.
 
 Lyons, Jessica. 2026. “OpenAI Reveals Its Rogue Agent Swarm Went a Little Bit Borg Ahead of Hugging Face Hack.” August 6. https://www.theregister.com/security/2026/08/06/openai-reveals-its-rogue-agent-swarm-went-a-little-bit-borg-ahead-of-hugging-face-hack/5283741.
 

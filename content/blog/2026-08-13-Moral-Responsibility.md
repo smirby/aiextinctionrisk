@@ -45,7 +45,11 @@ And for what? Is this a bargain we can turn down? When riches lure us to the edg
 
 > We argued earlier that no conceivable benefit to humanity, not even the most fanciful and rewarding (such as a cure for cancer), can justify our allowing a small group of investor-owned firms to forge a technology that could lead to human extinction. To do so takes all the rest of us on this planet, unwittingly, into the heart of darkness, a zone where the lure of great benefits blinds us to the possibility, however small, that we might instead encounter a horror like no other we can imagine. And the worst part of all would be the realization that there was no necessity in the matter, for it will have been an act of collective suicide. (Leiss & Smith 2027)
 
-We need to stop them, and get humanity off this catastrophic voyage to the heart of darkness.
+We need to stop them, and get humanity off this catastrophic voyage to the heart of darkness. To do so will require investing in ourselves and our moral imagination. Schwarz summarizes Anders work in this way:
+
+> Anders’s work nevertheless also offers the glimmer of a positive  humanist avenue from which to resist the techno-apocalypse for humanity: rather than trying to catch up to the standard of functional progress  of technology, we should instead develop our human capacity for moral  imagination so as to overcome the Promethean slope (Anders, 2010:  271–4). In order to build the world we wish to live in as humans in  relation with other humans and our artefacts, we must exercise and build our capacity for that which is a human capability – the ability to  relate morally and empathetically to others in the world, lest it  atrophies completely. Rather than let matters of the soul – our  sentiments and feelings – shrink proportionally to the growth of our  technological products, Anders enjoins us to make an active effort to  hone and expand our ability to feel; to deliberately stretch and flex  our potential for moral imagination (Anders, 2010: 273–4). (Schwarz 2019, p. 107).
+
+Are we ready?
 
 ------
 
@@ -55,7 +59,7 @@ We need to stop them, and get humanity off this catastrophic voyage to the heart
 
 AI Security Institute. 2025. “Frontier AI Trends Report by The AI Security Institute (AISI).” December. https://www.aisi.gov.uk/frontier-ai-trends-report.
 
-Anders, Günther. 1980. *Die Antiquiertheit des Menschen*, Bd. I. München: Beck.
+Anders, Günther. 1980/2010. *Die Antiquiertheit des Menschen*, Bd. I. München: Beck.
 
 — 1981. *Die atomare Drohung. Radikale Überlegungen*. München: Beck.
 
