@@ -39,7 +39,7 @@ Anders, Günther. 1980. *Die Antiquiertheit des Menschen*, Bd. I. München: Beck
 
 — 1981. *Die atomare Drohung. Radikale Überlegungen*. München: Beck.
 
-Arendt, H. 1996a. *Elemente und Ursprünge totaler Herrschaft. Antisemitismus, Imperialismus,  totale Herrschaft*. München: Piper.
+Arendt, Hannah. 1996a. *Elemente und Ursprünge totaler Herrschaft. Antisemitismus, Imperialismus,  totale Herrschaft*. München: Piper.
 
 — 1996b. *Eichmann in Jerusalem. Ein Bericht von der Banalität des Bösen*. München:  Piper.
 
