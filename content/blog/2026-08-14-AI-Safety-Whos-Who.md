@@ -29,6 +29,10 @@ Gary Marcus https://garymarcus.substack.com
 
 Redwood https://blog.redwoodresearch.org
 
+FLI - https://futureoflife.org
+
+Apollo Research https://www.apolloresearch.ai/blog 
+
 UK AISI https://www.aisi.gov.uk
 
 Canada CAISI https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute
@@ -67,6 +71,7 @@ Zvi (brings together many of the Twitter/X AI Safety community, so you don't hav
 - Hassibis
 - Amodei
 - Zuckerberg (!)
+- Anthony Aguirre - https://x.com/AnthonyNAguirre https://www.anthony-aguirre.com
 
 
 
