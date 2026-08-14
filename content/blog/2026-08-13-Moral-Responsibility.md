@@ -5,7 +5,7 @@ categories: ["AI Safety"]
 draft: false
 ---
 
-Our situation, vis a vis artificial intelligence, continues to deteriorate (AI Security Institute 2025; Soares 2026). The more dire the situation, the greater the pressure we may feel to hold someone accountable. It may be futile to imagine that we will 'get through this' and then have an Eichmann in Jerusalem moment where we put the billionaire barons of AI on trial. But we should prepare for it. In the preparation we may develop the courage to deal with the circumstances of today.
+Our situation, vis a vis artificial intelligence, continues to deteriorate (AI Security Institute 2025; Soares 2026). The more dire the situation, the greater the pressure to hold someone accountable. It may be futile to imagine that we will 'get through this' and then have an Eichmann in Jerusalem moment where we put the billionaire barons of AI on trial. But we should prepare for it. In the preparation we may develop the courage to deal with the circumstances of today.
 
 Holding the creators of AI responsible is a worthy goal, even if everything turns out OK and the world is a better place. Let them receive the Nobel prizes they will so rightly deserve! 
 
