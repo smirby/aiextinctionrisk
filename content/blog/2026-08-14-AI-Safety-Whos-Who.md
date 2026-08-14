@@ -59,6 +59,15 @@ Zvi (brings together many of the Twitter/X AI Safety community, so you don't hav
 - Atlantic Council on AI https://www.atlanticcouncil.org/issue/artificial-intelligence/
 - RAND on AI https://www.rand.org/topics/artificial-intelligence.html
 
+### Thoughtleaders/scientists/CEOs
+
+- Bengio - https://www.facebook.com/yoshua.bengio
+- Hinton
+- Le Cunn
+- Hassibis
+- Amodei
+- Zuckerberg (!)
+
 
 
 # Gemini's recommendations
