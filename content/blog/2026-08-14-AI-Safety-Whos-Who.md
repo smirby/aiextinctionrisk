@@ -53,6 +53,7 @@ Zvi (brings together many of the Twitter/X AI Safety community, so you don't hav
 
 - Zvi https://thezvi.substack.com
 - AI StopWatch https://aistop.watch
+- Humans on AI: https://p3humansonai.substack.com
 - Forethought https://newsletter.forethought.org
 - LessWrong https://www.lesswrong.com
 - ArXiv https://arxiv.org/list/cs.AI/recent especially cs.MA (multi agent systems) https://arxiv.org/list/cs.MA/recent
@@ -62,6 +63,7 @@ Zvi (brings together many of the Twitter/X AI Safety community, so you don't hav
 - Nature.com (machine learning category) https://www.nature.com/subjects/machine-learning
 - Atlantic Council on AI https://www.atlanticcouncil.org/issue/artificial-intelligence/
 - RAND on AI https://www.rand.org/topics/artificial-intelligence.html
+- The Conversation (various academics) https://theconversation.com/ca/search?q=artificial+intelligence+
 
 ### Thoughtleaders/scientists/CEOs
 
