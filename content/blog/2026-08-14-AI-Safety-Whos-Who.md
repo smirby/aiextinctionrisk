@@ -116,39 +116,39 @@ Here is a curated overview of prominent think tanks, research institutes, and po
 
 *These institutions mirror the RAND model, focusing heavily on geopolitics, national security, regulatory strategy, and supply-chain governance.*
 
-- **Center for Security and Emerging Technology (CSET)** *(Georgetown University)*
+- **[Center for Security and Emerging Technology (CSET)](https://cset.georgetown.edu)** *(Georgetown University)*
   - **Focus:** Data-driven policy research on AI hardware, compute tracking, national security implications, and international talent flows (particularly US–China dynamics).
-- **Center for a New American Security (CNAS)**
+- **[Center for a New American Security (CNAS)](https://www.cnas.org)**
   - **Focus:** Technology and National Security Program exploring military applications of AI, strategic stability, autonomous weapons, and export controls.
-- **Center for Strategic and International Studies (CSIS)**
+- **[Center for Strategic and International Studies (CSIS)](https://www.csis.org)**
   - **Focus:** Houses the *Wadhwani Center for AI and Advanced Technologies*, concentrating on global tech competition, standards-setting, and public policy frameworks.
-- **Brookings Institution**
+- **[Brookings Institution](https://www.brookings.edu/topics/artificial-intelligence/)**
   - **Focus:** The *Artificial Intelligence and Emerging Technology (AIET)* initiative covers domestic regulatory frameworks, algorithmic fairness, economic disruption, and international governance.
 
 ## 2. Dedicated AI Governance & Catastrophic Risk Institutes
 
 *These organizations specialize specifically in frontier model safety, existential/catastrophic risk, and long-term regulatory mechanisms.*
 
-- **Centre for the Governance of AI (GovAI)** *(UK / Oxford-originated)*
+- **[Centre for the Governance of AI (GovAI)](https://www.governance.ai)** *(Yale)*
   - **Focus:** High-level strategic research on international governance treaties, frontier model compute thresholds, lab self-governance, and long-term trajectory analysis.
-- **Center for AI Safety (CAIS)** *(San Francisco)*
+- **[Center for AI Safety (CAIS)](https://safe.ai)** *(San Francisco)*
   - **Focus:** Technical safety benchmarks, systemic and catastrophic risk assessments, compute governance, and policy advocacy.
-- **Future of Life Institute (FLI)**
+- **[Future of Life Institute (FLI)](https://futureoflife.org)**
   - **Focus:** Broad existential risk policy, international AI treaty design, autonomous weapons mitigation, and direct policy advocacy (notably behind key open letters on AI risk).
-- **Centre for the Study of Existential Risk (CSER)** *(University of Cambridge)*
+- **[Centre for the Study of Existential Risk (CSER)](https://www.cser.ac.uk)** *(University of Cambridge)*
   - **Focus:** Interdisciplinary analysis of extreme risks, including catastrophic AI, biosecurity intersections, and resilient governance structures.
-- **Epoch AI**
+- **[Epoch AI](https://epoch.ai)**
   - **Focus:** Quantitative research and forecasting on compute trends, algorithmic progress, training hardware scaling, and timeline modeling.
 
 ## 3. Evaluation, Technical Standards & Societal Impact
 
 *Organizations bridging technical audits, red-teaming benchmarks, and broader societal impacts.*
 
-- **Ada Lovelace Institute** *(UK/EU)*
+- **[Ada Lovelace Institute](https://www.adalovelaceinstitute.org)** *(UK/EU)*
   - **Focus:** Independent research and deliberative body focused on regulatory mechanisms, public interest technology, EU AI Act implementation, and algorithmic accountability.
-- **Model Evaluation and Threat Research (METR)** *(formerly ARC Evals)*
+- **[Model Evaluation and Threat Research (METR)](https://metr.org)** *(formerly ARC Evals)*
   - **Focus:** Designing empirical evaluations and red-teaming protocols to test autonomous capabilities, cyber-offense, and self-replication risks in frontier models.
-- **AI Now Institute** *(New York)*
+- **[AI Now Institute](https://ainowinstitute.org)** *(New York)*
   - **Focus:** Critical analysis of corporate concentration, compute monopolies, platform accountability, and regulatory enforcement.
 
 ### Quick Comparison
@@ -156,9 +156,8 @@ Here is a curated overview of prominent think tanks, research institutes, and po
 | Organization     | Primary Geography  | Key Angle                                                   |
 | ---------------- | ------------------ | ----------------------------------------------------------- |
 | **CSET**         | US                 | Compute, hardware supply chain, talent & geopolitics        |
-| **GovAI**        | UK / International | Frontier AI governance, institutional design, treaties      |
+| **GovAI**        | US                 | Frontier AI governance, institutional design, treaties      |
 | **CAIS**         | US                 | Catastrophic risk prevention & compute monitoring           |
 | **Ada Lovelace** | UK / EU            | European regulatory policy, accountability & standards      |
 | **METR**         | US / International | Dangerous capability evaluations & frontier threat modeling |
 
-Are you focusing primarily on national security and geopolitical governance, or are you looking for frameworks specifically addressing catastrophic and existential risk?
