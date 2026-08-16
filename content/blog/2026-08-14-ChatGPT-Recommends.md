@@ -428,14 +428,15 @@ Likely the closest thing the field has to a consensus technical assessment.
 
 Highly recommended.
 
-- Alignment Newsletter
-- Zvi’s Substack
-- Understanding AI
-- Import AI (Jack Clark)
-- AI Safety Newsletter
-- Last Week in AI
-- AI Snake Oil
-- Ben’s Bites (more capabilities-oriented)
+- Alignment Newsletter https://rohinshah.com/alignment-newsletter/
+- Zvi’s Substack https://thezvi.substack.com
+- Understanding AI (subscription required) https://www.understandingai.org
+- Import AI (Jack Clark) https://jack-clark.net
+- AI Safety Newsletter https://newsletter.safe.ai
+- Last Week in AI https://lastweekin.ai
+- AI Snake Oil https://www.normaltech.ai
+- Ben’s Bites (more capabilities-oriented) https://www.bensbites.com
+- AI Futures https://blog.aifutures.org
 
 Community recommendations consistently place the Alignment Newsletter and AI Safety Newsletter among the best ways to keep up with new safety work.  
 
