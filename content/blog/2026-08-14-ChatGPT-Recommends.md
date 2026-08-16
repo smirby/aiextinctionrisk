@@ -5,9 +5,7 @@ categories: ["AI Safety"]
 draft: false
 ---
 
-This is a good idea, and it aligns well with the direction your project has taken over the past year. One thing I’ve noticed as we’ve done the monthly monitoring briefs is that no single source sees the whole picture. The people closest to capabilities often underweight governance; policy organizations can miss technical warning signs; journalists miss research; researchers often miss institutional dynamics; skeptics keep everyone honest but sometimes underweight genuine advances. A genuinely useful reading list should therefore be intentionally pluralistic.
-
-Given Bill’s interests (and the book’s emphasis on the Tool → Actor transition), I would organize it into “layers” rather than simply “best websites.”
+Asked to recommend a AI Safety reading list, ChatGPT came up with the following. Interestingly, it didn't provide hot links to everything. A pretty obvious thing to do, but tedious so it just decided to omit that step. A perfect example of how AI works these days ("what can I get away with?").
 
 ------
 
@@ -19,7 +17,7 @@ These answer:
 
 *What happened this week?*
 
-### **MIT Technology Review (AI)**
+### **[MIT Technology Review (AI)](https://www.technologyreview.com/topic/artificial-intelligence)**
 
 Probably the best mainstream technology journalism covering AI.
 
@@ -32,7 +30,7 @@ Strengths:
 
 ------
 
-### **Reuters AI**
+### **[Reuters AI](https://www.reuters.com/technology/artificial-intelligence/)**
 
 Probably the most reliable factual reporting.
 
@@ -47,7 +45,7 @@ Excellent source for tracking chronology.
 
 ------
 
-### **Financial Times (AI)**
+### **[Financial Times (AI)](https://www.ft.com/artificial-intelligence)**
 
 Excellent for:
 
@@ -61,7 +59,7 @@ Very useful for understanding deployment pressure.
 
 ------
 
-### **The Economist — Artificial Intelligence**
+### **[The Economist — Artificial Intelligence](https://www.economist.com/topics/artificial-intelligence)**
 
 Best for
 
@@ -71,7 +69,7 @@ Best for
 
 ------
 
-### **The Guardian — AI**
+### **[The Guardian — AI](https://www.theguardian.com/technology/artificialintelligenceai)**
 
 Worth reading because it regularly publishes
 
@@ -91,7 +89,7 @@ These answer
 
 *What are the labs actually discovering?*
 
-### **Anthropic Research**
+### **[Anthropic Research](https://www.anthropic.com/research)**
 
 Among the strongest sources for
 
@@ -105,7 +103,7 @@ Excellent technical summaries.
 
 ------
 
-### **OpenAI Research**
+### **[OpenAI Research](https://openai.com/research/)**
 
 Important because many capabilities arrive here first.
 
@@ -117,7 +115,7 @@ Read:
 
 ------
 
-### **Google DeepMind Publications**
+### **[Google DeepMind Publications](https://deepmind.google/research/publications/)**
 
 Especially
 
@@ -129,13 +127,13 @@ Especially
 
 ------
 
-### **UK AI Security Institute (AISI)**
+### **[UK AI Security Institute (AISI)](https://www.aisi.gov.uk)**
 
 Perhaps the most consistently careful government technical work on frontier evaluations. Increasingly indispensable for anyone interested in AI safety.  
 
 ------
 
-### **US Center for AI Standards and Innovation (CAISI)**
+### **[US Center for AI Standards and Innovation (CAISI)](https://www.nist.gov/caisi)**
 
 Watch for
 
@@ -152,7 +150,7 @@ These answer
 
 *How are serious researchers thinking about AI risk?*
 
-### **AI Futures Project**
+### **[AI Futures Project](https://www.aifutures.org)**
 
 Formerly Forethought.
 
@@ -160,7 +158,7 @@ Excellent forecasting work.
 
 ------
 
-### **METR**
+### **[METR](https://metr.org)**
 
 (Model Evaluation & Threat Research)
 
@@ -168,7 +166,7 @@ Leading work on measuring dangerous capabilities.
 
 ------
 
-### **Redwood Research**
+### **[Redwood Research](https://www.redwoodresearch.org)**
 
 Particularly important for
 
@@ -179,13 +177,13 @@ Particularly important for
 
 ------
 
-### **Alignment Research Center (ARC)**
+### **[Alignment Research Center (ARC)](https://www.alignment.org)**
 
 Foundational alignment work.
 
 ------
 
-### **Centre for the Governance of AI (GovAI)**
+### **[Centre for the Governance of AI (GovAI)](https://www.governance.ai)**
 
 Outstanding governance research.
 
@@ -197,13 +195,13 @@ Especially useful for
 
 ------
 
-### **Future of Humanity Institute (legacy)**
+### **[Future of Humanity Institute (legacy)](https://www.futureofhumanityinstitute.org)**
 
 Although no longer active, its papers remain foundational.
 
 ------
 
-### **Future of Life Institute**
+### **[Future of Life Institute](https://futureoflife.org)**
 
 Policy advocacy.
 
@@ -211,19 +209,19 @@ Good interviews and reports.
 
 ------
 
-### **RAND**
+### **[RAND](https://www.rand.org/topics/artificial-intelligence.html)**
 
 Increasingly active on frontier AI governance.
 
 ------
 
-### **Brookings**
+### **[Brookings](https://www.brookings.edu/topics/artificial-intelligence/)**
 
 Excellent mainstream policy analysis.
 
 ------
 
-### **OECD AI Observatory**
+### **[OECD AI Observatory](https://oecd.ai/en/)**
 
 International policy tracking.
 
@@ -235,7 +233,7 @@ These answer
 
 *How should we interpret events?*
 
-### **Gary Marcus**
+### **Gary Marcus** https://garymarcus.substack.com
 
 Probably the most important skeptical voice.
 
@@ -250,7 +248,7 @@ Often right for different reasons than AI safety advocates. Reading him prevents
 
 ------
 
-### **Zvi Mowshowitz**
+### **Zvi Mowshowitz** https://thezvi.substack.com
 
 Probably the single best high-volume commentator.
 
@@ -267,13 +265,13 @@ His weekly summaries save enormous amounts of time.
 
 ------
 
-### **Scott Alexander**
+### **Scott Alexander** https://www.astralcodexten.com
 
 Rarely writes directly about AI, but when he does it is thoughtful and unusually balanced.
 
 ------
 
-### **Dwarkesh Patel**
+### **Dwarkesh Patel** https://www.dwarkesh.com
 
 Not a safety advocate per se.
 
@@ -281,7 +279,7 @@ But probably the best long-form interviewer of frontier researchers.
 
 ------
 
-### **Tyler Cowen**
+### **Tyler Cowen** https://marginalrevolution.com
 
 Excellent for
 
@@ -293,7 +291,7 @@ Often offers a useful counterweight to existential-risk narratives.
 
 ------
 
-### **Ethan Mollick**
+### **Ethan Mollick** https://www.oneusefulthing.org
 
 Very good on
 
@@ -305,19 +303,19 @@ A reminder that most AI today is still tool-like.
 
 ------
 
-### **Ben Thompson (Stratechery)**
+### **Ben Thompson (Stratechery)** https://stratechery.com
 
 Excellent business analysis.
 
 ------
 
-### **Kelsey Piper**
+### **Kelsey Piper** https://substack.com/@kelseytuoc
 
 One of the best journalists covering AI safety.
 
 ------
 
-### **Simon Willison**
+### **Simon Willison** https://simonwillison.net
 
 Exceptional on open-source models, tooling, and practical developments.
 
@@ -327,7 +325,7 @@ Exceptional on open-source models, tooling, and practical developments.
 
 Essential reading—even if one disagrees with parts of it.
 
-### **LessWrong**
+### **LessWrong** https://www.lesswrong.com
 
 Still the intellectual center of technical alignment discussion.
 
@@ -335,7 +333,7 @@ Many ideas later adopted by labs appeared here years earlier.
 
 ------
 
-### **Alignment Newsletter (Rohin Shah)**
+### **Alignment Newsletter (Rohin Shah)** https://rohinshah.com/alignment-newsletter/
 
 Probably the single best technical newsletter.
 
@@ -343,13 +341,13 @@ Weekly summaries of new papers.
 
 ------
 
-### **AISafety.com**
+### **[AISafety.com](https://aisafety.com)**
 
 An excellent curated portal that itself recommends blogs, newsletters, podcasts, forums, and learning resources, making it a useful “directory of directories.”  
 
 ------
 
-### **GreaterWrong**
+### **GreaterWrong** https://www.greaterwrong.com
 
 Alternative interface for LessWrong.
 
@@ -357,14 +355,14 @@ Alternative interface for LessWrong.
 
 ## **6. Academic Sources**
 
-### **arXiv**
+### **arXiv** https://arxiv.org
 
 Must-read categories:
 
-- cs.AI
-- cs.LG
-- cs.CL
-- cs.RO
+- cs.AI https://arxiv.org/list/cs.AI/recent
+- cs.LG https://arxiv.org/list/cs.LG/recent
+- cs.CL https://arxiv.org/list/cs.CL/recent
+- cs.RO https://arxiv.org/list/cs.RO/recent
 
 Search terms:
 
@@ -381,7 +379,9 @@ Search terms:
 
 ### **Google Scholar alerts**
 
-Useful for
+https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en
+
+Useful for 
 
 - AI safety
 - AGI
@@ -392,13 +392,15 @@ Useful for
 
 ### **SSRN**
 
+https://www.ssrn.com/ssrn/
+
 Good for governance and legal work.
 
 ------
 
 ## **7. Governance**
 
-### **International AI Safety Report**
+### **[International AI Safety Report](https://internationalaisafetyreport.org)**
 
 Required reading each edition.
 
@@ -406,19 +408,19 @@ Likely the closest thing the field has to a consensus technical assessment.
 
 ------
 
-### **OECD AI Observatory**
+### **[OECD AI Observatory](https://oecd.ai/en/)**
 
 ------
 
-### **EU AI Office**
+### **[EU AI Office](https://digital-strategy.ec.europa.eu/en/policies/ai-office)**
 
 ------
 
-### **UK Government AI Security Institute**
+### **[UK Government AI Security Institute](https://www.aisi.gov.uk)**
 
 ------
 
-### **NIST AI RMF**
+### **[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework)**
 
 ------
 
@@ -467,7 +469,7 @@ These writers often push back against overgeneralization while still taking AI s
 
 ------
 
-# **If Bill Only Read Ten Things**
+# **If You Only Read Ten Things**
 
 If he were willing to check only ten sources regularly, I would suggest:
 
@@ -486,7 +488,7 @@ That combination provides a healthy mix of reporting, primary technical work, po
 
 ## **One addition I would make for** **your** **project**
 
-Because *From Tool to Actor* is concerned with the transition from bounded tools to autonomous institutional actors, I would encourage Bill to organize his reading around **five complementary lenses** rather than by publication alone:
+Because *From Tool to Actor* is concerned with the transition from bounded tools to autonomous institutional actors, I would encourage you to organize your reading around **five complementary lenses** rather than by publication alone:
 
 - **Capabilities** — What can frontier models now do?
 - **Control** — Are we still able to understand, evaluate, and constrain them?
@@ -494,4 +496,3 @@ Because *From Tool to Actor* is concerned with the transition from bounded tools
 - **Deployment** — Where are increasingly agentic systems being integrated into real workflows?
 - **Interpretation** — How are different communities (skeptics, safety researchers, economists, industry, and journalists) making sense of these developments?
 
-That is essentially the “catholic” approach you’ve been evolving in your monthly monitoring briefs: no single community owns the truth, but together they provide a far more reliable picture of where AI is heading than any one source alone. It also dovetails naturally with your CE/CERO/GF/DA monitoring framework by ensuring each month’s reading covers capability escalation, control erosion, governance, and deployment rather than over-indexing on one domain.
