@@ -13,6 +13,10 @@ The first step, it seems to me, is to build some categories. The obvious ones to
 
 I'm also not interested in what AI might be able to do soon. We've had enough empty promises ("cure cancer!" "live forever!"). They are vapid, unconvincing, and frankly insulting in the sense that if they think we'll fall for such "arm waving" what do they think of us? And, if they have no respect for us, do they have no respect for each other? If you want to read one of the worst examples of this, check out Mark Zuckerberg's "[The Future is for Everyone](https://www.meta.com/thefutureisforeveryone/)." When he gets to his list of "Everyone will have..." examples, hold onto your lunch. You might lose it.
 
+Curiously, two days after I started to write this post, Dario Amodei (CEO of Antropic) also engaged with this issue and more or less admitted that talking about all the good things that AI might do someday is not going to win people's trust. It is time to actually do those things. 
+
+> I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive. The thing that will work is *actually curing cancer*. I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world. (Dario Amodei [@DarioAmodei] 2026)
+
 Let's start, then, with our categories. My intention for this first post is to identify 2-3 examples of real products or services within each category. I'll provide a short summary and a link to more information for each example, so you can explore on your own if you want to. Later, in future posts, we'll come back and see if other categories make sense and should be added, and if other examples come up and need to be added to the categories. Then, I suspect, I'll create a new post for each of the categories, and that's where I will try to provide additions and updates on an ongoing basis.
 
 ## Healthcare and Life Sciences
@@ -117,6 +121,8 @@ As I write this much of my region is ablaze with summer wildfires, so the idea o
 <div class="references">
 
 Altomare, Filiberto, Amin Kherani, and Julie Lovshin. 2018. “Retinopathy.” *Canadian Journal of Diabetes* 42 (April): S210–16. https://doi.org/10.1016/j.jcjd.2017.10.027.
+
+Dario Amodei [@DarioAmodei]. 2026. “On trust and messaging around AI.” Tweet. Twitter, August 15. https://x.com/DarioAmodei/status/2088758819304443967.
 
 Fahey, James. 2024. “The Story of AlexNet: A Historical Milestone in Deep Learning.” *Medium*, December 17. https://medium.com/@fahey_james/the-story-of-alexnet-a-historical-milestone-in-deep-learning-79878a707dd5.
 
