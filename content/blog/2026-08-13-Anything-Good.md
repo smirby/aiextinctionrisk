@@ -11,7 +11,7 @@ I'm going to use AI and search engines (which are increasingly AI powered) exten
 
 The first step, it seems to me, is to build some categories. The obvious ones to me are health, education, business/manufacturing, as well as the use of AI in helping those with disabilities. When I put this to Gemini and asked for examples but in categories, it came up with a similar list of categories: Healthcare and Life Sciences, Accessibility and Disability Support, Climate, Wildlife and Conservation (I didn't think of that one, so I'm curious about what we'll find), Education and Literacy, and Industrial Safety and Manufacturing. My prompt specifically asked for examples of AI being helpful, so that's probably why "AI taking over jobs and helping business owners make more money" wasn't on the list. That's OK. I'm not that interested in how AI takes our jobs. At least NOT as an example of "good."
 
-I'm also not interested in what AI might be able to do soon. We've had enough empty promises ("cure cancer!" "live forever!"). They are vapid, unconvincing, and frankly insulting in the sense that if they think we'll fall for such "arm waving" what do they think of us? And, if they have no respect for us, do they have no respect for each other? If you want to read one of the worst examples of this, check out Mark Zuckerberg's "[The Future is for Everyone](https://www.meta.com/thefutureisforeveryone/)." When he gets to his list of "Everyone will have..." examples, hold onto your lunch. You might lose it.
+I'm also not interested in what AI might be able to do soon. We've had enough empty promises ("cure cancer!" "live forever!"). They are vapid, unconvincing, and frankly insulting in the sense that if they think we'll fall for such "arm waving" what do they think of us? And, if they have no respect for us, do they have no respect for each other? If you want to read one of the worst examples of this, check out Mark Zuckerberg's "[The Future is for Everyone](https://www.meta.com/thefutureisforeveryone/)." When he gets to his list of "Everyone will have..." examples, hold onto your lunch. You might lose it. (For an even more trenchant critique of Zuckerberg's statement, see Jack Clark's blog post from August 17 in which he points out that a superintelligence capable of invention might very well have different ideas from what humans want. (Clark 2026))
 
 Curiously, two days after I started to write this post, Dario Amodei (CEO of Antropic) also engaged with this issue and more or less admitted that talking about all the good things that AI might do someday is not going to win people's trust. It is time to actually do those things. 
 
@@ -112,6 +112,18 @@ As I write this much of my region is ablaze with summer wildfires, so the idea o
 
 ## Education and Literacy
 
+If we take a very broad view of education and literacty to include research and learning, then there is one enticing prospect of the use of articicial intelligence that is looming on the horizon: understanding intelligence. Kevin Kelly's argument is that our understanding of key aspects of knowledge (physics, biology, chemistry) was frequqntly preceded by the development of a tool for measuring or exploring at a new scale or scope: the microscope, the telescope, the oscilloscope and so on (Kelly 2026). As he points out, the history of progress in science and technology owes a great deal to the development of new tools. 
+
+> Oscilloscopes, volt meters, barometers, cyclotrons — these are more than measuring tools; they are portals that open up new territories to be explored.
+>
+> We are on the cusp of inventing a new cyclotron: artificial intelligence. Of course AI will usher in new ways to do stuff. We can offload chores we don’t want to do, but the greatest power will be in accomplishing things we had never imagined doing before. That new superpower will gradually revamp our society as we learn how best to employ it.
+>
+> But a secondary revolution will come from using AI as a microscope: we will use it to see our own minds (Kelly 2026).
+
+This latter point - using AI to gain insight into human intelligence - is pivotal, he claims. We may finally gain a fuller understanding of what intelligence is and with it a better way to developing it (and controlling it). Other writers have made the comparison between AI research and the development of nuclear energy (Yudkowsky and Soares 2025).  The key safety aspect of nuclear research, that we don't have a parallel to yet for machine intelligence, was a full understanding of the rate at which uranium atoms would split and what was the critical point at which the reaction would run out of control. 
+
+When the team of physicists at the University of Chicago was experimenting with the first nuclear reaction, they were not in the dark about the parameters of their experment in the way that we are in the dark about the mechanisms of artificial intelligence (Yudkowsky and Soares 2025). We currently see things warming up but we have no idea when they will go critical. If Kelly is right and we might finally get that insight about AI from using AI (and hopefully we acquire this knowledge before it runs out of control), that would be a fantastic outcome.
+
 ## Industrial Safety and Manufacturing
 
 -----
@@ -122,11 +134,15 @@ As I write this much of my region is ablaze with summer wildfires, so the idea o
 
 Altomare, Filiberto, Amin Kherani, and Julie Lovshin. 2018. “Retinopathy.” *Canadian Journal of Diabetes* 42 (April): S210–16. https://doi.org/10.1016/j.jcjd.2017.10.027.
 
-Dario Amodei [@DarioAmodei]. 2026. “On trust and messaging around AI.” Tweet. Twitter, August 15. https://x.com/DarioAmodei/status/2088758819304443967.
+Amodei, Dario. 2026. “On trust and messaging around AI.” Tweet. Twitter, August 15. https://x.com/DarioAmodei/status/2088758819304443967.
+
+Clark, Jack. 2026. *Import AI 469: Science AI; RSI Simulator; and Zuck’s Technological Pessimism*. August 17. https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/.
 
 Fahey, James. 2024. “The Story of AlexNet: A Historical Milestone in Deep Learning.” *Medium*, December 17. https://medium.com/@fahey_james/the-story-of-alexnet-a-historical-milestone-in-deep-learning-79878a707dd5.
 
 Henderson, Trevor J. 2026. “AlphaFold in Drug Discovery: What It Has and Hasn’t Changed.” Drug Discovery News, July 20. https://www.drugdiscoverynews.com/alphafold-in-drug-discovery-what-protein-structure-prediction-has-and-hasn-t-changed-17348.
+
+Kelly, Kevin. 2026. “Without a Theory of Intelligence.” *The Technium*, August 17. https://kk.org/thetechnium/without-a-theory-of-intelligence/.
 
 Liang, Xiaoying, Yali Bao, Yongyi Du, and Ning Kong. 2025. “AI-Assisted Screening for Diabetic Retinopathy and Fundus Abnormalities in a Large-Scale Physical Examination Population.” *Clinical Ophthalmology (Auckland, N.Z.)* 19 (August): 2889–900. https://doi.org/10.2147/OPTH.S538020.
 
@@ -141,4 +157,6 @@ Razaghi, Mahshad, Abdelrahman Hafez, Juan M. Farina, et al. 2026. “Transformin
 Seiple, William, Hilde P. A. van der Aa, Fernanda Garcia-Piña, Izekiel Greco, Calvin Roberts, and Ruth van Nispen. 2025. “Performance on Activities of Daily Living and User Experience When Using Artificial Intelligence by Individuals With Vision Impairment.” *Translational Vision Science & Technology* 14 (1): 3. https://doi.org/10.1167/tvst.14.1.3.
 
 *Wikipedia*. 2026. “Closed captioning.” August 8. https://en.wikipedia.org/w/index.php?title=Closed_captioning&oldid=1368343478.
+
+Yudkowsky, Eliezer, and Nate Soares. 2025. *If Anyone Builds It, Everyone Dies*. Bodley Head.
 
