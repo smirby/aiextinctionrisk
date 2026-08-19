@@ -29,6 +29,8 @@ Misaligned robots have been - up to now - a scifi kind of thing, in part because
 
 -----
 
+<div class="references">
+
 Amodei, Dario. 2026. “The Adolescence of Technology.” *Darioamodei.Com*, January. https://www.darioamodei.com/essay/the-adolescence-of-technology.
 
 Clark, Jack. 2026. “Import AI 466: The Bitter Lesson for Robotics, AIs Complete Week-Long Programming Tasks; and OpenAI’s Accidental AI Hacker.”  *Import AI*, July 27. https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/.
@@ -41,3 +43,4 @@ Project Red Team. 2025. “Project Fetch: Can Claude Train a Robot Dog?” Anthr
 
 Frontier Red Team. 2026. “Project Fetch: Phase Two.” Anthropic Research, June 18. https://www.anthropic.com/research/project-fetch-phase-two.
 
+</div>
