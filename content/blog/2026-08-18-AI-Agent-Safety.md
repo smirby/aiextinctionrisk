@@ -5,7 +5,9 @@ categories: ["AI Safety"]
 draft: false
 ---
 
-Up until recently, AI Safety was focused on the model. The power lies there. But, increasingly, that power is deployed via agents and those agents are - it seems - responsible for some of the [most egregious AI Safety Incidents]({{< relref "./crashtest.md" >}}). Several recent papers have explored these issues and - in some cases - offered suggestions on what to do. It seems that our approach, focused on chatbots, misses the key element: these are *unpredictable software processes* and must be treated as such.
+I should clarify: I am not talking here about safety FOR AI Agents, I am talking about safety (for humans) FROM AI Agents.
+
+Up until recently, AI Safety was focused on the model. The power lies there. But, increasingly, that power is deployed via agents and those agents are - it seems - responsible for some of the [most egregious AI Safety Incidents]({{< relref "./crashtest.md" >}}). Several recent papers have explored these issues and - in some cases - offered suggestions on what to do. It seems that our approach, focused on chatbots, misses the key element: these are *unpredictable software processes* and must be treated as such. And, they are dangerous. Very dangerous.
 
 Shawn Li and Yun Zhao argue in a June 2026 paper that if we think that applying "chatbot era" security to agents is going to work, we are mistaken (Li and Zhao 2026). It is, as they point out, a "category error" to assume that simply telling agents not to do something (the "guardrails" approach) is going to work. We can't rely on restricting the content of the conversation. Instead we must focus on the actions that the agents take, and ensure that those are aligned with our intentions. In a practical sense, this means closely monitoring agent behaviour before, during, and after an action. They propose something called a "cryptographic ledger" that would keep track of all the actions in case they have to be rolled back or reviewed afterward. The cyrptography would be ensure the integrity of that ledger (i.e., no "cooking the books"). 
 
