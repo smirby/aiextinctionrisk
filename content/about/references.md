@@ -37,7 +37,7 @@ Anthropic. 2026a. “System Card: Claude Mythos.” 7 April. *Anthropic.* https:
 
 Anthropic. 2026b. “When AI Builds Itself.” 8 June . *Anthropic*. https://www.anthropic.com/institute/recursive-self-improvement.
 
-Anthropic. 2026c. “Risk Report August 2026.” *Anthropic*, August. [https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf](https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted Risk Report August 2026 .pdf).
+Anthropic. 2026c. “Risk Report August 2026.” *Anthropic*, August. [https://www.anthropic.com/aug-2026-risk-report](https://www.anthropic.com/aug-2026-risk-report).
 
 ARC Advisory Group. 2026. “Interpretation of China’s New ‘AI + Manufacturing’ Special Policy: Dividends, Initiatives, Bottlenecks and Real Opportunities.” ARC Advisory Group, 23 January. https://www.arcweb.com/blog/interpretation-chinas-new-ai-manufacturing-special-policy-dividends-initiatives-bottlenecks.
 

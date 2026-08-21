@@ -45,7 +45,11 @@ For Anders, getting us to our destination will take more than courage. It will t
 
 > In his 1962 ‘Theses for the Atomic Age’, Anders suggests that the  imperative ‘Expand your capacity for imagination’ more concretely means  ‘Increase your capacity of fear’ (p. 498). This fear, however, is not a  conventional, nervous fear. It is a courageous fear, a stirring fear  and, importantly, a ‘loving fear, not fear of the danger ahead, but for  the generations to come’ (p. 498). Precisely in this resides the  possibility for moral responsibility. To wrest our social, political and moral agency from the technological machine world, I suggest, we should exercise our ability to be improper in relation to our technologies, to not acquiesce to the technological economic logic with which we  currently shape our socio-politics; to take the magic out of the  machines and unveil their immanent power structures and vested  interests; to reclaim the body and human soul as a site of strength.  This requires courage, vulnerability and love. In his writings and  through his actions, G ̈unther Anders has consistently set a valiant  example to show that this is indeed possible. (Schwarz 2019, p. 108-109)
 
-It is time to choose, despite or in defiance of the deficiencies in our ability to live up to our responsibilities that Anders has helped us see. It may be that full awareness of our limitations will make the choices more feasible and even more of an achievement. 
+It is time to choose, despite or in defiance of the deficiencies in our ability to live up to our responsibilities that Anders has helped us see. It may be that full awareness of our limitations will make the choices more feasible and even more of an achievement.  As Joseph de Weck pointed out recently, our discomfort may be the source of our action:
+
+> Yet we must not strive to eliminate that lingering feeling of unease. On the contrary, we need to learn to cultivate it. As long as something in us, perhaps the crooked timber of our humanity, recoils from that world, there is hope. Recognising our own self-alienation is to begin resisting it. (de Weck 2026)
+
+I hope he's right.
 
 
 
@@ -64,6 +68,8 @@ Anders G. 2016. On Promethean shame. In: Müller CJ (trans.) *Prometheanism: Tec
 Anders, G. 2025 *The Obsolescence of the Human*. Translated by Christopher John Müller, edited by Christopher John Müller and Christian Dries. Minnesota University Press, 2025
 
 Dawsey, Jason. 2017. “Ontology and Ideology: Günther Anders’s Philosophical and Political Confrontation with Heidegger | Critical Historical Studies: Vol 4, No 1.” *Critical Historical Studies* 4 (1). https://www.journals.uchicago.edu/doi/10.1086/690967.
+
+Weck, Joseph de. 2026. “It Used to Be Our Imperfect Bodies That Made Us Insecure. With AI, It’s Our Minds as Well.” Opinion. *The Guardian*, August 20. https://www.theguardian.com/commentisfree/2026/aug/20/bodies-ai-minds-history-technology-humans.
 
 Faggella, Dan. 2023. “A Worthy Successor - The Purpose of AGI - Daniel Faggella.” Grand Challenges. *Faggella*, November 24. 728. https://danfaggella.com/worthy/.
 
