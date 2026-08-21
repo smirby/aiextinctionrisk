@@ -797,8 +797,6 @@ Velasquez, Francisco. 2026. “Nvidia CEO Jensen Huang Claims AGI Has Been ‘ac
 
 Verdi, Guiseppe. *Messa da Requiem* (1874), final movement, last two words (in Latin): “Deliver me [from that awful fate”].
 
- 
-
 Vermeer, Michael J. D., Emily Lathrop, and Alvin Moon. 2025. *On the Extinction Risk from Artificial Intelligence*. RAND Corporation. https://www.rand.org/pubs/research_reports/RRA3034-1.html .
 
 Volz, Dustin, Julian E. Barnes, and Ana Swanson. 2026. “Trump Administration Reignites Its Feud with Anthropic Over Latest A.I. Models.” *The New York Times*, June 14. https://www.nytimes.com/2026/06/13/us/politics/trump-anthropic-ai-models.html.
@@ -861,9 +859,4 @@ Zhang, Jenny, Bingchen Zhao, Wannan Yang, et al. 2026. “Hyperagents.” *arXiv
 
 Zhou, Eric, and Dokyun Lee. 2024. "Generative artificial intelligence, human creativity, and art." *PNAS Nexus* 3 (3). https://doi.org/10.1093/pnasnexus/pgae052.
 
- 
-
- 
-
 </div>
-
