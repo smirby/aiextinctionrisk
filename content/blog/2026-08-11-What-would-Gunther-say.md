@@ -69,7 +69,7 @@ Anders, G. 2025 *The Obsolescence of the Human*. Translated by Christopher John 
 
 Dawsey, Jason. 2017. “Ontology and Ideology: Günther Anders’s Philosophical and Political Confrontation with Heidegger | Critical Historical Studies: Vol 4, No 1.” *Critical Historical Studies* 4 (1). https://www.journals.uchicago.edu/doi/10.1086/690967.
 
-Weck, Joseph de. 2026. “It Used to Be Our Imperfect Bodies That Made Us Insecure. With AI, It’s Our Minds as Well.” Opinion. *The Guardian*, August 20. https://www.theguardian.com/commentisfree/2026/aug/20/bodies-ai-minds-history-technology-humans.
+de Weck, Joseph. 2026. “It Used to Be Our Imperfect Bodies That Made Us Insecure. With AI, It’s Our Minds as Well.” Opinion. *The Guardian*, August 20. https://www.theguardian.com/commentisfree/2026/aug/20/bodies-ai-minds-history-technology-humans.
 
 Faggella, Dan. 2023. “A Worthy Successor - The Purpose of AGI - Daniel Faggella.” Grand Challenges. *Faggella*, November 24. 728. https://danfaggella.com/worthy/.
 
