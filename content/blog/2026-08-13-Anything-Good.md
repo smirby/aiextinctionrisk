@@ -17,6 +17,10 @@ Curiously, two days after I started to write this post, Dario Amodei (CEO of Ant
 
 > I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive. The thing that will work is *actually curing cancer*. I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world. (Dario Amodei [@DarioAmodei] 2026)
 
+Slow progress in pharmaceuticals has not gone unnoticed. There are good reasons for this - it's one thing to make a calculation and solve a math puzzle, it is quite another do do the "wet lab" work required to prove a molecult is effective AND safe. As Celia Ford has pointed out:
+
+> Over $70b was thrown toward integrating AI into life sciences between 2020 and 2024. Globally, AI data centers have already [harnessed](https://epoch.ai/data-insights/ai-datacenter-power) an estimated 30GW of computing power, with new contracts and construction projects announced every week. And still, every week, more than 188,000 people [die](https://pubmed.ncbi.nlm.nih.gov/42417444/) from cancer. Not one AI-discovered drug — at least not one that’s been labelled as such — has hit the market. (Ford 2026)
+
 Let's start, then, with our categories. My intention for this first post is to identify 2-3 examples of real products or services within each category. I'll provide a short summary and a link to more information for each example, so you can explore on your own if you want to. Later, in future posts, we'll come back and see if other categories make sense and should be added, and if other examples come up and need to be added to the categories. Then, I suspect, I'll create a new post for each of the categories, and that's where I will try to provide additions and updates on an ongoing basis.
 
 ## Healthcare and Life Sciences
@@ -30,6 +34,16 @@ It's improtant to realize, however, that predicting the shape of a protein - whi
 > Introduced by DeepMind in 2021, [AlphaFold2 demonstrated unprecedented accuracy and effectively solved a 50-year scientific challenge](https://www.sciencedirect.com/science/article/abs/pii/S0959440X22002056), transforming structural biology almost overnight. Its impact has been felt at scale: the associated database now provides predicted structures for more than 200 million proteins, encompassing nearly the entire human proteome and almost all therapeutically relevant targets.
 
 The article concludes with this assessment: "The overall verdict is that AlphaFold has changed drug discovery meaningfully but unevenly: transformative for structural biology and for early target access, genuinely useful across much of the exploratory pipeline and still limited precisely where atomic-level binding-site accuracy governs the decision" (Henderson 2026). The conclusion one can draw is that these are tools that provide a material benefit (mainly time saving) but the technology does not replace humans doing chemistry.
+
+Celia Ford provides a useful reality check when she points out that AlphaFold waas working on the one part of biology that was particularly amenable to a computer/AI approach:
+
+> It worked that well because it solved one of biology’s most tractable problems. Conveniently, DeepMind had access to the [Protein Data Bank](https://www.wwpdb.org/), a preexisting gigantic dataset of clean, standardized inputs. It also knew exactly what to output: a 3D shape, just like it had been trained on. And scientists already had tools to check whether the predictions were correct — they’d been doing this on their own for generations. Structural biologists were effectively mined for training data. (Ford 2026)
+
+In contrast:
+
+> “Curing cancer” is a much gnarlier problem. There is no Cancer Data Bank, and the thing we’d want AI to produce could be anything from a small-molecule drug to a living cell therapy. The data that scientists need isn’t sitting in a cryogenic freezer somewhere, waiting to be organized. It has to be grown, imperfectly, at the pace of natural aging. Superintelligence cannot speedrun time. (Ford 2026)
+
+In other words, a great demonstration of what AI can do if the conditions are just right. But we have to be realistic that the conditions are often NOT just right.
 
 ### Diabetes screening (Retinopathy)
 I have to admit that I had never even heard about retinopathy, but it is the leading cause of incident blindness (people who could see before) in adults. And the leading cause of retinopathy is diabetes, which is a very common disease. Since screening for the condition is effective (treatments are available and work), it makes sense to screen as many people as possible. 
@@ -139,6 +153,8 @@ Amodei, Dario. 2026. “On trust and messaging around AI.” Tweet. Twitter, Aug
 Clark, Jack. 2026. *Import AI 469: Science AI; RSI Simulator; and Zuck’s Technological Pessimism*. August 17. https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/.
 
 Fahey, James. 2024. “The Story of AlexNet: A Historical Milestone in Deep Learning.” *Medium*, December 17. https://medium.com/@fahey_james/the-story-of-alexnet-a-historical-milestone-in-deep-learning-79878a707dd5.
+
+Ford, Celia. 2026. “Why AI Won’t Cure Cancer Anytime Soon.” August 20. https://www.transformernews.ai/p/why-ai-wont-cure-cancer-anytime-soon.
 
 Henderson, Trevor J. 2026. “AlphaFold in Drug Discovery: What It Has and Hasn’t Changed.” Drug Discovery News, July 20. https://www.drugdiscoverynews.com/alphafold-in-drug-discovery-what-protein-structure-prediction-has-and-hasn-t-changed-17348.
 
