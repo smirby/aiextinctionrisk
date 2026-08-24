@@ -8,11 +8,11 @@ draft: true
 
 When I was a teenager, growing up on a farm in SW Manitoba, I joined a club called "4-H". 4-H is a children's club, not unlike Cubs or Scouts, but with a farm-focused approach. And fewer badges. The four H's stood for head, heart, hands, and health. It has a long history and continues to this day. https://4-hontario.ca/about-4-h/history/ For our purposes, it is a mnemonic for four H's that hang over artificial intelligence like a message from hell: Holocaust, Heart of darkness, Hollow men, and now, Hiroshima (Ash 2026).
 
-At the outset, I need to clarify that we are not equating AI to the Holocaust. The term is too serious for "equation." What we ARE doing, however, is looking at the Holocaust (as we do in Chapter 12 of our book) for insight into the apparent ability of ordinary people to participate in unspeakable crimes, namely the creation of a superintelligence with the probable potential to exterminate humans.
+At the outset, I need to clarify that we are not equating AI to the Holocaust. The term is too serious for "equation." What we ARE doing, however, is looking at the Holocaust (as we do in Chapter 12 of [our book]({{< relref "../" >}}) for insight into the apparent ability of ordinary people to participate in unspeakable crimes, namely the creation of a superintelligence with the probable potential to exterminate humans.
 
 ## Holocaust
 
-When we wrote about the Holocaust in our book about AI and existential risk, it was in part to bring to mind the aspect of that era that revealed the banality of evil, and how people could get involved in a vast bureaucracy of destruction simply by going along with what others were doing. Tragically, the vortex was shameful and harmful and yet persisted.
+When we wrote about the Holocaust in our book about AI and existential risk, it was in part to bring to mind the aspect of that era that revealed the banality of evil and how people could get involved in a vast bureaucracy of destruction simply by going along with what others were doing. Tragically, the vortex was shameful and harmful and yet persisted.
 
 ## Heart of Darkness
 
