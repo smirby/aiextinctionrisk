@@ -1,6 +1,6 @@
 baseURL = "https://fromtooltoactor.ca/"
 languageCode = "en-ca"
-title = "From Tool to Actor: AI and Catastrophic Risks"
+title = "The Treacherous Turn: AI and Human Extinction Risks"
 
 # We're using layouts directly (no external theme) so the site's
 # look and feel can be updated easily once the book design arrives.
@@ -9,7 +9,7 @@ title = "From Tool to Actor: AI and Catastrophic Risks"
   authors = "William Leiss and Richard Smith"
   publisher = "McGill-Queen's University Press"
   show_publisher = false
-  description = "Companion website for From Tool to Actor: AI and Catastrophic Risks by William Leiss and Richard Smith"
+  description = "Companion website for The Treacherous Turn: AI and Human Extinction Risks by William Leiss and Richard Smith"
   status = "forthcoming"
 
 [menu]
