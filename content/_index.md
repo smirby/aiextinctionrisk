@@ -1,5 +1,5 @@
 ---
-title: "From Tool to Actor: AI and Catastrophic Risks"
+title: "The Treacherous Turn: AI and Human Extinction Risks"
 ---
 
 ## By William Leiss and Richard Smith
