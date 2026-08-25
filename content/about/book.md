@@ -49,3 +49,10 @@ References
 
 Acknowledgements
 
+# How we used AI
+
+Early in the process of writing this book we used a variety of commercial generative AI tools (NotebookLM and Gemini, ChatGPT, and Claude) along with a few open source/open weight models (Gemma, deepseek, kimi, qwen, and gpt-oss), mainly for experimenting with and learning how models work - nothing like running a model on your laptop to give you an appreciation for the energy they consume (and cooling they require)!
+
+In a practical sense, generative AI was involved in our online research, especially as Gemini became more and more integrated into the Google search results. The configuration for this web site (built in Markdown for Hugo and deployed using Workers/Pages on Cloudflare) was also largely done by ChatGPT and Claude, with help from CloudFlare's in-house AI tool and Docker's AI tool.
+
+Generative AI also provided essential help early in the project when a mistake resulted in the entire bibliography having to be redone in Chicago (as required by MQUP) and converted from APA (as formatted by one of the authors - whose initials are RKS). Ahem.
