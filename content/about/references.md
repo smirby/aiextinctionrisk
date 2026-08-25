@@ -2,10 +2,13 @@
 title: "References"
 ---
 
-This is a complete list of the references for the book. As the book nears print publication, we shall supplement this with an annotated bibliography of selected titles.
+
+
+# References
+
+*This is a complete list of the references for the book. As the book nears print publication, we shall supplement this with an annotated bibliography of selected titles. All references checked via link checking program with manual follow-up. August 24, 2026. Errors, omissions, and URL changes will be documented on the companion website.*
 
 <div class="references">
-# References
 
 Adamala, Katarzyna P., Deepa Agashe, Yasmine Belkaid, Daniela Matias de C. Bittencourt, Yizhi Cai, Matthew W. Chang, Irene A. Chen, George M. Church, Vaughn S. Cooper, Mark M. Davis, et al. 2024. "Confronting Risks of Mirror Life." *Science* 386 (6728): 1351–3. https://doi.org/10.1126/science.ads9158.
 
@@ -37,13 +40,15 @@ Anthropic. 2026a. “System Card: Claude Mythos.” 7 April. *Anthropic.* https:
 
 Anthropic. 2026b. “When AI Builds Itself.” 8 June . *Anthropic*. https://www.anthropic.com/institute/recursive-self-improvement.
 
-Anthropic. 2026c. “Risk Report August 2026.” *Anthropic*, August. [https://www.anthropic.com/aug-2026-risk-report](https://www.anthropic.com/aug-2026-risk-report).
+Anthropic. 2026c. “Risk Report August 2026.” *Anthropic*, August. https://www.anthropic.com/aug-2026-risk-report.
 
 ARC Advisory Group. 2026. “Interpretation of China’s New ‘AI + Manufacturing’ Special Policy: Dividends, Initiatives, Bottlenecks and Real Opportunities.” ARC Advisory Group, 23 January. https://www.arcweb.com/blog/interpretation-chinas-new-ai-manufacturing-special-policy-dividends-initiatives-bottlenecks.
 
 Ardila, Diego, and Sujay Kakarmath. 2025. "Making Complex Text Understandable: Minimally-Lossy Text Simplification with Gemini." Google Research (blog), May 6. https://research.google/blog/making-complex-text-understandable-minimally-lossy-text-simplification-with-gemini/.
 
 Asaro, Peter. 2008. "How Just Could a Robot War Be?" *In Current Issues in Computing and Philosophy*, edited by Philip A. E. Brey, Adam Briggle, and Katinka Waelbers: 50–64. Amsterdam: IOS Press.
+
+Ash, Timothy Garton. 2026. “Would Even an AI Disaster on the Scale of Hiroshima Be Enough to Make Humankind Protect Itself? I Fear Not.” Opinion. *The Guardian*, 22 August. https://www.theguardian.com/commentisfree/2026/aug/22/ai-disaster-hiroshima-humankind-silicon-valley-technology.
 
 Asilomar Conference. 2026 *Wikipedia*, “Asilomar Conference on Recombinant DNA” (accessed 12 June 2026):  https://en.wikipedia.org/wiki/Asilomar_Conference_on_Recombinant_DNA 
 
@@ -103,7 +108,7 @@ Birhane, Abeba, Riccardo Angius, William Agnew, et al. 2026. “Big AI’s Regul
 
 Black Hat. 2026. *Black Hat USA 2026: The “Breaking” News: The OpenAI–Hugging Face Incident*. 37:27. https://www.youtube.com/watch?v=87DyyMV0kCY.
 
-Bloom, Benjamin S. 1984. “The 2 Sigma Problem: The Search for Methods of Group Instruction as Effective as One-to-One Tutoring.” *Educational Researcher* 13 (6): 4–16. https://doi.org/10.2307/1175554.
+Bloom, Benjamin S. 1984. “The 2 Sigma Problem: The Search for Methods of Group Instruction as Effective as One-to-One Tutoring.” *Educational Researcher* 13 (6): 4–16. https://www.jstor.org/stable/1175554.
 
 Bloomberg. 2025. "The AI Boom Is Draining Water from the Areas That Need It Most." *Bloomberg Graphics*, January. https://www.bloomberg.com/graphics/2025-ai-impacts-data-centers-water-data/.
 
@@ -139,6 +144,8 @@ Burns, Mary. 2026. “What the Research Shows about Generative AI in Tutoring.�
 
 Cabinet Office of Japan. 2022. "AI Strategy 2022." April 22. https://www8.cao.go.jp/cstp/ai/aistratagy2022_honbun.pdf.
 
+Cai, Kenrick. 2026. “OpenAI, Anthropic agents implicated in new security breaches.” The Globe and Mail. 04 August. [OpenAI, Anthropic agents implicated in new security breaches - The Globe and Mail](https://www.theglobeandmail.com/business/article-openai-anthropic-agents-security-breaches-artificial-intelligence/)
+
 Cajueiro, Daniel Oliveira, and Víctor Rafael Rezende Celestino. 2026. “A Comprehensive Review of Artificial Intelligence Regulation: Weighing Ethical Principles and Innovation.” *Journal of Economy and Technology* 4 (January): 77–91. https://doi.org/10.1016/j.ject.2025.07.001.
 
 California State Senate. 2024. "SB-942 California AI Transparency Act." https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB942.
@@ -153,7 +160,9 @@ Canada 2026b. “Engagements on Canada's Next AI Strategy: Summary of Inputs.”
 
 Canada 2026c. Government of Canada, “National Artificial Intelligence Strategy.” 8 June: https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all.
 
-Canada, Senate, Parliament. 2026. “Transcripts & Minutes - Standing Senate Committee on Social Affairs, Science and Technology.” 26 February. https://sencanada.ca/en/committees/soci/.
+Canada. 2026d. Senate. Parliament. Standing Senate Committee on Social Affairs, Science and Technology. *Transcripts & Minutes* .” (26 February). https://sencanada.ca/en/committees/soci/.
+
+Canada. 2026e. House of Commons, Standing Committee on Access to Information, Privacy and Ethics, *Minutes of Proceedings and Evidence*, 45th Parl,1st Sess. No. 25. (2 February). https://www.ourcommons.ca/documentviewer/en/45-1/ETHI/meeting-25/evidence.
 
 Canadian Nuclear Safety Commission (CNSC). 2023*. Design of Reactor Facilities: Nuclear Power Plants*. REGDOC-2.5.2. https://www.cnsc-ccsn.gc.ca/eng/acts-and-regulations/regulatory-documents/published/html/regdoc2-5-2/.
 
@@ -161,17 +170,21 @@ Canadian Nuclear Safety Commission (CNSC). 2025. REGDOC-2.4.2, *Probabilistic Sa
 
 Caputo, Nicholas A., Siméon Campos, Stephen Casper, et al. 2025. *Risk Tiers: Towards a Gold Standard for Advanced AI*. Oxford Martin AI Governance Initiative. https://aigi.ox.ac.uk/publications/risk-tiers-towards-a-gold-standard-for-advanced-ai/.
 
+Carpenter, Daniel, Feodora Douplitzky-Lunati, and Arjun Purohit,. 2026. “We Don’t Need to Wait for an AI Disaster to Estimate Its Costs.” *A. I. Frontiers*, 24 August. https://newsletter.ai-frontiers.org/p/we-dont-need-to-wait-for-an-ai-disaster.
+
 Casper, Stephen, David Krueger, and Dylan Hadfield-Menell. 2025. “Pitfalls of Evidence-Based AI Policy.” *arXiv*. https://doi.org/10.48550/arXiv.2502.09618.
 
 Carlini, Nicholas, Newton Cheng, Keane Lucas, et al. 2026. “Claude Mythos Preview” *Red.Anthropic.Com*” April 7. https://red.anthropic.com/2026/mythos-preview/.
 
 Carlsmith, Joseph. 2022. "Is Power-Seeking AI an Existential Risk?" *arXiv*. https://doi.org/10.48550/arXiv.2206.13353.
 
-Carlsmith, Joe. 2025a. “Can We Safely Automate Alignment Research?” *Joe Carlsmith Blog.* April 30. https://joecarlsmith.com/2025/04/30/can-we-safely-automate-alignment-research/.
+Carlsmith, Joseph. 2025a. “Can We Safely Automate Alignment Research?” *Joe Carlsmith Blog.* April 30. https://joecarlsmith.com/2025/04/30/can-we-safely-automate-alignment-research/.
 
 Carlsmith, Joseph. 2025b. "Existential Risk from Power-Seeking AI." In *Essays on Longtermism: Present Action for the Distant Future,* edited by Hilary Greaves, Toby Ord, and William MacAskill, 383–409. Oxford: Oxford University Press. https://academic.oup.com/book/60794/chapter/530066100.
 
-CBC News. 2024. "Scammers Use AI to Mimic Voices of Loved Ones in Distress, Police Say." *CBC News.* 14 March. https://www.cbc.ca/news/canada/ai-voice-cloning-scam-1.7143989.
+Carlsmith, Joseph. 2025c. “What Is It to Solve the Alignment Problem?” Substack newsletter. *Joe Carlsmith’s Substack*, February 13. https://joecarlsmith.substack.com/p/what-is-it-to-solve-the-alignment.
+
+CBC News. 2024. “How Scammers Can Use ‘deep Voice’ AI Technology to Trick You.” *CBC News*, 12 July. https://www.cbc.ca/news/canada/how-scammers-can-use-deep-voice-ai-technology-to-trick-you-about-that-1.6763359.
 
 CBPAI.org. 2026. “Two CEOs Could Start the AI Treaty We Need: Why Aguirre’s Assurance Contract Proposal Is Revolutionary.” *CBPAI Blog*. 26 January. https://www.cbpai.org/blog-1/two-ceos-could-start-the-ai-treaty-we-need-why-aguirres-assurance-contract-proposal-is-revolutionary.
 
@@ -209,6 +222,8 @@ Comp, Lynn. 2026. “Nurturing Agentic AI beyond the Toddler Stage.” *MIT Tech
 
 Conrad, Joseph. 1899/ 1988. *Heart of Darkness*, edited by Robert Kimbrough. 3rd ed. New York: W.W. Norton and Company.
 
+Constitution. 2026. “Claude’s New Constitution.” [Claude's new constitution \ Anthropic](https://www.anthropic.com/news/claude-new-constitution).
+
 ControlAI. 2026a. “Anthropic did not call for a pause on AI.” *ControlAI Blog*. 10 June. https://blog.controlai.org/p/anthropic-did-not-call-for-a-pause
 
 ControlAI. 2026b. “Our Work in Canada.” *ControlAI*.” June. https://controlai.com/our-work-in-canada.
@@ -237,13 +252,15 @@ Diel, Alexander, Tania Lalgi, Finley Sam Mellis, Alexander Teufel, and Alexander
 
 Dina, Cristian. 2026. “Recursive Superintelligence Raises $650m at $4.65bn Valuation to Build Self-Improving AI.” *The Next Web*, 14 May. https://thenextweb.com/news/recursive-superintelligence-self-improving-ai-funding.
 
-Doctorow, Cory. 2026. The Reverse Centaur’s Guide to Life After AI: How to Think About Artificial Intelligence—Before It’s Too Late. New York: Farrar, Strauss and Giroux.
+Doctorow, Cory. 2026. *The Reverse Centaur’s Guide to Life After AI: How to Think About Artificial Intelligence—Before It’s Too Late*. New York: Farrar, Strauss and Giroux.
 
 Douthat, Ross. 2026. “The Battle with Anthropic Is the Start of a New Kind of Conflict.” Opinion. *The New York Times*, 16 June. https://www.nytimes.com/2026/06/16/opinion/anthropic-fable-ai-trump-administration.html.
 
 Dowd, Maureen. 2017. “Elon Musk’s Billion-Dollar Crusade to Stop the A.I. Apocalypse*." Vanity Fair*, 116. https://archive.vanityfair.com/article/2017/4/elon-musks-future-shock.
 
-Druzin, Bryan, Anatole Boute, and Michael Ramsden. 2025. "Confronting Catastrophic Risk: The International Obligation to Regulate Artificial Intelligence." *Michigan Journal of International Law* 46 (2): 173–217. [https://repository.law.umich.edu/mjil/Vol46/iss2/2](https://repository.law.umich.edu/mjil/vol46/iss2/2) .
+Druzin, Bryan, Anatole Boute, and Michael Ramsden. 2025. "Confronting Catastrophic Risk: The International Obligation to Regulate Artificial Intelligence." *Michigan Journal of International Law* 46 (2): 173–217. https://repository.law.umich.edu/mjil/vol46/iss2/2/.
+
+Easterly, Jen. 2026. “Cyberwarfare in the AI Age.” *Foreign Affairs*, 6 August. https://www.foreignaffairs.com/podcasts/cyberwarfare-ai-age.
 
 Electric Power Research Institute (EPRI). 2024. *Powering Data Centers: U.S. Energy System and Emissions Impacts of Growing Loads*. Report No. 3002031198. Palo Alto, CA: Electric Power Research Institute. https://www.epri.com/research/products/000000003002031198.
 
@@ -254,8 +271,6 @@ Esteva, Andre, Brett Kuprel, Roberto A. Novoa, Justin Ko, Susan M. Swetter, Hele
 European Union. 2024. "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 Laying Down Harmonised Rules on Artificial Intelligence (Artificial Intelligence Act)." *Official Journal of the European Union* L series, 12 July. http://data.europa.eu/eli/reg/2024/1689/oj.
 
 Evans, Richard J. 2009. *The Third Reich at War*. New York: Penguin Press.
-
-Evidence - ETHI (45-1) - No. 25 - House of Commons of Canada: Hearing on Challenges Posed by Artificial Intelligence and its Regulation. Meeting 25 before the Standing Committee on Access to Information, Privacy and Ethics, House of Commons 1 (2026). https://www.ourcommons.ca/documentviewer/en/45-1/ETHI/meeting-25/evidence.
 
 Evron, Gadi, and David B. Cross. 2026. “Hugging Face Incident Initial Post Mortem.” *Cloud Security Alliance*, 27 July. https://cloudsecurityalliance.org/artifacts/hugging-face-ciso-post-mortem. 
 
@@ -293,9 +308,9 @@ Ford, Celia. 2026c. “Internal AI Deployments Have People Worried. OpenAI’s E
 
 Fridman, Lex. 2025. "Demis Hassabis: Future of AI, Simulating Reality, Physics and Video Games." *Lex Fridman Podcast*. 475. 23 July. https://www.youtube.com/watch?v=-HzgcbRXUK8.
 
-Friedländer, Saul. 1997. Nazi Germany and the Jews: The Years of Persecution, 1933–1939. New York: HarperCollins.
+Friedländer, Saul. 1997. *Nazi Germany and the Jews: The Years of Persecution, 1933–1939*. New York: HarperCollins.
 
-Friedländer, Saul. 2007. Nazi Germany and the Jews, 1939–1945: The Years of Extermination. New York: HarperCollins.
+Friedländer, Saul. 2007. *Nazi Germany and the Jews, 1939–1945: The Years of Extermination*. New York: HarperCollins.
 
 Frontier Red Team. 2026a. “Project Fetch: Phase Two.” Anthropic Research, 18 June. https://www.anthropic.com/research/project-fetch-phase-two.
 
@@ -323,21 +338,21 @@ Geist, Edward. 2025. *On the Extinction Risk from Artificial Intelligence. Resea
 
 Geist, Michael. 2026. "An Illusion of Consensus: What the Government Isn’t Saying about the Results of Its AI Consultation." *Michael* *Geist*, 14 January. https://www.michaelgeist.ca/2026/02/aiconsultresults/
 
-Genewein, Tim, Matija Franklin, Alexander Lerchner, et al. 2026. “From AGI to ASI.” *arXiv.*. https://doi.org/10.48550/arXiv.2606.12683.
+Genewein, Tim, Matija Franklin, Alexander Lerchner, et al. 2026. “From AGI to ASI.” *arXiv.* https://doi.org/10.48550/arXiv.2606.12683.
 
 Gladstone AI. 2024. *Defense in Depth: An Action Plan to Increase the Safety and Security of Advanced AI*. Prepared for the U.S. Department of State. https://www.gladstone.ai/action-plan.
 
-Goethe, Johann Wolfgang von. (1797) 1955. "The Sorcerer’s Apprentice" (*Der Zauberlehrling*). Translated by Edwin H. Zeydel. In: *Goethe, the Lyrist: 100 Poems in New Translations*, 124–129. Chapel Hill: University of North Carolina Press.
+Goethe, Johann Wolfgang von. 1797/1955. "The Sorcerer’s Apprentice" (*Der Zauberlehrling*). Translated by Edwin H. Zeydel. In: *Goethe, the Lyrist: 100 Poems in New Translations*, 124–129. Chapel Hill: University of North Carolina Press.
 
 Goldfeder, Judah, Philippe Wyder, Yann LeCun, and Ravid Shwartz Ziv. 2026. “AI Must Embrace Specialization via Superhuman Adaptable Intelligence.” *arXiv*. https://doi.org/10.48550/arXiv.2602.23643.
 
-Goldhagen, Daniel Jonah. 1996. Hitler’s Willing Executioners: Ordinary Germans and the Holocaust. New York: Alfred A. Knopf.
+Goldhagen, Daniel Jonah. 1996. *Hitler’s Willing Executioners: Ordinary Germans and the Holocaust*. New York: Alfred A. Knopf.
 
 Good, Irving John. 1965. "Speculations Concerning the First Ultraintelligent Machine." In: *Advances in Computers*, edited by Franz L. Alt and Morris Rubinoff, 6:31–88. New York: Academic Press. https://doi.org/10.1016/S0065-2458(08)60418-0.
 
 Google Research. 2025. "Introducing Nested Learning: A New ML Paradigm for Continual Learning." *Google Research Blog*, 7 November. https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/.
 
-Gorfinkel, Lauren R., Gaelen Snell, David Long, et al. 2023. “Access to Mental Health Support, Unmet Need and Preferences among Adolescents during the First Year of the COVID-19 Pandemic.” *Health Promotion and Chronic Disease Prevention in Canada* 43 (4): 182–90. https://doi.org/10.24095/hpcdp.43.4.03.
+Gorfinkel, Lauren R., Gaelen Snell, David Long, et al. 2023. “Access to Mental Health Support, Unmet Need and Preferences among Adolescents during the First Year of the COVID-19 Pandemic.” *Health Promotion and Chronic Disease Prevention in Canada* 43 (4): 182–90. https://www.canada.ca/en/public-health/services/reports-publications/health-promotion-chronic-disease-prevention-canada-research-policy-practice/vol-43-no-4-2023/access-mental-health-support-unmet-need-preferences-adolescents-covid-19-pandemic.html.
 
 Gorner, Jeremy. 2026. “Illinois Set to OK Regulatory Framework for Big AI Companies.” *Government Technology*, 28 May. https://www.govtech.com/policy/illinois-set-to-ok-regulatory-framework-for-big-ai-companies.
 
@@ -351,7 +366,7 @@ Government of Ontario. 2022. “Ontario’s Ring of Fire.” *Government of* *On
 
 Government of Ontario. 2026. “Responsible Use of Artificial Intelligence Directive.” 7 January. *Government of Ontario.* http://www.ontario.ca/page/responsible-use-artificial-intelligence-directive.
 
-Grace, Katja, John Salvatier, Allan Dafoe, Baobao Zhang, and Owain Evans. "Viewpoint: When Will AI Exceed Human Performance? Evidence from AI Experts." *Journal of Artificial Intelligence Research* 62 (2018): 729–54. https://doi.org/10.1609/jair.v62i1.11222.
+Grace, Katja, John Salvatier, Allan Dafoe, Baobao Zhang, and Owain Evans. 2018. "Viewpoint: When Will AI Exceed Human Performance? Evidence from AI Experts." *Journal of Artificial Intelligence Research* 62: 729–54. https://jair.org/index.php/jair/article/view/11222/26431.
 
 Grace, Katja, Zach Stein-Perlman, Ben Weinstein-Raun, and John Salvatier. 2022. "2022 Expert Survey on Progress in AI." *AI Impacts*, 3 August. https://aiimpacts.org/2022-expert-survey-on-progress-in-ai/.
 
@@ -387,7 +402,7 @@ Hays, Kali, Nardine Saad, and Regan Morris. 2026. “Meta and YouTube Found Liab
 
 Heikkilä, Melissa. 2024. “I Went for a Walk with Gary Marcus, AI’s Loudest Critic.” *MIT Technology Review*, 20 February. https://www.technologyreview.com/2024/02/20/1088701/i-went-for-a-walk-with-gary-marcus-ais-loudest-critic/.
 
-Heikkilä, Melissa. 2025. "What’s Changed Since the 'Pause AI' Letter? An Interview with Max Tegmark." *MIT Technology Review*, 25 September. https://www.technologyreview.com/2025/09/25/max-tegmark-interview-ai-pause/.
+Heikkilä, Melissa. 2023. "What’s Changed Since the 'Pause AI' Letter? An Interview with Max Tegmark." *MIT Technology Review*, 26 September. https://www.technologyreview.com/2023/09/26/1080299/six-months-on-from-the-pause-letter/
 
 Hendrycks, Dan, Mantas Mazeika, and Thomas Woodside. 2023. "An Overview of Catastrophic AI Risks." *arXiv*. https://doi.org/10.48550/arXiv.2306.12001.
 
@@ -395,7 +410,9 @@ Hennig, Julia, and Georgios Maragkou. 2024. "The Digital Echo Chamber of Lonelin
 
 Himmler, Heinrich. "The Exterminationist Mindset: Heinrich Himmler’s October 1943 Speeches." Translated and edited by The National WWII Museum. New Orleans: *National WWII Museum*. Accessed March 3, 2026. https://www.nationalww2museum.org/war/articles/exterminationist-mindset-heinrich-himmlers-october-1943-speeches.
 
-Hinton, Geoffrey. 2024. "Will Digital Intelligence Replace Biological Intelligence?" *The Romanes Lecture, University of Oxford*, 15 May. https://www.ox.ac.uk/news/2024-05-15-godfather-ai-gives-romanes-lecture-oxford.
+Hinton, Geoffrey. 2024. "Will Digital Intelligence Replace Biological Intelligence?" *The Romanes Lecture, University of Oxford*, 15 May. https://www.ox.ac.uk/news/2024-02-20-romanes-lecture-godfather-ai-speaks-about-risks-artificial-intelligence.
+
+Hinton, Geoffrey, and Patchen Barss. 2027. *Smarter than Us: Superintelligence and the Future of Humanity*. Doubleday Canada.
 
 Hoes, Emma, and Fabrizio Gilardi. 2025. “Existential Risk Narratives about AI Do Not Distract from Its Immediate Harms.” *Proceedings of the National Academy of Sciences of the United States of America* 122 (16): e2419055122. https://doi.org/10.1073/pnas.2419055122.
 
@@ -421,7 +438,7 @@ Institute for Nuclear Power Operations. 2026. “Promoting Nuclear Excellence.�
 
 International Committee of the Red Cross (ICRC). 2021. "ICRC Position on Autonomous Weapon Systems." *ICRC Documents*. 12 May. https://www.icrc.org/en/document/icrc-position-autonomous-weapon-systems.
 
-International Labour Organization. 2024. “Generative AI and Jobs: A Task-Based Vulnerability Analysis.” *ILO Publications*. https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-job-quantity-and-quality.
+International Labour Organization. 2024. “Generative AI and Jobs: A Task-Based Vulnerability Analysis.” *ILO Publications*. https://webtv.un.org/en/asset/k1x/k1x9kjedwd.
 
 Jackson-Loverage, Jae. 2025. “Best AI Platforms for Adaptive Teaching: A Guide to Personalised Learning Tools in Education.” *Connecting Education*, 7 August. https://www.connectingeducation.co.uk/blog/guest-post-whats-the-best-ai-platform-for-adaptive-teaching-a-comparative-guide.
 
@@ -533,7 +550,7 @@ Mansoor, Sanya. 2026. “In First, California City Overwhelmingly Votes to Perma
 
 Manuel, Travis. 2026. “Study Report: What Concerns People about AI?” *Clearer Thinking*, 12 March. https://www.clearerthinking.org/post/study-report-what-concerns-people-about-ai.
 
-Marcus, Gary. 2024. Taming Silicon Valley: How We Can Ensure That AI Works for Us. Cambridge, MA: MIT Press.
+Marcus, Gary. 2024. *Taming Silicon Valley: How We Can Ensure That AI Works for Us*. Cambridge, MA: MIT Press.
 
 Mark, Clifton. 2025. “Brits Are Happy to Use AI but Still Don’t Trust It.” *YouGov*, 10 December. https://yougov.com/en-gb/articles/53709-trust-in-ai-uk-2025.
 
@@ -565,6 +582,8 @@ Mirror-image life. 2026. *Wikipedia*, “Mirror-image life”): Accessed June 12
 
 Mitchell, Melanie. 2026. “The Dangerous Unknowns at the Heart of LLMs.” *The Yale Review*. https://yalereview.org/article/melanie-mitchell-jagged-intelligence.
 
+Mitti. 2026. “5x5 risk matrix template.” [Free 5x5 Risk Matrix Template | PDF | Mitti (by SafetyCulture)](https://mitti.com/checklists/safety/5x5-risk-matrix-template).
+
 Mooney, Christopher Z. 1997. *Monte Carlo Simulation*. Vol. 116. Sage University Papers Quantitative Applications in the Social Sciences. Thousand Oaks: Sage.
 
 Morrone, Megan. 2025. “Amodei on AI: ‘There’s a 25% Chance That Things Go Really, Really Badly.’” *Axios*, 17 September. https://www.axios.com/2025/09/17/anthropic-dario-amodei-p-doom-25-percent.
@@ -583,11 +602,13 @@ Narayanan, Arvind, and Sayash Kapoor. 2025. “AI as Normal Technology.” *Knig
 
 NASA. 2026. “ASRS - Aviation Safety Reporting System.” *Aviation Safety Reporting System*, July. https://asrs.arc.nasa.gov/.
 
-National Academies of Sciences, Engineering, and Medicine. 2015. *Potential Benefits and Risks of Gain-of-Function Research: Summary of a Workshop*. Washington, DC: The National Academies Press. https://doi.org/10.17226/21665.
+National Academies of Sciences, Engineering, and Medicine. 2015. *Potential Benefits and Risks of Gain-of-Function Research: Summary of a Workshop*. Washington, DC: The National Academies Press. https://www.ncbi.nlm.nih.gov/books/NBK274343/.
 
 National Academies of Sciences, Engineering, and Medicine. 2025*. Potential Environmental Effects of Nuclear War—New Report.* Washington, DC: The National Academies Press. https://doi.org/10.17226/27515.
 
 New York State Governor’s Office. 2025. "Governor Hochul Signs Nation-Leading Legislation to Require AI Frameworks for AI Frontier Models." *News*. 19 December. https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-require-ai-frameworks-ai-frontier-models.
+
+Ngo, Richard, Lawrence Chan, and Sören Mindermann. 2025. “The Alignment Problem from a Deep Learning Perspective.” *arXiv*:2209.00626 https://doi.org/10.48550/arXiv.2209.00626.
 
 Nguyen, Eric, Michael Poli, Matthew G. Durrant, et al. 2024. “Sequence Modeling and Design from Molecular to Genome Scale with Evo.” *Science* 386 (6723). https://doi.org/10.1126/science.ado9336.
 
@@ -617,7 +638,7 @@ OpenAI. 2026b. “Building Abundant Intelligence.” *OpenAI*, 29 July. https://
 
 OpenAI. 2026c. “OpenAI and Hugging Face Partner to Address Security Incident during Model Evaluation.” *OpenAI*, 29 July. https://openai.com/index/hugging-face-model-evaluation-security-incident/.
 
-Ord, Toby. 2020. The Precipice: Existential Risk and the Future of Humanity. New York: Bloomsbury. 
+Ord, Toby. 2020. *The Precipice: Existential Risk and the Future of Humanity*. New York: Bloomsbury. 
 
 Ord, Toby. 2026. “Broad AI Timelines: Planning Under Uncertainty.” *Forethought*, 16 March. https://www.forethought.org/research/broad-timelines.
 
@@ -647,7 +668,7 @@ Peng, Sida, Eirini Kalliamvakou, Peter Cihon, and Mert Demirer. 2024. "The Impac
 
 Perez, Ethan, Saffron Huang, Francis Song, Trevor Cai, Roman Ring, John Aslanides, Amelia Glaese, Nathan McAleese, and Geoffrey Irving. 2022. "Red Teaming Language Models with Language Models." In: *Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing*, 3419–48. Association for Computational Linguistics. https://doi.org/10.18653/v1/2022.emnlp-main.225.
 
-Perrow, Charles. 1984. Normal Accidents: Living with High-Risk Technologies. New York: Basic Books.
+Perrow, Charles. 1984. *Normal Accidents: Living with High-Risk Technologies*. New York: Basic Books.
 
 Pew Research Center. 2025. "How People around the World View AI." *Pew Research Center*. 15 October. https://www.pewresearch.org/global/2025/10/15/how-people-around-the-world-view-ai/.
 
@@ -687,9 +708,9 @@ Rosen, Brianna, Kyle A. Kilian, Matthew J. Malone, Benjamin Etheridge, and Tiffa
 
 Rothman, Joshua. 2026. “What If We Can Never Trust A.I.?” *The New Yorker*, 1 August. https://www.newyorker.com/culture/open-questions/what-if-we-can-never-trust-ai.
 
-Russell, Stuart. 2019. Human Compatible: Artificial Intelligence and the Problem of Control. New York: Viking.
+Russell, Stuart. 2019. *Human Compatible: Artificial Intelligence and the Problem of Control*. New York: Viking.
 
-Stuart Russell. 2025. “DeepSeek, OpenAI, and the Race to Human Extinction,” *Newsweek*, 31 January. https://www.newsweek.com/deepseek-openai-race-human-extinction-2023482.
+Russell, Stuart. 2025. “DeepSeek, OpenAI, and the Race to Human Extinction,” *Newsweek*, 31 January. https://www.newsweek.com/deepseek-openai-race-human-extinction-2023482.
 
 Russell, Stuart. 2026. “Will It Take a ‘Chornobyl-Scale Disaster’ for Us to Regulate AI?”. *The Guardian*, 17 June. https://www.theguardian.com/commentisfree/2026/jun/17/anthropic-ai-rsi-fable.
 
@@ -701,7 +722,7 @@ Samvelyan, Mikayel, Sharath Chandra Raparthy, Andrei Lupu, Eric Hambro, Akbir Kh
 
 Satariano, Adam, and Paul Mozur. 2026. “UK Institute Is Hunting for Dangers Lurking in AI.” *The New York Times*, 24 May. https://www.nytimes.com/2026/05/24/technology/uk-ai-safety-institute.html.
 
-Saunders, Bernie. 2026. “The Public Should Own Half of the Big A.I. Companies.” Senator Bernie Sanders, 1 June. https://www.sanders.senate.gov/op-eds/the-public-should-own-half-of-the-big-a-i-companies/.
+Sanders, Bernie. 2026. “The Public Should Own Half of the Big A.I. Companies.” Senator Bernie Sanders, 1 June. https://www.sanders.senate.gov/op-eds/the-public-should-own-half-of-the-big-a-i-companies/.
 
 Sarvan, Charles P. 1988. "Racism and the Heart of Darkness." In: *Heart of Darkness*, 3rd ed., edited by Robert Kimbrough, 280–85. New York: W.W. Norton and Company. 
 
@@ -719,11 +740,11 @@ Schneier, Bruce. 2026a. “How dangerous is Anthropic’s Mythos AI?” Opinion.
 
 Schneier, Bruce. 2026b. “The Anthropic ‘Fable’ saga proves we have opened the AI Pandora’s box. What now?” Opinion. *The Guardian*, 16 June. https://www.theguardian.com/commentisfree/2026/jun/16/anthropic-fable-ai.
 
-Scholem, Gershom. 1966. “The Golem of Prague and the Golem of Rehovoth.” *Commentary*, January. [https://www.commentary.org/articles/gershom-scholem/the-golem-of-prague-the-golem-of-rehovoth/](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.commentary.org%2Farticles%2Fgershom-scholem%2Fthe-golem-of-prague-the-golem-of-rehovoth%2F&data=05|02|leissw@queensu.ca|9e8213bbd51141e5a5a708dec70e5ad0|d61ecb3b38b142d582c4efb2838b925c|1|0|639167061803833311|Unknown|TWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D|0|||&sdata=WWMogwOGhAimxfeIxLkR%2BJv%2BukhU9NrYVcCspEVk5Fg%3D&reserved=0).
+Scholem, Gershom. 1966. “The Golem of Prague and the Golem of Rehovoth.” *Commentary*, January. https://www.commentary.org/articles/gershom-scholem/the-golem-of-prague-the-golem-of-rehovoth/.
 
 Schumacher, Elizabeth. 2025. “How the German Government Is Going All in on AI.” Dw.Com, 10 May. https://www.dw.com/en/german-government-ai-push-modernizing-high-tech-agenda-v2/a-74214400.
 
-Sharkey, Noel. 2012. "The Evitability of Autonomous Robot Warfare." *International Review of the Red Cross* 94 (886): 787–99. https://doi.org/10.1017/S181638311200085X.
+Sharkey, Noel. 2012. "The Evitability of Autonomous Robot Warfare." *International Review of the Red Cross* 94 (886): 787–99. https://www.cambridge.org/core/journals/international-review-of-the-red-cross/article/abs/evitability-of-autonomous-robot-warfare/35D0C3294D834F23BF1C0B33FC51A166.
 
 Sharma, Mrinank. 2026. “Today is my last day at Anthropic. I resigned. Here is the letter I shared with my colleagues, explaining my decision.” *Tweet.* 9 February. https://x.com/MrinankSharma/status/2020881722003583421.
 
@@ -737,13 +758,11 @@ Slattery, Peter, Alexander K. Saeri, Emily A. C. Grundy, et al. 2026. “The AI 
 
 Somani, Elika, Anjay Friedman, Henry Wu, Marianne Lu, Christopher Byrd, Henri van Soest, and Sana Zakaria. 2025. *Strengthening Emergency Preparedness and Response for AI Loss of Control Incidents*. RAND Europe. 30 July. https://www.rand.org/pubs/research_reports/RRA3847-1.html.
 
-Sparrow, Robert. 2016. "Robots and Respect: Assessing the Case Against Autonomous Weapon Systems." *Ethics & International Affairs* 30 (1): 93–116. https://doi.org/10.1017/S089267941500064X.
+Sparrow, Robert. 2016. "Robots and Respect: Assessing the Case Against Autonomous Weapon Systems." *Ethics & International Affairs* 30 (1): 93–116. https://www.ethicsandinternationalaffairs.org/journal/robots-and-respect-assessing-the-case-against-autonomous-weapon-systems.
 
 Stacey, Kiran. 2026. “AI Poses ‘Hiroshima’-Style Threat to Humanity without Global Rules, Says Cooper.” *The Guardian*, 5 July. https://www.theguardian.com/politics/2026/jul/05/ai-hiroshima-style-threat-humanity-global-rules-yvette-cooper.
 
 Stan, Alina Maria. 2026. “The Lawsuits That Could Give AI Its Big Tobacco Moment.” *The Next Web.* 8 June . https://thenextweb.com/news/ai-lawsuits-big-tobacco-moment-liability-children.
-
-Stanford Digital Economy Lab. 2026. “We Must Act Now.” 12 July. https://www.wemustactnow.ai.
 
 Steven, Benjamin Lopez. 2026. “Cross-Party Group Calls on Canada to Block Development of Superintelligent AI Technology.” *CBC News*, 3 June. https://www.cbc.ca/news/politics/canada-superintelligent-ai-development-national-strategy-mark-carney-evan-solomon-9.7222334.
 
@@ -771,7 +790,7 @@ The Economist. 2026. “Demis Hassabis Has a Plan to Harness AI Safely.” *The 
 
 Thomas, Drake. 2026. “Pacing the Frontier caveats.” Tweet. X, 30 July. https://x.com/MaskedTorah/status/2082863138329035132.
 
-Topol, Eric. 2019. Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again. New York: Basic Books.
+Topol, Eric. 2019. *Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again.* New York: Basic Books.
 
 Trippenbach, Philip, Isabella Scala, Jai Bhambra, and Rowan Emslie. 2025. “From Catastrophic to Concrete: Reframing AI Risk Communication for Public Mobilization.” *arXiv*. https://doi.org/10.48550/arXiv.2511.06525.
 
@@ -780,6 +799,10 @@ Tsang, Alan, Yan Taw Boon, and Charles Nguyen. 2026. “China’s Blueprint: Wha
 Turing, Alan M. 1950. “Computing Machinery and Intelligence.” *Mind* 59 (236): 433–60. https://doi.org/10.1093/mind/LIX.236.433.
 
 Turpin, Miles, Julian Michael, Ethan Perez, and Samuel R. Bowman. 2023. "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting." In: *Advances in Neural Information Processing Systems* 36. 2023, edited by Alice Oh, Tristan Naumann, Amir Globerson, Kate Saenko, Moritz Hardt, and Sergey Levine, 74952–74965. Curran Associates. https://papers.nips.cc/paper_files/paper/2023/hash/ed3fea9033a80fea1376299fa7863f4a-Abstract-Conference.html.
+
+Tyshenko, Michael G. and William Leiss. 2026. “Monte Carlo Probabilistic Assessment of Loss of Human Control Over Advanced AI Using Bowtie Analysis.” Preprint.
+
+https://www.preprints.org/manuscript/202606.0760/v1
 
 UK Government. 2023. "The Bletchley Declaration by Countries Attending the AI Safety Summit, 1–2 November." Department for Science, Innovation and Technology. https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration.
 
@@ -797,13 +820,15 @@ Velasquez, Francisco. 2026. “Nvidia CEO Jensen Huang Claims AGI Has Been ‘ac
 
 Verdi, Guiseppe. *Messa da Requiem* (1874), final movement, last two words (in Latin): “Deliver me [from that awful fate”].
 
+ 
+
 Vermeer, Michael J. D., Emily Lathrop, and Alvin Moon. 2025. *On the Extinction Risk from Artificial Intelligence*. RAND Corporation. https://www.rand.org/pubs/research_reports/RRA3034-1.html .
 
 Volz, Dustin, Julian E. Barnes, and Ana Swanson. 2026. “Trump Administration Reignites Its Feud with Anthropic Over Latest A.I. Models.” *The New York Times*, June 14. https://www.nytimes.com/2026/06/13/us/politics/trump-anthropic-ai-models.html.
 
 Voutsakelis, Georgios, Ioannis Dimkaros, Nikolaos Tzimos, George Kokkonis, and Sotirios Kontogiannis. 2025. "Development and Evaluation of a Tool for Blind Users Utilizing AI Object Detection and Haptic Feedback." *Machines* 13 (5): 398. https://doi.org/10.3390/machines13050398.
 
-Vudka, Amir. 2020. “The Golem in the Age of Artificial Intelligence.” *NECSUS: European Journal of Media Studies* 9 (1): 101–23. [https://necsus-ejms.org/the-golem-in-the-age-of-artificial-intelligence/](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fnecsus-ejms.org%2Fthe-golem-in-the-age-of-artificial-intelligence%2F&data=05|02|leissw@queensu.ca|9e8213bbd51141e5a5a708dec70e5ad0|d61ecb3b38b142d582c4efb2838b925c|1|0|639167061803894827|Unknown|TWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D|0|||&sdata=wnp94rwjzayQFs8wDSCSuzYJlEOG8PysLOtpEqB8ooU%3D&reserved=0).
+Vudka, Amir. 2020. “The Golem in the Age of Artificial Intelligence.” *NECSUS: European Journal of Media Studies* 9 (1): 101–23. https://necsus-ejms.org/the-golem-in-the-age-of-artificial-intelligence/.
 
 Wagener, Trevor. 2026. “What Bank Tellers and Radiologists Can Tell Us about Our Job Security in the AI Era*.*” *CCIA* *Net*, 3 February. https://ccianet.org/articles/what-bank-tellers-and-radiologists-can-tell-us-about-our-job-security-in-the-ai-era/.
 
@@ -823,7 +848,7 @@ Wiblin, Robert. 2026. “Yoshua Bengio Thinks He Knows How to Build Safe Superin
 
 Wiener, Norbert. 1964. *God and Golem, Inc.: A Comment on Certain Points Where Cybernetics Impinges on Religion*. Cambridge, MA: MIT Press.
 
-Winner, Langdon. 1977. Autonomous Technology: Technics-out-of-Control as a Theme in Political Thought. Cambridge, MA: MIT Press.
+Winner, Langdon. 1977. *Autonomous Technology: Technics-out-of-Control as a Theme in Political Thought.* Cambridge, MA: MIT Press.
 
 Wisakanto, Anna Katariina, Joe Rogero, Avyay M. Casheekar, and Richard Mallah. 2025. “Adapting Probabilistic Risk Assessment for AI.” *arXiv*. https://doi.org/10.48550/arXiv.2504.18536.
 
@@ -845,11 +870,13 @@ Yampolskiy, Roman. 2024. *AI: Unexplainable, Unpredictable, Uncontrollable*. New
 
 Ye, Charles, Jasmine Cui, and Dylan Hadfield-Menell. 2026. “Prompt Injection as Role Confusion.” *International Conference on Machine Learning (ICML)*. https://arxiv.org/abs/2603.12277.
 
-Yudkowsky, Eliezer, and Nate Soares. 2025a. *If Anyone Builds It, Everyone Dies*. New York: Hachette Book Group.
+Yudkowsky, Eliezer, and Nate Soares. 2025a. *If Anyone Builds It, Everyone Dies*. New York: Little, Brown & Company.
 
 Yudkowsky, Eliezer, and Nate Soares. 2025b. *Online resources*. https://ifanyonebuildsit.com/resources.
 
 Yudkowsky, Eliezer. 2008. “Artificial Intelligence as a Positive and Negative Factor in Global Risk.” In: *Global Catastrophic Risks*, edited by Nick Bostrom and Milan M. Cirkovic, 308–345. Oxford University Press. https://doi.org/10.1093/oso/9780198570509.003.0021.
+
+Yudkowsky, Elizer. 2022. “AGI Ruin: A List of Lethalities.” *LessWrong*, 5 June. https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities.
 
 Zavaleta-Monestel, Esteban, Luis Carlos Monge Bogantes, Silvia Chavarría-Rodríguez, Sebastián Arguedas-Chacón, Natalia Bastos-Soto, and Jorge Villalobos-Madriz. 2025. "Artificial Intelligence Tools That Improve Medication Adherence in Patients with Chronic Noncommunicable Diseases: An Updated Review." *Cureus* 17 (4): e83132. https://doi.org/10.7759/cureus.83132.
 
@@ -859,4 +886,4 @@ Zhang, Jenny, Bingchen Zhao, Wannan Yang, et al. 2026. “Hyperagents.” *arXiv
 
 Zhou, Eric, and Dokyun Lee. 2024. "Generative artificial intelligence, human creativity, and art." *PNAS Nexus* 3 (3). https://doi.org/10.1093/pnasnexus/pgae052.
 
-</div>
+ </div>
