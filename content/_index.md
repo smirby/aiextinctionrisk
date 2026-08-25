@@ -1,5 +1,5 @@
 ---
-title: "The Treacherous Turn: AI and Human Extinction Risks"
+title: "A Treacherous Technology: AI and Human Extinction Risk"
 ---
 
 ## By William Leiss and Richard Smith
@@ -21,28 +21,31 @@ The companion website will launch fully at publication, with ongoing commentary,
 > NOTE: *This approach includes Quantitative Risk Assessment (QRA), and our book includes the first QRA study of an AI risk issue by our colleague Michael G. Tyshenko.
 
 ## Contents
-List of Figures	iv
-List of Tables	v
-Preface	vi
-### Part One: Artificial Intelligence	16
-Introduction	17
-Chapter 1: The Good	27
-Chapter 2: The Bad	40
-Chapter 3: The Ugly	60
-Chapter 4: The Superhuman Machine	83
-### Part 2: Risk Policy and Analysis	101
-Chapter 5: The Risk-Based Approach	102
-Chapter 6: The Control Problem	111
-Chapter 7: Catastrophic and Existential Risks	127
-Chapter 8: Risk Estimation	144
-Chapter 9: Quantitative Risk Assessment for Loss of Control (By Michael G. Tyshenko)	158
-### Part Three: Governance and Risk Management	174
-Chapter 10: Regulation	175
-Chapter 11: Risk Mitigation Options	199
-Chapter 12: Heart of Darkness	215
-Chapter 13: Blaming the Victims	230
-Chapter 14: What Should the Public Do?	237
-Chapter 15: What Should Governments Do?	249
-Chapter 16: Risk Management Summary	266
-References	274
-Acknowledgements	333
+List of Figures	
+List of Tables
+Preface
+
+### Part One: Artificial Intelligence
+Introduction
+Chapter 1: The Good
+Chapter 2: The Bad
+Chapter 3: The Ugly
+Chapter 4: The Superhuman Machine
+
+### Part 2: Risk Policy and Analysis
+Chapter 5: The Risk-Based Approach
+Chapter 6: The Control Problem
+Chapter 7: Catastrophic and Existential Risks
+Chapter 8: Risk Estimation
+Chapter 9: Quantitative Risk Assessment for Loss of Control (By Michael G. Tyshenko)
+
+### Part Three: Governance and Risk Management
+Chapter 10: Regulation
+Chapter 11: Risk Mitigation Options
+Chapter 12: Heart of Darkness
+Chapter 13: Blaming the Victims
+Chapter 14: What Should the Public Do?
+Chapter 15: What Should Governments Do?
+Chapter 16: Risk Management Summary
+References
+Acknowledgements
