@@ -1,6 +1,6 @@
 baseURL = "https://fromtooltoactor.ca/"
 languageCode = "en-ca"
-title = "A Treacherous Technology: AI and Human Extinction Risk"
+title = "Treacherous Tech: Taking the Risk of Artificial Intelligence Seriously"
 
 # We're using layouts directly (no external theme) so the site's
 # look and feel can be updated easily once the book design arrives.
@@ -9,7 +9,7 @@ title = "A Treacherous Technology: AI and Human Extinction Risk"
   authors = "William Leiss and Richard Smith"
   publisher = "McGill-Queen's University Press"
   show_publisher = true
-  description = "Companion website for A Treacherous Technology: AI and Human Extinction Risk by William Leiss and Richard Smith"
+  description = "Companion website for Treacherous Tech: Taking the Risk of Artificial Intelligence Seriously by William Leiss and Richard Smith"
   status = "forthcoming Spring 2027"
 
 [menu]
