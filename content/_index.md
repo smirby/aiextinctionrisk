@@ -1,10 +1,11 @@
 ---
-title: "A Treacherous Technology: AI and Human Extinction Risk"
+title: "Treacherous Tech:
+Taking the Risk of Artificial Intelligence Seriously"
 ---
 
 ## By William Leiss and Richard Smith
 
-This forthcoming book presents a comprehensive analysis of the risks associated with Artificial Intelligence (AI), in the context of the *impending transition of artificial intelligence from a passive tool to an autonomous actor.* 
+This forthcoming book presents a comprehensive analysis of the risks associated with Artificial Intelligence (AI), in the context of the *impending transition of artificial intelligence from a passive tool to an agent (an autonomous actor).* 
 
 The authors argue that while current AI provides significant benefits in medicine and science, there is an underlying risk that humans could *lose control* over the advanced AI systems (also known as frontier AI) which are now being created, leading to potentially catastrophic outcomes for humanity. The book’s chapter 9, which presents an original probabilistic safety assessment of loss of control, estimates a 1 in 8 chance of this eventuality occurring by the mid-21st century.
 
