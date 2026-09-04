@@ -32,6 +32,8 @@ Interactive tools for the book are available now. Further resources — annotate
 
 [**Rogue AI Tracker**](https://rogueaitracker.com) - keep up with the latest developments
 
+**[AI Litigation Tracker](https://exhibitai.info)** - who is suing who over what
+
 ### Bibliography
 
 [**Full bibliography from the book**](/about/references/)
