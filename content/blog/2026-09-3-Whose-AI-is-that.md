@@ -1,6 +1,6 @@
 ---
 title: "Whose AI is that?"
-date: 2026-09-3
+date: 2026-09-03
 categories: ["AI Safety"]
 draft: false
 ---
