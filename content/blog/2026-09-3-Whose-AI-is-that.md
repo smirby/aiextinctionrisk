@@ -46,6 +46,8 @@ This reference to an ecosystem is significant, as Achiam comes back to it at the
 
 In his view we may very well have rogue AI agents, they may be 'out of control' in a real sense, but they will live in our environment alongside us, competing but not necessarily vanquishing humans (and their non-rogue AIs).
 
+Whether it is self-sovereign or rogue (or both), whether it lives in an ecology with us or anhilates us altogether, the challenge in front of us is simple: why do we keep going, when these possibilities are vivid, proximate, and undeniable. It is time to recognize that we've accomplished a great thing - we've built an artificial intelligence - now it is time to put it back in the box. We don't need it, and it will ruin us if we continue.
+
 
 
 -----
