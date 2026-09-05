@@ -46,6 +46,14 @@ This reference to an ecosystem is significant, as Achiam comes back to it at the
 
 In his view we may very well have rogue AI agents, they may be 'out of control' in a real sense, but they will live in our environment alongside us, competing but not necessarily vanquishing humans (and their non-rogue AIs).
 
+Another unsettling question - which AI did what and who is liable? Arbel et al. engage with this question in a recent SSRN paper:
+
+> Very soon, millions of AI agents will proliferate across the economy, autonomously taking billions of actions. Inevitably, things will go wrong. Humans will be defrauded, injured, even killed. Law will somehow have to govern the coming wave. But when an AI causes harm, the first question to answer before anyone can be held accountable is: Which AI Did It?  
+>
+> Identifying AIs is unusually difficult. AIs lack bodies. They can copy, split, merge, and swarm at will. Even today, a “single” AI agent is often an ensemble of instances based on multiple models. The complexity will only multiply as AI capabilities improve  (Arbel et al. 2026).
+
+ARbel et al. weren't considering the question of self-sovereign AIs or even rogue AIs in that article. But it seems to me that the liability questions are even more fraught in those situations.
+
 Whether it is self-sovereign or rogue (or both), whether it lives in an ecology with us or anhilates us altogether, the challenge in front of us is simple: why do we keep going, when these possibilities are vivid, proximate, and undeniable. It is time to recognize that we've accomplished a great thing - we've built an artificial intelligence - now it is time to put it back in the box. We don't need it, and it will ruin us if we continue.
 
 
@@ -57,6 +65,8 @@ Whether it is self-sovereign or rogue (or both), whether it lives in an ecology 
 <div class="references">
 
 Achiam, Joshua. 2026. “There is a fact about the future.” Tweet. *Twitter*, 31 August. https://x.com/jachiam0/status/2094660737155358865.
+
+Arbel, Yonathan A., Simon Goldstein, and Peter Salib. 2026. “How to Count AIs: Individuation and Liability for AI Agents.” SSRN Scholarly Paper No. 6273198. Social Science Research Network, February 1. https://doi.org/10.2139/ssrn.6273198.
 
 Ball, Dean W. 2026. “On the Loose.” *Hyperdimensional*. 1 September. https://www.hyperdimensional.co/p/on-the-loose.
 
