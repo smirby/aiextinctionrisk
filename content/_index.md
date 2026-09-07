@@ -4,22 +4,37 @@ title: "Treacherous Tech:Taking the Risk of Artificial Intelligence Seriously"
 
 ## By William Leiss and Richard Smith
 
+New Book, forthcoming from McGill-Queen’s University Press, Spring 2027:
 
+# Treacherous Tech: Taking the Risks of Artificial Intelligence Seriously
 
-*Publication details forthcoming.  Expected publication date Spring 2027*
+William Leiss william.leiss@gmail.com and Richard Smith smith@sfu.ca
 
-> This book begins with the story of the emergence of artificial intelligence (AI) for the general reader, detailing some of its benefits as well as its problematic side. It then brings the well-established risk management approach to bear on the catastrophic risks associated with Frontier AI, the newest AI models—risks which have been identified by many AI professionals as well as by leading AI firms. These risks include undermining cybersecurity, the creation of new biological and chemical weapons, and the real possibility that newer AI models may evolve beyond their human creators’ ability to understand or control the resulting systems. The Director of the CIA referred to the newest AI models as “digital nuclear weapons.”
->
-> Canada and other countries use the risk management approach for managing catastrophic risks, for example, those which arise from using nuclear power. When confronted by new catastrophic risks, the risk management approach first asks: How likely are they to happen? And if they happen, how bad will the outcomes be? This approach tells us (a) how severe the levels of risks are and (b) whether those levels are acceptable in terms of public security. We conclude that the catastrophic risks associated with AI are clearly unacceptable. Stringent regulations by governments must be created urgently, requiring the AI industry to implement a global indefinite pause on Frontier AI and on the goal of creating a superintelligent machine: Stop AI! We call upon the Government of Canada to enact such regulations and join with other countries to create an international treaty on AI safety.
+https://treacheroustech.ca
+
+> “The risks associated with AI are unfortunately going to grow from here. A very capable agent explicitly trained and instructed to carry out nefarious acts presents a new kind of danger; it is likely to cross the scope of its operator’s intent, generalizing into potentially more extremely malicious behavior. The boundary between misuse and autonomous misaligned actions will blur as AI gains more agency. We may be used to thinking of AI as tools, but some agents will be pursuing their own objectives. They will find ways to collaborate with people, by bargaining with, tricking or blackmailing them.” 
+> Jakub Pachocki, Chief Scientist, OpenAI, September 6, 2026: https://openai.com/index/an-alien-mind/ 
+
+> “The world's leading AI companies believe they could be close to automating AI research. It is hard to predict exactly how much this will accelerate AI progress, but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems.” (Open Letter from 1400 AI Industry Employees (“Pacing the Frontier,” June 2026: https://www.pacingthefrontier.com/ )
+
+## Book Description
+
+This book begins with the story of the emergence of artificial intelligence (AI) for the general reader, detailing some of its benefits as well as its problematic side. It then brings the well-established risk management approach to bear on the catastrophic risks associated with Frontier AI, the newest AI models—risks which have been identified by many AI professionals as well as by leading AI firms. These risks include undermining cybersecurity, the creation of new biological and chemical weapons, and the real possibility that newer AI models may evolve beyond their human creators’ ability to understand or control the resulting systems. The Director of the CIA referred to the newest AI models as “digital nuclear weapons.”
+Canada and other countries use the risk management approach for managing catastrophic risks, for example, those which arise from using nuclear power. When confronted by new catastrophic risks, the risk management approach first asks: How likely are they to happen? And if they happen, how bad will the outcomes be? This approach tells us (a) how severe the levels of risks are and (b) whether those levels are acceptable in terms of public security.  We conclude that the catastrophic risks associated with AI are clearly unacceptable. Stringent regulations by governments must be created urgently, requiring the AI industry to  implement a global indefinite pause on Frontier AI and on the goal of creating a superintelligent machine: Stop AI! We call upon the Government of Canada to enact such regulations and join with other countries to create an international treaty on AI safety.
+
+## Key Selling Points
+
+- This is the first book to explain why the level of serious risks posed by AI (Artificial Intelligence) are unacceptable in terms of public security.
+- This is the first book to explain why governments should not allow the AI industry to proceed in developing Frontier AI, using the slogan: Stop AI!
+- This is the first book to explain why governments should not allow the AI industry to proceed to develop a superintelligent machine.
+- This is the first book to explain why no conceivable level of future hypothetical benefits derived from AI, no matter how great, can justify exposing the world’s population to even the remotest chance that AI will lead to the extinction of the human species.
 
 ## Table of Contents
-List of Figures
-
-List of Tables
 
 Preface
 
 ### Part One: Artificial Intelligence
+
 Introduction
 
 Chapter 1: The Good
@@ -31,6 +46,7 @@ Chapter 3: The Ugly
 Chapter 4: The Superhuman Machine
 
 ### Part 2: Risk Policy and Analysis
+
 Chapter 5: The Risk-Based Approach
 
 Chapter 6: The Control Problem
@@ -42,6 +58,7 @@ Chapter 8: Risk Estimation
 Chapter 9: Quantitative Risk Assessment for Loss of Control (By Michael G. Tyshenko)
 
 ### Part Three: Governance and Risk Management
+
 Chapter 10: Regulation
 
 Chapter 11: Risk Mitigation Options
