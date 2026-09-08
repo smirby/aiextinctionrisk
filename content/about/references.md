@@ -514,8 +514,6 @@ Lei, Nuoa, Jingjing Lu, Arman Shehabi, and Eric Masanet. 2025. "The Water Use of
 
 Leiss, William. 1990. *Under Technology’s Thumb*. Montreal: McGill-Queen’s University Press.
 
-University Press.
-
 Leiss, William. 2017. *Hera The Buddha*. Kindle Books: https://leiss.ca/wp-content/uploads/2020/03/Hera-the-Buddha-2017.pdf.
 
 Leiss, William, and Christina Chociolko. 1994. *Risk and Responsibility*. Montreal: McGill-Queen's University Press.
