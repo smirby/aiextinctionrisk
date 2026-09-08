@@ -514,13 +514,13 @@ Lei, Nuoa, Jingjing Lu, Arman Shehabi, and Eric Masanet. 2025. "The Water Use of
 
 Leiss, William. 1990. *Under Technology’s Thumb*. Montreal: McGill-Queen’s University Press.
 
-Leiss, William. 1994. *Risk and Responsibility*. Montreal: McGill-Queen's University Press.
-
-Leiss, William. 2001. *In the Chamber of Risks: Understanding Risk Controversies*. Montreal: McGill-Queen's University Press.
+University Press.
 
 Leiss, William. 2017. *Hera The Buddha*. Kindle Books: https://leiss.ca/wp-content/uploads/2020/03/Hera-the-Buddha-2017.pdf.
 
-Leiss, William, Michael Tyshenko, and Daniel Krewski. 2008. "Men Having Sex with Men Donor Deferral Risk Assessment." *Transfusion Medicine Reviews* 22 (1): 35–57. https://doi.org/10.1016/j.tmrv.2007.09.002.
+Leiss, William, and Christina Chociolko. 1994. *Risk and Responsibility*. Montreal: McGill-Queen's University Press.
+
+Leiss, William. 2001. *In the Chamber of Risks: Understanding Risk Controversies*. Montreal: McGill-Queen's Leiss, William, Michael Tyshenko, and Daniel Krewski. 2008. "Men Having Sex with Men Donor Deferral Risk Assessment." *Transfusion Medicine Reviews* 22 (1): 35–57. https://doi.org/10.1016/j.tmrv.2007.09.002.
 
 Lepore, Jill. 2026. “Does A.I. Need a Constitution?” *The New Yorker*, 23 March. https://www.newyorker.com/magazine/2026/03/30/does-ai-need-a-constitution.
 
