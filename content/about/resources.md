@@ -4,6 +4,10 @@ title: "Resources"
 
 Interactive tools for the book are available now. Further resources — annotated bibliography, links to key documents and organizations, and further reading — will be added at publication.
 
+## Key Risk Documents
+
+*We have collected key documents that help frame and contextualize the risk of artificial intellilgence.*They are available [here]({{< relref "./documents.md" >}}): 
+
 ### Interactive Tools
 
 *These tools have been created with the assistane of generative AI and are meant as thinking tools rather than definitive statements or claims. Please use them with that in mind.*
