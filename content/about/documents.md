@@ -48,7 +48,7 @@ https://80000hours.org/the-precipice/
 
 > Ord notes that humans HAVE reacted positively and constructively to threats (Bertrand Russell started writing three days after Hiroshima, Bulletin of Atomic Scientists led a conversation and this was renewed in the 1980s (Schell, Sagan) with mass protests.
 
-## Existential Risk Prefention (Bostrom, 2013)
+## Existential Risk Prevention (Bostrom, 2013)
 
 Nick Bostrom's 2013 paper explains and classifies existential risk (just before publication of his *Superintelligence* in 2014). It is available online: 
 
