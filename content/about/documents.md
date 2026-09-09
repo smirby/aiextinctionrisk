@@ -4,17 +4,23 @@ title: "Key Documents"
 
 ## AI Risk Documents
 
+We have collected key documents relating to AI Risk and provide them here with links to the originals. They are in reverse chronological order.
+
 ## UN Warning
 
 The UN High Commissioner for Human Rights told the Human Rights Council in Geneva that advanced artificial intelligence could pose an existential risk to humanity. September 2026
 
 https://thenextweb.com/news/un-rights-chief-ai-red-lines-existential-risk
 
+> *“A handful of men have almost unlimited power over AI,” he said, naming OpenAI, Anthropic and Meta among the companies in question, and describing direct engagement with those firms as something his office intends to pursue rather than routing everything through governments.*
+
 ### Open Letter
 
 OpenAI's *Open Letter* calling for collective action on cyber defence. September 2026:
 
  https://openai.com/collective-cyberdefense/
+
+> Each of us can reduce risk now. All organizations, cybersecurity companies, technology partners, governments, and AI frontier companies have an important role: accelerate defenders’ priorities with tools, funding, and hands-on support, especially for critical infrastructure organizations with limited budgets.
 
 ### Risks Growing 
 
