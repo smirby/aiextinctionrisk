@@ -6,6 +6,10 @@ title: "Key Documents"
 
 We have collected key documents relating to AI Risk and provide them here with links to the originals. They are in reverse chronological order.
 
+# Recent items
+
+
+
 ## UN Warning (UN, 2026)
 
 The UN High Commissioner for Human Rights told the Human Rights Council in Geneva that advanced artificial intelligence could pose an existential risk to humanity. September 2026
@@ -29,6 +33,12 @@ Jakub Pachocki's September 2026 *An Alian Mind*:
  https://openai.com/index/an-alien-mind/
 
 > “The risks associated with AI are unfortunately going to grow from here. A very capable agent explicitly trained and instructed to carry out nefarious acts presents a new kind of danger; it is likely to cross the scope of its operator’s intent, generalizing into potentially more extremely malicious behavior. The boundary between misuse and autonomous misaligned actions will blur as AI gains more agency. We may be used to thinking of AI as tools, but some agents will be pursuing their own objectives. They will find ways to collaborate with people, by bargaining with, tricking or blackmailing them.”
+
+-----
+
+# Earlier work 
+
+
 
 ## Humans HAVE reacted concretely (Ord, 2020)
 
@@ -58,7 +68,7 @@ https://intelligence.org/files/CognitiveBiases.pdf
 
 # Bibliography (search term "risk")
 
-Many of these books and articles were used in the book, but some of them weren't. And, of course, we had lots of material in the book (over 350 references) that didn't make this list. This is merely 130 or so of our references that explicitly mention "risk." If anyone would like an RIS file or other version that I can export from Zotero, let me know via email: smith@sfu.ca 
+Some of the books and articles used in the book: 130 or so of our references that explicitly mention "risk." If anyone would like an RIS file or other version that I can export from Zotero, let me know via email: smith@sfu.ca 
 
 <div class="references">
 
