@@ -4,6 +4,12 @@ title: "Key Documents"
 
 ## AI Risk Documents
 
+## UN Warning
+
+The UN High Commissioner for Human Rights told the Human Rights Council in Geneva that advanced artificial intelligence could pose an existential risk to humanity. September 2026
+
+https://thenextweb.com/news/un-rights-chief-ai-red-lines-existential-risk
+
 ### Open Letter
 
 OpenAI's *Open Letter* calling for collective action on cyber defence. September 2026:
