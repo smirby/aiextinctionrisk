@@ -68,13 +68,13 @@ Adamala, Katarzyna P., Deepa Agashe, Yasmine Belkaid, et al. 2024. “Confrontin
 
 “AI Pioneer Explains Why It Poses an Existential Risk for Humanity.” 2025. With On with Kara Swisher. November.
 
-ALEKVS. n.d. “What Is ISO 12100? Machinery Safety Standard and Risk Assessment Guide.” *ALEKVS*. Accessed August 31, 2026. https://www.alekvs.com/what-is-iso-12100-machinery-safety-standard-and-risk-assessment-guide/.
+ALEKVS. 2025. “What Is ISO 12100? Machinery Safety Standard and Risk Assessment Guide.” *ALEKVS*, May 30. https://www.alekvs.com/what-is-iso-12100-machinery-safety-standard-and-risk-assessment-guide/.
 
 Alex Mallen. 2026. “AI swarms are starting to pose indirect takeover risk.” LessWrong, August 12. https://www.lesswrong.com/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk.
 
 Alexander, Scott. 2015. “AI Researchers On AI Risk.” Slate Star Codex, May 22. https://slatestarcodex.com/2015/05/22/ai-researchers-on-ai-risk/.
 
-Alignment, Center for AI Risk Management &. n.d. “A Framework for Proactive Policies to Address AI Catastrophes.” Center for AI Risk Management & Alignment. Accessed March 10, 2026. https://carma.org/research-highlights/f/a-framework-for-proactive-policies-to-address-ai-catastrophes.
+Center for AI Risk Management & Alignment. 2024. “A Framework for Proactive Policies to Address AI Catastrophes.” Center for AI Risk Management & Alignment, October 21. https://carma.org/research-highlights/f/a-framework-for-proactive-policies-to-address-ai-catastrophes.
 
 Anderljung, Markus, Joslyn Barnhart, Anton Korinek, et al. 2023. “Frontier AI Regulation: Managing Emerging Risks to Public Safety.” arXiv:2307.03718. Preprint, arXiv, November 7. https://doi.org/10.48550/arXiv.2307.03718.
 
@@ -110,7 +110,7 @@ Bernstein, Peter L. 1996. *Against the Gods: The Remarkable Story of Risk*. John
 
 Bostrom, Nick. 2013. “Existential Risk Prevention as Global Priority.” *Global Policy* 4 (1): 15–31. https://doi.org/10.1111/1758-5899.12002.
 
-Bove, Tristan. n.d. *Sam Altman and Other Technologists Warn That A.I. Poses a `risk of Extinction’ on Par with Pandemics and Nuclear Warfare*.
+Bove, Tristan. 2023. “Sam Altman and Other Technologists Warn That A.I. Poses a `risk of Extinction’ on Par with Pandemics and Nuclear Warfare.” *Fortune*, March 30. https://fortune.com/2023/05/30/sam-altman-ai-risk-of-extinction-pandemics-nuclear-warfare/.
 
 Burnham, Kristin. 2026. “These Are the Most Urgent AI Risks, According to 272 Experts.” MIT Management, July 20. https://mitsloan.mit.edu/ideas-made-to-matter/these-are-most-urgent-ai-risks-according-to-272-experts.
 
@@ -120,7 +120,7 @@ Carlsmith, Joseph. 2025. “Existential Risk from Power-Seeking AI.” In *Essay
 
 Center AI Safety. 2023. “Statement on AI Risk.” *May* 30. https://www.safe.ai/work/statement-on-ai-risk.
 
-Center for AI Risk Management & Alignment. n.d. “Introducing Probabilistic Risk Assessment for AI.” Center for AI Risk Management & Alignment. Accessed March 10, 2026. https://carma.org/research-highlights/f/introducing-probabilistic-risk-assessment-for-ai.
+Center for AI Risk Management & Alignment. 2024. “Introducing Probabilistic Risk Assessment for AI.” Center for AI Risk Management & Alignment. Accessed March 10, 2026. https://carma.org/research-highlights/f/introducing-probabilistic-risk-assessment-for-ai.
 
 Center for AI Risk Management & Alignment (CARMA). 2025. “PRA Framework: Probabilistic Risk Assessment for AI.” PRA for AI, April. https://pra-for-ai.github.io/pra/.
 
@@ -136,7 +136,7 @@ Constantin, Ana Maria. 2026. “Anthropic Risk Report: 11 Months without Bio Cla
 
 Druzin, Bryan, Anatole Boute, and Michael Ramsden. 2025. “Confronting Catastrophic Risk: The International Obligation to Regulate Artificial Intelligence.” *Michigan Journal of International Law* 46 (2): 173–217. https://repository.law.umich.edu/mjil/vol46/iss2/2.
 
-Dung, Leonard, and Max Hellrigel-Holderbaum. n.d. “Against Racing to AGI: Cooperation, Deterrence, and Catastrophic Risks.” *PhilPapers*. https://doi.org/oai:philpapers.org/rec/LEOART-3.
+Dung, Leonard, and Max Hellrigel-Holderbaum. 2025. “Against Racing to AGI: Cooperation, Deterrence, and Catastrophic Risks.” arXiv:2507.21839. Preprint, arXiv, July 29. https://doi.org/10.48550/arXiv.2507.21839.
 
 Easterly, Jen. 2026. “Opinion | We Know the Risks of A.I. We Need to Act.” Opinion. *The New York Times*, August 25. https://www.nytimes.com/2026/08/25/opinion/ai-risks.html.
 
@@ -148,7 +148,7 @@ Federation of American Scientists. 2026. “Artificial Intelligence, Cyber, and 
 
 Fetherstonhaugh, David, Paul Slovic, Stephen M. Johnson, and James Friedrich. 1997. “Insensitivity to the Value of Human Life: A Study of Psychophysical Numbing.” *Journal of Risk and Uncertainty* 14 (3): 283–300.
 
-Ford, Celia, Shakeel Hashim, and Dan Kagan-Kans. n.d. *How Worried Should We Be about AI Biorisk?*
+Ford, Celia, Shakeel Hashim, and Dan Kagan-Kans. 2026. “How Worried Should We Be about AI Biorisk?” *Transformer*, February 26. https://www.transformernews.ai/p/ai-biorisk-evidence-bioattack-pandemic.
 
 Frelinger, David R., and Karl P. Mueller. 2026. *The AGI Rideout Strategy for Reducing Strategic Risk and Promoting Stability in the Transition to Artificial General Intelligence*. https://www.rand.org/pubs/perspectives/PEA4347-1.html.
 
@@ -166,9 +166,9 @@ Griffin, Conor. 2026. “AI & CBRN Risks.” August 27. https://www.aipolicypers
 
 Growiec, Jakub, and Klaus Prettner. 2025. “The Economics of p(Doom): Scenarios of Existential Risk and Economic Growth in the Age of Transformative AI.” https://doi.org/10.48550/arXiv.2503.07341.
 
-Hammond, Lewis, Alan Chan, Jesse Clifton, et al. n.d. “Multi-Agent Risks from Advanced AI.” Preprint.
+Hammond, Lewis, Alan Chan, Jesse Clifton, et al. 2025. “Multi-Agent Risks from Advanced AI.” arXiv:2502.14143. Preprint, arXiv, February 19. https://doi.org/10.48550/arXiv.2502.14143.
 
-Hendrycks, Dan, Mantas Mazeika, and Thomas Woodside. n.d. *An Overview of Catastrophic AI Risks*. https://doi.org/10.1201/9781003530336-1.
+Hendrycks, Dan, Mantas Mazeika, and Thomas Woodside. 2023. “An Overview of Catastrophic AI Risks.” arXiv:2306.12001. Preprint, arXiv, October 9. https://doi.org/10.48550/arXiv.2306.12001.
 
 Herd, Seth. 2026. *Motivated Reasoning, Confirmation Bias, and AI Risk Theory — LessWrong*. May 5. https://www.lesswrong.com/posts/QpgmEhBvJQxAfFMP2/motivated-reasoning-confirmation-bias-and-ai-risk-theory.
 
@@ -178,17 +178,17 @@ Hoes, Emma, and Fabrizio Gilardi. 2025. “Existential Risk Narratives about AI 
 
 Hubinger, Evan, Chris Merwijk, Vladimir Mikulik, Joar Skolese, and Scott Garrabrant. 2019. “Risks from Learned Optimization in Advanced Machine Learning Systems.” https://doi.org/10.48550/arXiv.1906.01820.
 
-Irwin, Veronica. n.d. “Do Voters Care about Existential AI Risks? One Senate Candidate Thinks So.” Accessed June 4, 2026. https://www.transformernews.ai/p/do-voters-care-about-existential-michigan-mallory-mcmorrow-senate.
+Irwin, Veronica. 2026. “Do Voters Care about Existential AI Risks? One Senate Candidate Thinks So.” Transformer, June 4. https://www.transformernews.ai/p/do-voters-care-about-existential-michigan-mallory-mcmorrow-senate.
 
 Kaminski, Margot E. 2023. “Regulating the Risks of AI.” *Boston University Law Review* 5 (November): 1347–411. https://www.bu.edu/bulawreview/files/2023/11/KAMINSKI.pdf.
 
 Kapoor, Sayash, Arvind Narayanan, Daniel Kokotajlo, Eli Lifland, and Thomas Larsen. 2025. “Common Ground between AI 2027 & AI as Normal Technology.” Substack newsletter. *Asterisk Magazine*, November 12. https://asteriskmag.substack.com/p/common-ground-between-ai-2027-and.
 
-Klein, Ezra. n.d. “Ezra Klein on Existential Risk from AI and What DC Could Do about It.” *80,000 Hours*. Accessed March 24, 2026. https://80000hours.org/podcast/episodes/ezra-klein-ai-and-dc/.
+Klein, Ezra. 2023. “Ezra Klein on Existential Risk from AI and What DC Could Do about It.” *80,000 Hours*, July 24. https://80000hours.org/podcast/episodes/ezra-klein-ai-and-dc/.
 
 Kojima, Takeshi, Yaonan Zhu, Yusuke Iwasawa, et al. 2025. “A Comprehensive Survey on Physical Risk Control in the Era of Foundation Model-Enabled Robotics.” arXiv:2505.12583. Preprint, arXiv, May 30. https://doi.org/10.48550/arXiv.2505.12583.
 
-Kroth, Daniel, and Richard Mallah. n.d. *Mitigating Catastrophic AI Risks: Lessons from a Framework for Proactive Policy*.
+Kroth, Daniel, and Richard Mallah. 2024. *Mitigating Catastrophic AI Risks: Lessons from a Framework for Proactive Policy*. PPF Report. Public Security Policy. CARMA. https://carma.org/research-highlights/f/a-framework-for-proactive-policies-to-address-ai-catastrophes.
 
 Krueger, David. 2026a. “Diary of a ‘Doomer’: 12+ Years Arguing about AI Risk (Part 1).” Substack newsletter. *The Real AI*, April 13. https://therealartificialintelligence.substack.com/p/diary-of-a-doomer-12-years-arguing.
 
@@ -218,7 +218,7 @@ Mamak, Kamil. 2025. “AGI Crimes? The Role of Criminal Law in Mitigating Existe
 
 METR. 2026. “Frontier Risk Report (February to March 2026).” *METR Blog*, May 19. https://metr.org/blog/2026-05-19-frontier-risk-report/.
 
-Miller, James D. n.d. *Precedents for the Unprecedented: Historical Analogies for Thirteen Artificial Superintelligence Risks*. https://doi.org/10.70777/si.v2i6.16999.
+Miller, James D. 2025. “Precedents for the Unprecedented: Historical Analogies for Thirteen Artificial Superintelligence Risks.” *SuperIntelligence* 2 (6). https://doi.org/10.70777/si.v2i6.16999.
 
 Miotti, Andrea. 2025. “Taking Control: Policies to Address Extinction Risks from Advanced AI.” arXiv:2310.20563. Version 2. Preprint, arXiv, September 28. https://doi.org/10.48550/arXiv.2310.20563.
 
@@ -274,7 +274,7 @@ Scherer, Matthew U. 2015. “Regulating Artificial Intelligence Systems: Risks, 
 
 Sheehan, Matt, and Scott Singer. 2025. “How China Views AI Risks and What to Do About Them.” Carnegie Endowment for International Peace, October 16. https://carnegieendowment.org/research/2025/10/how-china-views-ai-risks-and-what-to-do-about-them.
 
-Simkin, Barnaby, Nikki Pope, Leon Derczynski, and Christopher Parisien. n.d. *FRONTIER AI RISK ASSESSMENT*.
+Simkin, Barnaby, Nikki Pope, Leon Derczynski, and Christopher Parisien. 2025. “Frontier Ai Risk Assessment.” *Nvidia*, August.
 
 Slattery, Peter, Alexander K. Saeri, Emily A. C. Grundy, et al. 2026. “The AI Risk Repository: A Meta-Review, Database, and Taxonomy of Risks from Artificial Intelligence.” *Patterns* 0 (0). https://doi.org/10.1016/j.patter.2026.101517.
 
