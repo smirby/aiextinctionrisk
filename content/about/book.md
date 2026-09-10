@@ -80,3 +80,25 @@ Early in the process of writing this book we used a variety of commercial genera
 In a practical sense, generative AI was involved in our online research, especially as Gemini became more and more integrated into the Google search results. The configuration for this web site (built in Markdown for Hugo and deployed using Workers/Pages on Cloudflare) was also largely done by ChatGPT and Claude, with help from CloudFlare's in-house AI tool and Docker's AI tool.
 
 Generative AI also provided essential help early in the project when a mistake resulted in the entire bibliography having to be redone in Chicago (as required by MQUP) and converted from APA (as formatted by one of the authors - whose initials are RKS). Ahem.
+
+# Back cover
+
+William Leiss 10 September 2026
+
+Over the past few years many leaders in the AI industry, including the “godfather of AI,” Nobel prizewinner Geoffrey Hinton, have warned about serious risks associated with this new technology—including, incredibly, human extinction. Then in the second half of 2026 these warnings reached a crescendo.
+
+Fourteen hundred senior employees of AI firms signed an open letter, calling attention to a risk that capability development in AI models will rapidly accelerate “beyond our ability to understand or control the resulting systems.” And the Chief Scientist at OpenAI, the maker of ChatGPT, told us: “The risks associated with AI are unfortunately going to grow from here” and that AI agents  “will find ways to collaborate with people, by bargaining with, tricking or blackmailing them.”
+
+Industry leaders themselves have called upon governments to act in the face of these threats and to forge an international treaty to regulate AI. *But so far nothing is happening:* Governments appear to be paralyzed, in part because they do not even understand this new technology or how to regulate it and to reduce its risks.
+
+Only a well-informed and mobilized citizenry can change this situation. They must demand that their governments stop the further development of AI systems until the industry knows how to make this technology safe to use.
+
+William Leiss, O.C., Ph.D., FRSC
+
+Professor Emeritus
+
+School of Policy Studies
+
+Queen’s University (Canada)
+
+[www.leiss.ca](http://www.leiss.ca/)
