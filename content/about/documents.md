@@ -18,7 +18,7 @@ https://www.anthropic.com/threat-intelligence-report-september-2026
 
 > Over the past eight months, our Threat Intelligence team identified and disrupted operations in which threat actors tried to use Claude for malicious activity. In this report, we share case studies from those operations and describe how malicious use of Claude has evolved since our previous threat reports in March, August, and November 2025. In each case, we disrupted the activity, used what we learned to strengthen our safeguards, and shared intelligence with authorities and industry partners, where appropriate.
 
-See also NY Times coverage of this story: Dance, Gabriel J. X. 2026. “A.I. Bots Told Scientists How to Make Biological Weapons.” U.S. *The New York Times*, April 29. https://www.nytimes.com/2026/04/29/us/ai-chatbots-biological-weapons.html.
+See also NY Times coverage related to this story: Dance, Gabriel J. X. 2026. “A.I. Bots Told Scientists How to Make Biological Weapons.” U.S. *The New York Times*, April 29. https://www.nytimes.com/2026/04/29/us/ai-chatbots-biological-weapons.html.
 
 ## UN Warning (UN, 2026)
 
