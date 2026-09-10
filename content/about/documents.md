@@ -4,7 +4,7 @@ title: "Key Documents"
 
 ## AI Risk Documents
 
-We have collected key documents relating to AI Risk and provide them here with links to the originals. They are in reverse chronological order.
+We have collected key documents relating to AI Risk and provide them here with links to the originals. They are in reverse chronological order. I have followed that with a few "classic" pieces on AI risk as well as a selection from our bibliography with a specific focus on risk.
 
 # Recent items
 
