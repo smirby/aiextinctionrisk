@@ -4,7 +4,7 @@ title: "Key Documents"
 
 ## AI Risk Documents
 
-We have collected key documents relating to AI Risk and provide them here with links to the originals. They are in reverse chronological order. I have followed that with a few "classic" pieces on AI risk as well as a selection from our bibliography with a specific focus on risk.
+We have collected key documents relating to AI Risk and provide them here with links to the originals. They are in reverse chronological order. I have followed that with a few "<a href="/about/documents/#earlier-work">classic</a>" pieces on AI risk  as well as a selection from our <a href="/about/documents/#bibliography">bibliography</a> with a specific focus on risk.
 
 # Recent items
 
@@ -76,7 +76,7 @@ https://intelligence.org/files/CognitiveBiases.pdf
 
 
 
-# Bibliography (search term "risk")
+# Bibliography
 
 Some of the books and articles used in the book: 130 or so of our references that explicitly mention "risk." If anyone would like an RIS file or other version that I can export from Zotero, let me know via email: smith@sfu.ca 
 
