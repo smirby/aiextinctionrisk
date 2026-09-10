@@ -10,9 +10,9 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 
 
-## Anthropic Bio Risk Report (Anthropic, 2026)
+## Anthropic Misuse Report (Anthropic, 2026)
 
-Anthropic released a report detailing how it stopped an attempted bioweapon creation, using its model.
+Anthropic released a report detailing how it dealt with numerous attempts to misuse its model.
 
 https://www.anthropic.com/threat-intelligence-report-september-2026
 
