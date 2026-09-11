@@ -6,7 +6,9 @@ Interactive tools for the book are available now. Further resources — annotate
 
 ## Key Risk Documents
 
-*We have collected key documents that help frame and contextualize the risk of artificial intellilgence.*They are available [here]({{< relref "./documents.md" >}}): 
+We have collected key documents that help frame and contextualize the risk of artificial intellilgence.
+
+They are available here: https://treacheroustech.ca/about/documents/ 
 
 ### Interactive Tools
 
