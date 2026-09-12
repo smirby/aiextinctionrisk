@@ -6,7 +6,9 @@ No corrections to report yet. This page will be updated when errors are identifi
 
 If you believe you have found an error, please contact us at [smith@sfu.ca](mailto:smith@sfu.ca).
 
-# Table 8.1 Probability Estimates from AI Professionals and Others
+We will also post revised versions of key tables and figures, as new data comes in. We already have three updates to Table 8.1...
+
+## Table 8.1 Probability Estimates from AI Professionals and Others
 
 | **Name**          | **Affiliation**               | **Credentials**                                          | **Estimate**                                              | **Date**  | **Notes**                                                    |
 | ----------------- | ----------------------------- | -------------------------------------------------------- | --------------------------------------------------------- | --------- | ------------------------------------------------------------ |
