@@ -1,0 +1,15 @@
+---
+title: "Submitted to The Toronto Star"
+date: 2026-09-10
+categories: ["AI Safety"]
+draft: true
+---
+
+# AI Minister touts federal investments in safety measures; Anthropic researcher resigns, warns of AI risks, Sept. 10
+Researcher Jacob Coxon is quoted as saying that the AI industry is “gambling with our lives.” He did not mince words: “The people building AI earnestly believe that it could kill us all by the end of the decade.” In response, AI Minister Evan Solomon said that “these warnings are not new,” and his office noted that he is holding conversations with the AI industry about “the emerging risks that may accompany increasingly capable AI systems.” That should make us feel better.
+
+Ironically, on the same day on which the The Star published these two stories, The New York Times reported that Coxon’s former company, Anthropic, had just issued a major report on the capacity of its AI systems to assist in building new bioweapons that may indeed “kill us all.” Anthropic said that some researchers associated with a military research institute, somewhere in the world, attempted to “obfuscate the purpose of their research in order to evade our safeguards.” What were they trying to do? Apparently, one U.S. expert said, they were trying to “improve their chances of building biological pathogens that could cause significant harm,…to create pathogens we may not see coming and may not be able to stop once released.” 
+
+The reality is that in the last few months the AI industry has been begging governments to regulate the pace of its reckless development of what is called Frontier AI. In late June 1400 senior employees of AI firms warned in an Open Letter about the serious dangers in its attempts to automate AI development, referring to the “real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems.” The Chief Scientist at OpenAI, maker of ChatGPT, referring to AI as “an alien mind,” added that “the risks associated with AI are unfortunately going to grow from here”; there is an urgent need, he said, for international coordination to address these risks.
+
+Minister Solomon could do us all a favour by simply admitting that Canada cannot do anything by itself to protect its citizens from these risks. Canada must publicly urge the two governments that must lead the creation of an international pact on AI safety, the United States and China, to get to work on it immediately. U.S. Senator Bernie Sanders has told us what they must do, namely, (1) stop further AI development for the time being, and (2) ban the effort to build superintelligent machines. Unfortunately, even if they start soon on it, the process is likely to take years to bear fruit, and in the meantime, the AI industry is forging ahead at a mad pace. Citizens of Canada and elsewhere should understand that the risks which the industry is creating right now are intolerable, and they should add their voices to the demand that a way be found to intervene. The time for holding conversation has passed. 
