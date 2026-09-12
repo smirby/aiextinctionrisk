@@ -54,6 +54,12 @@ Richard Smith: https://www.sfu.ca/~smith
 
 Monte Carlo Probabilistic Assessment of Loss of Human Control Over Advanced AI Using Bowtie Analysis 
 
-Michael G. Tyshenko 1,* and William Leiss 2  1 Risk Sciences International. 343, 1505 Laperiere Avenue, O awa, Canada. K1Z 7T1 2 Professor Emeritus, School of Policy Studies, Queen’s University, 68 University Avenue, Kingston. Canada.K7L 3N9  * Correspondence: mtyshenko@risksciences.com 
+Michael G. Tyshenko 1,* and William Leiss 2  
+
+1 Risk Sciences International. 343, 1505 Laperiere Avenue, Ottawa, Canada. K1Z 7T1 
+
+2 Professor Emeritus, School of Policy Studies, Queen’s University, 68 University Avenue, Kingston. Canada.K7L 3N9  
+
+* Correspondence: mtyshenko@risksciences.com 
 
 *Abstract*  A quantitative risk assessment of human loss of control over advanced AI used a Bowtie diagram extended with fault tree-like and event tree-like analysis. Six primary threats were identified (recursive self-improvement, power seeking, deceptive alignment, loss of corrigibility, off-switch subversion, malicious misuse) and six consequences (systemic infrastructure collapse, economic breakdown, resource shortages, non-human value lock-in, human marginalization, global supply cascade failures). Preventive and mitigative barriers were assigned per pathway from expert literature. Input probabilities (threat base rates and barrier failure-on-demand values) were sourced from experts and modeled with triangular uncertainty distributions. A 1,000-iteration Monte Carlo simulation propagated epistemic uncertainty, yielding a median probability of the top event (loss of human control) of 12.8% (90% CI: 11.3%–14.4%), roughly 1 in 8. The distribution is approximately symmetric with slight positive skew, indicating modest tail risk if barrier failures interact. Conditional on the top event, Expected Severity is 1.85 on a 1–10 scale (90% CI: 1.75–1.96), suggesting mitigation is effective in most scenarios. Results align with expert estimates and demonstrate barrier effects; narrow CIs reflect model consistency. Remaining tail risks support precautionary governance, increased alignment research, iterative risk modeling, and investment in international coordination with robust safety measures to reduce the existential risk of AI loss of control.  Keywords: artificial intelligence; existential risk; Monte Carlo; risk assessment; fault tree analysis

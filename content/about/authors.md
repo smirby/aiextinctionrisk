@@ -12,4 +12,4 @@ Richard Smith is a Professor in the School of Communication at Simon Fraser Univ
 
 ## Michael G. Tyshenko (Contributor)
 
-Michael G. Tyshenko, MPA, PhD (Queen's), is a Risk Analyst at Risk Sciences International, Ottawa (https://risksciences.com/g-michael-tyshenko/). Michael contributed Chapter 9, "Quantitative Risk Assessment for Loss of Control," which applies Monte Carlo simulation methods to estimate the probability of loss of human control over advanced AI systems by 2070. 
+Michael G. Tyshenko, MPA, PhD (Queen's), is a Risk Analyst at Risk Sciences International, Ottawa (https://risksciences.com/g-michael-tyshenko/). Michael contributed Chapter 9, "Quantitative Risk Assessment for Loss of Control," which applies Monte Carlo simulation methods to estimate the probability of loss of human control over advanced AI systems by 2070.  A link to the full paper is here: https://www.preprints.org/manuscript/202606.0760
