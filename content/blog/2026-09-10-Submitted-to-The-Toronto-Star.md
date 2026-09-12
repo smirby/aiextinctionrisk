@@ -2,7 +2,7 @@
 title: "Submitted to The Toronto Star"
 date: 2026-09-10
 categories: ["AI Safety"]
-draft: true
+draft: false
 ---
 
 # AI Minister touts federal investments in safety measures; Anthropic researcher resigns, warns of AI risks, Sept. 10
