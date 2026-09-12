@@ -10,6 +10,14 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 
 
+## Pacing, not pausing? (Amodei, 2026)
+
+Dario Amodei lists the reasons for 'pacing' (a euphemism) for pausing? You can decide.
+
+https://darioamodei.com/post/we-must-pace-the-frontier
+
+> [...] over the last few months, I have become convinced that fully addressing the risks requires even more prudence — not just investing in risk prevention, but pacing the rate of capabilities advancement so that risk prevention has time to keep up. **We must slow the pace at which we improve the capabilities of AI models. Progress will still seem fast, and we must make wise use of the time we gain.**
+
 ## Anthropic Misuse Report (Anthropic, 2026)
 
 Anthropic released a report detailing how it dealt with numerous attempts to misuse its model.
