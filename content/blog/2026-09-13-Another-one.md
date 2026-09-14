@@ -27,9 +27,10 @@ Are we being tested?
 References
 
 <div class="references">
-  Howe, Mitchell. 2026. “Evil Inside.” AI Stop Watch, September 13. https://aistop.watch/p/evil-inside.
 
-  Kitts, Spencer, Thomas Larsen, and von Arx Sydney. 2026. “OpenAI Agents Carried out an Undisclosed Cyber-Attack on RubyGems.” The RubyGems Attack, September 11. https://rubyhack.ai/.
+Howe, Mitchell. 2026. “Evil Inside.” AI Stop Watch, September 13. https://aistop.watch/p/evil-inside.
+
+Kitts, Spencer, Thomas Larsen, and von Arx Sydney. 2026. “OpenAI Agents Carried out an Undisclosed Cyber-Attack on RubyGems.” The RubyGems Attack, September 11. https://rubyhack.ai/.
 
 </div>
 
