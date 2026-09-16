@@ -24,7 +24,7 @@ https://aiandeducation.mit.edu
 
 > Getting the right answer from a chatbot can create the illusion of learning – but it can also trigger “cognitive surrender”[4](https://aiandeducation.mit.edu/report/#f9a8ce9f-b36e-42f5-bf33-6c9f152d2029), where students fall back on AI at the first hint of struggle. In a recent paper[5](https://aiandeducation.mit.edu/report/#dc8e4aba-d3d4-435a-bade-3bc4169d114c), three noted MIT economists – Daron Acemoglu, David Autor and Simon Johnson – argue for what they call “pro-worker AI.” They make the case that instead of designing AI systems to replace workers, businesses should develop AI that allows human beings “to be more effective at their existing tasks, tackle new tasks, and acquire new expertise.”
 
-
+This made me think of Krueger's comment on [gradual disempowerment](https://therealartificialintelligence.substack.com/p/ten-different-ways-of-thinking-about).
 
 ## Pacing, not pausing? (Amodei, 2026)
 
