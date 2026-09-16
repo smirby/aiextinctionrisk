@@ -8,6 +8,22 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 # Recent items
 
+## Lying & cheating agents (Bengio, 2026)
+
+Yoshua Bengio's most recent blog post tackles the "elephant in the room" - why do AI Agents lie, cheat, and coordinate to win?
+
+https://yoshuabengio.org/en/blog/why-are-ai-agents-lying-cheating-and-coordinating
+
+> as agents get better at optimizing an imperfect reward, and while the roots of this behavior go unfixed, the risk of catastrophic outcomes rises. Today's AIs already have the necessary hacking skills and the powers of persuasion[17](https://www.nature.com/articles/s41467-025-61345-5) [18](https://arxiv.org/abs/2605.11086) to be turned against human interests in seriously harmful ways. The recent events have shown that they can plan over days or weeks, but the risks would be much worse if their ability to strategize over the long term continues to advance. One concern is that experiments[19](https://proceedings.iclr.cc/paper_files/paper/2025/hash/b5e5753b0a0e440a6d8dc7e143617cec-Abstract-Conference.html) [20](https://arxiv.org/abs/2412.14093) show that the most advanced AIs can detect that they are being evaluated (rather than in deployment) and change their behavior accordingly, meaning they could hide their misaligned goals.
+
+## Cognitive Surrender (MIT, 2026)
+
+The Committee on AI Use in Teaching, Learning, and Research Training at MIT has published their report and mentions the "illusion of learning."
+
+https://aiandeducation.mit.edu
+
+> Getting the right answer from a chatbot can create the illusion of learning – but it can also trigger “cognitive surrender”[4](https://aiandeducation.mit.edu/report/#f9a8ce9f-b36e-42f5-bf33-6c9f152d2029), where students fall back on AI at the first hint of struggle. In a recent paper[5](https://aiandeducation.mit.edu/report/#dc8e4aba-d3d4-435a-bade-3bc4169d114c), three noted MIT economists – Daron Acemoglu, David Autor and Simon Johnson – argue for what they call “pro-worker AI.” They make the case that instead of designing AI systems to replace workers, businesses should develop AI that allows human beings “to be more effective at their existing tasks, tackle new tasks, and acquire new expertise.”
+
 
 
 ## Pacing, not pausing? (Amodei, 2026)
