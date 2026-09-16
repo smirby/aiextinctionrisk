@@ -19,3 +19,15 @@ The four recent statements/developments are:
 Herr, Robert, and Mitchell Howe. 2026. “Supporting Terminality.” AI StopWatch, September 5.https://aistop.watch/p/supporting-terminality.
 
 We summarize our concern in the following “formula”: AGI + RSI = ASI.
+
+## Postscript
+
+We sent an earlier vesion of this blog post to a senior researcher at a large frontier AI company. He kindly provided some detailed feedback, and concluded with the following:
+
+> To summarize: Yes, I think the prospect of taking today's systems, and producing higher and higher degrees of AI research automation could lead to accelerated progress towards systems that qualify as ASI. But there are many uncertainties and open questions, and it is only one possibility, not a certainty. Nonetheless, I think it is worth taking this possibility very seriously, and I generally agree that actively decelerating AI progress and actively shifting resources towards understanding, alignment, and building safe and reliable technology is a good idea. There is a lot we do not understand as a global research community (including, but not limited to the AI research community). Surely we can do better.
+
+In his detailed response he cautioned us to not see the transition from AI to AGI and from AGI to ASI as being seamlessly and inetricably tied to RSI. While that *may* be the path that is taken, there will be others. Overall, his response is very heartening, if only because it is clear that the researchers take these questions seriously.
+
+That said, and for our purposes (awakening the broader public and expecially policy makers to the risks of artificial intelligence, and especially persistent and 'smarter than humans' AI ("agentic" AI), it seems reasonable that we continue to press for restrictions on RSI while also noting that this is quite possibly not the solve vector of rising risks.
+
+(Leiss & Smith, 2026-09-16)
