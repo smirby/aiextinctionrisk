@@ -15,9 +15,19 @@ In other words, a somewhat scary thing (abilities growing with each model) has b
 
 For Majmudar, this is the source of the "fear at the overwhelming implications of the knowledge that with just what we know now, we can create intelligences far more capable than us on every axis that we know how to train on"  (Majmudar 2026).
 
+Greitzer et al. helped me understand Majmudar's post a bit better:
+
+> “Adam Majmudar says that from inside the labs, it’s clear that AI progress follows scaling laws (data, parameters, tokens, for example) that yield diminishing returns in isolation, but which radically increase their yield whenever a new scaling axis is discovered. Majmudar informally hints that swarm size might be such a new scaling axis. He concedes that these jumps in capabilities don’t seem to deliver cross-domain generalization, and that even internal models lack basic competence in many domains, but finds no evidence that any domain in particular should be impossible to target.” (Grietzer et al., 2026)
+
+So... it is the possibilities of new axes, as well as the potential that "swarms" are one of those axes, that is really rattling Majmudar (and Greitzer. And Zvi.)  Greitzer closes with this: "Majmudar implies that we’re not running out of such new scaling axes – and while it’s hard to think of what the next one could be, there probably will be one.” (Grietzer et al., 2026)
+
+What about you?
+
 -----
 
 Adam Majmudar [@MajmudarAdam]. 2026. “[I]t is very reasonable to interpret ....” Tweet. Twitter. September 12, 2026. https://x.com/MajmudarAdam/status/2098881885200081234.
+
+Grietzer, Peli, Gavin, Niccolò Zanichelli, et al. 2026. “Humans on AI #53 || September 15th 2026.” Substack newsletter. *Paradigm 3*, September 15. https://p3humansonai.substack.com/p/humans-on-ai-53-september-15th-2026.
 
 See below for Majmudar's full post on X, since not everyone will have access to that platform.
 
