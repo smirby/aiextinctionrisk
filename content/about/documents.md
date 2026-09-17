@@ -10,7 +10,7 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 ## The Results Are In (Grace et al. 2026)
 
-Katja Grace has been surveying AI professionals for almost a decade and her latest report is just as chilling as all the previous ones: the people who build AI think it is dangerous.
+Katja Grace has been surveying AI professionals for almost a decade and her latest report is just as chilling as all the previous ones: the people who build AI think it is dangerous. Note: this is the results from December 2024, just now released as a paper. One wonders what the results will be from this year's survey... I hope we don't have to wait two years to learn. If we have two years left.
 
 http://aiimpacts.org/wp-content/uploads/2026/09/ESPAI2024.pdf
 
