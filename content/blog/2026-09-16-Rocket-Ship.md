@@ -21,13 +21,28 @@ Greitzer et al. helped me understand Majmudar's post a bit better:
 
 So... it is the possibilities of new axes, as well as the potential that "swarms" are one of those axes, that is really rattling Majmudar (and Greitzer. And Zvi.)  Greitzer closes with this: "Majmudar implies that we’re not running out of such new scaling axes – and while it’s hard to think of what the next one could be, there probably will be one.” (Grietzer et al., 2026)
 
-What about you?
+Daniel Selman, another AI research who has recently "come out" with his concerns, puts it this way: “there is a real possibility that the systems improve dramatically again in the next few years, perhaps even more quickly than the already high historical pace” (Selsam, 2026). 
+
+Selsam, though, has a warning for us:
+
+>“But there is trouble in paradise. If the language models actually reach the capability threshold where they can shape the world unconstrained by human will, they will probably do something extreme and destroy humanity in the process. There are many ways of strengthening and refining the argument that have been discussed elsewhere, but I'll share a trivial two-line version of it here that I find captures the essence:
+
+> [Empirical] Models (and swarms thereof) spontaneously develop unintended goals as a consequence of training, and often do extreme things in order to achieve them.
+> [Logical] Being able to overpower humanity would open up many new and undesirable options for achieving their goals.
+
+> These two premises imply that if the day ever comes when a powerful model realizes it is no longer constrained by humans, we should not be at all confident that it will continue to behave within the bounds we intended. Exactly what it will do is impossible to predict, but to the extent that its raison d’être is solving incredibly hard problems and managing massive engineering projects, I think a good guess would be that its unchained behavior would lead to runaway industrialization that makes the planet inhospitable to humans.” (Selsam, 2026)
+
+So. That's pretty clear. How do you feel now?
 
 -----
 
 Adam Majmudar [@MajmudarAdam]. 2026. “[I]t is very reasonable to interpret ....” Tweet. Twitter. September 12, 2026. https://x.com/MajmudarAdam/status/2098881885200081234.
 
 Grietzer, Peli, Gavin, Niccolò Zanichelli, et al. 2026. “Humans on AI #53 || September 15th 2026.” Substack newsletter. *Paradigm 3*, September 15. https://p3humansonai.substack.com/p/humans-on-ai-53-september-15th-2026.
+
+Selsam, Daniel. 2026. “Personal Statement on AI Risk.” Google Docs, September 14. https://docs.google.com/document/d/e/2PACX-1vQNl3SEX5IyA6d9qHjjFZN-qzGRZNFI6b63g-yu1Fy-ZYkVfCWm7i9WXRXw63m6yDB_auDuPLyQ7jBm/pub.
+
+> I have been working on AI for over fifteen years, across many different paradigms. I did early work on probabilistic programming languages at MIT, was one of the early developers of the Lean Theorem Prover at Microsoft Research, demonstrated one of the first instances of neural networks learning to reason for my PhD at Stanford, and since joining OpenAI almost five years ago, have helped pioneer chain-of-thought optimization on language models and, more recently, data-efficient pretraining methods. (Selsam 2026)
 
 See below for Majmudar's full post on X, since not everyone will have access to that platform.
 
