@@ -28,6 +28,6 @@ We sent an earlier vesion of this blog post to a senior researcher at a large fr
 
 In his detailed response he cautioned us to not see the transition from AI to AGI and from AGI to ASI as being seamlessly and inetricably tied to RSI. While that *may* be the path that is taken, there will be others. Overall, his response is very heartening, if only because it is clear that the researchers take these questions seriously.
 
-That said, and for our purposes (awakening the broader public and expecially policy makers to the risks of artificial intelligence, and especially persistent and 'smarter than humans' AI ("agentic" AI), it seems reasonable that we continue to press for restrictions on RSI while also noting that this is quite possibly not the solve vector of rising risks.
+That said, and for our purposes - awakening the broader public and expecially policy makers to the risks of artificial intelligence, and especially persistent and 'smarter than humans' AI ("agentic" AI) - it seems reasonable that we continue to press for restrictions on RSI while also noting that this is quite possibly not the sole vector of rising risks.
 
 (Leiss & Smith, 2026-09-16)
