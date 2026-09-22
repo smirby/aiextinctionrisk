@@ -83,22 +83,28 @@ Generative AI also provided essential help early in the project when a mistake r
 
 # Back cover
 
-William Leiss 10 September 2026
+**William Leiss and Richard Smith**
 
-Over the past few years many leaders in the AI industry, including the “godfather of AI,” Nobel prizewinner Geoffrey Hinton, have warned about serious risks associated with this new technology—including, incredibly, human extinction. Then in the second half of 2026 these warnings reached a crescendo.
+*Treacherous Tech: Taking the Risk of Artificial Intelligence Seriously*
 
-Fourteen hundred senior employees of AI firms signed an open letter, calling attention to a risk that capability development in AI models will rapidly accelerate “beyond our ability to understand or control the resulting systems.” And the Chief Scientist at OpenAI, the maker of ChatGPT, told us: “The risks associated with AI are unfortunately going to grow from here” and that AI agents  “will find ways to collaborate with people, by bargaining with, tricking or blackmailing them.”
+Why governments must immediately pause the development of frontier artificial intelligence.
 
-Industry leaders themselves have called upon governments to act in the face of these threats and to forge an international treaty to regulate AI. *But so far nothing is happening:* Governments appear to be paralyzed, in part because they do not even understand this new technology or how to regulate it and to reduce its risks.
+When experts first warned that artificial intelligence had a 10 to 20 per cent chance of causing human extinction within three decades, many found their claims alarmist. Now concerns about existential risks have intensified, even among developers. But only an informed, mobilized citizenry can compel governments to halt AI’s progress.
 
-Only a well-informed and mobilized citizenry can change this situation. They must demand that their governments stop the further development of AI systems until the industry knows how to make this technology safe to use.
+Treacherous Tech offers a framework for understanding why increasingly autonomous systems could threaten humanity’s survival. Beginning with the emergence of artificial intelligence, William Leiss and Richard Smith trace the collapse of safety guardrails as AI systems evolved from controllable tools into autonomous agents. Assessing the likelihood of known risks and the severity of their consequences, the authors show why institutions governing frontier AI cannot keep pace, failing to adequately address catastrophic perils such as cybersecurity threats and the creation of biological weapons. Leiss and Smith join Canadian parliamentarians in a call to prohibit the creation of superintelligent machines, urging Canada to work with other countries toward an international AI safety treaty.
 
-William Leiss, O.C., Ph.D., FRSC
+For readers concerned about the stakes of artificial intelligence, this book offers a timely and pressing call to understand the risks – and to act while we can.
 
-Professor Emeritus
+Basic:
 
-School of Policy Studies
+William Leiss is professor emeritus in the School of Policy Studies, Queen’s University.
 
-Queen’s University (Canada)
+Richard Smith is professor in the School of Communication at Simon Fraser University.
 
-[www.leiss.ca](http://www.leiss.ca/)
+Enhanced:
+
+William Leiss, an officer of the Order of Canada, fellow and past president of the Royal Society of Canada, and professor emeritus at the School of Policy Studies, Queen’s University, is the author of numerous books, including *Canada and Climate Change* and *The Domination of Nature*.
+
+Richard Smith is professor in the School of Communication at Simon Fraser University, where he directed the Centre for Policy Research on Science & Technology for almost two decades. He is the coauthor of *New Media: An Introduction*.
+
+ 
