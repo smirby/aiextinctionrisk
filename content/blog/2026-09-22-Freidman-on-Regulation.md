@@ -24,3 +24,7 @@ Freidman cites the work of Eric Beinhocker, of the University of Oxford, on the 
 > This becomes even more true as we begin to give our A.I. systems bodies in the form of robots, drones and vehicles. We must ensure that there is always a human in the loop — that they are never fully autonomous — until we can guarantee these systems will always operate in line with human well-being, Beinhocker added.
 
 Let's hope that we can get a leash on this new species before it puts a leash on us.
+
+-----
+
+Friedman, Thomas L. 2026. “Opinion | A.I.: Let’s Not Have Another Failure of Imagination.” Opinion. *The New York Times*, September 22. https://www.nytimes.com/2026/09/22/opinion/trump-china-ai.html.
