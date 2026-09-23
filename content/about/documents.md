@@ -14,9 +14,9 @@ Derek James, writing in Substack, provides a nice visualization for risk as a co
 
 https://derekjames.substack.com/p/the-ai-risk-network
 
-> So here I want to try to grapple with the the complexity of the larger web of issues surrounding bad AI outcomes by presenting **The AI Risk Network**. If you’re interested in this topic, bear with me. It might be a bit of a slog.
+> So here I want to try to grapple with the the complexity of the larger web of issues surrounding bad AI outcomes by presenting **The AI Risk Network**. 
 
-As my colleague Bill noted, however, it is surprising that some of the most important risks - bioweapons, cybersecurity - are mentioned. Nevertheless, it is a good starting point for a conversation.
+(As my colleague Bill noted, however, it is surprising that some of the most important risks - bioweapons, cybersecurity - are not mentioned in this piece. Nevertheless, it is a good starting point for a conversation.
 
 ## The Results Are In (Grace et al. 2026)
 
