@@ -8,6 +8,16 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 # Recent items
 
+## Visualizing the Risk (James 2026)
+
+Derek James, writing in Substack, provides a nice visualization for risk as a complex, interconnected thing, and it is helpful in that is gives a good sense of how multiple root causes can combine - and may need to combine - to create bad outcomes. 
+
+https://derekjames.substack.com/p/the-ai-risk-network
+
+> So here I want to try to grapple with the the complexity of the larger web of issues surrounding bad AI outcomes by presenting **The AI Risk Network**. If you’re interested in this topic, bear with me. It might be a bit of a slog.
+
+As my colleague Bill noted, however, it is surprising that some of the most important risks - bioweapons, cybersecurity - are mentioned. Nevertheless, it is a good starting point for a conversation.
+
 ## The Results Are In (Grace et al. 2026)
 
 Katja Grace has been surveying AI professionals for almost a decade and her latest report is just as chilling as all the previous ones: the people who build AI think it is dangerous. Note: this is the results from December 2024, just now released as a paper. One wonders what the results will be from this year's survey... I hope we don't have to wait two years to learn. If we have two years left.
