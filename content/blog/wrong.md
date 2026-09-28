@@ -10,7 +10,7 @@ tags: ["ai safety"]
 
 I'm new to AI Safety. I started paying attention, serious attention, just six months ago when my friend Bill asked me to collaborate with him on a book on "AI Extinction Risk." I didn't really even know what he was talking about, but I agreed. We've since changed to a snappier title ("From Tool to Actor") but kept the original as a sub-title. I am happy with it.
 
-Bill, on the other hand, is an old hand. He wrote about AI in the 'teens,' (2016/17), shortly after Bostrom's famous book, Superintelligence first came out. I knew he had this interest, even helped organize a talk he gave here in Vancouver on superintelligence, back in 2018. But I didn't rise to the bait, and - when he asked again in 2020 - didn't take him up on it that time, either.
+Bill, on the other hand, is an old hand. He wrote about AI in the 'teens,' (2016/17), shortly after Bostrom's famous book, Superintelligence first came out. I knew he had this interest, even helped organize a talk he gave here in Vancouver on superintelligence, back in 2018. But I didn't rise to the bait (an offer to collaborate), and - when he asked again in 2020 - didn't take him up on it that time, either.
 
 In 2025, however, things had changed. My personal circumstances were different, for one thing. I was on a research semester and had already arranged for the following semester to be an "admin leave." That meant no teaching, and the thing that goes with that: room to think of new things.
 
