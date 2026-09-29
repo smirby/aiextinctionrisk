@@ -1,5 +1,5 @@
 ---
-title: "ASI + RSI = ASI"
+title: "AGI + RSI = ASI"
 date: 2026-09-25
 categories: ["AI Safety"]
 draft: false
