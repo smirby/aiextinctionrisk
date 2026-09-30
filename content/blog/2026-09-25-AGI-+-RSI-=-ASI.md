@@ -10,12 +10,11 @@ We take five recent statements/developments into account, in one part of our new
 
 The five are:
 
-1. The statements by senior OpenAI researchers, in the recent Time Magazine profile of Sam Altman, to the effect that they think they are already 80% of the way towards AGI and expect to get all the way by next year. https://time.com/article/2026/08/26/openai-sam-altman-interview/ 
-2. Self-Sovereign Agents (https://self-sovereign-agent.github.io/ ) will be a reality.
-3. “The world's leading AI companies believe they could be close to automating AI research. It is hard to predict exactly how much this will accelerate AI progress, but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems.” (Open Letter from AI Industry Employees, “[Pacing the Frontier](https://www.pacingthefrontier.com),” June.
-4. The material, at the end of the Herr & Howe post, that new models are already in a “loop” that in further development will result in them having full RSI:
-  Herr, Robert, and Mitchell Howe. 2026. “Supporting Terminality.” AI StopWatch, September 5. https://aistop.watch/p/supporting-terminality.
-5. The paper, by Chan et al., titled [What if automating R&D triggers an intelligence explosion](https://casp.ac/reports/intelligence-explosion)? Published by the Cambridge Program on AI and Society in September of 2026. 
+1. The Statements, by senior OpenAI researchers, in the recent Time Magazine profile of Sam Altman, to the effect that they think they are already 80% of the way towards AGI and expect to get all the way by next year. https://time.com/article/2026/08/26/openai-sam-altman-interview/ 
+2. The Concept, of Self-Sovereign Agents (https://self-sovereign-agent.github.io/ ) will be a reality.
+3. The Open Letter, which begins “The world's leading AI companies believe they could be close to automating AI research. It is hard to predict exactly how much this will accelerate AI progress, but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems.” (Open Letter from AI Industry Employees, “[Pacing the Frontier](https://www.pacingthefrontier.com),” June.
+4. The Material, at the end of the Herr & Howe post, that new models are already in a “loop” that in further development will result in them having full RSI: See Herr, Robert, and Mitchell Howe. 2026. “Supporting Terminality.” AI StopWatch, September 5. https://aistop.watch/p/supporting-terminality.
+5. The Paper, by Chan et al., titled [What if automating R&D triggers an intelligence explosion](https://casp.ac/reports/intelligence-explosion)? Published by the Cambridge Program on AI and Society in September of 2026. 
 
 We summarize our concern in the following “formula”: AGI + RSI = ASI.
 
