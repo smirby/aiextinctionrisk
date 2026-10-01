@@ -9,6 +9,8 @@ draft: false
 
 # **AI Risk Monitoring Brief — September 2026**
 
+NOTE: This brief was prepared by ChatGPT, using a prompt developed by Richard Smith
+
 **Signal Legend:** CE | CERO | GF | DA
 
 **Signal Legend:** The monitoring framework classifies developments into four signal types: **Capability Escalation (CE)** — advances that significantly increase AI capability, autonomy, or agency; **Control Erosion (CERO)** — evidence that human oversight, interpretability, or technical control is weakening; **Governance Failure (GF)** — indications that institutions are unable or unwilling to effectively govern frontier AI; and **Deployment Acceleration (DA)** — developments that increase the speed, scale, or entrenchment of AI deployment across society and the economy. Together, these signals track the forces most likely to influence the transition from AI as a tool to AI as an increasingly autonomous actor.
