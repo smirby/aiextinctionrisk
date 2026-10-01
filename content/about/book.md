@@ -3,7 +3,7 @@ title: "About the Book"
 ---
 
 New Book, forthcoming from McGill-Queen’s University Press, Spring 2027:
-# Treacherous Tech: Taking the Risks of Artificial Intelligence Seriously
+# Treacherous Tech: Taking the Risk of Artificial Intelligence Seriously
 
 William Leiss william.leiss@gmail.com and Richard Smith smith@sfu.ca
 
