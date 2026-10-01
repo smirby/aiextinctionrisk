@@ -29,7 +29,7 @@ Can we then adapt the human example to the case of ASI? Obviously, with a machin
 
 **Are we really prepared to advance towards ASI without having a very clear idea of what risks await us there? If so, is this not very likely an exercise in collective suicide?**
 
-There is another aspect to consider: the mental and emotional health of humans as they interact with artificial superintelligence. Marcello Guarini has tackled this question in a new paper, "When Machines Make Humans Feel: Emotion, Intelligence, and the Ethics of AI," for the *Journal of Superintelligence* [[2\]](# ftn 2).
+There is another aspect to consider: the mental and emotional health of humans as they interact with artificial superintelligence. Marcello Guarini has tackled this question in a new paper, "When Machines Make Humans Feel: Emotion, Intelligence, and the Ethics of AI," for the *Journal of Superintelligence* (Guarini 2026).
 
 > This paper examines the relationship between emotions, meta-emotions, and intelligence. It argues for greater care in the development and deployment of artificial intelligence (AI), especially artificial superintelligence (ASI). The impacts on human beings of both conscious and non-conscious forms of ASI are examined. The potential harm to ASI is considered, but the focus is on harm to humans. An under-discussed alignment consideration for AI is the potential emotional and serious mental health consequences of its misuse. For example, the role AI may play in AI psychosis or other mental health challenges needs greater examination. A case for caution is made in the development of ASI as we are still figuring out the kinds of psychological effects existing AI systems can have on humans, effects that could be (if we are not careful) more harmful in superintelligent systems.
 
@@ -41,4 +41,4 @@ There is another aspect to consider: the mental and emotional health of humans a
 
 [[1\]](#_ftnref1) Matthew G. Burgess and Steven D. Gaines, “The Scale of Life and Its Lessons for Humanity,” *Proceedings of the National Academy of Sciences* 115, no. 25 (2018): 6328–30, https://doi.org/10.1073/pnas.1807019115; citing Yinon M. Bar-On et al., “The Biomass Distribution on Earth,” *Proceedings of the National Academy of Sciences* 115, no. 25 (2018): 6506–11 and “Supplementary Information Appendix,” https://doi.org/10.1073/pnas.1711842115.
 
-[[2\]](#_ftnref2) Guarini, Marcello. 2026. “When Machines Make Humans Feel: Emotion, Intelligence, and the Ethics of AI.” *Journal of Superintelligence* 1 (2): 6. https://doi.org/10.3390/superintelligence1020006.
+Guarini, Marcello. 2026. “When Machines Make Humans Feel: Emotion, Intelligence, and the Ethics of AI.” *Journal of Superintelligence* 1 (2): 6. https://doi.org/10.3390/superintelligence1020006.
