@@ -8,6 +8,28 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 # Recent items
 
+## ASI Harmful to Humans? (Guarini 2026)
+
+A new paper from Marcello Guarini, tackling the question of what will it mean to humans - especially from an emotional and mental health perspective - to interact with artificial superintelligence.
+
+> This paper examines the relationship between emotions, meta-emotions, and intelligence. It argues for greater care in the development and deployment of artificial intelligence (AI), especially artificial superintelligence (ASI). The impacts on human beings of both conscious and non-conscious forms of ASI are examined. The potential harm to ASI is considered, but the focus is on harm to humans. An under-discussed alignment consideration for AI is the potential emotional and serious mental health consequences of its misuse. For example, the role AI may play in AI psychosis or other mental health challenges needs greater examination. A case for caution is made in the development of ASI as we are still figuring out the kinds of psychological effects existing AI systems can have on humans, effects that could be (if we are not careful) more harmful in superintelligent systems.
+
+Guarini, Marcello. 2026. “When Machines Make Humans Feel: Emotion, Intelligence, and the Ethics of AI.” *Journal of Superintelligence* 1 (2): 6. https://doi.org/10.3390/superintelligence1020006.
+
+## Understanding the Math (Mubeen 2026)
+
+The math behind AI is daunting. And it is pretty easy to tell yourself that you'll never get it and all you can rely on are the explanations and analogies of others. But what if someone tried to explain the math behind AI and it made sense? This article by Mubeen did that for me. See what you think:
+
+https://www.aipolicyperspectives.com/p/the-maths-behind-ai
+
+>The term ‘model’ just means a mathematical description—a way of using numbers to describe some phenomena. With LLMs, numbers are used to represent words (**embeddings**). When an LLM is trained on text, it assigns meanings to words, and makes guesses at what should come next, seeking a mathematical model that captures its training data. This involves hefty calculations, with techniques from algebra (**matrix multiplication**) and, to minimise errors, from calculus (**gradient descent**).
+
+> In the past couple of years, the cutting edge of LLMs has been reasoning models, which devote more computation to generating answers—not just dishing out plausible responses but planning, evaluating possible outputs, and adjusting according to how developers mathematically ‘rewarded’ the system during a fine-tuning process (**reinforcement learning**).
+
+> Let’s explore the mathematics underpinning each concept in turn.
+
+Mubeen, Junaid. 2026. “The Maths Behind AI.” AI Policy Perspectives, October 1. https://www.aipolicyperspectives.com/p/the-maths-behind-ai.
+
 ## Visualizing the Risk (James 2026)
 
 Derek James, writing in Substack, provides a nice visualization for risk as a complex, interconnected thing, and it is helpful in that is gives a good sense of how multiple root causes can combine - and may need to combine - to create bad outcomes. 
