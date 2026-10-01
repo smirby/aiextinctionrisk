@@ -9,6 +9,8 @@ William Leiss william.leiss@gmail.com and Richard Smith smith@sfu.ca
 
 https://treacheroustech.ca
 
+<img src="/images/Leiss-Smith_TrecherousTech.jpg" alt="Book Cover" width="100%; maxwidth: 600px; height: auto;">
+
 > “The risks associated with AI are unfortunately going to grow from here. A very capable agent explicitly trained and instructed to carry out nefarious acts presents a new kind of danger; it is likely to cross the scope of its operator’s intent, generalizing into potentially more extremely malicious behavior. The boundary between misuse and autonomous misaligned actions will blur as AI gains more agency. We may be used to thinking of AI as tools, but some agents will be pursuing their own objectives. They will find ways to collaborate with people, by bargaining with, tricking or blackmailing them.” 
 > Jakub Pachocki, Chief Scientist, OpenAI, September 6, 2026: https://openai.com/index/an-alien-mind/ 
 
