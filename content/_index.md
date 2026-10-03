@@ -14,14 +14,17 @@ https://treacheroustech.ca
 
 <img src="/images/Leiss-Smith_TrecherousTech.jpg" alt="Book Cover" width="100%; maxwidth: 600px; height: auto;">
 
+> #### We can, and should, stop frontier AI development immediately.
 
-
-> "We can, and should, stop frontier AI development immediately." Geoffrey Irving, former chief scientist at the UK AI Security Institute and current chief scientist of Resolution, writing in Time Magazine, 3 October 2026.
+> Geoffrey Irving, former chief scientist at the UK AI Security Institute and current chief scientist of Resolution, writing in [Time Magazine](https://time.com/article/2026/10/03/we-won-t-know-the-answers-to-ai-s-most-important-questions-until-its-too-late/), 3 October 2026.
 
 > “The risks associated with AI are unfortunately going to grow from here. A very capable agent explicitly trained and instructed to carry out nefarious acts presents a new kind of danger; it is likely to cross the scope of its operator’s intent, generalizing into potentially more extremely malicious behavior. The boundary between misuse and autonomous misaligned actions will blur as AI gains more agency. We may be used to thinking of AI as tools, but some agents will be pursuing their own objectives. They will find ways to collaborate with people, by bargaining with, tricking or blackmailing them.” 
+>
 > Jakub Pachocki, Chief Scientist, OpenAI, September 6, 2026: https://openai.com/index/an-alien-mind/ 
 
-> “The world's leading AI companies believe they could be close to automating AI research. It is hard to predict exactly how much this will accelerate AI progress, but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems.” (Open Letter from 1400 AI Industry Employees (“Pacing the Frontier,” June 2026: https://www.pacingthefrontier.com/ )
+> “The world's leading AI companies believe they could be close to automating AI research. It is hard to predict exactly how much this will accelerate AI progress, but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems.” 
+>
+> Open Letter from 1400 AI Industry Employees (“Pacing the Frontier,” June 2026: https://www.pacingthefrontier.com/ 
 
 ## Book Description
 
