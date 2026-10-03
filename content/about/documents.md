@@ -10,9 +10,13 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 ## 50/50 draw (Irving 2026)
 
-Geoffrey Irving, head of the UK AISI sets his extinction number at 50%.
+Geoffrey Irving, former chief scientist at the UK AI Safety Institute and previously head of safety at OpenAI and DeepMind, now at independent AI safety organization [Resolution](https://resolution.org),  sets his extinction number at 50%.
 
 > Recent warnings about the [potential destructive](https://time.com/article/2026/09/23/governments-must-prohibit-superintelligent-ai-while-we-still-can/) power of AI are understating the [severity of the situation](https://time.com/7265056/nuclear-level-risk-of-superintelligent-ai/). I believe there’s about a 50% chance we all die because of the development of smarter-than-human AI systems, and that our actions over the next two to 10 years will determine the outcome. 
+
+> After all, if you had an AI that was about as good as humans at designing smarter AIs (as AGI, definitionally, would be), and like most software it ran much faster than a human runs, one of the first things it might do is build smarter AIs. In turn, they would build smarter AIs, which would in turn build smarter AIs, and so on, in a process called recursive self-improvement (RSI). Hence, any thought experiment that presupposes an AGI often supposes an ASI.
+
+> **We can, and should, stop frontier AI development immediately.**
 
 Irving, Geoffrey. 2026. “We Won’t Know the Answers to AI’s Most Important Questions Until It’s Too Late.” October 3. https://time.com/article/2026/10/03/we-won-t-know-the-answers-to-ai-s-most-important-questions-until-its-too-late/.
 
