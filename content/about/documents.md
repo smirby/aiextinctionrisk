@@ -8,6 +8,14 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 # Recent items
 
+## 50/50 draw (Irving 2026)
+
+Geoffrey Irving, head of the UK AISI sets his extinction number at 50%.
+
+> Recent warnings about the [potential destructive](https://time.com/article/2026/09/23/governments-must-prohibit-superintelligent-ai-while-we-still-can/) power of AI are understating the [severity of the situation](https://time.com/7265056/nuclear-level-risk-of-superintelligent-ai/). I believe there’s about a 50% chance we all die because of the development of smarter-than-human AI systems, and that our actions over the next two to 10 years will determine the outcome. 
+
+Irving, Geoffrey. 2026. “We Won’t Know the Answers to AI’s Most Important Questions Until It’s Too Late.” October 3. https://time.com/article/2026/10/03/we-won-t-know-the-answers-to-ai-s-most-important-questions-until-its-too-late/.
+
 ## ASI Harmful to Humans? (Guarini 2026)
 
 A new paper from Marcello Guarini, tackling the question of what will it mean to humans - especially from an emotional and mental health perspective - to interact with artificial superintelligence.
