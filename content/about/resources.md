@@ -40,6 +40,8 @@ They are available here: https://treacheroustech.ca/about/documents/
 
 **[AI Litigation Tracker](https://exhibitai.info)** - who is suing who over what
 
+[Video](https://youtu.be/ujkD4SxPKOI?si=rZoun8oNa8K-wpvP) about the Hugging Face Incident.
+
 ### Bibliography
 
 [**Full bibliography from the book**](/about/references/)
