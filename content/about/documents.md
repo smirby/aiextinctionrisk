@@ -8,6 +8,18 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 # Recent items
 
+## Pistols at dawn (Alexander 2026)
+
+Blogger Scott Alexander got into an online argument with Stephen Pinker (who he greatly admired up to that point) about the Pinker's denial of the possibility of "existential risk" from artificial intelligence. This led to a reply from Pinker and then a challenge from Scott Alexander to a public debate. Pinker demurred. Scott Alexander then decided to write up his side of the debate, and in the process "rips Pinker a new one," as the saying goes. While the target in Alexander's essay is Pinker, it could be any number of existential risk deniers, and so the argument is worth reading. In the end, Scott Alexander reiterates his challenge to a public debate, and if that is not acceptable, he challenges Pinker to a duel. Seriously. Whether he is serious or not - and he seems pretty serious - it is a dramatic end to an essay.
+
+https://www.astralcodexten.com/p/an-open-letter-to-steven-pinker-on
+
+Here's a sample, to whet your appetite:
+
+> I agree that in-person debates are confrontational and bad for truth-seeking. But I didn’t propose a debate in order to seek truth. I proposed it because, under California Penal Code § 415(1), it’s illegal for me to challenge you to a duel. I think your public writing on this topic has been dishonorable. Out of obligation, I will respond to the meaty arguments that you have set out for me. But what would be viscerally satisfying would be to make you get up on a stage where I read your own words to you in real time and ask “Really? *Really?”* after each sentence. Then I could watch you squirm as you try to square your output with your status as one of America’s top public intellectuals.
+
+Alexander, Scott. 2026. “An Open Letter To Steven Pinker On AI.” Astral Codex Ten, October 6. https://www.astralcodexten.com/p/an-open-letter-to-steven-pinker-on.
+
 ## 50/50 draw (Irving 2026)
 
 Geoffrey Irving, former chief scientist at the UK AI Safety Institute and previously head of safety at OpenAI and DeepMind, now at independent AI safety organization [Resolution](https://resolution.org),  sets his extinction number at 50%.
