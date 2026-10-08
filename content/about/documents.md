@@ -8,9 +8,17 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 # Recent items
 
+## Pied Piper (Bengio 2026)
+
+Yoshua Bengio has called on his colleagues, including former students, to leave the frontier labs and their work on superintelligence, and join him in a mission to create a safe artificial intelligence.
+
+> I urge you to make the courageous choice of recognizing that you have the agency to make real change happen. If you truly prioritize safety, it is time for you to leave frontier AI companies. Work for an AI Safety Institute. Join a mission driven organization that practices what it preaches. Come to LawZero. Put your talents, passion, energy and conviction to the service of an organization that is building AI that will allow to preserve human joy and endeavour, not lead to undermining humanity and dominating others.
+
+Bengio, Yoshua. 2026. “Bengio: ‘If You Prioritize Safety, Leave Frontier AI Companies.’” Transformer, October 8. https://www.transformernews.ai/p/yoshua-bengio-if-you-prioritize-safety-leave-frontier-ai-companies.
+
 ## Pistols at dawn (Alexander 2026)
 
-Blogger Scott Alexander got into an online argument with Stephen Pinker (who he greatly admired up to that point) about the Pinker's denial of the possibility of "existential risk" from artificial intelligence. This led to a reply from Pinker and then a challenge from Scott Alexander to a public debate. Pinker demurred. Scott Alexander then decided to write up his side of the debate, and in the process "rips Pinker a new one," as the saying goes. While the target in Alexander's essay is Pinker, it could be any number of existential risk deniers, and so the argument is worth reading. In the end, Scott Alexander reiterates his challenge to a public debate, and if that is not acceptable, he challenges Pinker to a duel. Seriously. Whether he is serious or not - and he seems pretty serious - it is a dramatic end to an essay.
+Blogger Scott Alexander got into an online argument with Stephen Pinker (who he greatly admired up to that point) about Pinker's denial of the possibility of "existential risk" from artificial intelligence. This led to a reply from Pinker and then a challenge from Scott Alexander to a public debate. Pinker demurred. Scott Alexander then decided to write up his side of the debate, and in the process "rips Pinker a new one," as the saying goes. While the target in Alexander's essay is Pinker, it could be any number of existential risk deniers, and so the argument is worth reading. In the end, Scott Alexander reiterates his challenge to a public debate, and if that is not acceptable, he challenges Pinker to a duel. Seriously. Whether he is serious or not - and he seems pretty serious - it is a dramatic end to an essay.
 
 https://www.astralcodexten.com/p/an-open-letter-to-steven-pinker-on
 
