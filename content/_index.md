@@ -102,16 +102,8 @@ Treacherous Tech offers a framework for understanding why increasingly autonomou
 
 For readers concerned about the stakes of artificial intelligence, this book offers a timely and pressing call to understand the risks – and to act while we can.
 
-Basic:
+**William Leiss**, an officer of the Order of Canada, fellow and past president of the Royal Society of Canada, and professor emeritus at the School of Policy Studies, Queen’s University, is the author of numerous books, including *Canada and Climate Change* and *The Domination of Nature*.
 
-William Leiss is professor emeritus in the School of Policy Studies, Queen’s University.
-
-Richard Smith is professor in the School of Communication at Simon Fraser University.
-
-Enhanced:
-
-William Leiss, an officer of the Order of Canada, fellow and past president of the Royal Society of Canada, and professor emeritus at the School of Policy Studies, Queen’s University, is the author of numerous books, including *Canada and Climate Change* and *The Domination of Nature*.
-
-Richard Smith is professor in the School of Communication at Simon Fraser University, where he directed the Centre for Policy Research on Science & Technology for almost two decades. He is the coauthor of *New Media: An Introduction*.
+**Richard Smith** is professor in the School of Communication at Simon Fraser University, where he directed the Centre for Policy Research on Science & Technology for almost two decades. He is the coauthor of *New Media: An Introduction*.
 
  
