@@ -10,7 +10,9 @@ We have collected key documents that help frame and contextualize the risk of ar
 
 They are available here: https://treacheroustech.ca/about/documents/ 
 
-We are also avid readers of the AI-related news (consuming about 20+ different newsletters), so we've started collecting these items in a separate news-of-the-day feed. 
+## News of the Day
+
+We are also avid readers of the AI-related news (consuming about 20+ different newsletters), so we've started collecting these items in a [separate news-of-the-day feed](https://fromtooltoactor.ca/about/news/). 
 
 ### Interactive Tools
 
