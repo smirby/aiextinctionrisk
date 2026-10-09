@@ -25,8 +25,10 @@ Blogs and bloggers that we follow include:
 - Paul Ford's Ftrain: https://ftrain.com
 - Bruce Schneier: https://www.schneier.com
 - Astral Codex Ten (Scott Alexander): https://www.astralcodexten.com
+- AI Futures Project: https://blog.aifutures.org
 - AI Policy Perspectives: https://www.aipolicyperspectives.com
 - AI Risk News Feed: https://www.airiskexplorer.com/news
+- AI StopWatch: https://aistop.watch
 - Brookings: https://www.brookings.edu/topics/artificial-intelligence/
 - RAND: https://www.rand.org/topics/artificial-intelligence.html
 - DeepMind: https://deepmind.google/blog/
@@ -36,5 +38,7 @@ Blogs and bloggers that we follow include:
 - METR: https://metr.org/research/
 - Foreword (newsletter from Forethought): https://newsletter.forethought.org
 - IEEE Spectrum: https://spectrum.ieee.org
+- MIT Technology Review: https://www.technologyreview.com/topic/artificial-intelligence/
 - Transformer: https://www.transformernews.ai
 - LessWrong: https://www.lesswrong.com
+- Axios AI+: https://www.axios.com/technology/automation-and-ai

@@ -16,7 +16,7 @@ We are also avid readers of the AI-related news (consuming about 20+ different n
 
 ## Keeping up
 
-With a topic like artificial intelligence you really need to check your sources every day. We've developed a list of news sites, blog, discussion boards, and even social media channels that we trust (or figure we have to follow, even if we don't agree with them). I've pulled together the best ones in this document.
+With a topic like artificial intelligence you really need to check your sources every day. We've developed a list of news sites, blog, discussion boards, and even social media channels that we trust (or figure we have to follow, even if we don't agree with them). I've pulled together the best ones in [this document](https://treacheroustech.ca/about/keeping-up/).
 
 ### Interactive Tools
 
