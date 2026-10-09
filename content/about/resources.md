@@ -14,6 +14,10 @@ They are available here: https://treacheroustech.ca/about/documents/
 
 We are also avid readers of the AI-related news (consuming about 20+ different newsletters), so we've started collecting these items in a [separate news-of-the-day feed](https://fromtooltoactor.ca/about/news/). 
 
+## Keeping up
+
+With a topic like artificial intelligence you really need to check your sources every day. We've developed a list of news sites, blog, discussion boards, and even social media channels that we trust (or figure we have to follow, even if we don't agree with them). I've pulled together the best ones in this document.
+
 ### Interactive Tools
 
 *These tools have been created with the assistane of generative AI and are meant as thinking tools rather than definitive statements or claims. Please use them with that in mind.*
