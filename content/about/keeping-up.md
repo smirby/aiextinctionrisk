@@ -25,20 +25,45 @@ Blogs and bloggers that we follow include:
 - Paul Ford's Ftrain: https://ftrain.com
 - Bruce Schneier: https://www.schneier.com
 - Astral Codex Ten (Scott Alexander): https://www.astralcodexten.com
+- Nathan Lambert: https://www.interconnects.ai
+- Gary Marcus: https://garymarcus.substack.com (critic of doomers)
+
+Non-profits and news aggregators
+
 - AI Futures Project: https://blog.aifutures.org
+- AI Frontiers: https://newsletter.ai-frontiers.org
+- Understanding AI: https://www.understandingai.org
 - AI Policy Perspectives: https://www.aipolicyperspectives.com
 - AI Risk News Feed: https://www.airiskexplorer.com/news
 - AI StopWatch: https://aistop.watch
-- Brookings: https://www.brookings.edu/topics/artificial-intelligence/
-- RAND: https://www.rand.org/topics/artificial-intelligence.html
-- DeepMind: https://deepmind.google/blog/
-- OpenAI: https://openai.com/news/
-- Forethought: https://www.forethought.org
-- Palisade Research: https://palisaderesearch.org
-- METR: https://metr.org/research/
-- Foreword (newsletter from Forethought): https://newsletter.forethought.org
-- IEEE Spectrum: https://spectrum.ieee.org
-- MIT Technology Review: https://www.technologyreview.com/topic/artificial-intelligence/
+- Humans on AI: https://p3humansonai.substack.com
 - Transformer: https://www.transformernews.ai
 - LessWrong: https://www.lesswrong.com
 - Axios AI+: https://www.axios.com/technology/automation-and-ai
+
+Research institutes
+
+- Forethought: https://www.forethought.org
+- Palisade Research: https://palisaderesearch.org
+- Redwood Research: https://blog.redwoodresearch.org 
+- METR: https://metr.org/research/
+- Foreword (newsletter from Forethought): https://newsletter.forethought.org
+
+Think tanks
+
+- Brookings: https://www.brookings.edu/topics/artificial-intelligence/
+- RAND: https://www.rand.org/topics/artificial-intelligence.html
+
+Company blogs
+
+- DeepMind: https://deepmind.google/blog/
+- OpenAI: https://openai.com/news/
+- Anthropic: https://www.anthropic.com/research
+
+Magazines
+
+- IEEE Spectrum: https://spectrum.ieee.org
+
+- MIT Technology Review: https://www.technologyreview.com/topic/artificial-intelligence/
+
+  
