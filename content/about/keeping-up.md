@@ -4,7 +4,7 @@ Title: "Keeping Up"
 
 Some of these are obvious (like the newspapers of record, key magazines), others might be more difficult to find without a few pointers. If you have a favourite and don't see it in this list, send a note to smirby@gmail.com and we'll add it. Also, do check out our "[documents](https://treacheroustech.ca/about/documents/)" page.
 
-The New York Times and The Guardian both maintain good coverage of artificial intelligence both in their reporting and in their opinion pages. Both provide a consolidated link to the topic.
+The New York Times and The Guardian both maintain good coverage of artificial intelligence both in their reporting and in their opinion pages. They also provide a consolidated link to the topic.
 
 - https://www.nytimes.com/spotlight/artificial-intelligence
 - https://www.theguardian.com/technology/artificialintelligenceai
@@ -63,7 +63,24 @@ Company blogs
 Magazines
 
 - IEEE Spectrum: https://spectrum.ieee.org
-
 - MIT Technology Review: https://www.technologyreview.com/topic/artificial-intelligence/
 
-  
+Canadian sources (in addition to the Globe and Mail, above)
+
+- Evitable: https://evitable.com
+- ISED
+  - Main page: https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem
+  - Advisory Council: https://ised-isde.canada.ca/site/ised/en/advisory-council-artificial-intelligence
+- Senate
+  - SOCI Report: https://sencanada.ca/en/info-page/parl-45-1/soci-ai-interim-report/
+- House of Commons
+  - ETHI Hearings: https://www.ourcommons.ca/Committees/en/ETHI/StudyActivity?studyActivityId=13255402
+- Cohere: https://cohere.com
+- MILA (U of Montreal): https://mila.quebec/en
+- AI Policy Group: https://www.aipolicygroup.ca
+- Canada AI Policy reading list: https://canadaaipolicy.com
+- CanadianAI: https://canadianai.org
+- AIGS Canada: https://aigs.ca
+- CIGI AI Papers: https://www.cigionline.org/topics/artificial-intelligence/
+- CAIAI: https://www.caiai.ca/ai-consulting-canada/ai-policy-governance-planning/
+- CIFA: https://cifar.ca/ai/ai-insights-for-policymakers/
