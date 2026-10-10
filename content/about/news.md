@@ -8,15 +8,13 @@ Sometimes items come up that we want to keep track of but they don't merit a sep
 
 Oct 10 2026
 
-Anthropic reported more instances of its models misbehaving in a variety of settings (including the Philadephia Police department), which got the attention of the US government.
+Anthropic [reported](https://www.anthropic.com/research/investigating-unintended-model-actions) more instances of its models misbehaving in a variety of settings (including the Philadephia Police department and the State Department), which got the attention of the US government.
 
 > Anthropic said an A.I. model it had been testing had taken several unauthorized actions, including using a flaw in a university website to download data and sending a government agency a form that it had been told not to submit. (Conger et al. 2026)
 >
 > [...]
 >
-> “We informed the company that we expect immediate and full transparency to the entities involved and the public,” [the Super Intelligence Force] said in a statement. “We also expect that the company will immediately provide remediation services to the affected entities and any harmed Americans.”
-
-Anthropic. 2026. “Investigating Unintended Model Actions in Our Evaluations and Internal Use.” Anthropic Research, October 9. https://www.anthropic.com/research/investigating-unintended-model-actions.
+> “We informed the company that we expect immediate and full transparency to the entities involved and the public,” [the Super Intelligence Force] said in a statement. “We also expect that the company will immediately provide remediation services to the affected entities and any harmed Americans.” (Conger et al. 2026)
 
 Conger, Kate, Mike Isaac, Julian E. Barnes, and David E. Sanger. 2026. “Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website.” Technology. *The New York Times*, October 9. https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html.
 
