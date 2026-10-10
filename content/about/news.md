@@ -4,6 +4,14 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate blog post or entry in our "key documents" file. In that case, we post them here.
 
+## Sufficient?
+
+Could Frontier AI pass the kind of safety test that Canada and other nations use for dangerous technologies such as nuclear power?" Professor Thomas's unstated conclusion is that Frontier AI definitely could **not** pass a standard risk management safety case. If he is right, and we think he is, should we even bother trying to regulate this particular dangerous and treacherous technology?
+
+> Typically, the safety case should show, with a probability of at least 99%, that an accident that could cause multiple fatalities will not occur more often than once in 1,000 years. It is extremely hard to provide evidence for such low probabilities, even for aircraft that at worst might kill 1,000 people in a single accident. The developers of frontier AI systems tell us that their systems might kill the whole of humanity, yet they have provided no detailed risk analyses, no safety cases that could be independently assessed, and no evidence that such safety cases could *ever* be produced for frontier AI systems.
+
+Thomas, Martyn. 2026. “Is Regulation Enough to Stop AI Systems Killing Us All?” Technology. *The Guardian*, October 6. https://www.theguardian.com/technology/2026/oct/06/is-regulation-enough-to-stop-ai-systems-killing-us-all.
+
 ## Tomorrow?
 
 Oct 9 20206
