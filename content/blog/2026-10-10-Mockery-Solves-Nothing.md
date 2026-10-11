@@ -23,7 +23,7 @@ By picking on some weirdos and a fringe element within AI community (“AI Welfa
 
 By focusing her essay on one company, Anthropic, Lehmann ignores the work of others in the industry, like Hassibis founder of DeepMind, who have no connection to Effective Altruism and also regard AI safety as a priority and deserving their attention and care through the scientific precautionary principle (Hassabis 2026).
 
-One might ask, what if Effective Altruism didn’t exist? The concerns would remain, and the mockery would have added nothing to our situation. Working on AI safety is hard work and may not even be feasible. Whatever skepticism toward consciousness might exist within the walls of the Vatican, we cannot take comfort in this as a reason to ignore what is right in front of our faces almost every day: AI models are misbehaving, out of alignment, and out of control (Fried and Mills 2026). The work also lies in front of us: work on safety or work on stopping superintelligence. But don’t think mockery is the solution.
+One might ask, what if Effective Altruism didn’t exist? The concerns would remain, and the mockery would have added nothing to our situation. Working on AI safety is hard work and may not even be feasible. Whatever skepticism toward consciousness might exist within the walls of the Vatican, we cannot take comfort in this as a reason to ignore what is right in front of our faces almost every day: AI models are misbehaving, out of alignment, and out of control (Booz Allen 2026; Dean 2026; Fried and Mills 2026). The work also lies in front of us: work on safety or work on stopping superintelligence. But don’t think mockery is the solution.
 
 ## References
 
@@ -31,7 +31,11 @@ One might ask, what if Effective Altruism didn’t exist? The concerns would rem
 
 Bengio, Yoshua, Stephen Clare, Carina Prunkl, et al. 2026. *International AI Safety Report 2026. DSIT 2026/001*. Department for Science, Innovation and Technology. https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026.
 
+Booz Allen. 2026. “Super Intelligence Reached OT Systems and Moved Equipment.” Booz Allen Hamilton, October 8. https://www.boozallen.com/insights/cyber/frontier-si-reaches-ot-systems.html.
+
 Cannon, Alan, and Amy Woszczynski. 2002. “Crises and Revolutions in Information Technology: Lessons Learned from Y2K.” *Industrial Management & Data Systems* 102 (August): 318–24. https://doi.org/10.1108/02635570210432019.
+
+Dean, Jay. 2026. “AI in the Breach: How an Adversary Leveraged AI to Target a Water Utility’s OT.” Dragos, May 6. https://www.dragos.com/blog/ai-assisted-ics-attack-water-utility.
 
 Fraser, Lucca, Peli Grietzer, Nuño Sempere, et al. 2026. “Humans on AI #59 || October 6, 2026.” Substack newsletter. *Paradigm 3*, October 6. https://p3humansonai.substack.com/p/humans-on-ai-59-october-6-2026.
 
