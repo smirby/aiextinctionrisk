@@ -12,7 +12,7 @@ They are available here: https://treacheroustech.ca/about/documents/
 
 ## News of the Day
 
-We are also avid readers of the AI-related news (consuming about 20+ different newsletters), so we've started collecting these items in a [separate news-of-the-day feed](https://fromtooltoactor.ca/about/news/). 
+We are also avid readers of the AI-related news (consuming about 20+ different newsletters), so we've started collecting these items in a [separate news-of-the-day feed](https://treacheroustech.ca/about/news/). 
 
 ## Keeping up
 
