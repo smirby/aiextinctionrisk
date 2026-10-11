@@ -11,7 +11,7 @@ draft: false
 
 Oddly, we’ve been here before. The problem is known as a prevention paradox, and we see this in the case of the climate crisis. When enormous effort is required to avert a disaster, some people would much rather call the whole thing a hoax than do the work.
 
-The current iteration of this, as framed in Lehmann’s essay, is that AI safety is a millenarian cult born out of the San Francisco Effective Altruism subculture. (She also spends some time in her essay linking Vatican skepticism of (purported) Anthropic consciousness concerns but from what I can tell, this is mostly window dressing of the type: “See, these people don’t buy it, either.” It doesn’t really add to the argument unless you are very impressed with papal analysis of artificial intelligence.)
+The current iteration of this, as framed in Lehmann’s essay, is that AI safety is a millenarian cult born out of the San Francisco Effective Altruism subculture. (She also spends some time in her essay linking Vatican skepticism of (purported) Anthropic consciousness concerns but from what I can tell, this is mostly window dressing of the type: “See, these people don’t buy it, either.” It doesn’t really add to the argument unless you are very impressed with papal analysis of artificial intelligence. See Fraser et al. (2026) for a more charitable interpretation of the Vatican/Anthropic falling out.)
 
 The thing is, while pinning Amodei and crew to the wall as a bunch of weirdos might seem satisfying and could divert people’s attention from the horrors of an AI extinction for a little while, the form of the argument is pretty flawed. While there very well may be some eccentric folks in the Bay area, they do not by any means comprise the entirety of the AI industry, and building an argument based on mockery risks losing sight of the real work by real people in computer science and engineering and their very real concerns about possible disastrous consequences. If we don’t take this seriously, we lose sight of the very real problems and the enormous importance of preventative engineering projects. 
 
@@ -32,6 +32,8 @@ One might ask, what if Effective Altruism didn’t exist? The concerns would rem
 Bengio, Yoshua, Stephen Clare, Carina Prunkl, et al. 2026. *International AI Safety Report 2026. DSIT 2026/001*. Department for Science, Innovation and Technology. https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026.
 
 Cannon, Alan, and Amy Woszczynski. 2002. “Crises and Revolutions in Information Technology: Lessons Learned from Y2K.” *Industrial Management & Data Systems* 102 (August): 318–24. https://doi.org/10.1108/02635570210432019.
+
+Fraser, Lucca, Peli Grietzer, Nuño Sempere, et al. 2026. “Humans on AI #59 || October 6, 2026.” Substack newsletter. *Paradigm 3*, October 6. https://p3humansonai.substack.com/p/humans-on-ai-59-october-6-2026.
 
 Fried, Ina, and Madison Mills. 2026. “☠️ ‘The Day After.’” Axios+, October 9. https://www.axios.com/newsletters/axios-ai-plus-37ff4df2-a349-4410-b227-27a963b09248.
 
