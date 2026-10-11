@@ -4,6 +4,16 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate blog post or entry in our "key documents" file. In that case, we post them here.
 
+## Windy tomorrow?
+
+October 11 2026
+
+These days forecasting is all the rage, particularly because prediction markets have made it possible to monetize predictions. So, of course the end of the world is a hot topic among forecasters. One of the best of them, Eli Lifland, has posted about his best guess/forecast:
+
+> My current view: - AI companies could develop broadly superhuman AI any year now (~10-15% by EO2027, ~50% by EO2030). - If they don't slow down, AI takeover is ~67%. - Conditional on AI takeover, human extinction is ~40%.  Many non-extinction worlds still have lots of deaths.
+
+Eli Lifland [@eli_lifland]. 2026. “My current view.” Tweet. Twitter, October 10. https://x.com/eli_lifland/status/2109082373644308554.
+
 ## Under control?
 
 Oct 10 2026
