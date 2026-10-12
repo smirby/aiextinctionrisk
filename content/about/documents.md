@@ -13,6 +13,8 @@ We have collected key documents relating to AI Risk and provide them here with l
 Richard Heinberg wrote this back in 2024 for the Independent Media Institute, and it has recently been republished in *resilience*.
 
 >...any advantages that AI may promise are eclipsed by the cataclysmic dangers of this controversial new technology. Humanity has a narrow chance to stop a technological revolution whose unintended negative consequences will vastly outweigh any short-term benefits.
+>
+>[...] Suppose a movement to ban AI were to succeed. In that case, it might break our collective fever dream of neoliberal capitalism so that people and their governments finally recognize the need to set limits. This should already have happened with regard to the climate crisis, which demands that we strictly limit fossil fuel extraction and energy usage. If the AI threat, being so acute, compels us to set limits on ourselves, perhaps it could spark the institutional and intergovernmental courage needed to act on [other existential threats](https://www.postcarbon.org/publications/welcome-to-the-great-unraveling/).
 
 Heinberg, Richard. 2026. “Why Artificial Intelligence Must Be Stopped Now.” *Resilience*, October 12. https://www.resilience.org/stories/2026-10-12/why-artificial-intelligence-must-be-stopped-now/.
 
