@@ -8,6 +8,14 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 # Recent items
 
+## Ahead of his time (Heinberg 2024)
+
+Richard Heinberg wrote this back in 2024 for the Independent Media Institute, and it has recently been republished in resilience.
+
+>...any advantages that AI may promise are eclipsed by the cataclysmic dangers of this controversial new technology. Humanity has a narrow chance to stop a technological revolution whose unintended negative consequences will vastly outweigh any short-term benefits.
+
+Heinberg, Richard. 2026. “Why Artificial Intelligence Must Be Stopped Now.” *Resilience*, October 12. https://www.resilience.org/stories/2026-10-12/why-artificial-intelligence-must-be-stopped-now/.
+
 ## Pied Piper (Bengio 2026)
 
 Yoshua Bengio has called on his colleagues, including former students, to leave the frontier labs and their work on superintelligence, and join him in a mission to create a safe artificial intelligence.
