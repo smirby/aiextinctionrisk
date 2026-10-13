@@ -4,6 +4,24 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate blog post or entry in our "key documents" file. In that case, we post them here.
 
+## ARC's view?
+
+We would all like to know what goes on inside the "black box" that is the LLM. Paul Christiano trying to figure out the math that makes them work.
+
+>[He wrote recently](https://www.lesswrong.com/posts/vLFh8HP3hyNy9MCwe/returning-to-arc) that there is a 20-per-cent to 30-per-cent chance that alignment and control methods break down before “superhuman” AI systems are developed, which poses a severe risk given the intense goal-seeking behaviour built into models. Progress could be accelerated as labs automate the process of AI research and development.
+
+>  “There is a real chance that over something like a six-to-18-month horizon, we will be dealing with AI systems such that, if they wanted to escape human control, undermine human control, or fight openly against humans, it would be very hard for humanity to prevail,” he said in the interview.
+
+Costaldo, Joe, and Alexandra Posadzki. 2026. “Scientists Push for Creation of International Body to Regulate Artificial Intelligence.” *The Globe and Mail*, October 13. https://www.theglobeandmail.com/business/article-scientists-international-body-regulate-artificial-intelligence/.
+
+## Open the letter?
+
+As much as we would like to believe open letters are important, it is becoming difficult to keep them all straight in our head. Maybe I will start an open letter tracker website... In the meantime, here is the latest one (full text at the link below):
+
+> We, the undersigned scientists, contend that both more AI safety research and more emphasis on containment technologies and procedures are needed. In the short term, strong sandboxing mechanisms including airgapping (disconnecting from the internet) should be used to provide high-assurance containment of cyber-capable AI models. For all internet-connected AI models, the range of model actions permitted by a containment system needs to be balanced with our currently limited ability to predict that the model’s actions will not result in a security failure (e.g., due to misaligned goals). To learn from future mistakes—in which appropriate balance is not achieved and incidents occur—we need greater sharing of information and transparency about containment failures moving forward. Understanding how to achieve this balance is a significant challenge and will require collaboration between the AI and security communities.
+
+Scientific Community on AI and Cybersecurity. 2026. “October 2026 Open Letter from the Scientific Community on AI and Cybersecurity.” October. https://ai-security-letter.org/.
+
 ## Windy tomorrow?
 
 October 11 2026
