@@ -6,7 +6,9 @@ Sometimes items come up that we want to keep track of but they don't merit a sep
 
 ## ARC's view?
 
-We would all like to know what goes on inside the "black box" that is the LLM. Paul Christiano trying to figure out the math that makes them work.
+Oct 13 2026
+
+We would all like to know what goes on inside the "black box" that is the LLM. Paul Christiano is trying to figure out the math that makes them work. His timeline for success is pretty short...
 
 >[He wrote recently](https://www.lesswrong.com/posts/vLFh8HP3hyNy9MCwe/returning-to-arc) that there is a 20-per-cent to 30-per-cent chance that alignment and control methods break down before “superhuman” AI systems are developed, which poses a severe risk given the intense goal-seeking behaviour built into models. Progress could be accelerated as labs automate the process of AI research and development.
 
@@ -15,6 +17,8 @@ We would all like to know what goes on inside the "black box" that is the LLM. P
 Costaldo, Joe, and Alexandra Posadzki. 2026. “Scientists Push for Creation of International Body to Regulate Artificial Intelligence.” *The Globe and Mail*, October 13. https://www.theglobeandmail.com/business/article-scientists-international-body-regulate-artificial-intelligence/.
 
 ## Open the letter?
+
+Oct 13 2026
 
 As much as we would like to believe open letters are important, it is becoming difficult to keep them all straight in our head. Maybe I will start an open letter tracker website... In the meantime, here is the latest one (full text at the link below):
 
