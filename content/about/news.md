@@ -10,7 +10,7 @@ There is buzz on the internet today (15 October) that Nick Cammarata's essay on 
 
 Early days, of course, as it is just posted, but we'll see over the coming days what this means. 
 
-Just to remind you, "mechanistic interpretability" would provide insight into what is going on inside the (heretofor) "black box" of the neural networks that underpin all of today's large language models. I will follow this up with a proper blog post once I've been able to digest this (very long) article and read some of the feedback.
+Just to remind you, "mechanistic interpretability" would provide insight into what is going on inside the (heretofor) "[black box](https://derekjames.substack.com/p/black-boxes-and-glass-labyrinths)" of the neural networks that underpin all of today's large language models. I will follow this up with a proper blog post once I've been able to digest this (very long) article and read some of the feedback.
 
 > “After many months studying neurons and circuits in image and language models, I’ve come to believe a network’s own mechanisms are its legible building blocks, and that the outlook for mechanistic interpretability may be far better than I’d feared. The canonical evidence of polysemanticity and superposition that convinced much of the field, including me, that networks pack concepts arbitrarily was misread. What looked like arbitrary packing was mostly a motif I’ll call recursive generalization, which is much less concerning. This means we can study networks directly, instead of first untangling them. Neural networks are already clean.”
 
