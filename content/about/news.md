@@ -4,6 +4,18 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate blog post or entry in our "key documents" file. In that case, we post them here.
 
+## Good news?
+
+There is buzz on the internet today (15 October) that Nick Cammarata's essay on "interpretability" may be showing the way for that important aspect of understanding artificial intelligence to become more feasible/possible and if so, this might make alignment more possible. 
+
+Early days, of course, as it is just posted, but we'll see over the coming days what this means. 
+
+Just to remind you, "mechanistic interpretability" would provide insight into what is going on inside the (heretofor) "black box" of the neural networks that underpin all of today's large language models. I will follow this up with a proper blog post once I've been able to digest this (very long) article and read some of the feedback.
+
+> “After many months studying neurons and circuits in image and language models, I’ve come to believe a network’s own mechanisms are its legible building blocks, and that the outlook for mechanistic interpretability may be far better than I’d feared. The canonical evidence of polysemanticity and superposition that convinced much of the field, including me, that networks pack concepts arbitrarily was misread. What looked like arbitrary packing was mostly a motif I’ll call recursive generalization, which is much less concerning. This means we can study networks directly, instead of first untangling them. Neural networks are already clean.”
+
+Cammarata, Nick. 2026. “Neural Networks Are Already Clean.” Goodfire, October 15. https://already-clean.goodfire.com/.
+
 ## Patel's worried?
 
 Oct 15 2026
