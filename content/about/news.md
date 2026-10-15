@@ -8,13 +8,13 @@ Sometimes items come up that we want to keep track of but they don't merit a sep
 
 Oct 15 2026
 
-Dwarkesh Patel hosts one of the most influential podcasts in America and regularly has guests from across the technology spectrum. Interviewed recently for the New York Times, he shares his own concern about AI taking over.
+Dwarkesh Patel hosts one of the [most influential podcasts in America](https://www.dwarkesh.com) and regularly has guests from across the technology spectrum. Interviewed recently for the New York Times, he shares his own concern about AI taking over.
 
 > "My concern is that we’re going to be in a position within a matter of years where the population of A.I.s and their intelligence and their speed vastly outmatch humanity. And if they are as willing then as they are now to falsify evidence, try to tamper with and fool us, attack other institutions in society relevant to scoring well, attack their company developing them itself, which also happened in this situation, then I don’t know if that leads to a takeover, but I think it’s very plausible that it does."
 >
 > "And my guess would be somewhere in the next one to three years, teams of A.I.s can outcompete teams of humans — or companies made of A.I.s can outcompete companies of humans — at doing A.I. research. This is another way of saying A.I. research gets automated.
 
-Cowen, Tyler, and Sophia Muniz. 2026. “Opinion | He’s the Most Influential Podcaster in Silicon Valley. He Thinks We’re Getting This Wrong.” Opinion. *The New York Times*, October 15. https://www.nytimes.com/2026/10/15/opinion/interesting-times-dwarkes-patel-tyler-cowen.html.
+Cowen, Tyler, and Sophia Muniz. 2026. “He’s the Most Influential Podcaster in Silicon Valley. He Thinks We’re Getting This Wrong.” *The New York Times*, October 15. https://www.nytimes.com/2026/10/15/opinion/interesting-times-dwarkes-patel-tyler-cowen.html.
 
 ## ARC's view?
 
