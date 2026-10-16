@@ -6,7 +6,7 @@ Sometimes items come up that we want to keep track of but they don't merit a sep
 
 ## Good news?
 
-There is buzz on the internet today (15 October). Nick Cammarata has posted a long essay on "interpretability" that may be showing the way for mechanistic interpretability. Making it possible to have a clearer understanding of artificial intelligence might make alignment more possible. 
+There is buzz on the internet today (15 October). Nick Cammarata has posted a [long essay](https://already-clean.goodfire.com) on "interpretability" that may be showing the way for mechanistic interpretability. This would make it possible to have a clearer understanding of artificial intelligence, and make alignment more feasible.
 
 Early days, of course, as it is just posted, but we'll see over the coming days what this means. 
 
