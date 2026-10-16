@@ -8,6 +8,14 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 # Recent items
 
+## Attention (Wolchover 2026)
+
+Natalie Wolchover explains the role of attention in making artificial intelligence possible and in the process explains transformers better than most. Her focus is the work done in 2014 at University of Montreal, using translation of english to and from french as the data set. A very useful piece, both for the contribution (helping us see the importance of attention) and the explanation (why transformers are so important).
+
+>“Bahdanau’s trick, a mathematical operation that he, Cho, and Bengio referred to as “attention,”  enabled their neural network to translate long sentences just as well as short ones. That meant the approach was scalable. Other AI researchers at the time quickly integrated attention into their neural network designs. Then, in 2017, a team at Google devised a new kind of neural network architecture called a transformer that supercharged the attention method and stripped away everything else. The team’s paper, “Attention Is All You Need,” reported that transformers achieved state-of-the-art translation while requiring a fraction of the computation needed to train prior models. The paper, which has since been cited more than 250,000 times, was a watershed moment in AI. Large language models such as ChatGPT and Claude followed.”
+
+Wolchover, Natalie. 2026. “Is ‘Attention’ the Essence of Intelligence?” *Quanta Magazine*, October 12. https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/.
+
 ## Ahead of his time (Heinberg 2024)
 
 Richard Heinberg wrote this back in 2024 for the Independent Media Institute, and it has recently been republished in *resilience*.
