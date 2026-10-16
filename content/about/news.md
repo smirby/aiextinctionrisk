@@ -6,7 +6,11 @@ Sometimes items come up that we want to keep track of but they don't merit a sep
 
 ## Good news?
 
-There is buzz on the internet today (15 October). Nick Cammarata has posted a [long essay](https://already-clean.goodfire.com) on "interpretability" that may be showing the way for mechanistic interpretability. This would make it possible to have a clearer understanding of artificial intelligence, and make alignment more feasible.
+Oct 15 2026
+
+There is buzz on the internet today (15 October). Nick Cammarata has posted a [long essay](https://already-clean.goodfire.com) on "interpretability" that may be showing the way for mechanistic interpretability. This would make it possible to have a clearer understanding of artificial intelligence, and make alignment more feasible. Here is the cutline for his essay:
+
+> The cause of polysemanticity in early model organisms wasn’t superposition, but several ordinary, mostly fixable issues. We can now understand most neurons in models up to trillions of parameters, and think the outlook for mechanistic interpretability may be far better than we thought.
 
 Early days, of course, as it is just posted, but we'll see over the coming days what this means. 
 
@@ -15,6 +19,11 @@ Just to remind you, "mechanistic interpretability" would provide insight into wh
 > “After many months studying neurons and circuits in image and language models, I’ve come to believe a network’s own mechanisms are its legible building blocks, and that the outlook for mechanistic interpretability may be far better than I’d feared. The canonical evidence of polysemanticity and superposition that convinced much of the field, including me, that networks pack concepts arbitrarily was misread. What looked like arbitrary packing was mostly a motif I’ll call recursive generalization, which is much less concerning. This means we can study networks directly, instead of first untangling them. Neural networks are already clean.”
 
 Cammarata, Nick. 2026. “Neural Networks Are Already Clean.” Goodfire, October 15. https://already-clean.goodfire.com/.
+
+First reactions:
+
+- Latent.Space. 2026. “[AINews] Agents Disprove Polysemanticity; Greatly Improve Interpretability & Alignment.” Latent Space, October 16. https://www.latent.space/p/ainews-agents-disprove-polysemanticity.
+- X/Twitter: https://x.com/deedydas/status/2110785912074277221
 
 ## Patel's worried?
 
