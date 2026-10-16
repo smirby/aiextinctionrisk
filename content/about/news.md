@@ -24,9 +24,9 @@ First reactions:
 
 - Latent.Space. 2026. “[AINews] Agents Disprove Polysemanticity; Greatly Improve Interpretability & Alignment.” Latent Space, October 16. https://www.latent.space/p/ainews-agents-disprove-polysemanticity.
 - X/Twitter: https://x.com/deedydas/status/2110785912074277221
-- Dean Ball: https://www.hyperdimensional.co/p/the-beauty-of-something-grown
+- **Dean Ball**: https://www.hyperdimensional.co/p/the-beauty-of-something-grown
   This one is really useful, I found, to help moderate the optimism AND explain how it *might* be an important breakthrough.
-- BUT: Yudkowsky (and others) are skeptical: Yudkowsky, Eliezer. 2026. “Eliezer Yudkowsky on X: "Me: Mechanistic Interpretability Sounds like a Good Idea, Yes. If We Could Learn Something about How an AI Was Thinking, in Enough Detail to Predict in Advance What It Would Think Even as the Thought Departed from Human, That Would Be a Bare Beginning on the Sort of Under… / X.” Twitter/X, October 16. https://x.com/alltheyud/status/2110837390780907689?s=12&t=yeBqhNVHcZdkeLphIDP4jA.
+- BUT: **Yudkowsky** (and others) are skeptical: Yudkowsky, Eliezer. 2026. “Eliezer Yudkowsky on X: "Me: Mechanistic Interpretability Sounds like a Good Idea, Yes. If We Could Learn Something about How an AI Was Thinking, in Enough Detail to Predict in Advance What It Would Think Even as the Thought Departed from Human, That Would Be a Bare Beginning on the Sort of Under… / X.” Twitter/X, October 16. https://x.com/alltheyud/status/2110837390780907689?s=12&t=yeBqhNVHcZdkeLphIDP4jA.
 
 ## Patel's worried?
 
