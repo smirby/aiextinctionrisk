@@ -8,6 +8,16 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 # Recent items
 
+## Let's Pause (Fithian et al. 2026)
+
+In October 2026, this 210 page report from the Working Group on AI Pause Feasibility, organized by William Fithian and Wesley Holliday (both at Berkely), was released online. The abstract lays out their argument:
+
+> There is increasing interest in an international pause of frontier AI training that is mutually verifiable by participating states. This report studies the feasibility of a *hardwired pause*, a type of pause in which a prohibition on frontier training is mutually verified through monitoring of and constraints on AI hardware. Like other plans for a pause, it involves monitoring AI chips that are capable of frontier AI training. But to support a durable pause lasting a decade or longer, the hardwired pause goes further in two ways. First, it stops the production of training-capable chips during the pause. Second, over time it phases out the pre-pause stock of training-capable chips, which constitute “dry tinder” for a resumed AI race. It replaces training-capable chips with *inference-only* chips, which can run approved AI models for inference, potentially at much higher speeds and with much greater energy efficiency, but cannot practically train new frontier AI models, due to the way the chips are constructed. If successful, this replacement—together with other mitigations against harms from deployed AI systems—would allow the diffusion of inference on existing models while avoiding the additional risks to economic and social well-being and to national security posed by the training of increasingly powerful models. **We assess that a hardwired pause would be feasible to implement now or in the near future, if world leaders wanted to pause, and that its durability would depend on geopolitical and technical conditions that we analyze in the report.** (emphasis added)
+
+You can read the [abstract](https://hardwired-pause.ai/abstract), the [executive summary](https://hardwired-pause.ai/executive-summary), and the [full paper](https://hardwired-pause.ai/paper) at their website: https://hardwired-pause.ai
+
+Fithian, William, Wesley H. Holliday, Kayla Blomquist, et al. 2026. “The Feasibility of a Hardwired Pause of Frontier AI Training.” Working Group on AI Pause Feasibility, October. https://hardwired-pause.ai/.
+
 ## Attention (Wolchover 2026)
 
 Natalie Wolchover explains the role of attention in making artificial intelligence possible and in the process explains transformers better than most. Her focus is the work done in 2014 at University of Montreal, using translation of english to and from french as the data set. A very useful piece, both for the contribution (helping us see the importance of attention) and the explanation (why transformers are so important).

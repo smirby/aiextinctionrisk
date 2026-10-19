@@ -27,7 +27,19 @@ First reactions:
 - **Dean Ball**: https://www.hyperdimensional.co/p/the-beauty-of-something-grown
   This one is really useful, I found, to help moderate the optimism AND explain how it *might* be an important breakthrough.
 - BUT: **Yudkowsky** (and others) are skeptical: Yudkowsky, Eliezer. 2026. “Eliezer Yudkowsky on X: "Me: Mechanistic Interpretability Sounds like a Good Idea, Yes. If We Could Learn Something about How an AI Was Thinking, in Enough Detail to Predict in Advance What It Would Think Even as the Thought Departed from Human, That Would Be a Bare Beginning on the Sort of Under… / X.” Twitter/X, October 16. https://x.com/alltheyud/status/2110837390780907689?s=12&t=yeBqhNVHcZdkeLphIDP4jA.
-- AND: leogao posts a "yes, but...": Gao, Leo. 2026. “Neural networks are not already clean.” LessWrong, October 17. https://www.lesswrong.com/posts/Dkh7pXKjoNWkkxQDz/neural-networks-are-not-already-clean.
+- AND: **leogao** posts a "yes, but...": Gao, Leo. 2026. “Neural networks are not already clean.” LessWrong, October 17. https://www.lesswrong.com/posts/Dkh7pXKjoNWkkxQDz/neural-networks-are-not-already-clean. Here is his "but:" " it’s nowhere near a sufficient argument that we understand most of what neurons are doing, and these results do not show that interpretability is solved, or even that it is vastly easier than previously anticipated."
+- Zvi Mowshowitz [has posted his take](https://thezvi.substack.com/p/i-can-see-everything) on the paper, which is (to condense things greatly) along the lines of "this is good work but don't get TOO excited:"
+
+  - > This is clearly good work that tells us new and important things. The question is, how big an update is this, how much progress does it represent and what is the outlook going forward?
+    >
+    > [...] This paper is solid and meaningful contribution that is in some ways overstated. Get excited, but also there are those who need to take a chill pill. We did not actually get an apples-to-apples jump from 1.7% to 90% interpretability of LLM neurons. 
+    >
+    > [...] It is an important update about how LLMs and minds form and operate. It tells us how to go about some useful tasks and reduces our estimate of some task difficulties. Great work, assuming the work checks out. The whole thing very much has a ring of truth, and of a person being curious. You love to see it.
+    >
+    > [...] What it does not tell us is that interpretability will soon be solved, or is about to be made into a science, let alone that alignment will soon be handled.
+
+  It is nice to read his ending: “This is still excellent news. The world is more hopeful now. Let’s get to work."
+- Will Douglas Heaven, at the MIT Technology Review, provides well rounded coverage of the "explosive claim that's upeded the AI world" in an [interview with Nick Cammarata](https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/).
 
 ## Patel's worried?
 
