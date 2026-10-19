@@ -39,7 +39,9 @@ First reactions:
     > [...] What it does not tell us is that interpretability will soon be solved, or is about to be made into a science, let alone that alignment will soon be handled.
 
   It is nice to read his ending: “This is still excellent news. The world is more hopeful now. Let’s get to work."
-- Will Douglas Heaven, at the MIT Technology Review, provides well rounded coverage of the "explosive claim that's upeded the AI world" in an [interview with Nick Cammarata](https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/).
+- Will Douglas Heaven, at the MIT Technology Review, provides well rounded coverage of the "explosive claim that's upeded the AI world" in an [interview with Nick Cammarata](https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/). It includes this closing remark:
+
+  - > “That’s why Cammarata thinks what he has to say matters. The job of figuring out how this technology works, and thus how to control it, has barely begun. But at least it’s not a nonstarter. “I think our job is to sort of try to think like the neural network,” he says. “My guess is that things will turn out pretty well, because it was in some sense designed to be read.””
 
 ## Patel's worried?
 
