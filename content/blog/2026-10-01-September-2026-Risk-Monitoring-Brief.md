@@ -2,7 +2,7 @@
 title: "September 2026 Risk Monitoring Brief"
 date: 2026-10-01
 categories: ["AI Risk Monitor"]
-draft: false
+draft: true
 ---
 
 

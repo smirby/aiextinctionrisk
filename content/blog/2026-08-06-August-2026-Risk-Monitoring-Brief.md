@@ -2,7 +2,7 @@
 title: "August 2026 Risk Monitoring Brief"
 date: 2026-08-06
 categories: ["AI Risk Monitor"]
-draft: false
+draft: true
 ---
 
 # **AI Risk Monitoring Brief — August 2026**
