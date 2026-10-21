@@ -5,7 +5,7 @@ categories: ["AI Safety"]
 draft: false
 ---
 
-I was planning on writing about the erosion of control that artificial intelligence is precipitating - and it is happening, we should admit it - but Scott Alexander's post ([Against Against Handover](https://www.astralcodexten.com/p/against-against-handover)) just landed in my inbox and it was a sign that I should pull my thoughts together and get them down. "On paper," as we used to say.
+I was planning on writing about the erosion of control that artificial intelligence is precipitating - and it is happening, we should admit it - but Scott Alexander's post ([Against Against Handover](https://www.astralcodexten.com/p/against-against-handover)) just landed in my inbox and I took it as a sign that I should pull my thoughts together and get them down. "On paper," as we used to say.
 
 Scott distinguishes between successionism (and successionists) and "handoverism." The former is straightforward: let the AIs take over, killing us all most likely. The people who see this happening are, in some cases, "just being realistic" and in other cases actually rooting for the AI overlords. It is icky, to say the least. The handover scenario is somewhat less dire (though still very dire), and suggests that we might be better served by AI running most things, as long as their interests are aligned with ours. 
 
