@@ -47,6 +47,8 @@ Krakovna, Victoria. 2026. “Was the HuggingFace hacking incident scheming?” L
 
 Lewis, Peter. 2026. “The Biggest Threat from AI Is the Sense That We Have No Say in It. To That I Say Game On.” Technology. *The Guardian*, October 13. https://www.theguardian.com/technology/commentisfree/2026/oct/14/ai-resistance-inevitability-is-choice-australia-digital-duty-of-care.
 
+Sabin, Sam. 2026. “AI Is Getting Better at Hacking Power and Water Systems, New Research Shows.” Axios, October 21. https://www.axios.com/2026/10/21/ai-hacking-cybersecurity-water-power-grid.
+
 Satter, Raphael, and Raphael Satter. 2026. “EXCLUSIVE: How One Hacker Used AI Agents and a Few Thousand Dollars to Break into Scores of Sites.” Government. *Reuters*, October 19. https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/.
 
 Scientific Community on AI and Cybersecurity. 2026. “October 2026 Open Letter from the Scientific Community on AI and Cybersecurity.” October. https://ai-security-letter.org/.
