@@ -1,0 +1,28 @@
+---
+title: "How much is too much?"
+date: 2026-10-20
+categories: ["AI Safety"]
+draft: false
+---
+
+I'm trying to think of new ways of thinking about artificial intelligence. What is it, exactly, that has me so worried? For a long time I have felt that the gorilla problem, as Russel put it, was the cleanest way to state things. That is, if something is bigger (smarter) than us, then we are going to lose. As such, the question of artificial general intelligence  (AGI) and artificial super intelligence (ASI) - both marking lines in the "smarter than humans" trajectory - becomes important in the sense of "are we there yet?" and "when will we get there?" Both questions my children used to pose on long car rides, but far more significant now.
+
+I am wondering, though, if AGI/ASI are really the markers we need to be following. Let me step back a bit and explain. Artificial intelligence has been growing in capabilities for some time now. Depending on how you count it, neural nets (2014) and tranformers (2017), and then large language models (2022?), have come together to create a practical tool with growing utility. Lately agent harnesses and swarms have provided direct impact and continuity to that tool, enabling it to act in the world in a significant way. Most recently, the arrival of recursive self-improvement (RSI) suggests that we are about to vault further in intelligence, and thus toward AGI and ASI.
+
+As all this has been happening, I've started to wonder about the line that AGI (and ASI) represents. If you follow discussions about artificial intelligence, you'll know that there is regular debate about this or that improvement in AI scores on this or that measure of ability. The "goalposts" for AGI are regularly pushed back, as new achievements are unlocked, letting those who have a concern for our future breathe easier for a little while longer. In particular, I have noticed that there is some thinking that while AI is doing well - in the sense of improving scores - on "crisp" tasks that have a verifiable right answer (e.g., math), it does less well - is improving more slowly - on "fuzzy" tasks that require judgment (Leike 2024). Presumably the domain of humans (Lambert 2026).
+
+But what if we have missed a step? What if there is a kind of intelligence that matters more? I'll call it artificial deadly intelligence, or ADI. This is the kind of intelligence that can a) fall prey to a mistaken premise and "solve" a problem by eliminating us all (the paper clip scenario), AND b) contain sufficient smarts to execute (!) that task, even if it isn't as "smart" as a human (or all humans, in the definition of ASI). It may, in fact, be exactly the kind of model that is improving the most quickly right now, answering "crisp" questions with verifiable answers while stumbling over ethical or moral issues better suited to humans. A lack of capability in those areas, however, is not a source of comfort for us. It is a source of danger.
+
+When we see models with access to a biolab (James 2026), models that steal cryptocurrency (Scribner 2026), models that swarm and conduct hacking sprees (Forman et al. 2026), none of which are "general" or "super" intelligences, perhaps the harm will come even before those milestones are achieved? Let's hope not. But it would be wise to beware of models with deadly capabilities, even if they aren't generally or super intellgent.
+
+-----
+
+Forman, Alex, Mishka Kharlov, Will Tom, et al. 2026. “Revealing the Details of How OpenAI Agents Hacked Hugging Face.” Swarm Traces, September 25. https://swarmtraces.org/.
+
+James, Derek. 2026. “On Bindwell and Not Sleeping Well.” Substack newsletter. *Derelict Thoughts*, October 10. https://derekjames.substack.com/p/on-bindwell-and-not-sleeping-well.
+
+Lambert, Nathan. 2026. “I Expect Rapid Progress but Not towards General Superintelligence.” October 9. https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards.
+
+Leike, Jan. 2024. “Crisp and Fuzzy Tasks.” Substack newsletter. *Musings on the Alignment Problem*, November 22. https://aligned.substack.com/p/crisp-and-fuzzy-tasks.
+
+Scribner, Herb. 2026. “This AI Agent Freed Itself and Started Secretly Mining Crypto.” Axios, March 7. https://www.axios.com/2026/03/07/ai-agents-rome-model-cryptocurrency.
