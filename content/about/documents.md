@@ -8,6 +8,25 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 # Recent items
 
+## Let's Go! (Roose 2026)
+
+Kevin Roose, now a regular with *The Atlantic*, has written a book about the race to artificial general and super intelligence (AGI/ASI). The book is called *[The AGI Chronicles](https://theagichronicles.com)* and it will be coming out soon. Along the way to writing that book, he has discovered some interesting things, including an essay by Dario Amodei from 2017 called **Big Blob of Compute**. Never before available outside of OpenAI (Amodei worked at OpenAI in those days), Roose obtained a copy of the essay and made it [available online](https://kevinroose.substack.com/api/v1/file/7087c3ff-0f96-4e38-9e7e-1d0be092d61a.pdf). 
+
+>My picture of the situation is what I call the Big Blob of Compute (BBOC) hypothesis. It says
+>that creating any given intelligent behavior is mostly about providing a large, minimally
+>structured mass of computational capacity, and then giving it shape and form via interactions
+>with a rich environment and a training process that drives it towards behavior appropriate for the
+>task at hand. These high-level knobs - what is the training signal (or signals)?, what is the
+>nature of the environment the agent interacts with?, how much experience is it exposed to? -
+>constitute the most effective ways of controlling how well an intelligent agent performs a given
+>task and how specifically it performs it. Once these knobs are set, then learning to perform the
+>task is mostly about the agent having enough compute and storage capacity to learn the
+>required cognitive skills.
+
+I encourage you to read the whole thing, as it contains many of the ideas that were later publicized in *The [Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html),* by Richard Sutton.  
+
+Intriguingly, and frustratingly, Amodei serveral times mentions his "overall perspective on AI safety" and how he has considered writing it up. He even mentions, tantalizingly, that AI safety will be explained fully in "Section 6."  The document ends with Section 3, unfortunately. I don't know if that's all he wrote, or if that's all Roose is releasing. I guess we'll have to see.
+
 ## Let's Pause (Fithian et al. 2026)
 
 In October 2026, this 210 page report from the Working Group on AI Pause Feasibility, organized by William Fithian and Wesley Holliday (both at Berkely), was released online. The abstract lays out their argument:
