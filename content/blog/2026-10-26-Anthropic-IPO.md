@@ -5,4 +5,4 @@ categories: ["AI Safety"]
 draft: false
 ---
 
-<image src="/static/images/AnthropicIPOrisk.png">
+<image src="/images/AnthropicIPOrisks.jpg" width="95%">
