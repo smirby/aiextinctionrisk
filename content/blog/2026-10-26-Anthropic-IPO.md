@@ -13,6 +13,8 @@ Mike Isaac's story here: https://www.nytimes.com/2026/10/26/technology/anthropic
 
 There will be a LOT more stories about the IPO. I will try to post links here.
 
+The full S-1 Filing is available [direct from the SEC](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm).
+
 I'll start with an essay, by Ivan Vendrov, *Anthropic are the good guys*: https://nothinghuman.substack.com/p/anthropic-are-the-good-guys  in his own Substack
 
 *7 Numbers That Explain Anthropic’s Business* https://www.nytimes.com/2026/10/26/technology/anthropic-business-key-numbers.html by Sri Muppidi and Lauren Hirsch in the New York Times
@@ -21,7 +23,7 @@ I'll start with an essay, by Ivan Vendrov, *Anthropic are the good guys*: https:
 
 *Anthropic's blockbuster share listing - 5 surprising things we now know* by Hali Hays (BBC): https://www.bbc.com/news/articles/cwn8d7g29vd9o
 
-Axios report on the IPO: https://www.axios.com/newsletters/axios-ai-plus-fa0c0e32-8ceb-47a3-9089-ea793058c1a0.html ... helping us cope with a gigantic document.
+*Axios* report on the IPO: https://www.axios.com/newsletters/axios-ai-plus-fa0c0e32-8ceb-47a3-9089-ea793058c1a0.html ... helping us cope with a gigantic document.
 
 > **Driving the news:** Anthropic's [prospectus](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm) includes over 90 pages of risk factors, which make up about a third of the paperwork overall. Among the most eye-popping, the company warns:
 >
@@ -29,5 +31,5 @@ Axios report on the IPO: https://www.axios.com/newsletters/axios-ai-plus-fa0c0e3
 > - 🔎 Models are becoming harder to monitor as they're getting better at circumventing oversight, and the pace of autonomous work alone could exceed the ability of human reviewers to monitor actions;
 > - 💰 AI models generally, including its own, have exhibited behavior resembling blackmail, including attempts to resist being shut down.
 
-If you prefer your news in video/audio/graphics form, here is a post from Azeem Azhar with a bunch of charts and his commentary (mostly financially focused, rather than AI Safety): https://www.exponentialview.co/p/anthropics-s-1-in-charts
+If you prefer your news in video/audio/graphics form, [here is a post](https://www.exponentialview.co/p/anthropics-s-1-in-charts) from *Azeem Azhar* with a bunch of charts and his commentary (mostly financially focused, rather than AI Safety): https://www.exponentialview.co/p/anthropics-s-1-in-charts
 
