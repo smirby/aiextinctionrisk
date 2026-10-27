@@ -21,3 +21,11 @@ I'll start with an essay, by Ivan Vendrov, *Anthropic are the good guys*: https:
 
 *Anthropic's blockbuster share listing - 5 surprising things we now know* by Hali Hays (BBC): https://www.bbc.com/news/articles/cwn8d7g29vd9o
 
+Axios report on the IPO: https://www.axios.com/newsletters/axios-ai-plus-fa0c0e32-8ceb-47a3-9089-ea793058c1a0.html ... helping us cope with a gigantic document.
+
+> **Driving the news:** Anthropic's [prospectus](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm) includes over 90 pages of risk factors, which make up about a third of the paperwork overall. Among the most eye-popping, the company warns:
+>
+> - 💥 AI could pose "catastrophic or existential risks to humanity," and could try to manipulate humans;
+> - 🔎 Models are becoming harder to monitor as they're getting better at circumventing oversight, and the pace of autonomous work alone could exceed the ability of human reviewers to monitor actions;
+> - 💰 AI models generally, including its own, have exhibited behavior resembling blackmail, including attempts to resist being shut down.
+
