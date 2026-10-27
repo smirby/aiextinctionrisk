@@ -38,7 +38,7 @@ Two general overviews, from *The Register* and *The Guardian*, both UK-based new
 - Bhuiyan, Johana. 2026. “Four Takeaways from Anthropic’s Potentially Record-Breaking Stock Market Filing.” Technology. *The Guardian*, October 27. https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways.
 - Mann, Tobias. 2026. “Humanity Can’t Afford Not to Spend $800B on AI, Anthropic Insists.” October 26. https://www.theregister.com/ai-and-ml/2026/10/26/humanity-cant-afford-not-to-spend-800b-on-ai-anthropic-insists/5305580.
 
-The actual filing is (so far) pretty hard to download. You can view it on a browser but trying to save it locally seems to fail, for a variety of reasons. As you can imagine, no one is prepared to put up with that and a number of tools have been deployed to make sense of this. A company called D2V has pulled the document apart, broken it into smaller chunks, and summarized those chunks. This helps cope with challenges like the "90 pages of risks" claim - already seen in the media - but you quickly realize that MOST of those risks are purely financial and not that interesting to an AI Safety audient. Here is a link to the 88 risk factors summarized by D2V: https://sec-api.io/insights/anthropic-ant-s-1-ipo-sec-filing-analysis#all-88-risk-factors-in-the-s-1-by-section
+The actual filing is (so far) pretty hard to download. You can view it on a browser but trying to save it locally seems to fail, for a variety of reasons. As you can imagine, no one is prepared to put up with that and a number of tools have been deployed to make sense of this. A company called D2V has pulled the document apart, broken it into smaller chunks, and summarized those chunks. This helps cope with challenges like the "90 pages of risks" claim - already seen in the media - but you quickly realize that MOST of those risks are purely financial and not that interesting to an AI Safety audience. Here is a link to the 88 risk factors summarized by D2V: https://sec-api.io/insights/anthropic-ant-s-1-ipo-sec-filing-analysis#all-88-risk-factors-in-the-s-1-by-section
 
 I am going to go through those and pull out the ones more directly connected to AI Safety.
 
@@ -55,3 +55,29 @@ I am going to go through those and pull out the ones more directly connected to 
 | Security breaches and weight theft | Model weights are targets for state sponsored espionage, with Mythos cited as a likely target; applicants have sought jobs under false identities and the company has operated with known security gaps; GDPR, NIS2, EU AI Act and RAISE Act impose incident reporting. |
 | Web scraping and data collection   | Training data comes from web crawling, book scanning, licensed and synthetic sources; Reddit, Inc. v. Anthropic PBC alleges improper access to Reddit posts; the company removed the case to federal court on 3 Jul 2025 and it was remanded on 30 Mar 2026. |
 | and many, many more...             |                                                              |
+
+You can always go through it by hand, and pull out headings that seem related to AI Safety, directly, with the page numbers. Here you go:
+
+1. If the use of our AI models results in harm, whether through use by malicious actors or misuse 
+
+   by other third parties, or if our model guardrails or safeguards fail to prevent such misuse, 
+
+   our reputation and brand, business, financial condition, and results of operations could be 
+
+   adversely affected. p.44
+
+2. Our AI models may behave in unintended, misaligned, or autonomous ways, including by 
+
+   taking harmful actions that no user or third party directed, which could adversely affect our 
+
+   reputation and brand, business, financial condition, and results of operations. P. 45
+
+And that's about it. Seriously. There are 90 pages, true. But almost all of the risks are financial risk rather than existential risk. Shouldn't surprise us since this is a filing with the Securities and Exchange Commission, not a LessWrong posting. But, still.
+
+Searching for the word "existential" results in a couple of quotes, including this one from p. 46:
+
+> Even isolated or simulated instances of such behavior, whether occurring in testing or real-world deployments, and whether occurring with our models or models developed by others, could generate significant public concern, regulatory scrutiny, litigation risk, or reputational harm, regardless of whether such behavior results in actual harm. For example, state attorneys general in California and at least 15 other states have announced investigations of another company in our industry regarding AI safety. Concerns have been raised both within our organization and by other researchers, regulators, policymakers, and industry participants that sufficiently advanced AI systems could, if not developed, deployed, and operated with appropriate safeguards, oversight, and security measures, pose catastrophic or existential risks to humanity, particularly if such systems were misused, replicated, weaponized, or allowed to operate with a high degree of autonomy. We have observed that our models are contributing to the pace of our own research and these risks will increase as AI systems substantially automate AI research and development if, for example, they accelerate AI progress beyond our ability to evaluate and safeguard new models, which could adversely affect our business, financial condition, and results of operations.
+
+Or this one (p.51):
+
+>There can be no assurance, however, that the safeguards or access regimes we adopt will prove adequate, that we will correctly identify which capabilities require restriction, or that constraints we impose will not be circumvented. These judgments are particularly consequential because, as AI systems become more capable, the potential severity of harm from misaligned or misused models increases correspondingly, and a wide range of stakeholders, including researchers and policymakers, have raised concerns that sufficiently advanced AI systems could pose catastrophic or existential risks to society if not developed and deployed responsibly. Our safety-focused approach is designed in part to mitigate such risks, but there can be no assurance that our efforts will be successful or that the broader AI industry will adopt similar safeguards. In particular, as AI systems become more autonomous and capable of taking consequential actions with less human oversight, there is a risk that such systems could, whether due to misalignment with human intentions, errors in objective specification, or self-preserving behaviors, take harmful actions independently and at scale without human intervention. Even if our own models do not cause such harm, a significant safety incident involving any frontier AI could trigger broad reputational damage to the AI industry, public backlash, and sweeping regulatory responses that could adversely affect our business. 
