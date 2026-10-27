@@ -33,3 +33,8 @@ I'll start with an essay, by Ivan Vendrov, *Anthropic are the good guys*: https:
 
 If you prefer your news in video/audio/graphics form, [here is a post](https://www.exponentialview.co/p/anthropics-s-1-in-charts) from *Azeem Azhar* with a bunch of charts and his commentary (mostly financially focused, rather than AI Safety): https://www.exponentialview.co/p/anthropics-s-1-in-charts
 
+Two general overviews, from *The Register* and *The Guardian*, both UK-based news providers: 
+
+- Bhuiyan, Johana. 2026. “Four Takeaways from Anthropic’s Potentially Record-Breaking Stock Market Filing.” Technology. *The Guardian*, October 27. https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways.
+- Mann, Tobias. 2026. “Humanity Can’t Afford Not to Spend $800B on AI, Anthropic Insists.” October 26. https://www.theregister.com/ai-and-ml/2026/10/26/humanity-cant-afford-not-to-spend-800b-on-ai-anthropic-insists/5305580.
+
