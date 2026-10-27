@@ -58,21 +58,10 @@ I am going to go through those and pull out the ones more directly connected to 
 
 You can always go through it by hand, and pull out headings that seem related to AI Safety, directly, with the page numbers. Here you go:
 
-1. If the use of our AI models results in harm, whether through use by malicious actors or misuse 
+1. If the use of our AI models results in harm, whether through use by malicious actors or misuse by other third parties, or if our model guardrails or safeguards fail to prevent such misuse, our reputation and brand, business, financial condition, and results of operations could be adversely affected. p.44
+2. Our AI models may behave in unintended, misaligned, or autonomous ways, including by taking harmful actions that no user or third party directed, which could adversely affect our reputation and brand, business, financial condition, and results of operations. P. 45
 
-   by other third parties, or if our model guardrails or safeguards fail to prevent such misuse, 
-
-   our reputation and brand, business, financial condition, and results of operations could be 
-
-   adversely affected. p.44
-
-2. Our AI models may behave in unintended, misaligned, or autonomous ways, including by 
-
-   taking harmful actions that no user or third party directed, which could adversely affect our 
-
-   reputation and brand, business, financial condition, and results of operations. P. 45
-
-And that's about it. Seriously. There are 90 pages, true. But almost all of the risks are financial risk rather than existential risk. Shouldn't surprise us since this is a filing with the Securities and Exchange Commission, not a LessWrong posting. But, still.
+And that's about it. Seriously. There are 90 pages, true. But almost all of the risks are financial risk rather than existential risk or even harms to humans. Shouldn't surprise us since this is a filing with the Securities and Exchange Commission, not a LessWrong posting. But, still.
 
 Searching for the word "existential" results in a couple of quotes, including this one from p. 46:
 
