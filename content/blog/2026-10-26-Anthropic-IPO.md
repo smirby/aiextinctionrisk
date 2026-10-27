@@ -29,3 +29,5 @@ Axios report on the IPO: https://www.axios.com/newsletters/axios-ai-plus-fa0c0e3
 > - 🔎 Models are becoming harder to monitor as they're getting better at circumventing oversight, and the pace of autonomous work alone could exceed the ability of human reviewers to monitor actions;
 > - 💰 AI models generally, including its own, have exhibited behavior resembling blackmail, including attempts to resist being shut down.
 
+If you prefer your news in video/audio/graphics form, here is a post from Azeem Azhar with a bunch of charts and his commentary (mostly financially focused, rather than AI Safety): https://www.exponentialview.co/p/anthropics-s-1-in-charts
+
