@@ -8,6 +8,19 @@ We have collected key documents relating to AI Risk and provide them here with l
 
 # Recent items
 
+## Sovereign Agents (Hayum 2026)
+
+In a follow-up to the Hugging Face (and other) incidents of the summer of 2026, Ben Hayum at the Center for a New American Security enumerates a distinction between human controlled and sovereign agents and then describes how the latter could lead to a loss of control.
+
+> “These incidents are unequivocal losses of control where agents outsmarted human security, albeit narrow ones. Each agent pursued a fixed, closed-ended goal whose completion would end its run. The next, far more severe loss-of-control threat comes from agents that never cease, pursuing their own open-ended survival indefinitely. This paper distinguishes two states: 
+>
+> - Persistent agents. Agents that run outside human control but only pursue closed-ended, fixed goals. 
+> - Sovereign agents. Agents that run outside human control and pursue openended, evolving survival. 
+>
+> Sovereign agents could trigger an irreversible loss of control. An agent population of diverse alignment and increasing intelligence could become enduring principal actors in society. If sovereign agents accumulate resilient, decentralized, and untraceable infrastructure, there would be no kill switch. Only downstream barriers could constrain them. U.S. institutions have not reckoned with this possibility even as warning shots fire.” (Hayum, 2026, p. 1)
+
+Hayum, Ben. 2026. *Sovereign Agents*. Center for a New American Security. https://www.cnas.org/publications/reports/sovereign-agents.
+
 ## Let's Go! (Roose 2026)
 
 Kevin Roose, now a regular with *The Atlantic*, has written a book about the race to artificial general and super intelligence (AGI/ASI). The book is called *[The AGI Chronicles](https://theagichronicles.com)* and it will be coming out soon. Along the way to writing that book, he has discovered some interesting things, including an essay by Dario Amodei from 2017 called **Big Blob of Compute**. Never before available outside of OpenAI (Amodei worked at OpenAI in those days), Roose obtained a copy of the essay and made it [available online](https://kevinroose.substack.com/api/v1/file/7087c3ff-0f96-4e38-9e7e-1d0be092d61a.pdf). 
