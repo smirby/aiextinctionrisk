@@ -1,0 +1,30 @@
+---
+title: "How we used AI"
+date: 2026-11-04
+categories: ["Personal"]
+draft: true
+---
+
+McGil Queens University Press has asked us to enumerate how we used AI in the writing of this book.
+
+When we started this book, neither of us had used artificial intelligence tools to any extent at all. We decided, at the outset, that one of us (Smith) would "dive in" and learn what they were capable of, and the other (Leiss) would remain on the other side of that exploration.
+
+Although I am not a computer scientist, I am a nerd/geek and have been since the first personal computers became available in the 1980s. In my own research and teaching about technology and society, I always try to approach technological innovations from a position of insider knowledge rather than a mystical or misinformed perspective. 
+
+In this situation, I did what I usually do which is to start experimenting. I subscribed to the major services (Claude/Opus, OpenAI/ChatGPT, Google DeepMind/Gemini) and learned how they worked. I later added a subscription to Pangram, the AI "checker" tool. As new models emerged - the AI landscape changed dramatically during the writing of this book - I tried things as they came out. 
+
+In order to explore some of the issues around open weight models, i downloaded and installed some of the free AI models, which I was able to run on my laptop (using a tool called Ollama). These included Kimi, Qwen, and DeepSeek. This experience helped with our perspective on the technology, even if it didn't make its way into the actual text.
+
+I also signed up for, and completed, two (online) courses on AI Safety, one from a company called Lens Academy and the other Blue Dot. These courses included the usual readings and group discussions but added a novelty that I had never seen before, the AI Tutor. I had many, many "discussions" with the AI tutor during those courses. The transcripts for these discussions - along with other "conversations" with AI - were saved into a folder on my computer, and definitely helped shape my (Smith's) thinking.
+
+I have to admit that I was startled by the capabilities of large language models. They proved astoundingly able, across a range of uses. Most of the results of those use would fall into the category of "failed experiments" if we were lab scientists or "things left on the cutting room floor" if we were filmmakers. My "conversations with AI" folder has hundreds of snippets that accumulated over the months, even if we didn't go back to them. Nonetheless, there was (and is) great utility in the use of AI for writers and researchers. Here are some examples from our practice:
+
+- early in the process, I mistakenly crafted our entire bibliography in the "APA" style and discovered, in the waiting room of the airport, that it should have been in "Chicago" format (MQUP's preferred style). I was supposed to be delivering an early draft of the manuscript to my co-author when the plane landed. With the help of AI (I can't recall if it iwas Claude or ChatGPT or Gemini, to be honest) I was able to make the change, in hundreds of entries, before the plane took off. Any scholar will appreciate the utility of osuch a thing. And, lesson learned, I now keep our bibliography in a reference database (Zotero) that manages the styles for me.
+- probably the most mundane and everyday use of AI in the writing of this book - and my use of the internet generally, these days - is the fact that Google Searches routinely provide a "AI summary" as the first entry. While it is possible to disable this function, I find it surprisingly helpful and (for now) free from the spam and slop that has taken over the browsing experience. Luckily, those AI responses continue to include source links, which can be followed and - where appropriate - included in our research.
+- in one notable instance, we used AI to help with the simplification and abbreviation of a highly technical chapter (Chapter 9), which had a quite a bit of math and specialized knowledge required for a full appreciation by a general audience. The resulting shorter chapter was reviewed and reworked by the original author (Tyshenko) as well as both of the main authors (Leiss, Smith) of the book. We have provided a link to the full article for those who are interested.
+- Although the issue of "hallucinations" has been highlighted as a problem in scholar's use of AI, this has not been an issue for us, mainly because we are using AI tools for finding things rather than doing original writing. All of the references in the text now come from our reference database and have been read and reviewed by us.
+- As mentioned above, neither Leiss nor Smith are computer scientists and - especially in the early stages of the drafting of the book - AI was an invaluable tool for explaining technical terms and concepts. It has been our experience that if you do this with the right prompting, the explanations come with citations to the original papers and books, and these can be then accessed for futher research. 
+- Although we have not tried this yet, I have heard that AI is very useful for the first steps in the creation of the index, before it is handed to a professional (human) indexer for the final version. I even had Claude outline a process that would make use of Gemini - under Claude's control - to run a "first pass" on the material. We will consult with our indexer to see if they are willing to participate in this process.
+
+On a personal note (Smith), I have to admit that my initial excitement about using AI tools has waned in recent months. When you are in the process of learning something new, it is an amazing tool. The "AI Tutor" experience was incredibly useful and it felt like one of the best educational experiences in my life. In the end, however, it is so satisfying to write things myself that I don't really have an interest in getting the AI to do it for me. I hope all of us can get to that stage, using it for the tool that it is and leaving the displacement of human effort as a bad idea.
+
