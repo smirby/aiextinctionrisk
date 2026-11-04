@@ -76,3 +76,13 @@ Zvi notes that these statements, in the passive voice, are not exactly stirring,
 >Existential risk is mentioned briefly only in the passive voice, and alignment issues are mostly treated as prosaic. They want to claim Big Mission but also sound as much as possible like a normal company. They are downplaying their willingness to pay real costs for safety, and downplaying the danger quite a lot.
 
 Mowshowitz, Zvi. 2026. “Anthropic Files Its S-1.” Substack newsletter. *Don’t Worry About the Vase*, October 28. https://thezvi.substack.com/p/anthropic-files-its-s-1.
+
+Humans on AI reports that Anthropic amended their "S-1" filing on Nov 3 to include a warning (emphasis added):
+
+> “In an update to their IPO S-1 submission, Anthropic claim that their models may quickly reach “dramatically accelerated progress attributable to AI” and that **fully automating AI R&D will not be safe for the foreseeable future**:
+
+> > we do not anticipate being able to safely use Claude to fully autonomously design and build successive generations of frontier models without meaningful human supervision or understanding
+
+> The company is thus “considering updates to [their] Responsible Scaling Policy to keep humans in control of frontier model development at Anthropic.””
+
+Fraser, Lucca, Peli Grietzer, Rían O. Mahoney, et al. 2026. “Humans on AI #67 || November 3, 2026.” Substack newsletter. *Paradigm 3*, November 3. https://p3humansonai.substack.com/p/humans-on-ai-67-november-3-2026.
