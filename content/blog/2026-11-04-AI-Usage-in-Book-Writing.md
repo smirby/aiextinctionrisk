@@ -2,7 +2,7 @@
 title: "How we used AI"
 date: 2026-11-04
 categories: ["Personal"]
-draft: true
+draft: false
 ---
 
 McGil Queens University Press has asked us to enumerate how we used AI in the writing of this book.
