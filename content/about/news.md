@@ -4,6 +4,37 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate blog post or entry in our "key documents" file. In that case, we post them here.
 
+## Election News
+
+Nov 4 2026
+
+A lot of AI in the 2026 midterm election results, and AI StopWatch provides a summary:
+
+#### > AI and data centers lost in a landslide yesterday
+
+> This is basically a whole genre of post-election journalism today. I’ve provided a few links below, but the clearest picture, pasted here, is from Redbud Consulting’s election-night tracker. Of 45 tracked local data center ballot measures, 44 went to whichever outcome would restrict development.
+>
+> Per Bloomberg, up to half of proposed US data center projects and expansions are in states where the winning gubernatorial candidate took an anti-data-center position. This includes Texas, which alone accounts for 30% of data center capacity due to come online in 2028.
+>
+> While local concerns about noise, electric bills, water, and pollution no doubt dominated much of the anti-data-center sentiment, AI itself was a popular punching bag last night and today among winners of Congressional races.
+>
+> Sen. Jon Ossoff (D-GA), in his victory speech, talked of Silicon Valley titans who “dig bunkers for themselves” while warning that “the artificial intelligence they’re creating risks human extinction.”
+>
+> Rep. Yassamin Ansari (D-AZ) [tweeted](https://substack.com/redirect/4683d318-228f-468a-9b55-4c58f78e8cec?j=eyJ1IjoibzNhYXYifQ.qIvebc5DKsAJrFJTR8iyvG3obouqC9-DqRfTgMoE2zU):
+
+> > Top of the Democratic agenda on day 1 needs to be a pause on advanced AI development, regulation of this out of control industry, and a ban on artificial superintelligence.
+
+|      | [![img](https://substackcdn.com/image/fetch/$s_!hHZO!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcce39d3b-b4bf-4e15-be3a-d51a7476872b_1132x787.png)](https://substack.com/redirect/24ab20c3-4f1c-4887-a271-0de82800af21?j=eyJ1IjoibzNhYXYifQ.qIvebc5DKsAJrFJTR8iyvG3obouqC9-DqRfTgMoE2zU) |      |
+| ---- | ------------------------------------------------------------ | ---- |
+|      |                                                              |      |
+
+> - *other* - [Data Centers on the Ballot: 2026 Results](https://substack.com/redirect/98eef8f8-9c8c-4045-8c52-45d58aca0cc3?j=eyJ1IjoibzNhYXYifQ.qIvebc5DKsAJrFJTR8iyvG3obouqC9-DqRfTgMoE2zU)
+> - *Axios* - [Voters revolt against AI buildout and tech titans at ballot box](https://substack.com/redirect/70246245-77db-4431-ab2a-ab3821b91dc8?j=eyJ1IjoibzNhYXYifQ.qIvebc5DKsAJrFJTR8iyvG3obouqC9-DqRfTgMoE2zU)
+> - *Bloomberg* - [AI Data Center Boom Set for Upheaval After US Election Rout](https://substack.com/redirect/1c61bcbd-92cd-4f9b-aa3e-ad4fe9fe4148?j=eyJ1IjoibzNhYXYifQ.qIvebc5DKsAJrFJTR8iyvG3obouqC9-DqRfTgMoE2zU)
+> - *The Washington Post* - [Voters pass over 20 ballot measures to ban or restrict data centers](https://substack.com/redirect/f2e2d10c-ac45-44c5-9ec6-2da7d154a742?j=eyJ1IjoibzNhYXYifQ.qIvebc5DKsAJrFJTR8iyvG3obouqC9-DqRfTgMoE2zU)
+
+Howe, Mitchell. 2026. “Landslide.” AI StopWatch, November 5. https://aistop.watch/p/landslide.
+
 ## Good news?
 
 Oct 15 2026
