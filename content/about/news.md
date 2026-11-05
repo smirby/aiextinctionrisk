@@ -10,7 +10,7 @@ Nov 4 2026
 
 A lot of AI in the 2026 midterm election results, and AI StopWatch provides a summary:
 
-#### > AI and data centers lost in a landslide yesterday
+####  AI and data centers lost in a landslide yesterday
 
 > This is basically a whole genre of post-election journalism today. I’ve provided a few links below, but the clearest picture, pasted here, is from Redbud Consulting’s election-night tracker. Of 45 tracked local data center ballot measures, 44 went to whichever outcome would restrict development.
 >
@@ -33,7 +33,15 @@ A lot of AI in the 2026 midterm election results, and AI StopWatch provides a su
 > - *Bloomberg* - [AI Data Center Boom Set for Upheaval After US Election Rout](https://substack.com/redirect/1c61bcbd-92cd-4f9b-aa3e-ad4fe9fe4148?j=eyJ1IjoibzNhYXYifQ.qIvebc5DKsAJrFJTR8iyvG3obouqC9-DqRfTgMoE2zU)
 > - *The Washington Post* - [Voters pass over 20 ballot measures to ban or restrict data centers](https://substack.com/redirect/f2e2d10c-ac45-44c5-9ec6-2da7d154a742?j=eyJ1IjoibzNhYXYifQ.qIvebc5DKsAJrFJTR8iyvG3obouqC9-DqRfTgMoE2zU)
 
+## Additional coverage from Transformer
+
+> The most obvious impact is on data centers. Over 30 ballot measures to restrict data centers [passed](https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures). Democratic governors in Georgia and Texas (where Dems also won many key state office races) will likely constrain buildouts further. This morning, Goldman Sachs [warned](https://x.com/JimPethokoukis/status/2117942362706186548) investors to expect “short-term data center moratoria, potentially affecting about 45% of planned US data center capacity expansion.” As Elon Musk — one of the [biggest losers](https://www.politico.eu/article/elon-musk-dealt-major-blow-in-midterm-elections-2026/) of the night — [said](https://x.com/elonmusk/status/2117862462976594112), “data centers in space [are] looking pretty appealing right now.”
+>
+> On the Hill, meanwhile, the likelihood of strong frontier AI legislation passing next year just shot up. Democrats have [signaled](https://x.com/BenBrodyDC/status/2117821832317534519) repeatedly that AI is a top priority, with some even [citing it](https://x.com/JayShooster/status/2117818842831609869) in their victory speeches. With such large majorities, the need for them to compromise is much lower. 
+
 Howe, Mitchell. 2026. “Landslide.” AI StopWatch, November 5. https://aistop.watch/p/landslide.
+
+Hashim, Shakeel. 2026. “What the Blue Tsunami Means for AI Policy.” Transformer, November 4. https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation.
 
 ## Good news?
 
