@@ -63,6 +63,12 @@ Hashim, Shakeel. 2026. “What the Blue Tsunami Means for AI Policy.” Transfor
 
 Curl, Maria. 2026. “💥 AI Earthquake.” Axios, November 4. https://www.axios.com/2026/11/04/ai-data-center-election-slowdown.
 
+## And 404 Media
+
+> People across America rejected data centers during last night’s midterm election. Proposals related to data centers were explicitly on the ballot in more than 40 races across 13 states. People [voted against data centers](https://datacentersontheballot.com/?ref=404media.co) in 38 of them and counting. Six cities voted to ban data centers outright and 12 put limits on the amount of megawatts such buildings could draw. In addition to specific ballot measures, candidates who supported data centers lost across the country.
+
+Gault, Matthew. 2026. “American Voters Overwhelmingly Reject AI Data Centers.” 404 Media, November 4. https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/.
+
 ## Good news?
 
 Oct 15 2026
