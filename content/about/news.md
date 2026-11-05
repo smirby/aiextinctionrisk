@@ -8,9 +8,11 @@ Sometimes items come up that we want to keep track of but they don't merit a sep
 
 Nov 4 2026
 
-A lot of AI in the 2026 midterm election results, and AI StopWatch provides a summary:
+A lot of AI in the 2026 midterm election results, and 
 
-####  AI and data centers lost in a landslide yesterday
+## AI StopWatch provides a summary:
+
+> ### AI and data centers lost in a landslide yesterday
 
 > This is basically a whole genre of post-election journalism today. I’ve provided a few links below, but the clearest picture, pasted here, is from Redbud Consulting’s election-night tracker. Of 45 tracked local data center ballot measures, 44 went to whichever outcome would restrict development.
 >
@@ -33,6 +35,8 @@ A lot of AI in the 2026 midterm election results, and AI StopWatch provides a su
 > - *Bloomberg* - [AI Data Center Boom Set for Upheaval After US Election Rout](https://substack.com/redirect/1c61bcbd-92cd-4f9b-aa3e-ad4fe9fe4148?j=eyJ1IjoibzNhYXYifQ.qIvebc5DKsAJrFJTR8iyvG3obouqC9-DqRfTgMoE2zU)
 > - *The Washington Post* - [Voters pass over 20 ballot measures to ban or restrict data centers](https://substack.com/redirect/f2e2d10c-ac45-44c5-9ec6-2da7d154a742?j=eyJ1IjoibzNhYXYifQ.qIvebc5DKsAJrFJTR8iyvG3obouqC9-DqRfTgMoE2zU)
 
+Howe, Mitchell. 2026. “Landslide.” AI StopWatch, November 5. https://aistop.watch/p/landslide.
+
 ## Additional coverage from Transformer
 
 > The most obvious impact is on data centers. Over 30 ballot measures to restrict data centers [passed](https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures). Democratic governors in Georgia and Texas (where Dems also won many key state office races) will likely constrain buildouts further. This morning, Goldman Sachs [warned](https://x.com/JimPethokoukis/status/2117942362706186548) investors to expect “short-term data center moratoria, potentially affecting about 45% of planned US data center capacity expansion.” As Elon Musk — one of the [biggest losers](https://www.politico.eu/article/elon-musk-dealt-major-blow-in-midterm-elections-2026/) of the night — [said](https://x.com/elonmusk/status/2117862462976594112), “data centers in space [are] looking pretty appealing right now.”
@@ -41,9 +45,23 @@ A lot of AI in the 2026 midterm election results, and AI StopWatch provides a su
 >
 > If Democrats end up with 56 Senate seats, they only need to flip four Republicans — which should also be easier than ever, given that the GOP wipeout will embolden Republicans to go against President Trump (they are already [beginning](https://www.politico.com/news/2026/11/04/republicans-start-to-point-fingers-at-trump-after-severe-midterms-loss-01148373) to do so). And with AI industry PACs falling flat last night (Leading the Future [lost](https://www.nbcnews.com/politics/2026-elections/south-carolina-senate-results) in South Carolina, the only competitive race it played in) while safety PACs won big, members of Congress will be less fearful of the former than they have been. Concretely, I suspect this means a bill stronger than Reps. Obernolte and Trahan’s [FRONTIER Act](https://www.congress.gov/bill/119th-congress/house-bill/9925/text) — one with tough safety standards, mandatory testing and approval of the most powerful models, and narrower preemption language — passes in the first few months of next year. Entirely new types of AI legislation may even be on the table: strict liability for developers or data center moratoria, for instance.
 
-Howe, Mitchell. 2026. “Landslide.” AI StopWatch, November 5. https://aistop.watch/p/landslide.
+
 
 Hashim, Shakeel. 2026. “What the Blue Tsunami Means for AI Policy.” Transformer, November 4. https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation.
+
+## And Axios
+
+> Voters showed deep distrust of the AI race Tuesday, approving dozens of data center moratoriums and electing a raft of candidates who favor slowing a $10 trillion buildout, including in Texas — the epicenter of the boom.
+>
+> **Why it matters:** In an election that hinged on an affordability crisis for many Americans, voters made it clear they view Silicon Valley's AI ambitions not as a technological miracle, but as a resource-draining threat to their wallets and communities.
+>
+> - The results were a warning shot to some of the nation's wealthiest and most powerful executives, many of whom are already working on ways to build a more palatable version of the revolution they are dead set on winning.
+>
+> **"What we just witnessed was an AI earthquake,"** Brad Carson, co-founder of Americans for Responsible Innovation, told Axios. "Voters just sent a clear message that they want rules for AI and data centers."
+>
+> **Driving the news:** Democratic challenger Gina Hinojosa's surprise victory in the Texas governor's race fundamentally scrambles the math for the AI buildout.
+
+Curl, Maria. 2026. “💥 AI Earthquake.” Axios, November 4. https://www.axios.com/2026/11/04/ai-data-center-election-slowdown.
 
 ## Good news?
 
