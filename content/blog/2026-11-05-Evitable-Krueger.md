@@ -11,5 +11,5 @@ https://x.com/davidskrueger/status/2117776038042431938?a=URyfJPdyxPZSOfQGcG0&s=4
 
 <img src=" /images/davidskruegeronx.png" width=80%>
 
-We are proud as punch to be recognized but also in awe and gratitude for the work he is doing to make human extinction "evitable." Keep up the good work, David!
+We are proud as punch to be recognized but also in awe and gratitude for [the work he is doing](https://x.com/DavidSKrueger/status/2115893424071311722?s=43) to make human extinction "evitable." Keep up the good work, David!
 
