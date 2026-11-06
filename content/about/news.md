@@ -4,6 +4,14 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate blog post or entry in our "key documents" file. In that case, we post them here.
 
+# A new term: RMI
+
+ControlAI is pitching a new term for doom: "runaway machine intelligence." It definitely captures the potential harms better than "general" or "super" intelligence. I wonder if it will catch on.
+
+> Major companies such as OpenAI and Anthropic are best known as the creators of chatbots like ChatGPT. But what these companies are explicitly aiming for is **Runaway Machine Intelligence (RMI)**[1](https://blog.controlai.org/p/stopping-runaway-machine-intelligence#footnote-1): fully autonomous systems acting without human direction, capable of overpowering any national security apparatus.
+
+Miotti, Andrea. 2026. “Stopping Runaway Machine Intelligence Before Points of No Return.” November 6. https://blog.controlai.org/p/stopping-runaway-machine-intelligence.
+
 # AI Attacks
 
 Axios has a good summary of some of the recent AI-enhanced attacks on cyber infrastructure.
