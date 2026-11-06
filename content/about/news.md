@@ -4,7 +4,24 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate blog post or entry in our "key documents" file. In that case, we post them here.
 
-## Election News
+# AI Attacks
+
+Axios has a good summary of some of the recent AI-enhanced attacks on cyber infrastructure.
+
+>**Case in point:** China-linked hackers used an AI-powered tool called Artex to target more than 200 organizations across 14 countries in just 11 days last month,[CrowdStrike found](https://link.axios.com/click/48302163.165852/aHR0cHM6Ly93d3cuY3Jvd2RzdHJpa2UuY29tL2VuLXVzL2Jsb2cvdmFwb3ItcGFuZGEtdXNlcy1hcnRleC10by1zY2FsZS1nbG9iYWwtY2FtcGFpZ24vP3V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1uZXdzbGV0dGVyX2F4aW9zbG9naW4mc3RyZWFtPXRvcA/6ab93f89a8329ce983071cf1Bb15b71d6).
+>
+>- The group, known as Vapor Panda, targeted government agencies across Latin America, the Middle East and Europe, along with U.S. organizations and telecommunications providers in several countries.
+>- The hackers paired Artex with DeepSeek and a commercial AI model to run agents that automated much of the operation.
+
+>  **Between the lines:** Artex is one of several AI-powered tools automating tasks once handled by skilled human hackers.
+>
+> - Adam Meyers, CrowdStrike's senior vice president of counter adversary operations, told Axios he tested Artex himself and found it could probe websites for weaknesses far faster than a human.
+> - "It was doing the stuff that you, as a pen tester, would do," Meyers said. "But it does it really at a scale and a speed that I think a human would not be able to do."
+> - Other AI-powered security testing tools, including Cairn and Strix, could be repurposed for similar attacks, Meyers said.
+
+Fried, Ina, Madison Mills, and Maria Curl. 2026. “🫧 Bubble Trouble.” Axios, November 6. https://www.axios.com/newsletters/axios-ai-plus-d85abcb3-8236-4a55-87bd-60636b5901ba.html.
+
+# Election News
 
 Nov 4 2026
 
