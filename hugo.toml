@@ -29,10 +29,14 @@ title = "Treacherous Tech: Taking the Risk of Artificial Intelligence Seriously"
     name = "Resources"
     url = "/about/resources/"
     weight = 4
+[[menu.main]]
+    name = "News"
+    url = "/about/news/"
+    weight = 5
   [[menu.main]]
     name = "Errata"
     url = "/about/errata/"
-    weight = 5
+    weight = 6
 
 [taxonomies]
   category = "categories"
