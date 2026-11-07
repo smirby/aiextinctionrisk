@@ -4,6 +4,18 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate blog post or entry in our "key documents" file. In that case, we post them here.
 
+## Cotra calls out Anthropic over METR report
+
+Ajeya Cotra, who wasn't on the METR team that created the [METR report](https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/) pointing out the possible "2x" (exponential growth) in AI research capability at Anthropic has posted an alarming conclusion from her reading of that report and Anthropic's [own amendment](https://x.com/theobearman/status/2117277210570604945) to its S-1 filing with the SEC about "dramatically accelerated progress due to AI." As Cotra points out, 
+
+> **If we take it at face value that AI is now nearly doubling the rate of AI capabilities progress and assume acceleration from AI is smooth, this naively implies that we would reach extreme superintelligence within a year.** It seems that around a year’s worth of AI progress got us from modest acceleration to the point where AIs now make AI progress roughly twice as fast. If acceleration from AI is smoothly increasing, then at this new rate, we should expect that we will double the rate of progress again within six months. At that point, it would take three months to double it again, then six weeks.[13](https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai#footnote-13)
+>
+> In theory, these doubling times would add up to infinite capabilities within one year. In reality, at some point we would [reach the effective ceiling on software efficiency](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#highlight--intelligence explosion). But I expect these limits to be very far from where we are now.
+>
+> If we go through this feedback loop, I expect that the AI systems that come out the other side will be able to very quickly develop novel weapons and very easily overpower human civilization in a conflict. If these systems were seriously misaligned, I think they would likely [disempower humanity](https://www.lesswrong.com/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to), and this could lead to human extinction.
+
+Cotra, Ajeya. 2026. “AI Is Dramatically Accelerating AI Research Right Now.” Planned Obsolescence, November 6. https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai.
+
 ## Hinton Lectures
 
 Canadians (or Canada-based researchers) have had an inordinate influence on the development of AI from Sutton to Bengio to Hinton and Sutskever. And those are just a few. In any case, it makes sense that Canadians should also lead the way on reining in this technology, if not stopping it. The Hinton Lectures, held in Toronto, provide a forum for the discussions we need to have to make this happen. I've heard the in-person lectures are all sold out, but you can listen to them live on a streaming channel. Details at the website, following some blurbs from their announcement page:
