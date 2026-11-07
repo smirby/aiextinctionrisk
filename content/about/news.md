@@ -4,6 +4,16 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate blog post or entry in our "key documents" file. In that case, we post them here.
 
+## Hinton Lectures
+
+Canadians (or Canada-based researchers) have had an inordinate influence on the development of AI from Sutton to Bengio to Hinton and Sutskever. And those are just a few. In any case, it makes sense that Canadians should also lead the way on reining in this technology, if not stopping it. The Hinton Lectures, held in Toronto, provide a forum for the discussions we need to have to make this happen. I've heard the in-person lectures are all sold out, but you can listen to them live on a streaming channel. Details at the website, following some blurbs from their announcement page:
+
+> The Hinton Lectures explore the risks, revelations, and revolutionary solutions shaping tomorrow's world. Hosted by Professor Geoffrey Hinton, Nobel laureate, the series brings the world's leading AI safety researchers to a public audience over three consecutive evenings.
+>
+> The 2026 edition takes place at the John W.H. Bassett Theatre in downtown Toronto, in person and online. Each night pairs a keynote lecture with a moderated conversation. The closing night ends with a networking reception.
+
+AI Safety Foundation. 2026. “The Hinton Lectures 2026 — November 9–11, Toronto.” The AI Safety Foundation. https://aisfoundation.ai/hinton-lectures-2026.
+
 # A new term: RMI
 
 ControlAI is pitching a new term for doom: "runaway machine intelligence." It definitely captures the potential harms better than "general" or "super" intelligence. I wonder if it will catch on.
