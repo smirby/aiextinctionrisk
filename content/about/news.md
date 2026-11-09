@@ -16,6 +16,8 @@ Ajeya Cotra, who wasn't on the METR team that created the [METR report](https://
 
 Cotra, Ajeya. 2026. “AI Is Dramatically Accelerating AI Research Right Now.” Planned Obsolescence, November 6. https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai.
 
+See also Zvi Mowshowitz' analysis, here: https://thezvi.substack.com/p/ai-r-and-d-is-accelerating-towards
+
 ## Hinton Lectures
 
 Canadians (or Canada-based researchers) have had an inordinate influence on the development of AI from Sutton to Bengio to Hinton and Sutskever. And those are just a few. In any case, it makes sense that Canadians should also lead the way on reining in this technology, if not stopping it. The Hinton Lectures, held in Toronto, provide a forum for the discussions we need to have to make this happen. I've heard the in-person lectures are all sold out, but you can listen to them live on a streaming channel. Details at the website, following some blurbs from their announcement page:
