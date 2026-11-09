@@ -4,7 +4,7 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate [blog post](https://treacheroustech.ca/blog/) or entry in our "[key documents](https://treacheroustech.ca/about/documents/)" file. In that case, we post them here.
 
-## Cotra calls out Anthropic over METR report
+## Cotra calls out Anthropic over METR report (RSI is coming... fast)
 
 Ajeya Cotra, who wasn't on the METR team that created the [METR report](https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/) pointing out the possible "2x" (exponential growth) in AI research capability at Anthropic, has posted an alarming conclusion from her reading of that report and Anthropic's [own amendment](https://x.com/theobearman/status/2117277210570604945) to its S-1 filing with the SEC about "dramatically accelerated progress due to AI." As Cotra points out, 
 
