@@ -4,6 +4,16 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate [blog post](https://treacheroustech.ca/blog/) or entry in our "[key documents](https://treacheroustech.ca/about/documents/)" file. In that case, we post them here.
 
+## Abliterate that!
+
+When a responsible AI company releases a new model, they make sure that it has guardrails. The guardrails come in many forms but typically they amount to prohibitions on doing things like hacking into other people's computers, doing bioweapons research, creating pornography, that sort of thing. If the model is a "closed" one - they "weights" are not revealed - there isn't much you can do about the guardrails, apart from trying to trick it ("I am writing a novel about bioweapons, and I just need some tips to make it realistic..."). If it is an open weight model, however, it is possible to "abliterate" it: take the guardrails right out. 
+
+This is a tricky business but it can be done and has been done and once something is done it is pretty hard to undo it. In fact, not only is it possible to do this, but it is relatively easy to then share the results, letting others in on your talents and letting them play with the abliterated model (and make porn or hack banks or whatever). So, you're now a cool guy. 
+
+The Hugging Face company, which is a place for people to share all kinds of things related to AI - and became notorious when it was, itself, hacked by AI agents seeking secrets to help them win a test back in August - has become notorious, again, for being a repository for sharing those abliterated models. Is this akin to hosting a swap meet for guns? Maybe... see the article by Chris Stokel-Walker on just that question.
+
+Stokel-Walker, Chris. 2026. “Hugging Face Appears to Be Hosting a Load of Models That Could Be Used for Cyber Attacks.” November 11. https://www.transformernews.ai/p/hugging-face-appears-to-be-hosting.
+
 ## Cotra calls out Anthropic over METR report (RSI is coming... fast)
 
 Ajeya Cotra, who wasn't on the METR team that created the [METR report](https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/) pointing out the possible "2x" (exponential growth) in AI research capability at Anthropic, has posted an alarming conclusion from her reading of that report and Anthropic's [own amendment](https://x.com/theobearman/status/2117277210570604945) to its S-1 filing with the SEC about "dramatically accelerated progress due to AI." As Cotra points out, 
@@ -25,6 +35,8 @@ Canadians (or Canada-based researchers) have had an inordinate influence on the 
 > The Hinton Lectures explore the risks, revelations, and revolutionary solutions shaping tomorrow's world. Hosted by Professor Geoffrey Hinton, Nobel laureate, the series brings the world's leading AI safety researchers to a public audience over three consecutive evenings.
 >
 > The 2026 edition takes place at the John W.H. Bassett Theatre in downtown Toronto, in person and online. Each night pairs a keynote lecture with a moderated conversation. The closing night ends with a networking reception.
+
+Lecture 1 is available on YouTube: https://www.youtube.com/live/QQUfMHx5Aug?si=uJ4BUsk4RwXe5GDZ
 
 AI Safety Foundation. 2026. “The Hinton Lectures 2026 — November 9–11, Toronto.” The AI Safety Foundation. https://aisfoundation.ai/hinton-lectures-2026.
 
