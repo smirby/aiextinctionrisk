@@ -2,7 +2,7 @@
 title: "Crisp and Fuzzy: Fear and Hope"
 date: 2026-11-11
 categories: ["AI Safety"]
-draft: false
+draft: true
 ---
 
 [Why do I write these things? Just to scare myself?]
