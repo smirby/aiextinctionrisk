@@ -7,15 +7,21 @@ draft: true
 
 [Why do I write these things? Just to scare myself?]
 
-Let me sketch an argument that has emerged of late. It builds on some work that dates back a ways, and started with Jan Leike's 2024 post on "Crisp and Fuzzy Tasks." 
+Let me sketch an argument that has emerged of late. It builds on some work that dates back a ways, and started with Jan Leike's (2024) post on "Crisp and Fuzzy Tasks." In that post he notes that some things are verifiable and thus it is easy (easier?) to train an AI model with reinforcement learning since you can tell the model when it is correct, and reward it. Mathematics, computer programming, physics, all fall into this category. He calls these "crisp" tasks. Other things are not so clearcut and don't necessarily have a right answer or the answer depends on circumstances or context. Think of legal questions, moral questions, ethical questions. These are not straightforwardly right or wrong and thus not readily verifiable. Reinforcement learning takes longer and therefor progress in these domains is slower. Leike calls these fuzzy tasks.
 
-Ai is better at some things (crisp) and not as good at others (fuzzy). (Leike 2024)
+> Crisp tasks are more reasoning/system-2 based. Whether a response is good is typically precisely defined. Reasonable, knowledgeable people don’t disagree about it.
+>
+> Examples: math, coding competitions, physics questions, logic puzzles, basic factual knowledge, …
+>
+> Fuzzy tasks are more intuition/system-1 based. Whether a response is good is typically somewhat vaguely defined or could fall within a range. Reasonable, knowledgeable people may disagree about it.
+>
+> Examples: distinguishing cats and dogs in pictures, recognizing strong go moves, poetry writing, assistant helpfulness ratings, …
 
-Being good at crisp means programming (and math etc) advances very quickly
+Leike points out that alignment research - and therefore advances in AI alignment - has a lot of these fuzzy tasks.
 
-Being less good at fuzzy means it advances at a slower rate (Bowkis 2026, Lee 2026)
+A few authors (Bowkis et al. 2026; Lee 2026) have confirmed out that  advances on fuzzy tasks proceed at a slower rate (Bowkis 2026, Lee 2026). This is sometimes called "jagged" progress: the performance jumps up on some things, and drops on others. The phenomenon is particularly noticeable in the world of robotics, where the device is constantly in contact with an unpredictable and varying environment, and the lessons from that world can help AI researchers with these challenges (Lee 2026).
 
-Some have noticed this and wonder if the slower pace means that - for some things - humans are necessary; that we need humans for the fuzzy side of life. That’s the hope. (Narayanan 2025, Lambert 2026)
+Some writers have noticed this differential progress and wonder if the slower pace on fuzzy tasks might mean that - for some things - the advances in AI will not be as fast as otherwise predicted, and that humans will continue to be necessar. In other words; that we need humans for the fuzzy side of life. That’s the hope. (Narayanan 2025, Lambert 2026).
 
 The fear I have, however, is that AI, being better at crisp, might just focus on rather than seeing lower capabilities in fuzzy as the problem, might instead see the fuzzy itself as a the problem. And then, to solve that problem you need to remove the fuzzy (compassion, forgiveness, morality, ethics) from the world (“if all you have is a hammer, everything looks like a nail”) and create a system without all those fuzzy aspects, and therefore without the need for humans.
 

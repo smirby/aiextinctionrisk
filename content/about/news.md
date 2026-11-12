@@ -38,13 +38,23 @@ See also Humans on AI's take on things: https://p3humansonai.substack.com/i/2244
 
 ## Hinton Lectures
 
-Canadians (or Canada-based researchers) have had an inordinate influence on the development of AI from Sutton to Bengio to Hinton and Sutskever. And those are just a few. In any case, it makes sense that Canadians should also lead the way on reining in this technology, if not stopping it. The Hinton Lectures, held in Toronto, provide a forum for the discussions we need to have to make this happen. I've heard the in-person lectures are all sold out, but you can listen to them live on a streaming channel. Details at the website, following some blurbs from their announcement page:
+Canadians (or Canada-based researchers) have had an inordinate influence on the development of AI from Sutton to Bengio to Hinton and Sutskever. And those are just a few. In any case, it makes sense that Canadians should also lead the way on reining in this technology, if not stopping it. The Hinton Lectures, held in Toronto, provide a forum for the discussions we need to have to make this happen. 
+
+The in-person lectures (9-11 November) were all sold out, but you can listen to the archived versions via their YouTube streams. All three lectures are archived and available for streaming here: https://aisfoundation.ai/hinton-lectures-2026
+
+All three lectures were given by Paul Christiano, a founder of OpenAI. His bio note:
+
+> Christiano is the founder and executive director of the [Alignment Research Center](https://www.alignment.org/), a non-profit developing methods to better understand how decisions are happening inside machine learning systems. Christiano is also Senior Technical Advisor at NIST’s Center for AI Standards and Innovation, Board Member of the OpenAI Foundation and Member of the OpenAI Safety and Security Committee.
+
+Details at the website. Here are blurbs from their announcement page:
 
 > The Hinton Lectures explore the risks, revelations, and revolutionary solutions shaping tomorrow's world. Hosted by Professor Geoffrey Hinton, Nobel laureate, the series brings the world's leading AI safety researchers to a public audience over three consecutive evenings.
 >
 > The 2026 edition takes place at the John W.H. Bassett Theatre in downtown Toronto, in person and online. Each night pairs a keynote lecture with a moderated conversation. The closing night ends with a networking reception.
 
-All three lectures are archived and available for streaming here: https://aisfoundation.ai/hinton-lectures-2026
+Paul Christiano opened the series with this statement:
+
+> *I'm gonna start with the most important sentence. I think there is a high risk of an AI takeover within the next 3 years. What I mean by an AI takeover is a situation where there are AI systems pursuing goals, and those systems call the shots in the same sense that humans today call the shots on what happens on Earth. And where, if, say, you, or me, or Donald Trump wanted to stop them, they would be as ineffective as if you or me was trying to stop the U.S. military.*
 
 Given our advocacy for a stop of frontier AI development, we were pleased to hear when Hinton said this about "stop" (at minute 52 of the third lecture)
 
@@ -54,9 +64,7 @@ Given our advocacy for a stop of frontier AI development, we were pleased to hea
 >
 >[Hinton]: I mean, the best policy will be, stop developing it at all and work on these risk issues. And don't develop it further until you understand much more about how to develop it, to be what we want. That's not gonna happen, though.
 >
->[Hinton]: That's not gonna happen, 'cause we don't have the social structure to allow that to happen. Um... You know, the rational thing for humanity is not what's gonna happen.  
->
->[Hinton]: We live in a society where there's greedy people.
+>[Hinton]: That's not gonna happen, 'cause we don't have the social structure to allow that to happen. Um... You know, the rational thing for humanity is not what's gonna happen.: We live in a society where there's greedy people.
 
 AI Safety Foundation. 2026. “The Hinton Lectures 2026 — November 9–11, Toronto.” The AI Safety Foundation. https://aisfoundation.ai/hinton-lectures-2026.
 
