@@ -30,6 +30,12 @@ See also Zvi Mowshowitz' analysis, here: https://thezvi.substack.com/p/ai-r-and-
 
 See also Humans on AI's take on things: https://p3humansonai.substack.com/i/224403355/metr-responses
 
+> **Opinion:** We think the best interpretation of the METR report is roughly “if general ASI is coming soon then general ASI is coming *very* soon.”
+>
+> Crudely speaking, the AI world is pre-split into people who think we’re on a pretty homogeneous trajectory to general superintelligence and the question is just 2028 or 2030, and people who think that jaggedness is deep and that prosaic RSI doesn’t necessarily get you to real-world strategic genius AI. If you are in the former camp, the METR report is earth-shaking news: it means we have a year instead of several years to stop and/or align general ASI. If you are in the latter camp, the METR report doesn’t give you much reason to change camps.
+
+**That post also contains links to many, many other people's assessment, so it is a great place to begin if you are not totalling in the loop with dozens of X/Substack subscriptions already.**
+
 ## Hinton Lectures
 
 Canadians (or Canada-based researchers) have had an inordinate influence on the development of AI from Sutton to Bengio to Hinton and Sutskever. And those are just a few. In any case, it makes sense that Canadians should also lead the way on reining in this technology, if not stopping it. The Hinton Lectures, held in Toronto, provide a forum for the discussions we need to have to make this happen. I've heard the in-person lectures are all sold out, but you can listen to them live on a streaming channel. Details at the website, following some blurbs from their announcement page:
@@ -38,7 +44,19 @@ Canadians (or Canada-based researchers) have had an inordinate influence on the 
 >
 > The 2026 edition takes place at the John W.H. Bassett Theatre in downtown Toronto, in person and online. Each night pairs a keynote lecture with a moderated conversation. The closing night ends with a networking reception.
 
-Lecture 1 is available on YouTube: https://www.youtube.com/live/QQUfMHx5Aug?si=uJ4BUsk4RwXe5GDZ
+All three lectures are archived and available for streaming here: https://aisfoundation.ai/hinton-lectures-2026
+
+Given our advocacy for a stop of frontier AI development, we were pleased to hear when Hinton said this about "stop" (at minute 52 of the third lecture)
+
+>[Moderator]: ..., why don't we just shut it all down? Let's just stop artificial intelligence. What would you say to somebody who thinks we should just stop AI? 
+>
+>[Hinton]: I think if we had a world governance that made that possible, um, that's the sort of extreme version of what Paul's saying. We should just stop it. Now I think we should just stop it. 
+>
+>[Hinton]: I mean, the best policy will be, stop developing it at all and work on these risk issues. And don't develop it further until you understand much more about how to develop it, to be what we want. That's not gonna happen, though.
+>
+>[Hinton]: That's not gonna happen, 'cause we don't have the social structure to allow that to happen. Um... You know, the rational thing for humanity is not what's gonna happen.  
+>
+>[Hinton]: We live in a society where there's greedy people.
 
 AI Safety Foundation. 2026. “The Hinton Lectures 2026 — November 9–11, Toronto.” The AI Safety Foundation. https://aisfoundation.ai/hinton-lectures-2026.
 
