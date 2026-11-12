@@ -54,7 +54,11 @@ Details at the website. Here are blurbs from their announcement page:
 
 Paul Christiano opened the series with this statement:
 
-> *I'm gonna start with the most important sentence. I think there is a high risk of an AI takeover within the next 3 years. What I mean by an AI takeover is a situation where there are AI systems pursuing goals, and those systems call the shots in the same sense that humans today call the shots on what happens on Earth. And where, if, say, you, or me, or Donald Trump wanted to stop them, they would be as ineffective as if you or me was trying to stop the U.S. military.*
+> I'm gonna start with the most important sentence. I think there is a high risk of an [AI takeover](https://treacheroustech.ca/blog/ai-takeover-etymology/) within the next 3 years. What I mean by an AI takeover is a situation where there are AI systems pursuing goals, and those systems call the shots in the same sense that humans today call the shots on what happens on Earth. And where, if, say, you, or me, or Donald Trump wanted to stop them, they would be as ineffective as if you or me was trying to stop the U.S. military.
+
+In the second lecture, Christiano refines this estimate:
+
+> By a high risk, I don't mean to say that I have some model that spits out a particular number. I mean, to say that it is, would be an unsurprising consequence of the current trajectory and current practises in the field rather than something that would require a surprising or unpredictable development. And I said that I think there's significant risk within the next 3 years. Today I'm also just going to be talking about a shorter time scale and why I think there is material risk even within the next 6 to 18 months.
 
 Given our advocacy for a stop of frontier AI development, we were pleased to hear when Hinton said this about "stop" (at minute 52 of the third lecture)
 
