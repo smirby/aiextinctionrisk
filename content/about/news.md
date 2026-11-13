@@ -60,6 +60,8 @@ In the second lecture, Christiano refines this estimate:
 
 > By a high risk, I don't mean to say that I have some model that spits out a particular number. I mean, to say that it is, would be an unsurprising consequence of the current trajectory and current practises in the field rather than something that would require a surprising or unpredictable development. And I said that I think there's significant risk within the next 3 years. Today I'm also just going to be talking about a shorter time scale and why I think there is material risk even within the next 6 to 18 months.
 
+Bilge and Miotti (2026) summarize his conclusion about risk: "**How high is the risk?** Christiano says there’s something like a “coin flip” chance that AI takes over if it is developed as quickly as possible. According to Christiano, there’s a real risk this could happen even within just the next six to 12 months."
+
 Given our advocacy for a stop of frontier AI development, we were pleased to hear when Hinton said this about "stop" (at minute 52 of the third lecture)
 
 >[Moderator]: ..., why don't we just shut it all down? Let's just stop artificial intelligence. What would you say to somebody who thinks we should just stop AI? 
@@ -71,6 +73,8 @@ Given our advocacy for a stop of frontier AI development, we were pleased to hea
 >[Hinton]: That's not gonna happen, 'cause we don't have the social structure to allow that to happen. Um... You know, the rational thing for humanity is not what's gonna happen.: We live in a society where there's greedy people.
 
 AI Safety Foundation. 2026. “The Hinton Lectures 2026 — November 9–11, Toronto.” The AI Safety Foundation. https://aisfoundation.ai/hinton-lectures-2026.
+
+I also found that the summary of these talks, from Tolga Bilge and Andrea Miotti, at ControlAI, is very good. See Bilge, Tolga, and Andrea Miotti. 2026. “OpenAI Board Member: A High Risk of AI Takeover Within Three Years.” November 12. https://blog.controlai.org/p/openai-board-member-a-high-risk-of.
 
 # A new term: RMI
 
