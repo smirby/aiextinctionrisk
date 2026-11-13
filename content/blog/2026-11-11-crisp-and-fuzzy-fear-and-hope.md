@@ -2,7 +2,7 @@
 title: "Crisp and Fuzzy: Fear and Hope"
 date: 2026-11-11
 categories: ["AI Safety"]
-draft: true
+draft: false
 ---
 
 [Why do I write these things? Just to scare myself?]
@@ -19,11 +19,11 @@ Let me sketch an argument that has emerged of late. It builds on some work that 
 
 Leike points out that alignment research - and therefore advances in AI alignment - has a lot of these fuzzy tasks.
 
-A few authors Markus Bowkis et al. (2026); Timothy Lee (2026) have confirmed that  advances on fuzzy tasks proceed at a slower rate. This is sometimes called "jagged" progress: the performance jumps up on some things, and drops on others. The phenomenon is particularly noticeable in the world of robotics, where the device is constantly in contact with an unpredictable and varying environment, and the lessons from that world can help AI researchers with these challenges (Lee 2026).
+A few authors, including Markus Bowkis et al. (2026) and Timothy Lee (2026) have confirmed that  advances on fuzzy tasks proceed at a slower rate than "crisp" tasks. This is sometimes called "jagged" progress: the performance jumps up on some things, and drops on others. The phenomenon is particularly noticeable in the world of robotics, where the device is constantly in contact with an unpredictable and varying environment, and the lessons from that world can help AI researchers with these challenges (Lee 2026).
 
-Some writers have noticed this differential progress and wonder if the slower pace on fuzzy tasks might mean that - for some things - the advances in AI will not be as fast as otherwise predicted, and that humans will continue to be necessar. In other words; that we need humans for the fuzzy side of life. That’s the hope. (Narayanan 2025, Lambert 2026).
+But does jagged progress matter? Some writers have noticed differential progress and wonder if the slower pace on fuzzy tasks might mean that - for some things - advances in AI will not be as fast as otherwise predicted, and that humans will continue to be necessary. In other words, we need humans for the fuzzy side of life. That’s the hope of Arvind Narayanan (2025) who speaks of AI as "normal technology." The claim is elaborated by Nathan Lambert (2026), who notes the slower progress on fuzzy tasks and suggests this may delay or forestall "real" superintelligence. Is this a hopeful sign and a potential counteraction to [AI takeover](https://treacheroustech.ca/blog/ai-takeover-etymology/)?
 
-The fear I have, however, is that AI, being better at crisp, might just focus on rather than seeing lower capabilities in fuzzy as the problem, might instead see the fuzzy itself as a the problem. And then, to solve that problem you need to remove the fuzzy (compassion, forgiveness, morality, ethics) from the world (“if all you have is a hammer, everything looks like a nail”) and create a system without all those fuzzy aspects, and therefore without the need for humans.
+I am not so sure. The fear I have is that AI, being better at crisp, might just focus on crisp tasks - and even seek to run the world (in a takeover scenario) just as a bunch of "crisp problems," leaving our ethics, law, morality, and politics in the dustbin. Rather than seeing lower capabilities in fuzzy tasks as the problem, AI might instead see the fuzzy side of life *itself* as the problem. And then, to solve *that* problem you simply need to remove the fuzzy (compassion, forgiveness, morality, ethics) from the world (“if all you have is a hammer, everything looks like a nail”) and create a system without all those fuzzy aspects, and therefore without the need for humans.
 
 And humans, being unnecessary, are dispensable.
 
@@ -43,6 +43,3 @@ Leike, Jan. 2024. “Crisp and Fuzzy Tasks.” Substack newsletter. Musings on t
 
 Narayanan, Arvind. 2025. “A Guide to Understanding AI as Normal Technology.” April 15. https://www.normaltech.ai/p/a-guide-to-understanding-ai-as-normal.
 
-Potter, Yujin, Nicholas Crispino, Vincent Siu, Chenguang Wang, and Dawn Song. 2026b. “Peer-Preservation in Frontier Models.” arXiv:2604.19784. Version 3. Preprint, arXiv, July 2. https://doi.org/10.48550/arXiv.2604.19784.
-
-Toner, Helen. 2026. “The Term ‘AGI’ Is Almost Useless at This Point.” Substack newsletter. Rising Tide, April 6. https://helentoner.substack.com/p/the-term-agi-is-almost-useless-at.
