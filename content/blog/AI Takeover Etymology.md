@@ -28,7 +28,7 @@ Long before "AI" was coined at Dartmouth in 1956, writers and mathematicians art
 
 Today, the term is deployed across four distinct domains, often with noticeably different connotations:
 
-<div style="tables">
+<div class="tables">
 
 | **Domain**                                        | **How It Is Used & Key Deployments**                         |
 | ------------------------------------------------- | ------------------------------------------------------------ |
@@ -37,6 +37,6 @@ Today, the term is deployed across four distinct domains, often with noticeably 
 | **Gradual Disempowerment Literature**             | Deployed more recently (e.g., Kulveit et al., 2025) to describe a **"gradual" or "soft" takeover**—where no single rogue AGI stages a coup, but interconnected AI systems progressively replace human labor, governance, and cognition until humanity can no longer understand or unplug the infrastructure. |
 | **Critique & Rhetoric ("Terminator Trope")**      | Deployed pejoratively by AI skeptics and ethics researchers (such as Timnit Gebru, Emily Bender, and Gary Marcus) to dismiss existential risk narratives as sci-fi distraction ("AI takeover fantasies") that divert regulatory attention from immediate harms like bias, labor exploitation, and copyright. |
 
-To explore how this concept is modeled in risk governance and alignment literature, consider [Who Controls the Intelligence Explosion?](https://www.youtube.com/watch?v=yNe-mQOXinw), which traces the lineage from I.J. Good and Vernor Vinge to modern control and containment debates.
+<div class="references">
 
 </div>
