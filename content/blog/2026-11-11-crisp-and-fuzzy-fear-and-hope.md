@@ -31,7 +31,7 @@ And humans, being unnecessary, are dispensable.
 
 -----
 
-
+<div style="references">
 
 Bowkis, Aleksandr, Marie Davidsen Buhl, Jacob Pfau, and Geoffrey Irving. 2026. “Automated Alignment Is Harder than You Think.” arXiv:2605.06390. Preprint, May 14. https://doi.org/10.48550/arXiv.2605.06390.
 
@@ -45,3 +45,4 @@ Leike, Jan. 2024. “Crisp and Fuzzy Tasks.” Substack newsletter. Musings on t
 
 Narayanan, Arvind. 2025. “A Guide to Understanding AI as Normal Technology.” April 15. https://www.normaltech.ai/p/a-guide-to-understanding-ai-as-normal.
 
+</div>
