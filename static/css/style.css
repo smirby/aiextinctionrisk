@@ -25,7 +25,7 @@ body {
 }
 
 /* tables align top */
-th, td {
+.tables th, td {
   vertical-align: top;
 }
 
