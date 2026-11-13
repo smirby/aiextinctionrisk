@@ -7,7 +7,9 @@ draft: false
 
 [Why do I write these things? Just to scare myself?]
 
-Let me sketch an argument that has emerged of late. It builds on some work that dates back a ways, and started with Jan Leike's (2024) post on "Crisp and Fuzzy Tasks." In that post he notes that some things are verifiable and thus it is easy (easier?) to train an AI model with reinforcement learning since you can tell the model when it is correct, and reward it. Mathematics, computer programming, physics, all fall into this category. He calls these "crisp" tasks. Other things are not so clearcut and don't necessarily have a right answer or the answer depends on circumstances or context. Think of legal questions, moral questions, ethical questions. These are not straightforwardly right or wrong and thus not readily verifiable. Reinforcement learning takes longer and therefor progress in these domains is slower. Leike calls these fuzzy tasks.
+Let me sketch an argument that has emerged of late. It builds on some work that dates to 2024, and started with Jan Leike's (2024) post on "Crisp and Fuzzy Tasks." In that post he notes that some things are verifiable and thus it is easy (easier?) to train an AI model to solve them with reinforcement learning since you can tell the model when it is correct, and reward it. Mathematics, computer programming, physics, all fall into this category. He calls these "crisp" tasks. 
+
+Other things are not so clearcut and don't necessarily have a right answer or the answer depends on circumstances or context. Think of legal questions, moral questions, ethical questions. These are not straightforwardly right or wrong and thus not readily verifiable. Reinforcement learning takes longer and therefor progress in these domains is slower. Leike calls these fuzzy tasks.
 
 > Crisp tasks are more reasoning/system-2 based. Whether a response is good is typically precisely defined. Reasonable, knowledgeable people don’t disagree about it.
 >
@@ -19,7 +21,7 @@ Let me sketch an argument that has emerged of late. It builds on some work that 
 
 Leike points out that alignment research - and therefore advances in AI alignment - has a lot of these fuzzy tasks.
 
-A few authors, including Markus Bowkis et al. (2026) and Timothy Lee (2026) have confirmed that  advances on fuzzy tasks proceed at a slower rate than "crisp" tasks. This is sometimes called "jagged" progress: the performance jumps up on some things, and drops on others. The phenomenon is particularly noticeable in the world of robotics, where the device is constantly in contact with an unpredictable and varying environment, and the lessons from that world can help AI researchers with these challenges (Lee 2026).
+A few authors, including Markus Bowkis et al. (2026) and Timothy Lee (2026) have confirmed that advances on fuzzy tasks proceed at a slower rate than "crisp" tasks. This is sometimes called "jagged" progress: the performance jumps up on some things, and drops on others. The phenomenon is particularly noticeable in the world of robotics, where the device is constantly in contact with an unpredictable and varying environment, and the lessons from that world can help AI researchers with these challenges (Lee 2026).
 
 But does jagged progress matter? Some writers have noticed differential progress and wonder if the slower pace on fuzzy tasks might mean that - for some things - advances in AI will not be as fast as otherwise predicted, and that humans will continue to be necessary. In other words, we need humans for the fuzzy side of life. That’s the hope of Arvind Narayanan (2025) who speaks of AI as "normal technology." The claim is elaborated by Nathan Lambert (2026), who notes the slower progress on fuzzy tasks and suggests this may delay or forestall "real" superintelligence. Is this a hopeful sign and a potential counteraction to [AI takeover](https://treacheroustech.ca/blog/ai-takeover-etymology/)?
 
