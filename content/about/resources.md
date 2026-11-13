@@ -22,6 +22,8 @@ With a topic like artificial intelligence you really need to check your sources 
 
 *These tools have been created with the assistane of generative AI and are meant as thinking tools rather than definitive statements or claims. Please use them with that in mind.*
 
+**[Rogue Agent Incident Dashboard](https://nightingalecollective.org/incidents/)** - This page tracks incidents in which AI agents meaningfully exceeded their mandate (full inclusion criteria [here](https://nightingalecollective.org/incidents/#what-counts)). [The Nightingale Collective] plan to keep it updated for the foreseeable future as new incidents are made public.
+
 **[The CASX Framework](/casx/)** — Operational definitions and five-level rating scales for the four CASX dimensions (Capability, Autonomy, Scale, Access), with current frontier system benchmarks.
 
 **[Regulatory Gate-Checker](/companion/)** — Comparative models from nuclear, chemical, and aviation regulation applied to AI oversight, plus an interactive gate-checker for classifying hypothetical AI systems under the book's regulatory framework.
