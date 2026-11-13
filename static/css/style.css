@@ -134,6 +134,11 @@ footer {
   color: #555;
 }
 
+/* tables align top */
+th, td {
+  vertical-align: top;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   body {

@@ -19,7 +19,7 @@ Let me sketch an argument that has emerged of late. It builds on some work that 
 
 Leike points out that alignment research - and therefore advances in AI alignment - has a lot of these fuzzy tasks.
 
-A few authors (Bowkis et al. 2026; Lee 2026) have confirmed out that  advances on fuzzy tasks proceed at a slower rate (Bowkis 2026, Lee 2026). This is sometimes called "jagged" progress: the performance jumps up on some things, and drops on others. The phenomenon is particularly noticeable in the world of robotics, where the device is constantly in contact with an unpredictable and varying environment, and the lessons from that world can help AI researchers with these challenges (Lee 2026).
+A few authors Markus Bowkis et al. (2026); Timothy Lee (2026) have confirmed that  advances on fuzzy tasks proceed at a slower rate. This is sometimes called "jagged" progress: the performance jumps up on some things, and drops on others. The phenomenon is particularly noticeable in the world of robotics, where the device is constantly in contact with an unpredictable and varying environment, and the lessons from that world can help AI researchers with these challenges (Lee 2026).
 
 Some writers have noticed this differential progress and wonder if the slower pace on fuzzy tasks might mean that - for some things - the advances in AI will not be as fast as otherwise predicted, and that humans will continue to be necessar. In other words; that we need humans for the fuzzy side of life. That’s the hope. (Narayanan 2025, Lambert 2026).
 
