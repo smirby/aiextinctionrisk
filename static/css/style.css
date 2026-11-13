@@ -24,6 +24,11 @@ body {
   background: #fff;
 }
 
+/* tables align top */
+th, td {
+  vertical-align: top;
+}
+
 /* For hanging indents */
 
 .references p {
@@ -132,11 +137,6 @@ footer {
 .status-note {
   font-style: italic;
   color: #555;
-}
-
-/* tables align top */
-th, td {
-  vertical-align: top;
 }
 
 /* Responsive */
