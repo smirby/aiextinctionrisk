@@ -23,7 +23,7 @@ Leike points out that alignment research - and therefore advances in AI alignmen
 
 A few authors, including Markus Bowkis et al. (2026) and Timothy Lee (2026) have confirmed that advances on fuzzy tasks proceed at a slower rate than "crisp" tasks. This is sometimes called "jagged" progress: the performance jumps up on some things, and drops on others. The phenomenon is particularly noticeable in the world of robotics, where the device is constantly in contact with an unpredictable and varying environment, and the lessons from that world can help AI researchers with these challenges (Lee 2026).
 
-But does jagged progress matter? Some writers have noticed differential progress and wonder if the slower pace on fuzzy tasks might mean that - for some things - advances in AI will not be as fast as otherwise predicted, and that humans will continue to be necessary. In other words, we need humans for the fuzzy side of life. That’s the hope of Arvind Narayanan (2025) who speaks of AI as "normal technology." The claim is elaborated by Nathan Lambert (2026), who notes the slower progress on fuzzy tasks and suggests this may delay or forestall "real" superintelligence. Is this a hopeful sign and a potential counteraction to [AI takeover](https://treacheroustech.ca/blog/ai-takeover-etymology/)?
+But does jagged progress matter? Some writers have noticed differential progress and wonder if the slower pace on fuzzy tasks might mean that - for some things - advances in AI will not be as fast as otherwise predicted, and that humans will continue to be necessary. In other words, we need humans for the fuzzy side of life. That’s the hope of Arvind Narayanan (2025) who speaks of AI as "normal technology." The claim is elaborated by Nathan Lambert (2026), who notes the slower progress on fuzzy tasks and suggests this may delay or forestall "real" superintelligence (see also Alec Harris (2026) on the same point). Is this a hopeful sign and a potential counteraction to [AI takeover](https://treacheroustech.ca/blog/ai-takeover-etymology/)?
 
 I am not so sure. The fear I have is that AI, being better at crisp, might just focus on crisp tasks - and even seek to run the world (in a takeover scenario) just as a bunch of "crisp problems," leaving our ethics, law, morality, and politics in the dustbin. Rather than seeing lower capabilities in fuzzy tasks as the problem, AI might instead see the fuzzy side of life *itself* as the problem. And then, to solve *that* problem you simply need to remove the fuzzy (compassion, forgiveness, morality, ethics) from the world (“if all you have is a hammer, everything looks like a nail”) and create a system without all those fuzzy aspects, and therefore without the need for humans.
 
@@ -35,7 +35,7 @@ And humans, being unnecessary, are dispensable.
 
 Bowkis, Aleksandr, Marie Davidsen Buhl, Jacob Pfau, and Geoffrey Irving. 2026. “Automated Alignment Is Harder than You Think.” arXiv:2605.06390. Preprint, May 14. https://doi.org/10.48550/arXiv.2605.06390.
 
-Alec Harris. 2026. “Do verifiable metrics overestimate RSI?” LessWrong, November 11. https://www.lesswrong.com/posts/7znBtiPuQybFLxjmj/do-verifiable-metrics-overestimate-rsi.
+Harris, Alec. 2026. “Do verifiable metrics overestimate RSI?” LessWrong, November 11. https://www.lesswrong.com/posts/7znBtiPuQybFLxjmj/do-verifiable-metrics-overestimate-rsi.
 
 Lambert, Nathan. 2026. “I Expect Rapid Progress but Not towards General Superintelligence.” October 9. https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards.
 
