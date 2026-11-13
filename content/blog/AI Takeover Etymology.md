@@ -28,6 +28,8 @@ Long before "AI" was coined at Dartmouth in 1956, writers and mathematicians art
 
 Today, the term is deployed across four distinct domains, often with noticeably different connotations:
 
+<div style="tables">
+
 | **Domain**                                        | **How It Is Used & Key Deployments**                         |
 | ------------------------------------------------- | ------------------------------------------------------------ |
 | **AI Safety & Alignment Research**                | Used as a technical, non-cinematic risk category to distinguish **loss of control**from **human misuse**. Prominent deployments include Bostrom’s *Superintelligence* (2014) (analyzing "treacherous turns" and decisive strategic advantage), Stuart Russell’s *Human Compatible* (2019), Toby Ord’s *The Precipice* (2020) (explicitly separating Hollywood robot-army tropes from structural takeover), and Ajeya Cotra’s influential 2022 Open Philanthropy report (*"Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeover"*). |
@@ -36,3 +38,5 @@ Today, the term is deployed across four distinct domains, often with noticeably 
 | **Critique & Rhetoric ("Terminator Trope")**      | Deployed pejoratively by AI skeptics and ethics researchers (such as Timnit Gebru, Emily Bender, and Gary Marcus) to dismiss existential risk narratives as sci-fi distraction ("AI takeover fantasies") that divert regulatory attention from immediate harms like bias, labor exploitation, and copyright. |
 
 To explore how this concept is modeled in risk governance and alignment literature, consider [Who Controls the Intelligence Explosion?](https://www.youtube.com/watch?v=yNe-mQOXinw), which traces the lineage from I.J. Good and Vernor Vinge to modern control and containment debates.
+
+</div>
