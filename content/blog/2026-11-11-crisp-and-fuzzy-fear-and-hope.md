@@ -31,6 +31,8 @@ I am not so sure. The fear I have is that AI, being better at crisp, might just 
 
 And humans, being unnecessary, are dispensable.
 
+> CODA: See Derek James (2026) on "The Most Dangerous Type of Intelligence," and Ethan Mollick (2026) on "Jagged AGI" as they grapple with the idea that AI may be solving the "fuzzy" parts of life.
+
 -----
 
 <div class="references">
@@ -39,11 +41,15 @@ Bowkis, Aleksandr, Marie Davidsen Buhl, Jacob Pfau, and Geoffrey Irving. 2026. �
 
 Harris, Alec. 2026. “Do verifiable metrics overestimate RSI?” LessWrong, November 11. https://www.lesswrong.com/posts/7znBtiPuQybFLxjmj/do-verifiable-metrics-overestimate-rsi.
 
+James, Derek. 2026. “The Most Dangerous Type of Intelligence.” Substack newsletter. *Derelict Thoughts*, November 15. https://derekjames.substack.com/p/the-most-dangerous-type-of-intelligence.
+
 Lambert, Nathan. 2026. “I Expect Rapid Progress but Not towards General Superintelligence.” October 9. https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards.
 
 Lee, Timothy B. 2026. “This Robotics Concept Helps Explain the Jaggedness of Frontier Capabilities.” November 5. https://www.understandingai.org/p/this-robotics-concept-helps-explain.
 
 Leike, Jan. 2024. “Crisp and Fuzzy Tasks.” Substack newsletter. Musings on the Alignment Problem, November 22. https://aligned.substack.com/p/crisp-and-fuzzy-tasks.
+
+Mollick, Ethan. 2026. “Fable 5.2 and Jagged AGI.” November 9. https://www.oneusefulthing.org/p/fable-52-and-jagged-agi.
 
 Narayanan, Arvind. 2025. “A Guide to Understanding AI as Normal Technology.” April 15. https://www.normaltech.ai/p/a-guide-to-understanding-ai-as-normal.
 
