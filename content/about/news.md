@@ -92,6 +92,8 @@ AI Safety Foundation. 2026. “The Hinton Lectures 2026 — November 9–11, Tor
 
 I also found that the summary of these talks, from Tolga Bilge and Andrea Miotti, at ControlAI, is very good. See Bilge, Tolga, and Andrea Miotti. 2026. “OpenAI Board Member: A High Risk of AI Takeover Within Three Years.” November 12. https://blog.controlai.org/p/openai-board-member-a-high-risk-of.
 
+Zvi Mowshowitz has also provided an update/commentary on the METR report and Chritiano's Hinton Lectures. You can read it here: https://thezvi.substack.com/p/quickly-theres-no-time
+
 # A new term: RMI
 
 ControlAI is pitching a new term for doom: "runaway machine intelligence." It definitely captures the potential harms better than "general" or "super" intelligence. I wonder if it will catch on.
