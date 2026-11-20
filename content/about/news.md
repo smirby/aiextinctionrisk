@@ -4,6 +4,22 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate [blog post](https://treacheroustech.ca/blog/) or entry in our "[key documents](https://treacheroustech.ca/about/documents/)" file. In that case, we post them here.
 
+## To sum it all up (Garrison Lovely, The Guardian)
+
+Garrison Lovely, writing in *The Guardian*, summarizes recent events in which deliberate or accidental breakdowns of key infrastructure (airplanes in America, freezers in France) is linked to AI mischief.  The question remains, will the Internet withstand this onslaught of bad actors and bad software? They conclude that it is time to stop AI development in its tracks:
+
+> Instead of waiting to see what the companies break next, we should freeze the reckless gain-of-function experiments they call “frontier AI development”.
+
+Whether it is state actors (Iran, Russia, North Korea most often) or criminals, the outcomes are mounting and the resources available to withstand it are spread perilously thin.
+
+>While AI has been accelerating cybercrime [for years](https://www.deloitte.com/us/en/insights/industry/financial-services/deepfake-banking-fraud-risk-on-the-rise.html), the recent deluge can be largely attributed to highly capable, easily modified open-weight models released by Chinese developers.
+>
+>But the AI industry on both sides of the Pacific is responsible for the internet’s “[Black October](https://en.wikipedia.org/wiki/Black_October_(information_security))” and whatever other cyber horrors await us.
+
+What are we waiting for, one wonders? Isn't it bad enough already?
+
+Lovely, Garrison. 2026. “Will AI Break the Internet?” Opinion. *The Guardian*, November 20. https://www.theguardian.com/commentisfree/2026/nov/20/ai-internet-outages-apocalypse.
+
 ## Christiano on Patel's Podcast Predicts Takeover
 
 Paul Christiano (see coverage of his three Hinton Lectures earlier in November, below) provided a stark warning in his appearance on [Dwarkesh Patel's podcast](https://www.dwarkesh.com/p/paul-christiano-2) recently: 
