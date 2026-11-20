@@ -92,7 +92,13 @@ AI Safety Foundation. 2026. “The Hinton Lectures 2026 — November 9–11, Tor
 
 I also found that the summary of these talks, from Tolga Bilge and Andrea Miotti, at ControlAI, is very good. See Bilge, Tolga, and Andrea Miotti. 2026. “OpenAI Board Member: A High Risk of AI Takeover Within Three Years.” November 12. https://blog.controlai.org/p/openai-board-member-a-high-risk-of.
 
-Zvi Mowshowitz has also provided an update/commentary on the METR report and Chritiano's Hinton Lectures. You can read it here: https://thezvi.substack.com/p/quickly-theres-no-time
+Zvi Mowshowitz provided an update/commentary on the METR report and Chritiano's Hinton Lectures. You can read it here: https://thezvi.substack.com/p/quickly-theres-no-time
+
+Zvi Mowshowitz summarized Christiano's talk on [Dwarkesh Patel's podcast](https://www.dwarkesh.com/p/paul-christiano-2):
+
+> Paul Christiano has a message for us: There is meaningful risk of AI taking over within even the next 6-12 months. If we press ahead as fast as we can, there is a 50% chance things end disastrously. We should pause frontier AI algorithmic progress until our security and alignment are ready to handle pushing forward, and focus on those efforts. 
+
+Mowshowitz, Zvi. 2026. “On Dwarkesh Patel’s November 2026 Podcast With Paul Christiano.” Substack newsletter. *Don’t Worry About the Vase*, November 20. https://thezvi.substack.com/p/on-dwarkesh-patels-november-2026.
 
 # A new term: RMI
 
