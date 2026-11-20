@@ -6,7 +6,7 @@ Sometimes items come up that we want to keep track of but they don't merit a sep
 
 ## To sum it all up (Garrison Lovely, The Guardian)
 
-Garrison Lovely, writing in *The Guardian*, summarizes recent events in which deliberate or accidental breakdowns of key infrastructure (airplanes in America, freezers in France) is linked to AI mischief.  The question remains, will the Internet withstand this onslaught of bad actors and bad software? They conclude that it is time to stop AI development in its tracks:
+Garrison Lovely, writing in *The Guardian*, summarizes recent events in which deliberate or accidental breakdowns of key infrastructure (airplanes in America, freezers in France) is linked to online mischief.  The question remains, will the Internet withstand this onslaught of bad actors and bad software? They conclude that it is time to stop AI development in its tracks:
 
 > Instead of waiting to see what the companies break next, we should freeze the reckless gain-of-function experiments they call “frontier AI development”.
 
