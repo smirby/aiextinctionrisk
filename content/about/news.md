@@ -4,6 +4,14 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate [blog post](https://treacheroustech.ca/blog/) or entry in our "[key documents](https://treacheroustech.ca/about/documents/)" file. In that case, we post them here.
 
+## Christiano on Patel's Podcast Predicts Takeover
+
+Paul Christiano (see coverage of his three Hinton Lectures earlier in November, below) provided a stark warning in his appearance on [Dwarkesh Patel's podcast](https://www.dwarkesh.com/p/paul-christiano-2) recently: 
+
+> If you asked me, *I’d say there’s a reasonable chance that in a year we will produce AI systems much better than humans at almost everything, where humans would have very little chance of competing with them or controlling them*. That’s the first big thing on my mind.
+
+AI commentator Zvi Mowshowitz provided an [excellent summary](https://thezvi.substack.com/p/on-dwarkesh-patels-november-2026) of the podcast as well as the lectures.
+
 ## Auditors wanted!
 
 Today's [Transformer](https://www.transformernews.ai/p/independent-ai-auditors-have-a-recruitment) has a story detailing the recruiting challenges facing the "independent verifying organizations" (IVOs) that will be tasked with monitoring frontier AI companies, assuming that the regulations that are proposed, on the books, or already in place (New York's RAISE act just went into effect, for example). As Veronica Irwin (2026) points out, "...there are major barriers to establishing a system capable of providing ongoing and consistent oversight. Chief among them: there are simply not enough people with the right skills to staff up IVOs to the level required for a strong regime like the one proposed in Massachusetts. Training people to do so may take more time than many realize, and those advocating for this third-party ecosystem are sounding the alarm."
@@ -52,7 +60,7 @@ See also Humans on AI's take on things: https://p3humansonai.substack.com/i/2244
 
 **That post also contains links to many, many other people's assessment, so it is a great place to begin if you are not totalling in the loop with dozens of X/Substack subscriptions already.**
 
-## Hinton Lectures
+## Christiano at Hinton Lectures and Patel Podcast
 
 Canadians (or Canada-based researchers) have had an inordinate influence on the development of AI from Sutton to Bengio to Hinton and Sutskever. And those are just a few. In any case, it makes sense that Canadians should also lead the way on reining in this technology, if not stopping it. The Hinton Lectures, held in Toronto, provide a forum for the discussions we need to have to make this happen. 
 
