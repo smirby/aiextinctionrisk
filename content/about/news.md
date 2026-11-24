@@ -4,6 +4,24 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate [blog post](https://treacheroustech.ca/blog/) or entry in our "[key documents](https://treacheroustech.ca/about/documents/)" file. In that case, we post them here.
 
+## Models to powerful to release: AI Employees (Axios)
+
+As reported in [today's Axios newsletter](https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks), there is a growing unease among employees at the top AI labs (Anthropic and OpenAI, one presumes), as models that they are developing are thought to be "too powerful" to be released. As Axios points out:
+
+>Top AI leaders have long forecast that the technology would one day far surpass human intellect in virtually every field. Although internal models have yet to cross that threshold, recent breakthroughs at OpenAI and Anthropic have shocked researchers.
+>
+>- The rapid advances in reasoning across domains including math, science, cybersecurity and AI research have also made the models difficult, if not impossible, to contain or control in internal tests, the sources said.
+>- Anthropic and OpenAI have unreleased models that are far more powerful than what they've already released publicly, but the AI companies have struggled to ensure that they are safe enough for public release, sources said.
+>- This has led to debate within Anthropic, OpenAI and the AI research community about whether to stop releasing future frontier models publicly, instead reserving them for internal deployment only. There has also been debate around whether to train new models at all, sources inside and outside those companies told Axios.
+
+At one level this is hardly unexpected, given the spate of employees [leaving the labs](https://x.com/hilbertspaess/status/2097476196791709843?s=12&t=yeBqhNVHcZdkeLphIDP4jA) and posting heartfelt pleas to their former employers to stop AI development (Bielski 2026). The question remains, are these sorts of objections likely to have an impact, and will it be in time?
+
+-----
+
+Bielski, Zosia. 2026. “Doomsday Warnings over AI Are Growing Louder. What Should We Make of Them?” *The Globe and Mail*, September 19. https://www.theglobeandmail.com/life/article-doomsday-warnings-over-ai-are-growing-louder/.
+
+Mills, Madison. 2026. “Scoop: Anthropic and OpenAI Employees Fear Unreleased AI Models Are Too Unsafe to Release.” Axios, November 24. https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks.
+
 ## To sum it all up (Garrison Lovely, The Guardian)
 
 Garrison Lovely, writing in *The Guardian*, summarizes recent events in which deliberate or accidental breakdowns of key infrastructure (airplanes in America, freezers in France) is linked to online mischief.  The question remains, will the Internet withstand this onslaught of bad actors and bad software? They conclude that it is time to stop AI development in its tracks:
