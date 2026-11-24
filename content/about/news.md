@@ -4,7 +4,7 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate [blog post](https://treacheroustech.ca/blog/) or entry in our "[key documents](https://treacheroustech.ca/about/documents/)" file. In that case, we post them here.
 
-## Models too powerful to release: AI Employees (Axios)
+## Models too powerful to release: AI Employees are worried (Axios)
 
 As reported in [today's Axios newsletter](https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks), there is a growing unease among employees at the top AI labs (Anthropic and OpenAI, one presumes), as models that they are developing are thought to be "too powerful" to be released. As Axios points out:
 
