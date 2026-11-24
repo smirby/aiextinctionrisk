@@ -4,6 +4,16 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate [blog post](https://treacheroustech.ca/blog/) or entry in our "[key documents](https://treacheroustech.ca/about/documents/)" file. In that case, we post them here.
 
+## ASI is coming - Preparedness Matters (RAND)
+
+A series of studies is coming available from the RAND corporation which goes over seven strategies to ''manage the transition to artificial superintelligence (ASI)." Currently 4 studies are available, here: https://geopoliticsagi.substack.com/p/the-case-for-seven-artificial-superintelligence. This week they released the [Preparedness Scenario](https://geopoliticsagi.substack.com/p/the-preparedness-scenario-the-case). In their words, preparedness is essential if we are to ensure humans remain in control of their planet:
+
+> The intelligence community consensus is that artificial superintelligence (ASI)1 is close and poses serious national security risks. Researchers now have a credible plan for making it trustworthy,2 but no guarantee the plan will work. The most capable AI systems outperform human experts in most fields and do much of the work of building their successors. Safety research can keep these systems under human control and aligned with human intent. When new failure modes appear, such as AI systems that hide their true goals or game their instructions, fixes follow quickly. What remains is to prove these methods still work on systems more intelligent than the people testing them and then build trustworthy ASI.
+
+Note that this is a scenario, not a situation or state that we have achieved. In particular, the assertion that "Safety research can keep these systems under human control and aligned with human intent" is part of the scenario and NOT true (yet) in our world.
+
+Mondshein, Jared, and Matt Chessen. 2026. “The Preparedness Scenario: The Case for Seven Artificial Superintelligence Strategy Archetypes.” Substack newsletter. *Geopolitics of AGI/RAND*, November 24. https://geopoliticsagi.substack.com/p/the-preparedness-scenario-the-case.
+
 ## Models too powerful to release: AI Employees are worried (Axios)
 
 As reported in [today's Axios newsletter](https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks), there is a growing unease among employees at the top AI labs (Anthropic and OpenAI, one presumes), as models that they are developing are thought to be "too powerful" to be released. As Axios points out:
