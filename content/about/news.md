@@ -4,7 +4,7 @@ title: "News"
 
 Sometimes items come up that we want to keep track of but they don't merit a separate [blog post](https://treacheroustech.ca/blog/) or entry in our "[key documents](https://treacheroustech.ca/about/documents/)" file. In that case, we post them here.
 
-## Models to powerful to release: AI Employees (Axios)
+## Models too powerful to release: AI Employees (Axios)
 
 As reported in [today's Axios newsletter](https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks), there is a growing unease among employees at the top AI labs (Anthropic and OpenAI, one presumes), as models that they are developing are thought to be "too powerful" to be released. As Axios points out:
 
@@ -14,7 +14,7 @@ As reported in [today's Axios newsletter](https://www.axios.com/2026/11/24/anthr
 >- Anthropic and OpenAI have unreleased models that are far more powerful than what they've already released publicly, but the AI companies have struggled to ensure that they are safe enough for public release, sources said.
 >- This has led to debate within Anthropic, OpenAI and the AI research community about whether to stop releasing future frontier models publicly, instead reserving them for internal deployment only. There has also been debate around whether to train new models at all, sources inside and outside those companies told Axios.
 
-At one level this is hardly unexpected, given the spate of employees [leaving the labs](https://x.com/hilbertspaess/status/2097476196791709843?s=12&t=yeBqhNVHcZdkeLphIDP4jA) and posting heartfelt pleas to their former employers to stop AI development (Bielski 2026). Or risking loss of control/disempowerment, as [Meta's Alexander Wang recently described](https://x.com/alexandr_wang/status/2124636606959345776). The question remains, are these sorts of objections likely to have an impact, and will it be in time? Especially considering the notion that "Many of the most concerned safety researchers warn that even internal testing and use of extremely powerful models is profoundly risky" (Mills 2026).
+At one level this is hardly unexpected, given the spate of employees [leaving the labs](https://x.com/hilbertspaess/status/2097476196791709843?s=12&t=yeBqhNVHcZdkeLphIDP4jA) and posting heartfelt pleas to their former employers to stop AI development (Bielski 2026). Or risking loss of control/ disempowerment, as [Meta's Alexander Wang recently described](https://x.com/alexandr_wang/status/2124636606959345776). The question remains, are these sorts of objections likely to have an impact, and will it be in time? Especially considering the notion that "Many of the most concerned safety researchers warn that even internal testing and use of extremely powerful models is profoundly risky" (Mills 2026).
 
 -----
 
