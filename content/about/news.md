@@ -14,7 +14,7 @@ As reported in [today's Axios newsletter](https://www.axios.com/2026/11/24/anthr
 >- Anthropic and OpenAI have unreleased models that are far more powerful than what they've already released publicly, but the AI companies have struggled to ensure that they are safe enough for public release, sources said.
 >- This has led to debate within Anthropic, OpenAI and the AI research community about whether to stop releasing future frontier models publicly, instead reserving them for internal deployment only. There has also been debate around whether to train new models at all, sources inside and outside those companies told Axios.
 
-At one level this is hardly unexpected, given the spate of employees [leaving the labs](https://x.com/hilbertspaess/status/2097476196791709843?s=12&t=yeBqhNVHcZdkeLphIDP4jA) and posting heartfelt pleas to their former employers to stop AI development (Bielski 2026). The question remains, are these sorts of objections likely to have an impact, and will it be in time?
+At one level this is hardly unexpected, given the spate of employees [leaving the labs](https://x.com/hilbertspaess/status/2097476196791709843?s=12&t=yeBqhNVHcZdkeLphIDP4jA) and posting heartfelt pleas to their former employers to stop AI development (Bielski 2026). The question remains, are these sorts of objections likely to have an impact, and will it be in time? Especially considering the notion that "Many of the most concerned safety researchers warn that even internal testing and use of extremely powerful models is profoundly risky" (Mills 2026).
 
 -----
 
